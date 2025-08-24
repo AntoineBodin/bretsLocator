@@ -38,12 +38,12 @@ async function main() {
     const store = await prisma.store.create({ data: s })
 
     for (const flavor of flavorRecords) {
-      //const status = statuses[Math.floor(Math.random() * statuses.length)]
+      const status = Math.floor(Math.random() * statuses.length)
       await prisma.storeFlavor.create({
         data: {
           storeId: store.id,
           flavorId: flavor.id,
-          available: true
+          available: status
         }
       })
     }

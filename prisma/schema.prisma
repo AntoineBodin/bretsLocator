@@ -1,5 +1,6 @@
 generator client {
   provider = "prisma-client-js"
+  binaryTargets = ["native", "windows"]
 }
 
 datasource db {
@@ -23,14 +24,13 @@ model Flavor {
 }
 
 model StoreFlavor {
-  id       Int    @id @default(autoincrement())
-  storeId  Int
-  flavorId Int
-  available Boolean @default(false) // disponibilité du parfum dans le magasin
-
+  id          Int    @id @default(autoincrement())
+  storeId     Int
+  flavorId    Int
+  available   Int @default(0) // disponibilité du parfum dans le magasin
+  lastUpdated DateTime @default(now())
   store  Store  @relation(fields: [storeId], references: [id])
   flavor Flavor @relation(fields: [flavorId], references: [id])
 
   @@unique([storeId, flavorId])
 }
-
