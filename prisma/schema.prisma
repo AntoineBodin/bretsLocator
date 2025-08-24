@@ -1,0 +1,36 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Store {
+  id           Int           @id @default(autoincrement())
+  name         String
+  address      String 
+  lat          Float?
+  lon          Float?
+  storeFlavors StoreFlavor[]
+}
+
+model Flavor {
+  id           Int           @id @default(autoincrement())
+  name         String
+  storeFlavors StoreFlavor[]
+}
+
+model StoreFlavor {
+  id       Int    @id @default(autoincrement())
+  storeId  Int
+  flavorId Int
+  available Boolean @default(false) // disponibilité du parfum dans le magasin
+
+  store  Store  @relation(fields: [storeId], references: [id])
+  flavor Flavor @relation(fields: [flavorId], references: [id])
+
+  @@unique([storeId, flavorId])
+}
+
