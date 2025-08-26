@@ -1,5 +1,6 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import L from "leaflet"; // <--- ajouté
 import "leaflet/dist/leaflet.css";
 import { greenIcon, grayIcon, redIcon } from "./icons";
 
@@ -15,7 +16,8 @@ export default function StoreMapComponent({ stores = [], selectedFlavor }) {
   }
 
   return (
-    <MapContainer center={[48.8566, 2.3522]} zoom={12} style={{ height: "100%", width: "100%" }}>
+    // donner une hauteur explicite ici pour éviter un parent à 0px
+    <MapContainer center={[48.8566, 2.3522]} zoom={12} style={{ height: "600px", width: "100%" }}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution="© OpenStreetMap contributors"
@@ -24,7 +26,7 @@ export default function StoreMapComponent({ stores = [], selectedFlavor }) {
         <Marker
           key={store.id}
           position={[store.lat, store.lon]}
-          icon={getStoreIcon(store, selectedFlavor)}
+          icon={getMarkerIcon(store)}
         >
 
           <Popup>
@@ -46,10 +48,10 @@ export default function StoreMapComponent({ stores = [], selectedFlavor }) {
 
 function getStoreIcon(store, selectedFlavor) {
   const available = selectedFlavor
-    ? store.storeFlavors.some((sf) => sf.flavor.name === selectedFlavor && sf.available === 1)
+    ? (store.storeFlavors || []).some((sf) => sf.flavor.name === selectedFlavor && sf.available === 1)
     : true;
 
-  const iconColor = available ? "#3388ff" : "#ccc"; // bleu si dispo, gris sinon
+  const iconColor = available ? "#3388ff" : "#ccc";
   return new L.Icon({
     iconUrl: `https://chart.googleapis.com/chart?chst=d_map_pin_icon&chld=shop|${iconColor.slice(1)}`,
     iconSize: [25, 41],
