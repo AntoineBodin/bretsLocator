@@ -1,0 +1,4706 @@
+[
+  {
+    "name": "Biocoop Biogastell",
+    "city": null,
+    "address": null,
+    "lat": 48.36857,
+    "lon": -4.3719953
+  },
+  {
+    "name": "Biocoop",
+    "city": "Le Relecq-Kerhuon",
+    "address": "7 Boulevard Charles de Gaulle, 29480 Le Relecq-Kerhuon",
+    "lat": 48.4000465,
+    "lon": -4.4081266
+  },
+  {
+    "name": "Biocoop Bio Abers",
+    "city": null,
+    "address": null,
+    "lat": 48.4239735,
+    "lon": -4.6033728
+  },
+  {
+    "name": "Biocoop Prim’vert",
+    "city": null,
+    "address": null,
+    "lat": 48.5613168,
+    "lon": -4.3110601
+  },
+  {
+    "name": "Biocoop",
+    "city": "Lunel",
+    "address": "268 Chemin de la Vidourlenque, 34400 Lunel",
+    "lat": 43.6820609,
+    "lon": 4.1465425
+  },
+  {
+    "name": "Biocoop",
+    "city": "Argelès-sur-Mer",
+    "address": "8 Avenue des Flamants Roses, 66700 Argelès-sur-Mer",
+    "lat": 42.5528886,
+    "lon": 3.011483
+  },
+  {
+    "name": "Biocoop",
+    "city": "Malemort-sur-Corrèze",
+    "address": null,
+    "lat": 45.1758178,
+    "lon": 1.580569
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Grégoire",
+    "address": "8 Allée de la Cerisaie, 35760 Saint-Grégoire",
+    "lat": 48.1388541,
+    "lon": -1.6909369
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.2834325,
+    "lon": 3.9693991
+  },
+  {
+    "name": "Biocoop L'Oustal",
+    "city": "Fenouillet",
+    "address": "81 Route de Paris, 31150 Fenouillet",
+    "lat": 43.6772406,
+    "lon": 1.4098017
+  },
+  {
+    "name": "Biocoop",
+    "city": "Bourges",
+    "address": "121 Boulevard de l'Avenir, 18000 Bourges",
+    "lat": 47.0766796,
+    "lon": 2.3842162
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Sébastien-sur-Loire",
+    "address": null,
+    "lat": 47.1886989,
+    "lon": -1.4920779
+  },
+  {
+    "name": "Biocoop Champ Libre",
+    "city": "Bias",
+    "address": null,
+    "lat": 44.4035372,
+    "lon": 0.685627
+  },
+  {
+    "name": "Biocoop Pays de Cognac",
+    "city": "Cognac",
+    "address": "141 Avenue Victor Hugo, 16100 Cognac",
+    "lat": 45.6901946,
+    "lon": -0.3180042
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.1891766,
+    "lon": 5.6840422
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7480553,
+    "lon": 4.7435658
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.2715001,
+    "lon": 0.0379685
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.0044276,
+    "lon": 0.1951273
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 42.9054314,
+    "lon": 0.3582049
+  },
+  {
+    "name": "Biocoop",
+    "city": "Laval",
+    "address": "8 Rue de Bir-Hakeim, 53000 Laval",
+    "lat": 48.0774685,
+    "lon": -0.7998071
+  },
+  {
+    "name": "Biocoop Croq'Santé",
+    "city": "Ribérac",
+    "address": "24 Rue du 26 Mars 1944, 24600 Ribérac",
+    "lat": 45.2533936,
+    "lon": 0.3400984
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.8372814,
+    "lon": 0.4789662
+  },
+  {
+    "name": "Biocoop",
+    "city": "Chambray-lès-Tours",
+    "address": null,
+    "lat": 47.3360532,
+    "lon": 0.701991
+  },
+  {
+    "name": "Biocoop Pays de Lourdes",
+    "city": "Lourdes",
+    "address": "2 Impasse du Vélodrome, 65100 Lourdes",
+    "lat": 43.109758,
+    "lon": -0.0362982
+  },
+  {
+    "name": "Biocoop Endoume",
+    "city": "Marseille",
+    "address": null,
+    "lat": 43.2881743,
+    "lon": 5.3643046
+  },
+  {
+    "name": "Biocoop Maraichine",
+    "city": null,
+    "address": null,
+    "lat": 46.8545716,
+    "lon": -1.8699996
+  },
+  {
+    "name": "Biocoop",
+    "city": "Bagnols-sur-Cèze",
+    "address": "88 Route de Lyon, 30200 Bagnols-sur-Cèze",
+    "lat": 44.1720227,
+    "lon": 4.6211298
+  },
+  {
+    "name": "Biocoop Les 7 Épis",
+    "city": "Lanester",
+    "address": "20 Rue Jean-Marie Tjibaou, 56600 Lanester",
+    "lat": 47.7777337,
+    "lon": -3.3510576
+  },
+  {
+    "name": "Biocoop - Le Baquet Vert",
+    "city": "Niort",
+    "address": "30 Rue Gutenberg, 79000 Niort",
+    "lat": 46.3368695,
+    "lon": -0.3987783
+  },
+  {
+    "name": "Biocoop",
+    "city": "Cahors",
+    "address": "332 Chemin de Belle Croix, 46000 Cahors",
+    "lat": 44.4241051,
+    "lon": 1.4383722
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.3965601,
+    "lon": 5.4682537
+  },
+  {
+    "name": "Biocoop Kastell Bio",
+    "city": null,
+    "address": null,
+    "lat": 48.6824403,
+    "lon": -3.9961663
+  },
+  {
+    "name": "Biocoop Bio Etika",
+    "city": null,
+    "address": null,
+    "lat": 43.4906996,
+    "lon": -1.4610912
+  },
+  {
+    "name": "Biocoop",
+    "city": "Louviers",
+    "address": "45 bis Avenue Winston Churchill, 27400 Louviers",
+    "lat": 49.2284079,
+    "lon": 1.1682412
+  },
+  {
+    "name": "Biocoop",
+    "city": "Toulouse",
+    "address": "301 Avenue de Grande Bretagne, 31300 Toulouse",
+    "lat": 43.606943,
+    "lon": 1.397227
+  },
+  {
+    "name": "Biocoop",
+    "city": "Périgueux",
+    "address": "7 Rue Salinière, 24000 Périgueux",
+    "lat": 45.1839861,
+    "lon": 0.7215398
+  },
+  {
+    "name": "Biocoop",
+    "city": "Clisson",
+    "address": "5 Rue des Malifestes, 44190 Clisson",
+    "lat": 47.098586,
+    "lon": -1.2813747
+  },
+  {
+    "name": "Biocoop",
+    "city": "Vallet",
+    "address": "24 Boulevard d'Italie, 44330 Vallet",
+    "lat": 47.1560021,
+    "lon": -1.2666751
+  },
+  {
+    "name": "Biocoop",
+    "city": "Voreppe",
+    "address": "470 Avenue de Juin 1940, 38340 Voreppe",
+    "lat": 45.3001096,
+    "lon": 5.628336
+  },
+  {
+    "name": "Biocoop",
+    "city": "Creil",
+    "address": "1118 Avenue du Tremblay, 60100 Creil",
+    "lat": 49.2653184,
+    "lon": 2.4900247
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.0969224,
+    "lon": 5.5031722
+  },
+  {
+    "name": "Biocoop",
+    "city": "Rennes",
+    "address": "132 Rue Eugène Pottier, 35000 Rennes",
+    "lat": 48.1021024,
+    "lon": -1.7133692
+  },
+  {
+    "name": "Biocoop",
+    "city": "Muret",
+    "address": "20 Boulevard de Joffrery, 31600 Muret",
+    "lat": 43.4788312,
+    "lon": 1.3359721
+  },
+  {
+    "name": "Biocoop",
+    "city": "Cesson-Sévigné",
+    "address": "8 Avenue des Peupliers, 35510 Cesson-Sévigné",
+    "lat": 48.1135601,
+    "lon": -1.6071197
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.671046,
+    "lon": 5.5682643
+  },
+  {
+    "name": "Biocoop",
+    "city": "Castres",
+    "address": "2 Rue Henry le Chatelier, 81100 Castres",
+    "lat": 43.5909061,
+    "lon": 2.195653
+  },
+  {
+    "name": "Biocoop",
+    "city": "Janzé",
+    "address": "28 Route de Bain, 35150 Janzé",
+    "lat": 47.9535555,
+    "lon": -1.5047563
+  },
+  {
+    "name": "Biocoop",
+    "city": "Laroque",
+    "address": "945 Avenue de l'Europe, 34190 Laroque",
+    "lat": 43.9300851,
+    "lon": 3.7131526
+  },
+  {
+    "name": "Biocoop Saint-Thomas",
+    "city": null,
+    "address": null,
+    "lat": 49.2645344,
+    "lon": 4.0272584
+  },
+  {
+    "name": "Biocoop",
+    "city": "Combourg",
+    "address": null,
+    "lat": 48.4186886,
+    "lon": -1.7527037
+  },
+  {
+    "name": "Biocoop",
+    "city": "Aix-en-Provence",
+    "address": "840 Avenue du Camp de Menthe, 13090 Aix-en-Provence",
+    "lat": 43.5107863,
+    "lon": 5.4148916
+  },
+  {
+    "name": "BioCoop",
+    "city": "Fougères",
+    "address": "32 Boulevard de Groslay, 35300 Fougères",
+    "lat": 48.3501825,
+    "lon": -1.1846565
+  },
+  {
+    "name": "Biocoop Quimper Tréquefellec",
+    "city": "Quimper",
+    "address": "5 Allée de Tréquéffélec, 29000 Quimper",
+    "lat": 48.003925,
+    "lon": -4.085111
+  },
+  {
+    "name": "Biocoop Konkar'BIO",
+    "city": "Concarneau",
+    "address": "4 Rue Lucien Vidie, 29900 Concarneau",
+    "lat": 47.8915051,
+    "lon": -3.9162963
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.9380325,
+    "lon": 1.8624816
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.430323,
+    "lon": 2.070049
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.792202,
+    "lon": 4.8615166
+  },
+  {
+    "name": "Biocoop Casabio Chambéry",
+    "city": "Chambéry",
+    "address": null,
+    "lat": 45.56789,
+    "lon": 5.933269
+  },
+  {
+    "name": "Biocoop",
+    "city": "Chambéry",
+    "address": "106 Faubourg Maché, 73000 Chambéry",
+    "lat": 45.565576,
+    "lon": 5.9152475
+  },
+  {
+    "name": "Biocoop",
+    "city": "Boufféré",
+    "address": "5 Rue Alfred Nobel, 85600 Boufféré",
+    "lat": 46.9690975,
+    "lon": -1.3271565
+  },
+  {
+    "name": "Biocoop Oléron",
+    "city": "Saint-Pierre-d'Oléron",
+    "address": null,
+    "lat": 45.945188,
+    "lon": -1.323278
+  },
+  {
+    "name": "Biocoop Le 21",
+    "city": "Touques",
+    "address": null,
+    "lat": 49.345902,
+    "lon": 0.100257
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.2936875,
+    "lon": 6.075691
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.2630954,
+    "lon": -1.620422
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8694385,
+    "lon": 2.6803875
+  },
+  {
+    "name": "Biocoop Traou an Douar",
+    "city": "Lannion",
+    "address": null,
+    "lat": 48.7433251,
+    "lon": -3.4747167
+  },
+  {
+    "name": "Biocoop Douarnenez",
+    "city": "Douarnenez",
+    "address": null,
+    "lat": 48.0800625,
+    "lon": -4.320994
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.3637721,
+    "lon": 2.5722698
+  },
+  {
+    "name": "Biocoop",
+    "city": "Sargé-lès-le-Mans",
+    "address": null,
+    "lat": 48.0253885,
+    "lon": 0.2376317
+  },
+  {
+    "name": "Biocoop",
+    "city": "Ahuy",
+    "address": "1 Rue du Pré Potet, 21121 Ahuy",
+    "lat": 47.3577052,
+    "lon": 5.0347518
+  },
+  {
+    "name": "BioCoop",
+    "city": null,
+    "address": null,
+    "lat": 48.4647085,
+    "lon": -2.5074975
+  },
+  {
+    "name": "Biocoop",
+    "city": "Montauban",
+    "address": "1630 Avenue de Fontneuve, 82000 Montauban",
+    "lat": 44.035077,
+    "lon": 1.3704925
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.1420495,
+    "lon": 5.3014495
+  },
+  {
+    "name": "Biocoop Soleil Levain",
+    "city": "Alès",
+    "address": "16 Avenue Jules Guesde, 30100 Alès",
+    "lat": 44.1195905,
+    "lon": 4.083391
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.6206215,
+    "lon": 6.770459
+  },
+  {
+    "name": "Biocoop",
+    "city": "Parthenay",
+    "address": "31 Rue Léonard de Vinci, 79200 Parthenay",
+    "lat": 46.6487499,
+    "lon": -0.2274485
+  },
+  {
+    "name": "Biocoop",
+    "city": "Béziers",
+    "address": "150 Route de Pézenas, 34500 Béziers",
+    "lat": 43.3576105,
+    "lon": 3.2434395
+  },
+  {
+    "name": "Biocoop",
+    "city": "La Flèche",
+    "address": "4 Allée des Futreaux, 72200 La Flèche",
+    "lat": 47.702391,
+    "lon": -0.0514026
+  },
+  {
+    "name": "Biocoop",
+    "city": "Riantec",
+    "address": "31 Rue de Kerdurand, 56670 Riantec",
+    "lat": 47.713338,
+    "lon": -3.3154395
+  },
+  {
+    "name": "Biocoop",
+    "city": "Nice",
+    "address": "104 Avenue Henry Dunant, 06300 Nice",
+    "lat": 43.7273935,
+    "lon": 7.2657705
+  },
+  {
+    "name": "Biocoop Le Rabio",
+    "city": "Martinvast",
+    "address": "15 Rue Charles Delauney, 50690 Martinvast",
+    "lat": 49.6029145,
+    "lon": -1.6621005
+  },
+  {
+    "name": "Biocoop",
+    "city": "Vannes",
+    "address": "6 Rue Joseph Le Brix, 56000 Vannes",
+    "lat": 47.6588395,
+    "lon": -2.7589335
+  },
+  {
+    "name": "Biocoop",
+    "city": "Ploërmel",
+    "address": "59 bis Boulevard Laënnec, 56800 Ploërmel",
+    "lat": 47.9323288,
+    "lon": -2.389539
+  },
+  {
+    "name": "Biocoop Le cadre bio Nord",
+    "city": "Saumur",
+    "address": "12 Chemin des Patureaux, 49400 Saumur",
+    "lat": 47.2773725,
+    "lon": -0.061082
+  },
+  {
+    "name": "Biocoop",
+    "city": "Orange",
+    "address": null,
+    "lat": 44.1212392,
+    "lon": 4.830662
+  },
+  {
+    "name": "Biocoop",
+    "city": "Le Bouscat",
+    "address": "340 Avenue de la Libération, 33110 Le Bouscat",
+    "lat": 44.867045,
+    "lon": -0.607092
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.17284,
+    "lon": -0.393012
+  },
+  {
+    "name": "Biocoop",
+    "city": "Bordeaux",
+    "address": "48 Avenue du Général Leclerc, 33200 Bordeaux",
+    "lat": 44.8518845,
+    "lon": -0.6084885
+  },
+  {
+    "name": "Biocoop",
+    "city": "Blain",
+    "address": "39 Rue de Nantes, 44130 Blain",
+    "lat": 47.4749255,
+    "lon": -1.7582613
+  },
+  {
+    "name": "Biocoop",
+    "city": "Talence",
+    "address": "540 Cours de la Libération, 33400 Talence",
+    "lat": 44.8014145,
+    "lon": -0.593885
+  },
+  {
+    "name": "Biocoop",
+    "city": "Theix-Noyalo",
+    "address": "4 Rue Jacques Cartier, 56450 Theix-Noyalo",
+    "lat": 47.647811,
+    "lon": -2.7068785
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.7505298,
+    "lon": 1.3518912
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 42.6890338,
+    "lon": 2.9234879
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.0278005,
+    "lon": -4.556055
+  },
+  {
+    "name": "Biocoop",
+    "city": "Bruay-la-Buissière",
+    "address": null,
+    "lat": 50.4949265,
+    "lon": 2.5864538
+  },
+  {
+    "name": "Biocoop",
+    "city": "Auray",
+    "address": "40 Avenue de l'Océan, 56400 Auray",
+    "lat": 47.6645065,
+    "lon": -3.0042989
+  },
+  {
+    "name": "Biocoop",
+    "city": "Labège",
+    "address": "16 Place du Lauragais, 31670 Labège",
+    "lat": 43.5483655,
+    "lon": 1.5126612
+  },
+  {
+    "name": "Biocoop",
+    "city": "Pessac",
+    "address": "14 Avenue Jean Jaurès, 33600 Pessac",
+    "lat": 44.8062435,
+    "lon": -0.629639
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.7701167,
+    "lon": -0.6108677
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.9045444,
+    "lon": 2.4518793
+  },
+  {
+    "name": "Biocoop",
+    "city": "Villefranche-de-Rouergue",
+    "address": "102-bis Avenue du Quercy, 12200 Villefranche-de-Rouergue",
+    "lat": 44.3607754,
+    "lon": 2.0169816
+  },
+  {
+    "name": "Biocoop",
+    "city": "Auch",
+    "address": "52 Rue du 8 Mai, 32000 Auch",
+    "lat": 43.6576454,
+    "lon": 0.5917785
+  },
+  {
+    "name": "Biocoop Europe",
+    "city": "Brest",
+    "address": "2 Rue Daumier, 29200 Brest",
+    "lat": 48.4122344,
+    "lon": -4.4698642
+  },
+  {
+    "name": "Biocoop",
+    "city": "Guer",
+    "address": null,
+    "lat": 47.911359,
+    "lon": -2.126556
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.4287137,
+    "lon": 0.7085959
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.8097483,
+    "lon": 6.3644223
+  },
+  {
+    "name": "Biocoop Biosphère",
+    "city": "Châteaubriant",
+    "address": "67 A Rue d'Ancenis, 44110 Châteaubriant",
+    "lat": 47.7110498,
+    "lon": -1.3721169
+  },
+  {
+    "name": "Biocoop",
+    "city": "Balaruc-le-Vieux",
+    "address": null,
+    "lat": 43.4659976,
+    "lon": 3.6915425
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.1787927,
+    "lon": 0.6318339
+  },
+  {
+    "name": "Biocoop",
+    "city": "Le Mans",
+    "address": "22 Boulevard Louis Leprince Ringuet, 72000 Le Mans",
+    "lat": 48.0178585,
+    "lon": 0.1492722
+  },
+  {
+    "name": "Biocoop",
+    "city": "Aix-en-Provence",
+    "address": "4 Rue Pierre de Coubertin, 13100 Aix-en-Provence",
+    "lat": 43.5224003,
+    "lon": 5.4610646
+  },
+  {
+    "name": "Biocoop Surgères",
+    "city": "Surgères",
+    "address": null,
+    "lat": 46.1096614,
+    "lon": -0.7695979
+  },
+  {
+    "name": "Biocoop",
+    "city": "Luçon",
+    "address": null,
+    "lat": 46.4602666,
+    "lon": -1.1465691
+  },
+  {
+    "name": "Biocoop du Lac",
+    "city": "Saint-Philbert-de-Grand-Lieu",
+    "address": "7 Le moulin de la chaussée, 44310 Saint-Philbert-de-Grand-Lieu",
+    "lat": 47.0487529,
+    "lon": -1.6347384
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.4626957,
+    "lon": 1.4525534
+  },
+  {
+    "name": "Biocoop Douar Nevez",
+    "city": "Carhaix-Plouguer",
+    "address": "76 Avenue Victor Hugo, 29270 Carhaix-Plouguer",
+    "lat": 48.2778814,
+    "lon": -3.5536024
+  },
+  {
+    "name": "Bio Coin Joli",
+    "city": null,
+    "address": null,
+    "lat": 43.2654258,
+    "lon": 5.3996842
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.6359182,
+    "lon": 0.2094427
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.5875001,
+    "lon": 1.5148724
+  },
+  {
+    "name": "Biocoop Coccinelle",
+    "city": null,
+    "address": null,
+    "lat": 48.5667823,
+    "lon": -3.8551649
+  },
+  {
+    "name": "Biocoop",
+    "city": "Le Raincy",
+    "address": null,
+    "lat": 48.8997185,
+    "lon": 2.5174559
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.5152187,
+    "lon": 1.4988919
+  },
+  {
+    "name": "Biocoop",
+    "city": "Arles",
+    "address": "7 Rue du Maréchal Juin, 13200 Arles",
+    "lat": 43.6679453,
+    "lon": 4.6352471
+  },
+  {
+    "name": "Biocoop",
+    "city": "Yquelon",
+    "address": "118 Route de Villedieu, 50400 Yquelon",
+    "lat": 48.8372915,
+    "lon": -1.5596664
+  },
+  {
+    "name": "Biocoop Sainbiose",
+    "city": "Saint-Jean-d'Angély",
+    "address": "13 Rue Roger Menaud, 17400 Saint-Jean-d'Angély",
+    "lat": 45.9491212,
+    "lon": -0.5021355
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Memmie",
+    "address": null,
+    "lat": 48.9448299,
+    "lon": 4.3901645
+  },
+  {
+    "name": "Biocoop",
+    "city": "Portet-sur-Garonne",
+    "address": "8 Allée Pablo Picasso, 31120 Portet-sur-Garonne",
+    "lat": 43.5376928,
+    "lon": 1.4093799
+  },
+  {
+    "name": "Biocoop Bazert",
+    "city": "Gourdan-Polignan",
+    "address": null,
+    "lat": 43.060855,
+    "lon": 0.5907532
+  },
+  {
+    "name": "Biocoop",
+    "city": "Aurillac",
+    "address": "18 Rue Victor Hugo, 15000 Aurillac",
+    "lat": 44.9286925,
+    "lon": 2.4457413
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.024741,
+    "lon": 3.9460261
+  },
+  {
+    "name": "Biocoop",
+    "city": "Le Mans",
+    "address": "4 Avenue d'Haouza, 72000 Le Mans",
+    "lat": 47.9861204,
+    "lon": 0.2244387
+  },
+  {
+    "name": "Biocoop",
+    "city": "Paimpol",
+    "address": "24 Rue Raymond Pellier, 22500 Paimpol",
+    "lat": 48.7715506,
+    "lon": -3.0406259
+  },
+  {
+    "name": "BioCoop",
+    "city": "Châtillon-le-Duc",
+    "address": null,
+    "lat": 47.2882059,
+    "lon": 5.9932948
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.9066492,
+    "lon": -0.2093461
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.8428345,
+    "lon": -0.5114041
+  },
+  {
+    "name": "Biocoop Canal Bio",
+    "city": "Paris",
+    "address": "46bis Quai de la Loire, 75019 Paris",
+    "lat": 48.8855549,
+    "lon": 2.3755636
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Hippolyte-du-Fort",
+    "address": "16 Boulevard des Remparts, 30170 Saint-Hippolyte-du-Fort",
+    "lat": 43.9622366,
+    "lon": 3.8564786
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8370128,
+    "lon": 2.2967236
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 42.6035669,
+    "lon": 2.979799
+  },
+  {
+    "name": "Biocoop",
+    "city": "Nanterre",
+    "address": "60-62 Rue Maurice Thorez, 92000 Nanterre",
+    "lat": 48.8938852,
+    "lon": 2.1959093
+  },
+  {
+    "name": "Biocoop",
+    "city": "Montpellier",
+    "address": "22 bis Avenue Georges Clemenceau, 34000 Montpellier",
+    "lat": 43.6037498,
+    "lon": 3.8726199
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8348484,
+    "lon": 2.5069016
+  },
+  {
+    "name": "Biocoop",
+    "city": "Limoges",
+    "address": "337 Rue François Perrin, 87000 Limoges",
+    "lat": 45.823122,
+    "lon": 1.222484
+  },
+  {
+    "name": "Biocoop",
+    "city": "Château-d'Olonne",
+    "address": null,
+    "lat": 46.4916089,
+    "lon": -1.7510986
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.6319485,
+    "lon": -0.9874891
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8808303,
+    "lon": 2.3650793
+  },
+  {
+    "name": "Biocoop des Cascades",
+    "city": "Creissels",
+    "address": null,
+    "lat": 44.082926,
+    "lon": 3.0444151
+  },
+  {
+    "name": "Biocoop",
+    "city": "Villeneuve-d'Ascq",
+    "address": "270 Rue des Fusillés, 59650 Villeneuve-d'Ascq",
+    "lat": 50.6095113,
+    "lon": 3.1643319
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.331789,
+    "lon": 4.1011366
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.0592571,
+    "lon": 5.0483106
+  },
+  {
+    "name": "Biocoop",
+    "city": "Blois",
+    "address": null,
+    "lat": 47.6005088,
+    "lon": 1.3288038
+  },
+  {
+    "name": "Biocoop",
+    "city": "Rostrenen",
+    "address": null,
+    "lat": 48.2432474,
+    "lon": -3.3118098
+  },
+  {
+    "name": "Biocoop - L'Aile du Papillon",
+    "city": null,
+    "address": null,
+    "lat": 43.6380722,
+    "lon": 3.9329015
+  },
+  {
+    "name": "Biocoop Symbiose",
+    "city": null,
+    "address": null,
+    "lat": 47.2378081,
+    "lon": -0.7249159
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.1807811,
+    "lon": -0.6157873
+  },
+  {
+    "name": "Biocoop - La Belz Saison",
+    "city": null,
+    "address": null,
+    "lat": 47.6709572,
+    "lon": -3.1835394
+  },
+  {
+    "name": "Biocoop",
+    "city": "Millau",
+    "address": null,
+    "lat": 44.1188635,
+    "lon": 3.0679693
+  },
+  {
+    "name": "Biocoop",
+    "city": "Castres",
+    "address": "22 Rue Jean Bories, 81100 Castres",
+    "lat": 43.5894721,
+    "lon": 2.2667157
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.1777833,
+    "lon": 0.6767846
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.733257,
+    "lon": -1.5922376
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.9086932,
+    "lon": 6.3354189
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.0067724,
+    "lon": 0.141308
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.2668927,
+    "lon": 0.4731475
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.273088,
+    "lon": 5.8831926
+  },
+  {
+    "name": "BioCoop",
+    "city": "Maubec",
+    "address": "320bis Route de Cavaillon, 84660 Maubec",
+    "lat": 43.8666073,
+    "lon": 5.1396932
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Aubin-du-Cormier",
+    "address": "25 Rue de Rennes, 35140 Saint-Aubin-du-Cormier",
+    "lat": 48.258476,
+    "lon": -1.4099983
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8288348,
+    "lon": 2.2466069
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.6167115,
+    "lon": 3.4570711
+  },
+  {
+    "name": "Biocoop",
+    "city": "Prades",
+    "address": null,
+    "lat": 42.6238472,
+    "lon": 2.4262626
+  },
+  {
+    "name": "Biocoop",
+    "city": "L'Aigle",
+    "address": null,
+    "lat": 48.7622968,
+    "lon": 0.6162726
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.5495526,
+    "lon": 6.4858607
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 42.5143903,
+    "lon": 2.063126
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.5516839,
+    "lon": 7.7058026
+  },
+  {
+    "name": "Biocoop",
+    "city": "Gap",
+    "address": "3 Rue Alphonse Daudet, 05000 Gap",
+    "lat": 44.5491825,
+    "lon": 6.0655312
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.975746,
+    "lon": 2.3173155
+  },
+  {
+    "name": "Biocoop",
+    "city": "Paris",
+    "address": "2 Place de Catalogne, 75014 Paris",
+    "lat": 48.8369002,
+    "lon": 2.3188911
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.851599,
+    "lon": 2.2912004
+  },
+  {
+    "name": "Biocoop",
+    "city": "Loudéac",
+    "address": "40 Rue anatole le Bratz, 22600 Loudéac",
+    "lat": 48.1915793,
+    "lon": -2.7610235
+  },
+  {
+    "name": "Biocoop Valserine",
+    "city": "Valserhône",
+    "address": "106 Impasse de la Valserine, 01200 Valserhône",
+    "lat": 46.1281544,
+    "lon": 5.8128477
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8157088,
+    "lon": 2.3113921
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.2071154,
+    "lon": 2.3159026
+  },
+  {
+    "name": "BioCoop",
+    "city": null,
+    "address": null,
+    "lat": 47.2424947,
+    "lon": 6.0138224
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.4529987,
+    "lon": -2.0205511
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8321025,
+    "lon": 2.3445967
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.6268656,
+    "lon": 3.0495521
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7576239,
+    "lon": 4.7735696
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.9608896,
+    "lon": 1.8142728
+  },
+  {
+    "name": "Biocoop",
+    "city": "Montbéliard",
+    "address": "6 Cour des Halles, 25200 Montbéliard",
+    "lat": 47.5095141,
+    "lon": 6.7945935
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.7671358,
+    "lon": 3.1222096
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8031925,
+    "lon": 2.2651401
+  },
+  {
+    "name": "BioCoop",
+    "city": null,
+    "address": null,
+    "lat": 48.5889971,
+    "lon": 2.300302
+  },
+  {
+    "name": "BioCoop",
+    "city": "Besançon",
+    "address": "3 Allée de l'Île aux Moineaux, 25000 Besançon",
+    "lat": 47.2398493,
+    "lon": 6.0341904
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.1115685,
+    "lon": -1.2065822
+  },
+  {
+    "name": "Biocoop",
+    "city": "Mérignac",
+    "address": "72 Avenue Pierre Mendès-France, 33700 Mérignac",
+    "lat": 44.8265371,
+    "lon": -0.6374514
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.5591433,
+    "lon": -2.5102808
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.9842214,
+    "lon": 4.742697
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.1730158,
+    "lon": 0.2511178
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7526794,
+    "lon": 4.8464976
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.5858734,
+    "lon": 0.36705
+  },
+  {
+    "name": "Biocoop Les 7 Épis",
+    "city": "Mellac",
+    "address": "27 Rue Pierre Gilles de Gennes, 29300 Mellac",
+    "lat": 47.8699692,
+    "lon": -3.5919584
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.9103084,
+    "lon": -0.2381763
+  },
+  {
+    "name": "Biocoop",
+    "city": "Trignac",
+    "address": null,
+    "lat": 47.2910573,
+    "lon": -2.2108191
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.5490521,
+    "lon": 0.2965824
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 42.7769816,
+    "lon": 2.9189518
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.1268647,
+    "lon": 3.9274492
+  },
+  {
+    "name": "Biocoop",
+    "city": "Tours",
+    "address": "6 Rue Émile Zola, 37000 Tours",
+    "lat": 47.3933098,
+    "lon": 0.6886554
+  },
+  {
+    "name": "Lille Solferino",
+    "city": "Lille",
+    "address": "93 Rue de Solférino, 59000 Lille",
+    "lat": 50.6329751,
+    "lon": 3.0512717
+  },
+  {
+    "name": "Biocoop",
+    "city": "Grenoble",
+    "address": "8 Boulevard Agutte Sembat, 38000 Grenoble",
+    "lat": 45.1883686,
+    "lon": 5.7259432
+  },
+  {
+    "name": "Biocoop",
+    "city": "Pornic",
+    "address": "1 Rue du traité de Lisbonne, 44210 Pornic",
+    "lat": 47.1279578,
+    "lon": -2.1233429
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.8264491,
+    "lon": 4.9985946
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8390536,
+    "lon": 2.349477
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.4127116,
+    "lon": 4.371074
+  },
+  {
+    "name": "Biocoop",
+    "city": "Versailles",
+    "address": "33 Rue du Maréchal Foch, 78000 Versailles",
+    "lat": 48.8077552,
+    "lon": 2.1325562
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.8604894,
+    "lon": 2.2766059
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.6128531,
+    "lon": 1.3056633
+  },
+  {
+    "name": "Biocoop",
+    "city": "Cournon-d'Auvergne",
+    "address": "20 Avenue d'Aubière, 63800 Cournon-d'Auvergne",
+    "lat": 45.7475654,
+    "lon": 3.1615754
+  },
+  {
+    "name": "Biocoop",
+    "city": "Levallois-Perret",
+    "address": "30 Rue Gabriel Péri, 92300 Levallois-Perret",
+    "lat": 48.8910409,
+    "lon": 2.2887761
+  },
+  {
+    "name": "Biocoop",
+    "city": "L'Union",
+    "address": "2 Rue d'Ariane, 31240 L'Union",
+    "lat": 43.6389313,
+    "lon": 1.5007776
+  },
+  {
+    "name": "Biocoop",
+    "city": "Chelles",
+    "address": "10 Avenue du Général de Gaulle, 77500 Chelles",
+    "lat": 48.8695478,
+    "lon": 2.5770492
+  },
+  {
+    "name": "Biocoop",
+    "city": "Feytiat",
+    "address": "2 Avenue Martial Valin, 87220 Feytiat",
+    "lat": 45.815867,
+    "lon": 1.3109792
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.2781546,
+    "lon": 5.3923748
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.644663,
+    "lon": 2.9738006
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Girons",
+    "address": "15 Avenue d'Aulot, 09200 Saint-Girons",
+    "lat": 42.9822537,
+    "lon": 1.149793
+  },
+  {
+    "name": "Biocoop Les Fêtes",
+    "city": null,
+    "address": null,
+    "lat": 48.875815,
+    "lon": 2.3921879
+  },
+  {
+    "name": "BioCoop",
+    "city": null,
+    "address": null,
+    "lat": 44.2937442,
+    "lon": 2.5608637
+  },
+  {
+    "name": "Biocoop",
+    "city": "Vern-sur-Seiche",
+    "address": "6 Rue de la Blanche-Hermine, 35770 Vern-sur-Seiche",
+    "lat": 48.0627289,
+    "lon": -1.6256169
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.5613104,
+    "lon": 6.2325868
+  },
+  {
+    "name": "BioCoop",
+    "city": "Saran",
+    "address": null,
+    "lat": 47.9543271,
+    "lon": 1.8919414
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7601629,
+    "lon": 4.8467851
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.1747434,
+    "lon": -1.1605985
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.8207197,
+    "lon": 5.7936504
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.2541524,
+    "lon": -1.6172077
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.2041496,
+    "lon": -1.5504689
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.6511101,
+    "lon": 2.4579678
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 42.7002554,
+    "lon": 3.0219294
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.5055943,
+    "lon": -2.763889
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.5307533,
+    "lon": 6.4459544
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.4822325,
+    "lon": -0.5980341
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.7762702,
+    "lon": 2.2557593
+  },
+  {
+    "name": "Biocoop",
+    "city": "Paris",
+    "address": "62 Rue de Belleville, 75020 Paris",
+    "lat": 48.8733365,
+    "lon": 2.3827708
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8662041,
+    "lon": 2.3704724
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.3755109,
+    "lon": -1.1947238
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.6565923,
+    "lon": 5.9136648
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.8783657,
+    "lon": 6.0897834
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.1256774,
+    "lon": 0.3395415
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.7402958,
+    "lon": 2.2743804
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.8581307,
+    "lon": -1.6895304
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.9132014,
+    "lon": 2.1429803
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.6632864,
+    "lon": 7.1497867
+  },
+  {
+    "name": "Biocoop",
+    "city": "Chancelade",
+    "address": null,
+    "lat": 45.1983302,
+    "lon": 0.660226
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.893287,
+    "lon": 1.8796176
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.5316561,
+    "lon": 5.6849542
+  },
+  {
+    "name": "Biocoop",
+    "city": "Sartrouville",
+    "address": "57 Avenue Maurice Berteaux, 78500 Sartrouville",
+    "lat": 48.9408854,
+    "lon": 2.166249
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8751019,
+    "lon": 2.3516602
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.2611627,
+    "lon": -1.5820902
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.9943431,
+    "lon": 3.1222553
+  },
+  {
+    "name": "Biocoop Biococcinelle Bonson",
+    "city": null,
+    "address": null,
+    "lat": 45.5264065,
+    "lon": 4.2326711
+  },
+  {
+    "name": "Biocoop Forez Bio",
+    "city": null,
+    "address": null,
+    "lat": 45.6107723,
+    "lon": 4.0965493
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.170403,
+    "lon": 5.7398013
+  },
+  {
+    "name": "Biocoop",
+    "city": "Paris",
+    "address": "24 Rue Beccaria, 75012 Paris",
+    "lat": 48.8482795,
+    "lon": 2.37881
+  },
+  {
+    "name": "Biocoop",
+    "city": "Perros-Guirec",
+    "address": "67 Rue Anatole Le Braz, 22700 Perros-Guirec",
+    "lat": 48.8076738,
+    "lon": -3.4420792
+  },
+  {
+    "name": "Biocoop",
+    "city": "Cornebarrieu",
+    "address": "6 Avenue Émile Dewoitine, 31700 Cornebarrieu",
+    "lat": 43.6487041,
+    "lon": 1.3362105
+  },
+  {
+    "name": "Biocoop",
+    "city": "Rouen",
+    "address": "88 Rue Jeanne d'Arc, 76000 Rouen",
+    "lat": 49.444364,
+    "lon": 1.0921017
+  },
+  {
+    "name": "BioCoop",
+    "city": null,
+    "address": null,
+    "lat": 45.4860602,
+    "lon": 6.5240644
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.7799577,
+    "lon": -0.6893747
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.7592187,
+    "lon": 1.30038
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.0988537,
+    "lon": -1.0841652
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.397326,
+    "lon": -4.4762604
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.6056435,
+    "lon": -1.8339228
+  },
+  {
+    "name": "Biocoop Douargann",
+    "city": "Lannion",
+    "address": null,
+    "lat": 48.7345955,
+    "lon": -3.4453223
+  },
+  {
+    "name": "Biocoop",
+    "city": "Bois-Colombes",
+    "address": null,
+    "lat": 48.9083801,
+    "lon": 2.2613287
+  },
+  {
+    "name": "Biocoop Chalonnes",
+    "city": null,
+    "address": null,
+    "lat": 47.3479664,
+    "lon": -0.7593099
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.4927341,
+    "lon": 1.3126762
+  },
+  {
+    "name": "Biocoop",
+    "city": "Plérin",
+    "address": "5 Rue de la Croix Lormel, 22190 Plérin",
+    "lat": 48.5346459,
+    "lon": -2.7554529
+  },
+  {
+    "name": "Biocoop Germinal",
+    "city": "Auxerre",
+    "address": "22 Rue de Preuilly, 89000 Auxerre",
+    "lat": 47.7893014,
+    "lon": 3.5827657
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.8178107,
+    "lon": -0.5291868
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.0509972,
+    "lon": 3.893182
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.4351906,
+    "lon": 0.0559818
+  },
+  {
+    "name": "Biocoop",
+    "city": "Guérande",
+    "address": "3 Rue de la Briquerie, 44350 Guérande",
+    "lat": 47.3243483,
+    "lon": -2.4108265
+  },
+  {
+    "name": "Biocoop",
+    "city": "Lorient",
+    "address": "2 Rue Saint-Exupéry, 56100 Lorient",
+    "lat": 47.7658256,
+    "lon": -3.4021587
+  },
+  {
+    "name": "Biocoop",
+    "city": "Lorient",
+    "address": "7 Rue Vauban, 56100 Lorient",
+    "lat": 47.7498014,
+    "lon": -3.3631852
+  },
+  {
+    "name": "Biocoop",
+    "city": "Angers",
+    "address": "59 Boulevard du Maréchal Foch, 49100 Angers",
+    "lat": 47.4666422,
+    "lon": -0.5524443
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.841458,
+    "lon": 2.2847095
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.5135634,
+    "lon": -2.7625306
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.1376822,
+    "lon": -1.9389784
+  },
+  {
+    "name": "Biocoop",
+    "city": "Louhans",
+    "address": "75 Rue du Jura, 71500 Louhans",
+    "lat": 46.6321903,
+    "lon": 5.2390368
+  },
+  {
+    "name": "Biocoop Chateau Gombert",
+    "city": "Marseille",
+    "address": null,
+    "lat": 43.3470333,
+    "lon": 5.4515082
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.1262098,
+    "lon": -0.6415055
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.767359,
+    "lon": 4.8310335
+  },
+  {
+    "name": "Biocoop - Refuge des saveurs",
+    "city": null,
+    "address": null,
+    "lat": 47.0573448,
+    "lon": 6.613733
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.3068162,
+    "lon": 3.4949405
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7448492,
+    "lon": 4.8668437
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7256162,
+    "lon": 4.929976
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.8038787,
+    "lon": 4.7835333
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.3244993,
+    "lon": 4.7420106
+  },
+  {
+    "name": "Biocoop",
+    "city": "Modane",
+    "address": "22 Avenue Jean Jaurès, 73500 Modane",
+    "lat": 45.1952047,
+    "lon": 6.6609971
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.8550959,
+    "lon": -4.2435909
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 42.5341104,
+    "lon": 2.8387569
+  },
+  {
+    "name": "Biocoop",
+    "city": "Ambérieu-en-Bugey",
+    "address": "186 Rue Alexandre Bérard, 01500 Ambérieu-en-Bugey",
+    "lat": 45.9729539,
+    "lon": 5.352279
+  },
+  {
+    "name": "Biocoop",
+    "city": "Mougins",
+    "address": "609 Route de La Roquette, 06250 Mougins",
+    "lat": 43.6131259,
+    "lon": 6.9705591
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7749549,
+    "lon": 4.8335813
+  },
+  {
+    "name": "Biocoop",
+    "city": "Sarlat-la-Canéda",
+    "address": null,
+    "lat": 44.8771545,
+    "lon": 1.2095871
+  },
+  {
+    "name": "Biocoop",
+    "city": "L'Isle-Jourdain",
+    "address": null,
+    "lat": 43.6034323,
+    "lon": 1.0694684
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.745503,
+    "lon": 7.3542967
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.7816338,
+    "lon": 2.0428527
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.7670231,
+    "lon": 2.2791506
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8574452,
+    "lon": -0.8730951
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.6811623,
+    "lon": -1.3551011
+  },
+  {
+    "name": "Biocoop",
+    "city": "Rennes",
+    "address": "18 Rue Papu, 35000 Rennes",
+    "lat": 48.1110887,
+    "lon": -1.6930689
+  },
+  {
+    "name": "Biocoop Kerbio Rive Droite",
+    "city": null,
+    "address": null,
+    "lat": 48.3865357,
+    "lon": -4.532305
+  },
+  {
+    "name": "Biocoop Caba Doyenné",
+    "city": "Angers",
+    "address": "50 Boulevard du Doyenné, 49100 Angers",
+    "lat": 47.489909,
+    "lon": -0.5343097
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.1072314,
+    "lon": 1.6288271
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.3042633,
+    "lon": -0.4010596
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.4607426,
+    "lon": 2.0052943
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.586787,
+    "lon": 3.0523787
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.0300899,
+    "lon": -1.75916
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.1858623,
+    "lon": 5.9478285
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint Jean de Luz",
+    "address": "125 Avenue André Ithurralde, 64500 Saint Jean de Luz",
+    "lat": 43.3995503,
+    "lon": -1.6413623
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8492784,
+    "lon": 2.4560046
+  },
+  {
+    "name": "Biocoop Le Relais Bio",
+    "city": null,
+    "address": null,
+    "lat": 43.4083387,
+    "lon": 6.0486321
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.0712751,
+    "lon": -0.7503965
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.5259174,
+    "lon": 4.6083249
+  },
+  {
+    "name": "Biocoop Chartrons",
+    "city": "Bordeaux",
+    "address": "6 Rue Sicard, 33300 Bordeaux",
+    "lat": 44.8520274,
+    "lon": -0.572716
+  },
+  {
+    "name": "Biocoop",
+    "city": "Tournefeuille",
+    "address": "110 Avenue du Marquisat, 31170 Tournefeuille",
+    "lat": 43.5761763,
+    "lon": 1.3486723
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.7339948,
+    "lon": 1.6207389
+  },
+  {
+    "name": "Biocoop",
+    "city": "Boulogne-sur-Mer",
+    "address": "17 Rue Edmond Rostand, 62200 Boulogne-sur-Mer",
+    "lat": 50.7251509,
+    "lon": 1.603317
+  },
+  {
+    "name": "Biocoop",
+    "city": "Bayeux",
+    "address": null,
+    "lat": 49.2761931,
+    "lon": -0.6845764
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8637722,
+    "lon": 2.375916
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.9562427,
+    "lon": 4.3025175
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.816009,
+    "lon": 2.194368
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.5539431,
+    "lon": -2.5449074
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.8391013,
+    "lon": -0.3055298
+  },
+  {
+    "name": "Biocoop Anduze",
+    "city": "Anduze",
+    "address": "5 Chemin de Pierrascas, 30140 Anduze",
+    "lat": 44.0621528,
+    "lon": 3.9734758
+  },
+  {
+    "name": "Biocoop",
+    "city": "Odos",
+    "address": "77 Avenue de Lourdes, 65310 Odos",
+    "lat": 43.2099091,
+    "lon": 0.0473616
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.6374443,
+    "lon": 6.8589828
+  },
+  {
+    "name": "Biocoop",
+    "city": "Quimper",
+    "address": "16 Rue de la Providence, 29000 Quimper",
+    "lat": 47.9970656,
+    "lon": -4.1077838
+  },
+  {
+    "name": "BioCoop",
+    "city": null,
+    "address": null,
+    "lat": 45.0555938,
+    "lon": 1.1520615
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.1027509,
+    "lon": 1.4549129
+  },
+  {
+    "name": "Biocoop",
+    "city": "Boves",
+    "address": "25 avenue Phileas Fogg, 80440 Boves",
+    "lat": 49.8632868,
+    "lon": 2.3785336
+  },
+  {
+    "name": "Les Hameaux Bio Biocoop Nantes",
+    "city": "Nantes",
+    "address": "19 Rue du Marché Commun, 44300 Nantes",
+    "lat": 47.2590439,
+    "lon": -1.5011231
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.7283186,
+    "lon": 2.5341188
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.8510856,
+    "lon": 0.6556251
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.1817225,
+    "lon": -0.3603902
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Agathon",
+    "address": null,
+    "lat": 48.5589047,
+    "lon": -3.1223007
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.4475261,
+    "lon": -0.509865
+  },
+  {
+    "name": "Les 7 Saveurs",
+    "city": "Gien",
+    "address": "197 Rue des Fourches, 45000 Gien",
+    "lat": 47.6987943,
+    "lon": 2.5990719
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.3892534,
+    "lon": 2.9224194
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.6017382,
+    "lon": 3.901785
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.8580219,
+    "lon": 5.9497768
+  },
+  {
+    "name": "Biocoop",
+    "city": "Les Rousses",
+    "address": null,
+    "lat": 46.4782312,
+    "lon": 6.0626727
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.6120317,
+    "lon": 4.4096678
+  },
+  {
+    "name": "Biocoop Les 7 Épis",
+    "city": "Guidel",
+    "address": null,
+    "lat": 47.7999229,
+    "lon": -3.4755078
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.6340205,
+    "lon": 3.0666686
+  },
+  {
+    "name": "Biocoop Germinal",
+    "city": "Perrigny",
+    "address": "7 Allée Fontaine, 89000 Perrigny",
+    "lat": 47.8189128,
+    "lon": 3.5554102
+  },
+  {
+    "name": "Biocoop",
+    "city": "La Londe-les-Maures",
+    "address": "1640 Chemin du Puits de la Commune, 83250 La Londe-les-Maures",
+    "lat": 43.1459591,
+    "lon": 6.2407617
+  },
+  {
+    "name": "Biocoop",
+    "city": "Sainte-Marie-des-Champs",
+    "address": null,
+    "lat": 49.6240982,
+    "lon": 0.7835679
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.7950283,
+    "lon": -0.5381013
+  },
+  {
+    "name": "Les Hameaux Bio Biocoop Pornichet",
+    "city": "Pornichet",
+    "address": "4 Avenue du Courtil Riel, 44380 Pornichet",
+    "lat": 47.257489,
+    "lon": -2.3166586
+  },
+  {
+    "name": "Biocoop",
+    "city": "Paris",
+    "address": "45 Rue de Lancry, 75010 Paris",
+    "lat": 48.8713121,
+    "lon": 2.3617117
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.9584738,
+    "lon": 5.7769444
+  },
+  {
+    "name": "Biocoop",
+    "city": "Wavrin",
+    "address": null,
+    "lat": 50.5858955,
+    "lon": 2.9437634
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.2503886,
+    "lon": 0.383753
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.4543571,
+    "lon": -0.2678045
+  },
+  {
+    "name": "Biocoop",
+    "city": "Cholet",
+    "address": "204 Avenue des Trois Provinces, 49300 Cholet",
+    "lat": 47.0605024,
+    "lon": -0.9307313
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.2062855,
+    "lon": 5.240692
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.9016051,
+    "lon": 5.1994242
+  },
+  {
+    "name": "Biocoop",
+    "city": "Soissons",
+    "address": null,
+    "lat": 49.3679329,
+    "lon": 3.3167608
+  },
+  {
+    "name": "Biocoop",
+    "city": "Éourres",
+    "address": null,
+    "lat": 44.2126235,
+    "lon": 5.6985103
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7666266,
+    "lon": 4.9865624
+  },
+  {
+    "name": "Biocoop",
+    "city": "Foix",
+    "address": "4 Avenue du Général Leclerc, 09000 Foix",
+    "lat": 42.9711351,
+    "lon": 1.6082695
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.0507299,
+    "lon": 4.8334001
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.7235561,
+    "lon": 7.1058732
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.7029346,
+    "lon": 7.281714
+  },
+  {
+    "name": "Biocoop Terrabio sud",
+    "city": "Narbonne",
+    "address": "3 Rue du Rec de Veyret, 11100 Narbonne",
+    "lat": 43.1705836,
+    "lon": 2.9873298
+  },
+  {
+    "name": "Biocoop Sigean",
+    "city": "Sigean",
+    "address": "85 Avenue de Port-la-Nouvelle, 11130 Sigean",
+    "lat": 43.0278759,
+    "lon": 2.9903154
+  },
+  {
+    "name": "Biocoop",
+    "city": "Castelnaudary",
+    "address": "114 Avenue Monseigneur de Langle, 11400 Castelnaudary",
+    "lat": 43.3097121,
+    "lon": 1.9718523
+  },
+  {
+    "name": "Biocoop Lezignan",
+    "city": "Lézignan-Corbières",
+    "address": "3 Rue de l'Alaric, 11200 Lézignan-Corbières",
+    "lat": 43.1889543,
+    "lon": 2.7540347
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.050491,
+    "lon": 2.21817
+  },
+  {
+    "name": "Biocoop La Coumpagnie Puyricard",
+    "city": "Aix-en-Provence",
+    "address": "20 Chemin des Gervais, 13090 Aix-en-Provence",
+    "lat": 43.5647848,
+    "lon": 5.4036272
+  },
+  {
+    "name": "Biocoop",
+    "city": "Lisieux",
+    "address": "230 Rue Alexandre Fleming, 14100 Lisieux",
+    "lat": 49.150208,
+    "lon": 0.2529571
+  },
+  {
+    "name": "Biocoop",
+    "city": "Rennes",
+    "address": "10 Rue Vasselot, 35000 Rennes",
+    "lat": 48.1085361,
+    "lon": -1.6788491
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 41.9289662,
+    "lon": 8.7376873
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.1460431,
+    "lon": 1.4731368
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.2997157,
+    "lon": -0.9902199
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.6736967,
+    "lon": -2.0649588
+  },
+  {
+    "name": "Biocoop",
+    "city": "Tinténiac",
+    "address": null,
+    "lat": 48.302245,
+    "lon": -1.8178273
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.8780986,
+    "lon": -1.0206859
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Hilaire-de-Riez",
+    "address": "12 Chemin de la Petite Croix, 85270 Saint-Hilaire-de-Riez",
+    "lat": 46.7136341,
+    "lon": -1.9432727
+  },
+  {
+    "name": "Biocoop La CABA Mûrs-Érigné",
+    "city": "Angers",
+    "address": "34 Route de Cholet, 49000 Angers",
+    "lat": 47.399738,
+    "lon": -0.5310486
+  },
+  {
+    "name": "Biocoop",
+    "city": "Cholet",
+    "address": "12 Avenue de la Marne, 49300 Cholet",
+    "lat": 47.0515117,
+    "lon": -0.8872066
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.7863657,
+    "lon": -3.2233307
+  },
+  {
+    "name": "Biocoop",
+    "city": "Uzès",
+    "address": null,
+    "lat": 43.9893214,
+    "lon": 4.4277607
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.864879,
+    "lon": 4.4389876
+  },
+  {
+    "name": "Biocoop",
+    "city": "Milly-la-Forêt",
+    "address": "27 Rue de Chenêt, 91490 Milly-la-Forêt",
+    "lat": 48.3977193,
+    "lon": 2.421941
+  },
+  {
+    "name": "Biocoop",
+    "city": "Fronton",
+    "address": "25 Chemin de Buguet, 31620 Fronton",
+    "lat": 43.8314605,
+    "lon": 1.393099
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.6634908,
+    "lon": 3.9034041
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.6424213,
+    "lon": 1.3879522
+  },
+  {
+    "name": "Biocoop",
+    "city": "Auterive",
+    "address": "10 Route de Toulouse, 31190 Auterive",
+    "lat": 43.3511903,
+    "lon": 1.47089
+  },
+  {
+    "name": "Biocoop",
+    "city": "Condom",
+    "address": "33 Ter Avenue des Pyrénées, 32100 Condom",
+    "lat": 43.9518812,
+    "lon": 0.3703047
+  },
+  {
+    "name": "Biocoop",
+    "city": "Pavie",
+    "address": null,
+    "lat": 43.6164652,
+    "lon": 0.5757538
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.7487498,
+    "lon": 7.3398266
+  },
+  {
+    "name": "Biocoop",
+    "city": "Brest",
+    "address": "7 Rue Amiral Linois, 29200 Brest",
+    "lat": 48.3859532,
+    "lon": -4.4903678
+  },
+  {
+    "name": "Biocoop Emporium",
+    "city": "Parempuyre",
+    "address": "54 Rue de la Gare, 33290 Parempuyre",
+    "lat": 44.9462168,
+    "lon": -0.611612
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.2742675,
+    "lon": 0.1651315
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8715357,
+    "lon": 2.8713602
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.3710089,
+    "lon": 3.5360797
+  },
+  {
+    "name": "Biocoop",
+    "city": "Vendôme",
+    "address": null,
+    "lat": 47.7982835,
+    "lon": 1.0482495
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.9799347,
+    "lon": -0.1966641
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.2102453,
+    "lon": -1.5708322
+  },
+  {
+    "name": "Biocoop",
+    "city": "Strasbourg",
+    "address": "6 Rue de la Première Armée, 67000 Strasbourg",
+    "lat": 48.5780418,
+    "lon": 7.7499757
+  },
+  {
+    "name": "Biocoop Velay Nature",
+    "city": "Monistrol-sur-Loire",
+    "address": null,
+    "lat": 45.286397,
+    "lon": 4.1600179
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Vincent-de-Tyrosse",
+    "address": "32 Avenue de Terreblanque, 40230 Saint-Vincent-de-Tyrosse",
+    "lat": 43.6691414,
+    "lon": -1.2784889
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.7966865,
+    "lon": 2.5055855
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.5159645,
+    "lon": 3.4848486
+  },
+  {
+    "name": "Biocoop - Un Écrin Vert",
+    "city": "Montreuil",
+    "address": "6 Place Jean Jaurès, 93100 Montreuil",
+    "lat": 48.8626009,
+    "lon": 2.4427114
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.6669035,
+    "lon": 3.0309062
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.7819956,
+    "lon": 2.6555656
+  },
+  {
+    "name": "Biocoop",
+    "city": "anglet",
+    "address": null,
+    "lat": 43.493626,
+    "lon": -1.4966566
+  },
+  {
+    "name": "Biocoop",
+    "city": "Varennes-sur-Seine",
+    "address": null,
+    "lat": 48.3631567,
+    "lon": 2.9561558
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.0363018,
+    "lon": 2.1155654
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.6324489,
+    "lon": -1.5879763
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.2873497,
+    "lon": 5.3839948
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.4499569,
+    "lon": -0.8083768
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.2958851,
+    "lon": 5.396229
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8778063,
+    "lon": 2.7504772
+  },
+  {
+    "name": "Biocoop Horizon Bio",
+    "city": "Auray",
+    "address": "37 Rue Jean-Marie Barré, 56400 Auray",
+    "lat": 47.6677127,
+    "lon": -2.9852778
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.5901699,
+    "lon": 2.0654906
+  },
+  {
+    "name": "Biocoop",
+    "city": "Marseille",
+    "address": null,
+    "lat": 43.2542819,
+    "lon": 5.3835207
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.9522298,
+    "lon": 4.8186305
+  },
+  {
+    "name": "Biocoop",
+    "city": "Coutances",
+    "address": "4 Rue de la Glacière, 50200 Coutances",
+    "lat": 49.0695838,
+    "lon": -1.427095
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.1434949,
+    "lon": -0.3395472
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.751126,
+    "lon": 2.3042768
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7153377,
+    "lon": 4.8082655
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8869738,
+    "lon": 2.3326649
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.4187683,
+    "lon": 1.0446805
+  },
+  {
+    "name": "Biocoop Riom Sud",
+    "city": "Riom",
+    "address": "83 Avenue de Clermont, 63200 Riom",
+    "lat": 45.8768177,
+    "lon": 3.1157036
+  },
+  {
+    "name": "Biocoop",
+    "city": "Martres-Tolosane",
+    "address": "56B Avenue des Pyrénées, 31220 Martres-Tolosane",
+    "lat": 43.1973906,
+    "lon": 1.0008208
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.0739712,
+    "lon": -0.8445131
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7756018,
+    "lon": 4.8037413
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.9077989,
+    "lon": 2.1507111
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.3528257,
+    "lon": 6.1337983
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.8346423,
+    "lon": 0.5417542
+  },
+  {
+    "name": "BioCoop",
+    "city": null,
+    "address": null,
+    "lat": 43.8252189,
+    "lon": 5.0601602
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.8105537,
+    "lon": -0.775399
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.2776205,
+    "lon": 5.6601314
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.846619,
+    "lon": 2.2706442
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.0632339,
+    "lon": 6.5509515
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.7182466,
+    "lon": 2.4446884
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.4383586,
+    "lon": 5.0353555
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.1610381,
+    "lon": 3.2595976
+  },
+  {
+    "name": "Biocoop Breg Osio",
+    "city": null,
+    "address": null,
+    "lat": 45.5996289,
+    "lon": 5.2656983
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.66223,
+    "lon": -3.6266134
+  },
+  {
+    "name": "Biocoop",
+    "city": "Lyon",
+    "address": "68 Rue Waldeck-Rousseau, 69006 Lyon",
+    "lat": 45.7641615,
+    "lon": 4.8581132
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.5762917,
+    "lon": 5.9717577
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.1832123,
+    "lon": 5.8100918
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.4412959,
+    "lon": 6.7790664
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.0479679,
+    "lon": -1.5047793
+  },
+  {
+    "name": "Biocoop Konkar'bio Centre-Ville",
+    "city": "Concarneau",
+    "address": "1 Place Général de Gaulle, 29900 Concarneau",
+    "lat": 47.8717625,
+    "lon": -3.9191794
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.1765433,
+    "lon": -0.3218316
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.6337763,
+    "lon": 6.1558587
+  },
+  {
+    "name": "Biocoop",
+    "city": "Paris",
+    "address": "3 Rue des Grands Champs, 75020 Paris",
+    "lat": 48.8505372,
+    "lon": 2.3993409
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.4024676,
+    "lon": 1.5969584
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.7966177,
+    "lon": 2.1350012
+  },
+  {
+    "name": "Biocoop",
+    "city": "Montpellier",
+    "address": "2 Boulevard du Jeu de Paume, 34000 Montpellier",
+    "lat": 43.6084685,
+    "lon": 3.872936
+  },
+  {
+    "name": "Biocoop Scarabée Jacques Cartier",
+    "city": null,
+    "address": null,
+    "lat": 48.0977932,
+    "lon": -1.6746467
+  },
+  {
+    "name": "Biocoop",
+    "city": "Angers",
+    "address": "22 Place Louis Imbach, 49100 Angers",
+    "lat": 47.4732367,
+    "lon": -0.5486164
+  },
+  {
+    "name": "Biocoop",
+    "city": "Biscarrosse",
+    "address": "118 Rue de l'Atelier, 40600 Biscarrosse",
+    "lat": 44.3895505,
+    "lon": -1.1605699
+  },
+  {
+    "name": "Biocoop Les Pousses de Menilmontant",
+    "city": null,
+    "address": null,
+    "lat": 48.8674356,
+    "lon": 2.3850274
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.0514202,
+    "lon": 5.0804127
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7582168,
+    "lon": 4.8334103
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.7074378,
+    "lon": 0.6204524
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.627524,
+    "lon": 3.0576824
+  },
+  {
+    "name": "Biocoop",
+    "city": "Vélizy-Villacoublay",
+    "address": "57 Place Louvois, 78140 Vélizy-Villacoublay",
+    "lat": 48.7807479,
+    "lon": 2.1963645
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.5735839,
+    "lon": 3.200303
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.5828396,
+    "lon": 0.3443292
+  },
+  {
+    "name": "Planète Bio Bois Guillaume - Rouen",
+    "city": null,
+    "address": null,
+    "lat": 49.4748556,
+    "lon": 1.1094017
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.0274439,
+    "lon": 5.2883681
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.4806724,
+    "lon": 4.4443058
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.0602708,
+    "lon": 7.3360616
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8631594,
+    "lon": 2.2103246
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.614152,
+    "lon": -2.0554304
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.2661062,
+    "lon": 1.7702583
+  },
+  {
+    "name": "Biocoop",
+    "city": "Grasse",
+    "address": "47 Route de la Marigarde, 06130 Grasse",
+    "lat": 43.6550141,
+    "lon": 6.9322463
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8478561,
+    "lon": 2.3508558
+  },
+  {
+    "name": "Biocoop Mauges",
+    "city": "Beaupréau",
+    "address": "49 Rue Sainte-Anne, 49600 Beaupréau",
+    "lat": 47.2044647,
+    "lon": -0.9769222
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.846341,
+    "lon": 2.2152983
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.8968113,
+    "lon": 1.4638862
+  },
+  {
+    "name": "Biocoop",
+    "city": "Checy",
+    "address": "20 Rue Gustave Eiffel, 45430 Checy",
+    "lat": 47.9056695,
+    "lon": 2.0326214
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.8436322,
+    "lon": 6.1497135
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.9111488,
+    "lon": 2.2925744
+  },
+  {
+    "name": "Biocoop",
+    "city": "Villard-de-Lans",
+    "address": "571 Avenue du Général de Gaulle, 38250 Villard-de-Lans",
+    "lat": 45.0749209,
+    "lon": 5.5529951
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.5883169,
+    "lon": 5.8833343
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.3644394,
+    "lon": 5.3513449
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.737707,
+    "lon": -1.0903069
+  },
+  {
+    "name": "Biocoop",
+    "city": "Chamant",
+    "address": "2 Avenue du Poteau, 60300 Chamant",
+    "lat": 49.2170881,
+    "lon": 2.5961293
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.0395349,
+    "lon": 4.847389
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7694017,
+    "lon": 4.8808049
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.2687351,
+    "lon": -1.3371736
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.7905757,
+    "lon": -0.5654078
+  },
+  {
+    "name": "BioCoop",
+    "city": null,
+    "address": null,
+    "lat": 44.925526,
+    "lon": 6.6077804
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7771933,
+    "lon": 3.2032557
+  },
+  {
+    "name": "Biocoop",
+    "city": "Fontainebleau",
+    "address": "60 Rue d'Avon, 77300 Fontainebleau",
+    "lat": 48.4079226,
+    "lon": 2.7039605
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.6396569,
+    "lon": -1.43115
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.5675964,
+    "lon": 7.7576751
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.6916485,
+    "lon": -1.4289258
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.763529,
+    "lon": 4.8725306
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Avé",
+    "address": "5 Rue Marcel Dassault, 56890 Saint-Avé",
+    "lat": 47.6811719,
+    "lon": -2.7361912
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.3428914,
+    "lon": 1.1832044
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.5776818,
+    "lon": -0.6819341
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.8415997,
+    "lon": -0.5824813
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.9645847,
+    "lon": 2.2573538
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7459212,
+    "lon": 4.8232943
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.7322862,
+    "lon": 1.375853
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.9787107,
+    "lon": -1.3017741
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.1190435,
+    "lon": 0.3825165
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.3720166,
+    "lon": -4.5880687
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.8943044,
+    "lon": 1.0758379
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.3136333,
+    "lon": -0.3766734
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.2913392,
+    "lon": 6.9417666
+  },
+  {
+    "name": "Biocoop Arelate",
+    "city": "Arles",
+    "address": "24 Avenue Victor Hugo, 13200 Arles",
+    "lat": 43.675069,
+    "lon": 4.6347981
+  },
+  {
+    "name": "Biocoop",
+    "city": "Champagnole",
+    "address": "105 Rue de Chevru, 39300 Champagnole",
+    "lat": 46.7488874,
+    "lon": 5.9152552
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.3623497,
+    "lon": 3.2245508
+  },
+  {
+    "name": "Biocoop Jonathan Douvres La Délivrande",
+    "city": null,
+    "address": null,
+    "lat": 49.2875663,
+    "lon": -0.3769835
+  },
+  {
+    "name": "Biocoop Bionacelle",
+    "city": null,
+    "address": null,
+    "lat": 45.244498,
+    "lon": 4.6681023
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.6432209,
+    "lon": 4.3303315
+  },
+  {
+    "name": "Biocoop - L'Angelot",
+    "city": "Pont-l'Évêque",
+    "address": null,
+    "lat": 49.2914536,
+    "lon": 0.1927079
+  },
+  {
+    "name": "Biocoop Jonathan Hérouville",
+    "city": null,
+    "address": null,
+    "lat": 49.2081281,
+    "lon": -0.3405103
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.1030504,
+    "lon": -1.4130742
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.6869115,
+    "lon": -0.5189088
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.6337266,
+    "lon": -1.1523345
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.2990417,
+    "lon": -0.9320179
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.3693071,
+    "lon": -1.9396233
+  },
+  {
+    "name": "Biocoop Bréda",
+    "city": null,
+    "address": null,
+    "lat": 45.433755,
+    "lon": 6.0139973
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.3656275,
+    "lon": 5.6112441
+  },
+  {
+    "name": "Biocoop Andrézieux",
+    "city": null,
+    "address": null,
+    "lat": 45.5342991,
+    "lon": 4.2875568
+  },
+  {
+    "name": "Biocoop",
+    "city": "Firminy",
+    "address": "32 Rue Dorian, 42700 Firminy",
+    "lat": 45.390511,
+    "lon": 4.2762888
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7175063,
+    "lon": 5.9217619
+  },
+  {
+    "name": "Biocoop Le Chou Ravi",
+    "city": null,
+    "address": null,
+    "lat": 45.6379867,
+    "lon": 4.3894748
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.0674114,
+    "lon": 4.0507627
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.4477145,
+    "lon": 1.4428679
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.5152885,
+    "lon": 0.1240984
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.232547,
+    "lon": -0.1166074
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.5710249,
+    "lon": -1.0711354
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.7639194,
+    "lon": -3.0214793
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Maximin",
+    "address": "311 Rue de la Révolution Française, 60740 Saint-Maximin",
+    "lat": 49.2353526,
+    "lon": 2.4662073
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.5098548,
+    "lon": 0.5636077
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.725386,
+    "lon": 1.6059794
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8873595,
+    "lon": 2.3254599
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.4095698,
+    "lon": 2.9686057
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.535635,
+    "lon": 3.2516581
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7768592,
+    "lon": 3.0781038
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.2378234,
+    "lon": 0.040454
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.2315671,
+    "lon": 0.07522
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.0671968,
+    "lon": 0.1544316
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Clair-du-Rhône",
+    "address": null,
+    "lat": 45.4375115,
+    "lon": 4.7700049
+  },
+  {
+    "name": "Biocoop",
+    "city": "Douvaine",
+    "address": "6 Rue des Niollets, 74140 Douvaine",
+    "lat": 46.2963688,
+    "lon": 6.305364
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.2753682,
+    "lon": 6.3565793
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.5531103,
+    "lon": 3.2985498
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.9520044,
+    "lon": 2.6623081
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.1346905,
+    "lon": 6.0248889
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.1203836,
+    "lon": 5.9534816
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.1987143,
+    "lon": 6.0480152
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.0963908,
+    "lon": 5.8503086
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.9239379,
+    "lon": 5.007726
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Junien",
+    "address": "20 Impasse du Pavillon, 87200 Saint-Junien",
+    "lat": 45.9040076,
+    "lon": 0.9300479
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Yrieix-la-Perche",
+    "address": "44 Avenue Général Charles de Gaulle, 87500 Saint-Yrieix-la-Perche",
+    "lat": 45.5218109,
+    "lon": 1.2083133
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.2035762,
+    "lon": 5.9476452
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.1834485,
+    "lon": -1.5459984
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.539591,
+    "lon": 4.7680652
+  },
+  {
+    "name": "Biocoop Céret - La Coupole",
+    "city": null,
+    "address": null,
+    "lat": 42.4862012,
+    "lon": 2.7476444
+  },
+  {
+    "name": "Biocoop",
+    "city": "Annecy",
+    "address": "6 Rue du Onzième Bataillon de Chasseurs, 74000 Annecy",
+    "lat": 45.9123838,
+    "lon": 6.1165114
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.346347,
+    "lon": 0.5437839
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8707575,
+    "lon": 2.4037872
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.4614941,
+    "lon": 2.8282619
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.459408,
+    "lon": 4.489695
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.1373083,
+    "lon": 0.7017946
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.2059077,
+    "lon": -1.5205511
+  },
+  {
+    "name": "Biocoop",
+    "city": "Bordeaux",
+    "address": "1 Allée Serr, 33100 Bordeaux",
+    "lat": 44.8410832,
+    "lon": -0.5613867
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.4021936,
+    "lon": 1.7121894
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Bonnet-le-Château",
+    "address": "4 Boulevard du Haut Forez, 42380 Saint-Bonnet-le-Château",
+    "lat": 45.4263138,
+    "lon": 4.0643904
+  },
+  {
+    "name": "Les Hameaux Bio Saint Joseph de Porterie",
+    "city": null,
+    "address": null,
+    "lat": 47.2712675,
+    "lon": -1.5204353
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.6371785,
+    "lon": -2.1634944
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.9984058,
+    "lon": 2.1512276
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.6652263,
+    "lon": 1.4300725
+  },
+  {
+    "name": "Biocoop Jules Guesde",
+    "city": null,
+    "address": null,
+    "lat": 45.7481417,
+    "lon": 4.8389117
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 51.0223261,
+    "lon": 2.3734757
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.6021503,
+    "lon": 7.0878467
+  },
+  {
+    "name": "Biocoop",
+    "city": "Vitrolles",
+    "address": "1280 route nationale 113, 13127 Vitrolles",
+    "lat": 43.4718919,
+    "lon": 5.2309026
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.3807133,
+    "lon": 5.8349699
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.2043058,
+    "lon": 0.6174908
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.2897018,
+    "lon": 1.0395313
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.6368648,
+    "lon": 2.4142825
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.2415601,
+    "lon": -1.5731155
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.9178674,
+    "lon": 4.8852061
+  },
+  {
+    "name": "Biocoop",
+    "city": "Paris",
+    "address": "15 Rue de Turbigo, 75001 Paris",
+    "lat": 48.8640886,
+    "lon": 2.3494158
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.0384212,
+    "lon": 1.5938821
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.7672473,
+    "lon": 1.663766
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.8299506,
+    "lon": -0.5729691
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.4160438,
+    "lon": 1.0163091
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8946066,
+    "lon": 2.4196143
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.349922,
+    "lon": 5.1175854
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.2873026,
+    "lon": 5.5078407
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 50.3465103,
+    "lon": 3.0898192
+  },
+  {
+    "name": "Biocoop",
+    "city": "Le Palais",
+    "address": null,
+    "lat": 47.327783,
+    "lon": -3.1676483
+  },
+  {
+    "name": "Scop Biocoop Creysse",
+    "city": null,
+    "address": null,
+    "lat": 44.850025,
+    "lon": 0.536103
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8259597,
+    "lon": 2.3511541
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.3125478,
+    "lon": 5.8277188
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.8842289,
+    "lon": 5.381335
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.187688,
+    "lon": 5.6045174
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.254472,
+    "lon": 0.3480989
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.902061,
+    "lon": 2.581288
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Malo",
+    "address": "44 Rue du Général Patton, 35400 Saint-Malo",
+    "lat": 48.6219183,
+    "lon": -1.9953865
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 42.6409171,
+    "lon": 2.7621885
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.3315167,
+    "lon": 0.8039336
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.1703989,
+    "lon": 5.1955192
+  },
+  {
+    "name": "Biocoop",
+    "city": "Nogent-sur-Marne",
+    "address": "167 Grande Rue Charles de Gaulle, 94130 Nogent-sur-Marne",
+    "lat": 48.8384177,
+    "lon": 2.4897576
+  },
+  {
+    "name": "Biocoop",
+    "city": "Arras",
+    "address": null,
+    "lat": 50.2977497,
+    "lon": 2.7690234
+  },
+  {
+    "name": "Le Grain D'or",
+    "city": "Trélissac",
+    "address": null,
+    "lat": 45.1876585,
+    "lon": 0.761541
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.3960108,
+    "lon": 2.7887297
+  },
+  {
+    "name": "Biocoop",
+    "city": "Flers",
+    "address": "108 Rue des Meletières, 61100 Flers",
+    "lat": 48.7317858,
+    "lon": -0.5815629
+  },
+  {
+    "name": "Biocoop",
+    "city": "Angers",
+    "address": "57 Rue Plantagenêt, 49100 Angers",
+    "lat": 47.471924,
+    "lon": -0.5543135
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.5529089,
+    "lon": -0.2494912
+  },
+  {
+    "name": "Biocoop Cahors Croix De Fer",
+    "city": null,
+    "address": null,
+    "lat": 44.4588398,
+    "lon": 1.4242452
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.1476898,
+    "lon": 1.5223479
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.1120819,
+    "lon": 0.7692398
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.5376374,
+    "lon": 0.6661096
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.9539416,
+    "lon": 0.2272609
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.7185722,
+    "lon": 4.606905
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.6028188,
+    "lon": 1.26096
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.9894718,
+    "lon": 3.6030851
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.5028867,
+    "lon": -0.5869471
+  },
+  {
+    "name": "Biocoop",
+    "city": "Paris",
+    "address": "1 Rue Eugène Jumin, 75019 Paris",
+    "lat": 48.8864332,
+    "lon": 2.3926602
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.472851,
+    "lon": -1.5341548
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.9205973,
+    "lon": 5.888563
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.9764017,
+    "lon": 0.1547549
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.1186516,
+    "lon": 4.9742853
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.303199,
+    "lon": 5.3682076
+  },
+  {
+    "name": "Biocoop",
+    "city": "Charleville-Mézières",
+    "address": "2 Rue André Joseph, 08000 Charleville-Mézières",
+    "lat": 49.7378782,
+    "lon": 4.7090306
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.9743546,
+    "lon": -2.2424849
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.1784796,
+    "lon": 0.654062
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.1075655,
+    "lon": -1.1004942
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Berthevin",
+    "address": "20 Boulevard des Loges, 53940 Saint-Berthevin",
+    "lat": 48.066195,
+    "lon": -0.8128158
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.3431354,
+    "lon": 3.2161303
+  },
+  {
+    "name": "Casabio",
+    "city": "Grenoble",
+    "address": "32 Rue Nicolas Chorier, 38000 Grenoble",
+    "lat": 45.1858415,
+    "lon": 5.7123481
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.6111985,
+    "lon": 7.7507593
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.8198687,
+    "lon": 2.4761882
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.4125499,
+    "lon": 0.0894738
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.9591485,
+    "lon": 4.7325067
+  },
+  {
+    "name": "Biocoop",
+    "city": "Dol-de-Bretagne",
+    "address": "33 Rue des Ponts, 35120 Dol-de-Bretagne",
+    "lat": 48.5473894,
+    "lon": -1.7586529
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.6978054,
+    "lon": 7.265305
+  },
+  {
+    "name": "Biocoop Bourguibio",
+    "city": null,
+    "address": null,
+    "lat": 45.295794,
+    "lon": 4.559625
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7755655,
+    "lon": 4.8699788
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.6825475,
+    "lon": -3.9959063
+  },
+  {
+    "name": "Biocoop Landivisiau",
+    "city": null,
+    "address": null,
+    "lat": 48.5073639,
+    "lon": -4.0719111
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.3886817,
+    "lon": 6.5214961
+  },
+  {
+    "name": "Biocoop Piccoline",
+    "city": "Le Rouret",
+    "address": "66 avenue Frédéric Mistral, 06650 Le Rouret",
+    "lat": 43.6742287,
+    "lon": 7.0044393
+  },
+  {
+    "name": "Biocoop",
+    "city": "Narbonne",
+    "address": "73 Avenue de la Côte des Roses, 11100 Narbonne",
+    "lat": 43.1821998,
+    "lon": 3.0348934
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.2601599,
+    "lon": 7.4549115
+  },
+  {
+    "name": "Biocoop",
+    "city": "Soorts-Hossegor",
+    "address": null,
+    "lat": 43.6588122,
+    "lon": -1.4265358
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 47.2388871,
+    "lon": 6.0245888
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 49.111458,
+    "lon": -1.1327231
+  },
+  {
+    "name": "Biocoop",
+    "city": "Carnoules",
+    "address": "659 Avenue des Platanes, 83660 Carnoules",
+    "lat": 43.2977531,
+    "lon": 6.1772837
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.7460865,
+    "lon": -0.67586
+  },
+  {
+    "name": "Biocoop",
+    "city": "Saint-Jean-de-Soudain",
+    "address": "489 Route de Lyon, 38110 Saint-Jean-de-Soudain",
+    "lat": 45.5676106,
+    "lon": 5.4314368
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 44.1201611,
+    "lon": 1.118972
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 43.6192369,
+    "lon": 0.5777597
+  },
+  {
+    "name": "BioCoop",
+    "city": null,
+    "address": null,
+    "lat": 43.3753151,
+    "lon": 3.4235818
+  },
+  {
+    "name": "Biocoop Voglans",
+    "city": null,
+    "address": null,
+    "lat": 45.6361802,
+    "lon": 5.8918119
+  },
+  {
+    "name": "Biocoop",
+    "city": "Magny-en-Vexin",
+    "address": "7 Rue Ampère, 95420 Magny-en-Vexin",
+    "lat": 49.1454592,
+    "lon": 1.7858869
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 45.3636303,
+    "lon": 5.5896069
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 48.29126,
+    "lon": -0.9251968
+  },
+  {
+    "name": "Biocoop",
+    "city": null,
+    "address": null,
+    "lat": 46.1982482,
+    "lon": -1.3532912
+  }
+]

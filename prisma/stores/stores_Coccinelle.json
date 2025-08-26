@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Coccinelle",
+    "city": null,
+    "address": null,
+    "lat": 47.2923228,
+    "lon": -2.5097855
+  },
+  {
+    "name": "Coccinelle",
+    "city": "Rouen",
+    "address": null,
+    "lat": 49.4502087,
+    "lon": 1.1398641
+  },
+  {
+    "name": "Coccinelle",
+    "city": "Courbevoie",
+    "address": "31 Boulevard Georges Clemenceau, 92400 Courbevoie",
+    "lat": 48.9028355,
+    "lon": 2.271522
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Bi1",
+    "city": null,
+    "address": null,
+    "lat": 47.9627376,
+    "lon": 3.5057583
+  },
+  {
+    "name": "Bi1 Veigy",
+    "city": null,
+    "address": null,
+    "lat": 46.2690909,
+    "lon": 6.2637951
+  },
+  {
+    "name": "bi1",
+    "city": null,
+    "address": null,
+    "lat": 46.8350065,
+    "lon": 2.9133298
+  },
+  {
+    "name": "bi1 Supermarché",
+    "city": "Luzy",
+    "address": null,
+    "lat": 46.7893733,
+    "lon": 3.9637564
+  }
+]

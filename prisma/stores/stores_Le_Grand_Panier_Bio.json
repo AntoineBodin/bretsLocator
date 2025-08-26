@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Le Grand Panier Bio",
+    "city": "Brives Charenssac",
+    "address": "137 Avenue Charles Dupuy, 43700 Brives Charenssac",
+    "lat": 45.0525275,
+    "lon": 3.9106065
+  },
+  {
+    "name": "Le Grand Panier Bio",
+    "city": "Mareuil-lès-Meaux",
+    "address": "350 Rue de la Butte aux Lièvres, 77100 Mareuil-lès-Meaux",
+    "lat": 48.9360599,
+    "lon": 2.8750175
+  },
+  {
+    "name": "Le Grand Panier Bio",
+    "city": "Limoges",
+    "address": "2 Rue Montlhery, 87000 Limoges",
+    "lat": 45.837366,
+    "lon": 1.278518
+  },
+  {
+    "name": "Le panier Bio",
+    "city": "Mozac",
+    "address": "65 Avenue Jean Jaurès, 63200 Mozac",
+    "lat": 45.8887845,
+    "lon": 3.0748788
+  },
+  {
+    "name": "Le Panier Bio",
+    "city": "Limoges",
+    "address": "25 Rue Auguste Comte, 87280 Limoges",
+    "lat": 45.8750675,
+    "lon": 1.2702406
+  },
+  {
+    "name": "Le Grand Panier Bio",
+    "city": "Plouër-sur-Rance",
+    "address": null,
+    "lat": 48.5313993,
+    "lon": -2.0123732
+  },
+  {
+    "name": "Le Grand Panier Bio",
+    "city": "Clermont-Ferrand",
+    "address": "21 Avenue de l'Agriculture, 63100 Clermont-Ferrand",
+    "lat": 45.7800825,
+    "lon": 3.1253932
+  }
+]

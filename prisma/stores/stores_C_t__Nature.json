@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Côté Nature",
+    "city": "Dreux",
+    "address": "1 Rue Georges Besse, 28100 Dreux",
+    "lat": 48.7463274,
+    "lon": 1.3472323
+  },
+  {
+    "name": "Côté Nature",
+    "city": "Strasbourg",
+    "address": "8 Place de l'Abattoir, 67200 Strasbourg",
+    "lat": 48.5988243,
+    "lon": 7.7348621
+  },
+  {
+    "name": "Côté Nature",
+    "city": null,
+    "address": null,
+    "lat": 48.0766153,
+    "lon": 7.4022994
+  },
+  {
+    "name": "Côté Nature",
+    "city": null,
+    "address": null,
+    "lat": 47.7786388,
+    "lon": 7.3756365
+  },
+  {
+    "name": "Côté Nature",
+    "city": null,
+    "address": null,
+    "lat": 48.5989786,
+    "lon": 7.7345418
+  },
+  {
+    "name": "Côté Nature",
+    "city": null,
+    "address": null,
+    "lat": 48.5353603,
+    "lon": 7.7312405
+  },
+  {
+    "name": "Côté Nature",
+    "city": "Morschwiller-le-Bas",
+    "address": "7 Rue Robert Schuman, 68790 Morschwiller-le-Bas",
+    "lat": 47.7389181,
+    "lon": 7.2850664
+  },
+  {
+    "name": "Côté Nature",
+    "city": null,
+    "address": null,
+    "lat": 47.6281765,
+    "lon": 6.8584849
+  },
+  {
+    "name": "Côté Nature",
+    "city": null,
+    "address": null,
+    "lat": 48.6574001,
+    "lon": 7.7248421
+  }
+]

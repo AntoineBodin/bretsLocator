@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Centre commercial E.Leclerc",
+    "city": "Clermont-Ferrand",
+    "address": "31 Avenue du Brézet, 63100 Clermont-Ferrand",
+    "lat": 45.7807955,
+    "lon": 3.1336645
+  },
+  {
+    "name": "Centre commercial E.Leclerc",
+    "city": "Chatte",
+    "address": null,
+    "lat": 45.1456914,
+    "lon": 5.304666
+  }
+]

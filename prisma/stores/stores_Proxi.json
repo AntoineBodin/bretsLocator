@@ -1,0 +1,716 @@
+[
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 48.5681892,
+    "lon": -4.610792
+  },
+  {
+    "name": "Coccinelle express",
+    "city": null,
+    "address": null,
+    "lat": 47.8135849,
+    "lon": -3.6316111
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 46.4005333,
+    "lon": 6.6066796
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 48.0031889,
+    "lon": -2.09693
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 44.2448957,
+    "lon": 5.0184619
+  },
+  {
+    "name": "Proxi Super",
+    "city": "Saint-Pierre-de-Maillé",
+    "address": "4 Rue de la Piloterie, 86260 Saint-Pierre-de-Maillé",
+    "lat": 46.6786028,
+    "lon": 0.8440271
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 43.815954,
+    "lon": 6.0970686
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 46.028997,
+    "lon": 5.38975
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 43.778821,
+    "lon": 6.730436
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 43.165621,
+    "lon": 5.9382042
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 47.7777395,
+    "lon": -3.008165
+  },
+  {
+    "name": "Proxi (closed)",
+    "city": null,
+    "address": null,
+    "lat": 48.508102,
+    "lon": 7.269978
+  },
+  {
+    "name": "Proxi Super",
+    "city": "L'Honor-de-Cos",
+    "address": "45 Route de Molières, 82130 L'Honor-de-Cos",
+    "lat": 44.0917652,
+    "lon": 1.3489216
+  },
+  {
+    "name": "Vivéco",
+    "city": null,
+    "address": null,
+    "lat": 47.0632946,
+    "lon": -0.9424285
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 44.7422706,
+    "lon": 1.1911842
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 44.6484854,
+    "lon": 1.838196
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 47.2146658,
+    "lon": -0.0692189
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 44.478217,
+    "lon": 1.5803
+  },
+  {
+    "name": "Proxi Super",
+    "city": "Flavy-le-Martel",
+    "address": "85 Rue André Brule, 02520 Flavy-le-Martel",
+    "lat": 49.7119128,
+    "lon": 3.1891099
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 46.3301824,
+    "lon": -0.9470591
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 48.1240141,
+    "lon": -1.8665993
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 46.9636939,
+    "lon": -1.7536392
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 47.1554442,
+    "lon": -1.4004997
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 47.9020023,
+    "lon": -3.5214217
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 42.3362805,
+    "lon": 9.0143758
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 48.5321146,
+    "lon": -2.056316
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 46.9979099,
+    "lon": 2.4524928
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 49.4280748,
+    "lon": 4.9548467
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 44.7818158,
+    "lon": 6.8690101
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 44.4193556,
+    "lon": 6.7344557
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 48.9287888,
+    "lon": 2.5421433
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 43.2799864,
+    "lon": 3.3640302
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 48.9316424,
+    "lon": 8.153576
+  },
+  {
+    "name": "Chez Cândido",
+    "city": null,
+    "address": null,
+    "lat": 47.9999917,
+    "lon": -1.6667512
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 50.1626174,
+    "lon": 3.2094721
+  },
+  {
+    "name": "Carrefour Express",
+    "city": "Sarzeau",
+    "address": "14 Rue Closchebey, 56370 Sarzeau",
+    "lat": 47.4891434,
+    "lon": -2.7966669
+  },
+  {
+    "name": "Proxi Super",
+    "city": "Hillion",
+    "address": "9 Rue Ollivier Provost, 22120 Hillion",
+    "lat": 48.516247,
+    "lon": -2.6678168
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 44.4710617,
+    "lon": 1.6870685
+  },
+  {
+    "name": "Proxi Service",
+    "city": "Boufféré",
+    "address": "2 Rue Saint-Joseph, 85600 Boufféré",
+    "lat": 46.9603474,
+    "lon": -1.3414207
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 49.0062315,
+    "lon": 7.7899036
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 47.5000989,
+    "lon": -3.1202043
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 48.0018487,
+    "lon": -4.114047
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 49.9118302,
+    "lon": 2.3254898
+  },
+  {
+    "name": "Proxi",
+    "city": "Pierrefitte-sur-Loire",
+    "address": "6 Place du Paradis, 03470 Pierrefitte-sur-Loire",
+    "lat": 46.5080556,
+    "lon": 3.8144394
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 44.7826164,
+    "lon": 2.352492
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 45.6346974,
+    "lon": 3.5552465
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 48.7028395,
+    "lon": -4.0260838
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 50.5172163,
+    "lon": 2.6283204
+  },
+  {
+    "name": "Proxi",
+    "city": "Le Plessis-Robinson",
+    "address": "68 Rue Bernard Iské, 92350 Le Plessis-Robinson",
+    "lat": 48.7882658,
+    "lon": 2.2699267
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 42.6723945,
+    "lon": 9.4433484
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 47.3904846,
+    "lon": 0.6738683
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 45.7266895,
+    "lon": -0.9440333
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 44.828272,
+    "lon": 4.6736222
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 45.0106621,
+    "lon": 4.7023353
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 48.5225923,
+    "lon": -0.9695756
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 44.9858604,
+    "lon": 4.5793184
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 44.8629161,
+    "lon": -0.6180172
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 43.3176208,
+    "lon": 0.0650927
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 43.7920574,
+    "lon": 7.1848351
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 43.0787948,
+    "lon": 1.3605192
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 44.591677,
+    "lon": 4.9534797
+  },
+  {
+    "name": "Proxi Marché",
+    "city": null,
+    "address": null,
+    "lat": 48.0418972,
+    "lon": 3.9113329
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 45.3727678,
+    "lon": 4.8116759
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 43.3386856,
+    "lon": 5.4071778
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 45.0609268,
+    "lon": 3.9015678
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 48.1877433,
+    "lon": 7.4030036
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 43.1526955,
+    "lon": 6.4289714
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 43.8003884,
+    "lon": 0.0414275
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 43.4188591,
+    "lon": 6.8520551
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 43.4764303,
+    "lon": 6.1833172
+  },
+  {
+    "name": "Alimentation générale - Proxi",
+    "city": null,
+    "address": null,
+    "lat": 46.1390523,
+    "lon": 5.9040341
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 47.6401484,
+    "lon": 3.07088
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 47.5430944,
+    "lon": 2.8162594
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 43.0905089,
+    "lon": 1.6272361
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 48.3015539,
+    "lon": 7.498198
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 48.3374116,
+    "lon": 7.5413581
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 48.8990917,
+    "lon": 2.8739335
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 43.879398,
+    "lon": 5.6597746
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 44.923691,
+    "lon": -0.0738959
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 46.5014165,
+    "lon": -0.8451037
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 43.3172285,
+    "lon": 3.5522243
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 43.5641185,
+    "lon": 2.560742
+  },
+  {
+    "name": "Proximarché",
+    "city": null,
+    "address": null,
+    "lat": 48.5519309,
+    "lon": 3.6797461
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 47.4439106,
+    "lon": 0.4969014
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 45.2116204,
+    "lon": -0.6361388
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 50.3712493,
+    "lon": 3.2692187
+  },
+  {
+    "name": "Proxy",
+    "city": null,
+    "address": null,
+    "lat": 49.0517906,
+    "lon": -1.4533323
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 46.7608947,
+    "lon": 0.4869975
+  },
+  {
+    "name": "Proxi Anne-Marie Bôle",
+    "city": null,
+    "address": null,
+    "lat": 47.1319078,
+    "lon": 6.5269183
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 43.5269605,
+    "lon": 3.9271697
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 47.8196792,
+    "lon": 0.153212
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 50.0859322,
+    "lon": 4.7280225
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 50.3255772,
+    "lon": 2.9817293
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 48.6820172,
+    "lon": 6.1651951
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 43.5279072,
+    "lon": 0.7647156
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 45.6479118,
+    "lon": 0.1850543
+  },
+  {
+    "name": "Proxi Service Le Taillan",
+    "city": null,
+    "address": null,
+    "lat": 44.9055891,
+    "lon": -0.6683756
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 49.9917346,
+    "lon": 1.8758319
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 48.9160094,
+    "lon": 2.3967537
+  },
+  {
+    "name": "Proxi Super",
+    "city": "Saint-Brieuc",
+    "address": "117 Rue Paul Bert, 22000 Saint-Brieuc",
+    "lat": 48.5030423,
+    "lon": -2.7533388
+  },
+  {
+    "name": "Proxi Super",
+    "city": null,
+    "address": null,
+    "lat": 50.9402089,
+    "lon": 2.5375369
+  },
+  {
+    "name": "Proxi Super",
+    "city": "Champigny-sur-Marne",
+    "address": "39 Boulevard de Stalingrad, 94500 Champigny-sur-Marne",
+    "lat": 48.8175349,
+    "lon": 2.5076302
+  }
+]

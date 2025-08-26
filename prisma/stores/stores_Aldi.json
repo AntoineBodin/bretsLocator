@@ -1,0 +1,3418 @@
+[
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.6794139,
+    "lon": 1.0350041
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.8655133,
+    "lon": 5.8429506
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.8410179,
+    "lon": 4.3889939
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.914569,
+    "lon": 2.4271073
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.1998641,
+    "lon": -1.6674154
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.6782765,
+    "lon": 6.156236
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.7990398,
+    "lon": 7.8013206
+  },
+  {
+    "name": "ALDI",
+    "city": "Castelnau-le-Lez",
+    "address": null,
+    "lat": 43.6389837,
+    "lon": 3.9251501
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.5721079,
+    "lon": -4.5103124
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.2469805,
+    "lon": -4.4958704
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.4728161,
+    "lon": 7.2147802
+  },
+  {
+    "name": "ALDI",
+    "city": "Pessac",
+    "address": "18 Rue d'Artois, 33600 Pessac",
+    "lat": 44.792428,
+    "lon": -0.6829665
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.2891133,
+    "lon": -0.2723207
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.1718892,
+    "lon": 0.2442851
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4788009,
+    "lon": -0.7647692
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.3719824,
+    "lon": -0.6287206
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.8127159,
+    "lon": 3.5703888
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 47.7976403,
+    "lon": 3.5568169
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.330133,
+    "lon": -0.3790043
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.3115911,
+    "lon": -0.3517967
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 42.4814183,
+    "lon": 2.6794752
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.7891019,
+    "lon": 0.1859559
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.1799955,
+    "lon": -0.606779
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.449794,
+    "lon": 5.1479814
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.6931958,
+    "lon": 4.8049469
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.5539013,
+    "lon": 3.2485835
+  },
+  {
+    "name": "ALDI",
+    "city": "Trans-en-Provence",
+    "address": null,
+    "lat": 43.5076523,
+    "lon": 6.4811013
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.6264836,
+    "lon": 1.1229115
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.5277152,
+    "lon": 3.4744978
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.5844258,
+    "lon": 5.4731973
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.0733246,
+    "lon": 1.5268497
+  },
+  {
+    "name": "ALDI",
+    "city": "Issenheim",
+    "address": "1 Rue de Nevers, 68500 Issenheim",
+    "lat": 47.9023511,
+    "lon": 7.2417491
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.7873754,
+    "lon": 3.0925929
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.6983193,
+    "lon": 4.8233504
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.3429598,
+    "lon": 0.4511593
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.3439558,
+    "lon": 0.7049565
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.1843485,
+    "lon": 0.7751318
+  },
+  {
+    "name": "ALDI",
+    "city": "Giberville",
+    "address": null,
+    "lat": 49.1818586,
+    "lon": -0.2778049
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.8381361,
+    "lon": 1.2549597
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.3586876,
+    "lon": 0.6467711
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.3365797,
+    "lon": -0.4069761
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.42285,
+    "lon": 1.4386903
+  },
+  {
+    "name": "ALDI",
+    "city": "Saône",
+    "address": null,
+    "lat": 47.2095855,
+    "lon": 6.1005057
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.1081011,
+    "lon": -0.765849
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 48.1843032,
+    "lon": 3.2877502
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.6240001,
+    "lon": -1.0014472
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.3097044,
+    "lon": 4.0965182
+  },
+  {
+    "name": "ALDI",
+    "city": "Ganges",
+    "address": "56 Avenue de Nîmes, 34190 Ganges",
+    "lat": 43.9427563,
+    "lon": 3.7156786
+  },
+  {
+    "name": "Aldi",
+    "city": "Gourdan-Polignan",
+    "address": null,
+    "lat": 43.0617094,
+    "lon": 0.5929711
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.0084884,
+    "lon": 6.607972
+  },
+  {
+    "name": "ALDI",
+    "city": "Boucau",
+    "address": "9 Rue René Duvert, 64340 Boucau",
+    "lat": 43.5224587,
+    "lon": -1.4886931
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.4957438,
+    "lon": 3.9075439
+  },
+  {
+    "name": "ALDI",
+    "city": "Toulouse",
+    "address": "14 Avenue Maurice Bourgès-Maunoury, 31200 Toulouse",
+    "lat": 43.6281722,
+    "lon": 1.446563
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.606364,
+    "lon": 1.4808032
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.5684523,
+    "lon": 3.3255548
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.5877878,
+    "lon": 3.3161884
+  },
+  {
+    "name": "ALDI",
+    "city": "Orange",
+    "address": null,
+    "lat": 44.1192692,
+    "lon": 4.8438896
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.6524148,
+    "lon": 6.8510675
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 48.4196429,
+    "lon": 7.6649972
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 42.6818369,
+    "lon": 2.8952123
+  },
+  {
+    "name": "ALDI",
+    "city": "Vimoutiers",
+    "address": "20 Rue du Perré, 61120 Vimoutiers",
+    "lat": 48.9285737,
+    "lon": 0.2013594
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.269348,
+    "lon": -0.1959315
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.5088973,
+    "lon": 6.7863881
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.9628433,
+    "lon": -3.8453081
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.4472474,
+    "lon": 5.3441121
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.9537835,
+    "lon": -1.5065444
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.7730714,
+    "lon": 7.3622068
+  },
+  {
+    "name": "ALDI",
+    "city": "Faulquemont",
+    "address": "6 Rue Émile Houpert, 57380 Faulquemont",
+    "lat": 49.0481038,
+    "lon": 6.5978308
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.8405319,
+    "lon": 0.5502532
+  },
+  {
+    "name": "ALDI",
+    "city": "Martres-Tolosane",
+    "address": null,
+    "lat": 43.1935588,
+    "lon": 0.9990644
+  },
+  {
+    "name": "ALDI",
+    "city": "Rezé",
+    "address": "48 Rue Ernest Sauvestre, 44400 Rezé",
+    "lat": 47.1654935,
+    "lon": -1.5432963
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.599958,
+    "lon": 5.0071901
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.2162277,
+    "lon": 4.0590737
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.2418244,
+    "lon": 3.9906799
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.1609748,
+    "lon": 0.3106977
+  },
+  {
+    "name": "ALDI",
+    "city": "École-Valentin",
+    "address": "39 Rue de Châtillon, 25480 École-Valentin",
+    "lat": 47.280862,
+    "lon": 5.9917555
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.2599949,
+    "lon": 4.0091389
+  },
+  {
+    "name": "ALDI",
+    "city": "Chateauneuf-sur-Loire",
+    "address": "117 Route d'Orléans, 45110 Chateauneuf-sur-Loire",
+    "lat": 47.8602173,
+    "lon": 2.1966387
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.253726,
+    "lon": 5.9610486
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.8163675,
+    "lon": 3.1548425
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4533179,
+    "lon": 5.8562271
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.1105465,
+    "lon": -1.2132715
+  },
+  {
+    "name": "ALDI",
+    "city": "Quimper",
+    "address": null,
+    "lat": 48.0175014,
+    "lon": -4.0840515
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.7348898,
+    "lon": 4.8510908
+  },
+  {
+    "name": "ALDI",
+    "city": "Amilly",
+    "address": null,
+    "lat": 47.979158,
+    "lon": 2.7343285
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.7432967,
+    "lon": 7.0833588
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.5563328,
+    "lon": 2.2676662
+  },
+  {
+    "name": "ALDI",
+    "city": "Concarneau",
+    "address": "14-16 Rue Lucien Vidie, 29900 Concarneau",
+    "lat": 47.8931929,
+    "lon": -3.9153928
+  },
+  {
+    "name": "ALDI",
+    "city": "Concarneau",
+    "address": "14-16 Rue Lucien Vidie, 29900 Concarneau",
+    "lat": 47.8929376,
+    "lon": -3.9155708
+  },
+  {
+    "name": "ALDI",
+    "city": "Warcq",
+    "address": "11 Boulevard Lucien Pierquin, 08000 Warcq",
+    "lat": 49.7808855,
+    "lon": 4.6913845
+  },
+  {
+    "name": "ALDI",
+    "city": "Puttelange-aux-Lacs",
+    "address": null,
+    "lat": 49.0555545,
+    "lon": 6.9271363
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.7634003,
+    "lon": 2.3669415
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.2765285,
+    "lon": 4.031061
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.359821,
+    "lon": 1.7380195
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.005549,
+    "lon": 6.3950045
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.8774345,
+    "lon": 4.5637085
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.9341411,
+    "lon": -1.2998678
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.324933,
+    "lon": 5.45114
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.6239301,
+    "lon": 0.885435
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.1261165,
+    "lon": 5.976841
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.743697,
+    "lon": 4.7867775
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.1909555,
+    "lon": 5.3907705
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.408134,
+    "lon": 0.7359095
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.5949135,
+    "lon": 5.2719375
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.408566,
+    "lon": 6.057804
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.7816907,
+    "lon": 4.8474945
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.7720375,
+    "lon": 4.8630588
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.3092355,
+    "lon": 5.0988255
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.9141975,
+    "lon": 5.756575
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.4371125,
+    "lon": 0.08701
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.9941263,
+    "lon": 3.1379997
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4559945,
+    "lon": 1.9939225
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.5934708,
+    "lon": 4.0656296
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.2857102,
+    "lon": 5.0177615
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 43.210067,
+    "lon": 0.04613
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4279818,
+    "lon": 6.7894604
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.9326985,
+    "lon": 7.749231
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.731977,
+    "lon": 1.374414
+  },
+  {
+    "name": "ALDI",
+    "city": "Béziers",
+    "address": "2 Avenue Jean Foucault, 34500 Béziers",
+    "lat": 43.3310156,
+    "lon": 3.2495762
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.6693254,
+    "lon": 3.9747175
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.735123,
+    "lon": 7.296996
+  },
+  {
+    "name": "Aldi",
+    "city": "Nice",
+    "address": "1 Boulevard de la Madeleine, 06000 Nice",
+    "lat": 43.693913,
+    "lon": 7.243198
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.6930113,
+    "lon": -0.4340806
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.1615967,
+    "lon": 2.2597333
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.9092148,
+    "lon": 6.0383872
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.3313793,
+    "lon": 2.601921
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.3767937,
+    "lon": 6.8755916
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.261227,
+    "lon": 6.410612
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.7466345,
+    "lon": 4.932295
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.6566283,
+    "lon": 6.371234
+  },
+  {
+    "name": "ALDI",
+    "city": "Pavie",
+    "address": null,
+    "lat": 43.6192435,
+    "lon": 0.578364
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.366797,
+    "lon": 1.4516425
+  },
+  {
+    "name": "ALDI",
+    "city": "Bordeaux",
+    "address": "58 Cours du Raccordement, 33000 Bordeaux",
+    "lat": 44.8647757,
+    "lon": -0.5629345
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 49.5022199,
+    "lon": 4.3614051
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.8693995,
+    "lon": -0.6085297
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.8407605,
+    "lon": -0.5986449
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.259412,
+    "lon": 5.3936515
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.2845987,
+    "lon": -0.1082927
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.3888329,
+    "lon": 5.6019475
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.8036628,
+    "lon": 7.2418533
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.7769739,
+    "lon": -0.3513067
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.9229615,
+    "lon": -0.370252
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.8452037,
+    "lon": -0.6440576
+  },
+  {
+    "name": "ALDI",
+    "city": "Manosque",
+    "address": "457 Avenue Joseph Cugnot, 04100 Manosque",
+    "lat": 43.8216461,
+    "lon": 5.7990135
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.3590713,
+    "lon": 6.3050547
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.0050944,
+    "lon": 5.1498354
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.5713097,
+    "lon": 1.5004347
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.4300667,
+    "lon": 5.6142113
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.6209808,
+    "lon": 3.4516796
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.3487209,
+    "lon": 6.0396101
+  },
+  {
+    "name": "ALDI",
+    "city": "Dreux",
+    "address": "103 Avenue du Général Leclerc, 28100 Dreux",
+    "lat": 48.743127,
+    "lon": 1.387487
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.5092541,
+    "lon": 0.5635147
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.0303605,
+    "lon": 4.0967905
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.182286,
+    "lon": 5.2043769
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.4868605,
+    "lon": 0.9740235
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.9002815,
+    "lon": 1.07618
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.1601494,
+    "lon": 4.0957235
+  },
+  {
+    "name": "ALDI",
+    "city": "Audenge",
+    "address": null,
+    "lat": 44.678228,
+    "lon": -1.008824
+  },
+  {
+    "name": "ALDI",
+    "city": "Le Trait",
+    "address": null,
+    "lat": 49.4684994,
+    "lon": 0.8169378
+  },
+  {
+    "name": "ALDI",
+    "city": "Sessenheim",
+    "address": null,
+    "lat": 48.7895764,
+    "lon": 7.9847664
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.4912343,
+    "lon": 2.4384524
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.5551357,
+    "lon": -3.127173
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.6984142,
+    "lon": 2.618479
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.0328025,
+    "lon": 1.121413
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.8604323,
+    "lon": 0.6969179
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.9220752,
+    "lon": 5.7825308
+  },
+  {
+    "name": "ALDI",
+    "city": "Pessac",
+    "address": null,
+    "lat": 44.7904561,
+    "lon": -0.6333067
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 49.2972075,
+    "lon": -0.3800695
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.1182476,
+    "lon": 0.3707022
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.746231,
+    "lon": 4.2512245
+  },
+  {
+    "name": "ALDI",
+    "city": "La Ferté-Bernard",
+    "address": "116 Avenue de Verdun, 72400 La Ferté-Bernard",
+    "lat": 48.192733,
+    "lon": 0.663777
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.4118932,
+    "lon": 5.9478245
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.3932222,
+    "lon": 0.7865836
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.101261,
+    "lon": 1.361701
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 49.2831777,
+    "lon": -0.7247105
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.401817,
+    "lon": -0.7573225
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.3674255,
+    "lon": 5.700858
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.9549494,
+    "lon": 2.005415
+  },
+  {
+    "name": "ALDI",
+    "city": "Narbonne",
+    "address": "16 Route de Lunes, 11100 Narbonne",
+    "lat": 43.177958,
+    "lon": 3.0045841
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.1010515,
+    "lon": 6.582316
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.1196999,
+    "lon": 6.2139274
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.555683,
+    "lon": 6.4154895
+  },
+  {
+    "name": "Aldi",
+    "city": "Bron",
+    "address": null,
+    "lat": 45.7261442,
+    "lon": 4.9146895
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.5394623,
+    "lon": -2.989799
+  },
+  {
+    "name": "ALDI",
+    "city": "Saint-Genis-Pouilly",
+    "address": "6 Rue du Mont Rond, 01630 Saint-Genis-Pouilly",
+    "lat": 46.2561187,
+    "lon": 6.0272674
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 42.6923143,
+    "lon": 2.8476603
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.3848666,
+    "lon": 3.1143832
+  },
+  {
+    "name": "Aldi",
+    "city": "Varennes-Vauzelles",
+    "address": null,
+    "lat": 46.9965256,
+    "lon": 3.1247749
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.760779,
+    "lon": 0.6164644
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.3363872,
+    "lon": 4.0245077
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.2675552,
+    "lon": 3.2808116
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.3092814,
+    "lon": 3.4173705
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.1761479,
+    "lon": 1.8996243
+  },
+  {
+    "name": "ALDI",
+    "city": "Boulogne-sur-Gesse",
+    "address": null,
+    "lat": 43.2853815,
+    "lon": 0.6503495
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.075589,
+    "lon": 6.0969415
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.466202,
+    "lon": -2.5300965
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.0467415,
+    "lon": -0.983899
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.0421087,
+    "lon": 2.1578612
+  },
+  {
+    "name": "ALDI",
+    "city": "Neufchâtel-en-Bray",
+    "address": null,
+    "lat": 49.7314685,
+    "lon": 1.4349165
+  },
+  {
+    "name": "ALDI",
+    "city": "La Loupe",
+    "address": null,
+    "lat": 48.478668,
+    "lon": 1.024572
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.9782619,
+    "lon": 0.2057796
+  },
+  {
+    "name": "ALDI",
+    "city": "Saint-Aunès",
+    "address": "250 Avenue des Romarins, 34130 Saint-Aunès",
+    "lat": 43.6513406,
+    "lon": 3.975714
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.8633034,
+    "lon": 0.6585121
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.06538,
+    "lon": 2.423842
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.7426683,
+    "lon": 4.0180999
+  },
+  {
+    "name": "ALDI",
+    "city": "Bain-de-Bretagne",
+    "address": "9 Rue des Estuaires, 35470 Bain-de-Bretagne",
+    "lat": 47.8550205,
+    "lon": -1.6905933
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.0951225,
+    "lon": -0.3882125
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.5923231,
+    "lon": 7.6976629
+  },
+  {
+    "name": "Aldi Marché Lannion",
+    "city": null,
+    "address": null,
+    "lat": 48.7231153,
+    "lon": -3.4790211
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.930146,
+    "lon": 4.5301814
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.7220346,
+    "lon": 4.5971133
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.3071295,
+    "lon": 3.1667953
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.2276779,
+    "lon": 4.713119
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.4009487,
+    "lon": 4.5178503
+  },
+  {
+    "name": "ALDI",
+    "city": "Béziers",
+    "address": "9073F Boulevard Colette Besson, 34500 Béziers",
+    "lat": 43.3604511,
+    "lon": 3.2250435
+  },
+  {
+    "name": "ALDI",
+    "city": "Magalas",
+    "address": null,
+    "lat": 43.4689489,
+    "lon": 3.2055441
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.1449527,
+    "lon": 1.4713784
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.5489099,
+    "lon": 1.4211665
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.6473492,
+    "lon": 5.1013551
+  },
+  {
+    "name": "ALDI",
+    "city": "Cazères",
+    "address": null,
+    "lat": 43.2093283,
+    "lon": 1.0928381
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.6799601,
+    "lon": 4.948425
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.618998,
+    "lon": 3.7896702
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.7645581,
+    "lon": 1.2119271
+  },
+  {
+    "name": "ALDI",
+    "city": "Bellerive-sur-Allier",
+    "address": null,
+    "lat": 46.1159202,
+    "lon": 3.4145568
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.5876609,
+    "lon": 6.5097992
+  },
+  {
+    "name": "ALDI",
+    "city": "Montpellier",
+    "address": null,
+    "lat": 43.6160438,
+    "lon": 3.8253452
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.6831316,
+    "lon": 3.8075693
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.3937413,
+    "lon": 2.4921871
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4502941,
+    "lon": 5.4770065
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.3127202,
+    "lon": 2.5584141
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.1307946,
+    "lon": 3.4351506
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.2183313,
+    "lon": -0.8708839
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4140419,
+    "lon": 1.1287791
+  },
+  {
+    "name": "ALDI",
+    "city": "Caissargues",
+    "address": null,
+    "lat": 43.7962845,
+    "lon": 4.3831845
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.8230999,
+    "lon": 4.3656246
+  },
+  {
+    "name": "ALDI",
+    "city": "Nanterre",
+    "address": null,
+    "lat": 48.9107645,
+    "lon": 2.2211037
+  },
+  {
+    "name": "ALDI",
+    "city": "Pontarlier",
+    "address": "29 Rocade Georges Pompidou, 25300 Pontarlier",
+    "lat": 46.900781,
+    "lon": 6.3446174
+  },
+  {
+    "name": "ALDI",
+    "city": "Marseillan",
+    "address": "15 Avenue de l'Industrie, 34340 Marseillan",
+    "lat": 43.3578966,
+    "lon": 3.5221184
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.2623909,
+    "lon": 1.4074581
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.3458808,
+    "lon": 6.0851188
+  },
+  {
+    "name": "ALDI",
+    "city": "Montmorot",
+    "address": null,
+    "lat": 46.6743382,
+    "lon": 5.53072
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.1027536,
+    "lon": 1.6279353
+  },
+  {
+    "name": "ALDI",
+    "city": "Riom",
+    "address": "93 Avenue de Chatel-Guyon, 63200 Riom",
+    "lat": 45.9041896,
+    "lon": 3.1013418
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.2961909,
+    "lon": 4.1346503
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.0342294,
+    "lon": 5.349637
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.7911285,
+    "lon": 4.4322621
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.2750822,
+    "lon": 4.7995169
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.7935412,
+    "lon": 3.2270364
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.7235315,
+    "lon": -0.530285
+  },
+  {
+    "name": "ALDI",
+    "city": "Beaune",
+    "address": "129 Route de Dijon, 21200 Beaune",
+    "lat": 47.0335666,
+    "lon": 4.8435489
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.1894265,
+    "lon": 5.88375
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.3058891,
+    "lon": 1.6037901
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.3484546,
+    "lon": 0.5416285
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.2734391,
+    "lon": 4.0556565
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.0040997,
+    "lon": -0.4358881
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.6711191,
+    "lon": 0.3757776
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.1839589,
+    "lon": 0.6318473
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.1946528,
+    "lon": 0.6013142
+  },
+  {
+    "name": "ALDI",
+    "city": "Sézanne",
+    "address": "5 Avenue Jean Jaurès, 51120 Sézanne",
+    "lat": 48.7162657,
+    "lon": 3.7256582
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.8106712,
+    "lon": 1.2750569
+  },
+  {
+    "name": "ALDI",
+    "city": "Lure",
+    "address": "25 Route de Belfort, 70200 Lure",
+    "lat": 47.6756214,
+    "lon": 6.520295
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.7722203,
+    "lon": 7.2418175
+  },
+  {
+    "name": "ALDI",
+    "city": "La Haye",
+    "address": "38 Avenue de la Cote des Isles, 50250 La Haye",
+    "lat": 49.2936034,
+    "lon": -1.5556083
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.0271219,
+    "lon": 4.9713263
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.3416986,
+    "lon": 5.3594668
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.1679494,
+    "lon": 5.3838595
+  },
+  {
+    "name": "ALDI",
+    "city": "Épinal",
+    "address": "59 Rue de Remiremont, 88000 Épinal",
+    "lat": 48.1610524,
+    "lon": 6.4498044
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 48.1915687,
+    "lon": 6.4312225
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.51886,
+    "lon": 5.7722397
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.4741496,
+    "lon": -2.0420981
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.9193887,
+    "lon": 5.0333857
+  },
+  {
+    "name": "ALDI",
+    "city": "Castres",
+    "address": "8 Rue Ignace Schabaver, 81100 Castres",
+    "lat": 43.5936147,
+    "lon": 2.2649557
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.7313599,
+    "lon": 1.3420295
+  },
+  {
+    "name": "ALDI",
+    "city": "Bétheny",
+    "address": null,
+    "lat": 49.2854908,
+    "lon": 4.0317625
+  },
+  {
+    "name": "ALDI",
+    "city": "Sarreguemines",
+    "address": "42 Rue des Frères Rémy, 57200 Sarreguemines",
+    "lat": 49.1134921,
+    "lon": 7.1001618
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.1073458,
+    "lon": 6.1399131
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.6938631,
+    "lon": 6.1292243
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 50.1489283,
+    "lon": 4.8226302
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 47.4263758,
+    "lon": 2.930966
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.9068538,
+    "lon": -0.5163262
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.5997138,
+    "lon": 4.0718475
+  },
+  {
+    "name": "ALDI",
+    "city": "Beaumont",
+    "address": null,
+    "lat": 45.746904,
+    "lon": 3.0929532
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.7975809,
+    "lon": 1.0514743
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.8576833,
+    "lon": 4.7061548
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.8451414,
+    "lon": 3.5555734
+  },
+  {
+    "name": "ALDI",
+    "city": "Vire-Normandie",
+    "address": null,
+    "lat": 48.8588498,
+    "lon": -0.8755036
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.8723337,
+    "lon": 5.3240498
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.1192948,
+    "lon": 5.9419745
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.74215,
+    "lon": 6.4230355
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.4860925,
+    "lon": 1.7285525
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.8544917,
+    "lon": 7.2320147
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.1736705,
+    "lon": -0.336807
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.4720603,
+    "lon": 3.5139033
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.7620803,
+    "lon": 7.2959039
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.248682,
+    "lon": 5.6434488
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.3154935,
+    "lon": 4.8311199
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4375929,
+    "lon": 3.7401064
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.6275544,
+    "lon": 4.9578081
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.0877676,
+    "lon": 4.8806787
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.7914845,
+    "lon": 7.3122763
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.4858851,
+    "lon": 3.9911478
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.5125549,
+    "lon": 5.7349802
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.646131,
+    "lon": -0.220682
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.6788578,
+    "lon": -1.3441446
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.4514868,
+    "lon": 5.345372
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4182259,
+    "lon": 6.4234997
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.8216791,
+    "lon": -1.8088887
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.7775814,
+    "lon": 4.6958944
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.1301337,
+    "lon": 6.1601411
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.1945763,
+    "lon": 1.0018988
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.7527814,
+    "lon": 4.8512308
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.7488042,
+    "lon": 1.3497188
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.4639081,
+    "lon": 6.8558597
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.0577198,
+    "lon": 1.1541769
+  },
+  {
+    "name": "ALDI",
+    "city": "Châtenois",
+    "address": "13Bis Rue Pierre de Coubertin, 88170 Châtenois",
+    "lat": 48.2989345,
+    "lon": 5.844876
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.1634345,
+    "lon": 4.6260015
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.2494775,
+    "lon": 3.6796287
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.426128,
+    "lon": -4.5709911
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.5199832,
+    "lon": 1.5431302
+  },
+  {
+    "name": "ALDI",
+    "city": "Lemberg",
+    "address": null,
+    "lat": 48.9993935,
+    "lon": 7.3695694
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.2071081,
+    "lon": 2.3132021
+  },
+  {
+    "name": "ALDI",
+    "city": "Bagnols-sur-Cèze",
+    "address": null,
+    "lat": 44.1781103,
+    "lon": 4.6185417
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.9330455,
+    "lon": 4.7139058
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.544582,
+    "lon": 3.286853
+  },
+  {
+    "name": "ALDI",
+    "city": "Flers",
+    "address": null,
+    "lat": 48.7446307,
+    "lon": -0.5785786
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.6769546,
+    "lon": 7.4994684
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.4931942,
+    "lon": 4.3487262
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.522171,
+    "lon": 4.3689293
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.550745,
+    "lon": 3.3389938
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.2266159,
+    "lon": -1.532266
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.3118292,
+    "lon": 1.9660892
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.813746,
+    "lon": -0.5676044
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.2897672,
+    "lon": 4.2334589
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.1439755,
+    "lon": 0.3317277
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.4061355,
+    "lon": 1.1539026
+  },
+  {
+    "name": "ALDI",
+    "city": "Gaillac",
+    "address": "84 Avenue Charles de Gaulle, 81600 Gaillac",
+    "lat": 43.9063989,
+    "lon": 1.9134161
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.8954844,
+    "lon": 1.8835194
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.9546351,
+    "lon": 4.9012458
+  },
+  {
+    "name": "ALDI",
+    "city": "Mulhouse",
+    "address": "24 Boulevard des Nations, 68200 Mulhouse",
+    "lat": 47.7372141,
+    "lon": 7.3023148
+  },
+  {
+    "name": "ALDI",
+    "city": "Velaux",
+    "address": null,
+    "lat": 43.5340688,
+    "lon": 5.2525411
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4392294,
+    "lon": 5.0347021
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.8070994,
+    "lon": 1.6769309
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.5271781,
+    "lon": 4.744532
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.7230953,
+    "lon": 2.465085
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.2814051,
+    "lon": 5.4432442
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.1564738,
+    "lon": 0.0075536
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.2979913,
+    "lon": 4.8280995
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.2406809,
+    "lon": 6.1717221
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.3569319,
+    "lon": 5.0294098
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.6714,
+    "lon": -0.9249263
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.820738,
+    "lon": 1.245782
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.0265325,
+    "lon": 3.9456733
+  },
+  {
+    "name": "ALDI",
+    "city": "Saran",
+    "address": null,
+    "lat": 47.9655771,
+    "lon": 1.8848095
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.7790219,
+    "lon": 6.1318146
+  },
+  {
+    "name": "ALDI",
+    "city": "Colomiers",
+    "address": null,
+    "lat": 43.6132732,
+    "lon": 1.3060736
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.6031508,
+    "lon": -1.9785436
+  },
+  {
+    "name": "ALDI",
+    "city": "Carbonne",
+    "address": "10 Avenue de Toulouse, 31390 Carbonne",
+    "lat": 43.2980393,
+    "lon": 1.2257444
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.9050871,
+    "lon": 1.2072796
+  },
+  {
+    "name": "ALDI",
+    "city": "Saint-Pierre-du-Mont",
+    "address": "25 Avenue de la Chesnaie, 40280 Saint-Pierre-du-Mont",
+    "lat": 43.8872446,
+    "lon": -0.517502
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.9521325,
+    "lon": -0.9810338
+  },
+  {
+    "name": "ALDI",
+    "city": "Saint-Flour",
+    "address": null,
+    "lat": 45.031779,
+    "lon": 3.0997194
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.2538591,
+    "lon": 5.9481319
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.109182,
+    "lon": 6.2315615
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.4848631,
+    "lon": -2.661311
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4138756,
+    "lon": 5.22385
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.4225165,
+    "lon": 0.701522
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.4816892,
+    "lon": 5.2015703
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.2682218,
+    "lon": 5.4197637
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.0615857,
+    "lon": 5.4513003
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.5040042,
+    "lon": 0.2062378
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.3281713,
+    "lon": 5.0572085
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.0959577,
+    "lon": 2.4527598
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.2546261,
+    "lon": 6.1318509
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.8755684,
+    "lon": -0.5176338
+  },
+  {
+    "name": "ALDI",
+    "city": "Talange",
+    "address": null,
+    "lat": 49.242193,
+    "lon": 6.1752079
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.7077023,
+    "lon": 7.2596007
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.6866241,
+    "lon": -1.9116266
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.1483802,
+    "lon": 4.1280446
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 43.4329404,
+    "lon": 6.7489139
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.1946925,
+    "lon": -0.4017924
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.6078968,
+    "lon": 1.5550082
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4779318,
+    "lon": 5.1692111
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.1133449,
+    "lon": 0.7783195
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.2061593,
+    "lon": -0.3239764
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.8154555,
+    "lon": 4.6199947
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.9337899,
+    "lon": 4.8209797
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.0519008,
+    "lon": 6.577202
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.1782063,
+    "lon": -1.1033401
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.1304034,
+    "lon": 1.2839663
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.0378596,
+    "lon": 3.0912624
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.4175936,
+    "lon": -4.4615085
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.1801821,
+    "lon": 3.0228681
+  },
+  {
+    "name": "ALDI",
+    "city": "Ploërmel",
+    "address": null,
+    "lat": 47.9302086,
+    "lon": -2.3884294
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.684487,
+    "lon": -0.9949306
+  },
+  {
+    "name": "ALDI",
+    "city": "Bar-le-Duc",
+    "address": "71 Rue Ernest Bradfer, 55000 Bar-le-Duc",
+    "lat": 48.7674789,
+    "lon": 5.1742078
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.7318167,
+    "lon": 4.7550215
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.1917166,
+    "lon": 1.3950223
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4727438,
+    "lon": 6.7403849
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.8141994,
+    "lon": 4.3102431
+  },
+  {
+    "name": "ALDI",
+    "city": "Villenave-d'Ornon",
+    "address": "539 Route de Toulouse, 33140 Villenave-d'Ornon",
+    "lat": 44.7843271,
+    "lon": -0.5669814
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.3519105,
+    "lon": -1.1862234
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.069784,
+    "lon": -0.7981912
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 45.7715337,
+    "lon": 4.9596535
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.9816532,
+    "lon": 2.732174
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.5778285,
+    "lon": 5.7469949
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.5184471,
+    "lon": 7.0026826
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.0568362,
+    "lon": -0.8585854
+  },
+  {
+    "name": "ALDI",
+    "city": "Benesse Maremne",
+    "address": null,
+    "lat": 43.6369273,
+    "lon": -1.3538356
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.0977182,
+    "lon": 6.1810669
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.308489,
+    "lon": -0.605329
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.246443,
+    "lon": 3.6149489
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4406649,
+    "lon": 1.3129778
+  },
+  {
+    "name": "ALDI",
+    "city": "Rouen",
+    "address": null,
+    "lat": 49.4264094,
+    "lon": 1.0870294
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.1153131,
+    "lon": 6.1815634
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 49.2975153,
+    "lon": 0.9140763
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4995408,
+    "lon": -1.4563544
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.6025716,
+    "lon": 7.0620881
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.7030589,
+    "lon": 7.2873751
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.3766703,
+    "lon": 7.5913998
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.6498876,
+    "lon": -2.7245416
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.6604221,
+    "lon": 1.306724
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.8148652,
+    "lon": -0.526239
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.8669235,
+    "lon": 1.8818733
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.0169271,
+    "lon": 4.0413679
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.1033368,
+    "lon": -1.4128612
+  },
+  {
+    "name": "ALDI",
+    "city": "Colomiers",
+    "address": null,
+    "lat": 43.6094171,
+    "lon": 1.3442636
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4196235,
+    "lon": 5.3569258
+  },
+  {
+    "name": "ALDI",
+    "city": "Besançon",
+    "address": "2 Place du Maréchal Leclerc, 25000 Besançon",
+    "lat": 47.2420059,
+    "lon": 6.0139948
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.9606729,
+    "lon": 1.7386524
+  },
+  {
+    "name": "ALDI",
+    "city": "La Chapelle-Saint-Aubin",
+    "address": null,
+    "lat": 48.0361776,
+    "lon": 0.1719175
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 42.7265121,
+    "lon": 2.901662
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.4530661,
+    "lon": 6.6925319
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.3937286,
+    "lon": 6.3296016
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.1251008,
+    "lon": 4.1067409
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.3924541,
+    "lon": 4.6890082
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.7569132,
+    "lon": 3.1513703
+  },
+  {
+    "name": "ALDI",
+    "city": "Marseille",
+    "address": "182 Avenue Jules Cantini, 13008 Marseille",
+    "lat": 43.2789913,
+    "lon": 5.3961222
+  },
+  {
+    "name": "ALDI",
+    "city": "Saran",
+    "address": "9 Allée de Bel Air, 45770 Saran",
+    "lat": 47.9380691,
+    "lon": 1.8922974
+  },
+  {
+    "name": "ALDI",
+    "city": "Cugnaux",
+    "address": "13 Chemin Petit Jean, 31270 Cugnaux",
+    "lat": 43.547664,
+    "lon": 1.351235
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.607994,
+    "lon": 2.0151867
+  },
+  {
+    "name": "ALDI",
+    "city": "Sainte-Maxime",
+    "address": null,
+    "lat": 43.3272609,
+    "lon": 6.6055713
+  },
+  {
+    "name": "ALDI",
+    "city": "Essey-lès-Nancy",
+    "address": "2 Rue Jacques Brel, 54270 Essey-lès-Nancy",
+    "lat": 48.7090015,
+    "lon": 6.2449543
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.5810892,
+    "lon": 1.4134876
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.8533081,
+    "lon": 5.0269049
+  },
+  {
+    "name": "ALDI",
+    "city": "Orléans",
+    "address": "228 Rue des Murlins, 45000 Orléans",
+    "lat": 47.9252442,
+    "lon": 1.8899494
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.6442447,
+    "lon": 4.8194546
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.643858,
+    "lon": 3.0632789
+  },
+  {
+    "name": "ALDI",
+    "city": "Saint-Jean-de-Braye",
+    "address": null,
+    "lat": 47.9080974,
+    "lon": 1.9621541
+  },
+  {
+    "name": "ALDI",
+    "city": "Ronchamp",
+    "address": "29 Rue de Belfort, 70250 Ronchamp",
+    "lat": 47.6962572,
+    "lon": 6.6479426
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.1740931,
+    "lon": -1.1657078
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.7753597,
+    "lon": 4.8034685
+  },
+  {
+    "name": "Aldi",
+    "city": null,
+    "address": null,
+    "lat": 42.6917217,
+    "lon": 2.8448957
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.6893986,
+    "lon": 0.1818599
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.5809115,
+    "lon": 7.0065358
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.3188841,
+    "lon": 6.1087576
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.291092,
+    "lon": -0.6072251
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.0698751,
+    "lon": 6.5527375
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.5642863,
+    "lon": 0.3555058
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.224072,
+    "lon": 5.2028146
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.7747599,
+    "lon": 7.1921994
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.7770013,
+    "lon": 7.487877
+  },
+  {
+    "name": "ALDI",
+    "city": "Orléans",
+    "address": null,
+    "lat": 47.8826937,
+    "lon": 1.8989427
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.8286949,
+    "lon": -0.8684619
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.6367628,
+    "lon": 0.2087207
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.5469731,
+    "lon": 0.4935265
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.0189358,
+    "lon": 0.6568653
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.1922813,
+    "lon": 0.6850943
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.1432406,
+    "lon": 6.8108876
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.367557,
+    "lon": 2.5739336
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 49.3480527,
+    "lon": 6.1574346
+  },
+  {
+    "name": "ALDI",
+    "city": "Paray-le-Monial",
+    "address": "15 Rue de Bourgogne, 71600 Paray-le-Monial",
+    "lat": 46.4580346,
+    "lon": 4.1098281
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.7089897,
+    "lon": 7.8009109
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.952698,
+    "lon": 6.6307816
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 44.0729948,
+    "lon": 1.5358919
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.3714185,
+    "lon": 1.7389277
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.8463964,
+    "lon": -0.9643886
+  },
+  {
+    "name": "ALDI",
+    "city": "Tarascon-sur-Ariège",
+    "address": "1 Avenue Saint-Roch, 09400 Tarascon-sur-Ariège",
+    "lat": 42.847452,
+    "lon": 1.6001982
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 43.0866927,
+    "lon": 1.8681714
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.4852236,
+    "lon": 6.8163379
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.0694098,
+    "lon": 1.3087861
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.0822081,
+    "lon": 6.6338892
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 46.0346721,
+    "lon": 4.2867016
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.9274631,
+    "lon": -3.7047182
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.9707518,
+    "lon": 6.2965017
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 48.048842,
+    "lon": 6.4074468
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 45.2128672,
+    "lon": 2.348864
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.8916508,
+    "lon": 0.0404476
+  },
+  {
+    "name": "ALDI",
+    "city": null,
+    "address": null,
+    "lat": 47.1477243,
+    "lon": -0.5235498
+  }
+]

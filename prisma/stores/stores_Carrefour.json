@@ -1,0 +1,3103 @@
+[
+  {
+    "name": "Carrefour",
+    "city": "Wasquehal",
+    "address": null,
+    "lat": 50.6810056,
+    "lon": 3.1233915
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7782201,
+    "lon": 2.4559831
+  },
+  {
+    "name": "Carrefour",
+    "city": "Évreux",
+    "address": null,
+    "lat": 49.0222402,
+    "lon": 1.1337449
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.1868734,
+    "lon": 3.303547
+  },
+  {
+    "name": "Carrefour Lyon Part-Dieu",
+    "city": null,
+    "address": null,
+    "lat": 45.7600968,
+    "lon": 4.8557139
+  },
+  {
+    "name": "Carrefour",
+    "city": "Vannes",
+    "address": "95 Avenue de la Marne, 56000 Vannes",
+    "lat": 47.6586202,
+    "lon": -2.7919534
+  },
+  {
+    "name": "Carrefour",
+    "city": "Nîmes",
+    "address": "1755 Avenue Pierre Mendes France, 30000 Nîmes",
+    "lat": 43.8188224,
+    "lon": 4.3927093
+  },
+  {
+    "name": "Carrefour",
+    "city": "Annecy",
+    "address": "134 Avenue de Genève, 74000 Annecy",
+    "lat": 45.9248381,
+    "lon": 6.1246204
+  },
+  {
+    "name": "Carrefour Soyaux",
+    "city": null,
+    "address": null,
+    "lat": 45.6360095,
+    "lon": 0.2120036
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.2702037,
+    "lon": 5.0038545
+  },
+  {
+    "name": "Carrefour",
+    "city": "Maubeuge",
+    "address": null,
+    "lat": 50.2902822,
+    "lon": 3.967667
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.2724893,
+    "lon": 6.9671727
+  },
+  {
+    "name": "Carrefour",
+    "city": "Mont-de-Marsan",
+    "address": "760 Avenue du Maréchal Juin, 40000 Mont-de-Marsan",
+    "lat": 43.9016577,
+    "lon": -0.4796677
+  },
+  {
+    "name": "Carrefour Contact",
+    "city": null,
+    "address": null,
+    "lat": 45.3870954,
+    "lon": 6.0684893
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.2838046,
+    "lon": 4.0537506
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.8217344,
+    "lon": 7.7359997
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.5978362,
+    "lon": 6.8620601
+  },
+  {
+    "name": "Carrefour",
+    "city": "Le Trait",
+    "address": "35 Rue Denis Papin, 76580 Le Trait",
+    "lat": 49.4825336,
+    "lon": 0.8067931
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.5294119,
+    "lon": 0.7233067
+  },
+  {
+    "name": "Carrefour",
+    "city": "Gruchet-le-Valasse",
+    "address": null,
+    "lat": 49.5500483,
+    "lon": 0.4933165
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.6500415,
+    "lon": 4.9619574
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.5499125,
+    "lon": 3.2677788
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 41.887866,
+    "lon": 8.8034636
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": -21.3346661,
+    "lon": 55.4561992
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.5978731,
+    "lon": 0.913658
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.1678072,
+    "lon": 1.8864882
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.5995143,
+    "lon": -2.8267639
+  },
+  {
+    "name": "Carrefour",
+    "city": "Antibes",
+    "address": "2850 Chemin de Saint-Claude, 06600 Antibes",
+    "lat": 43.6039097,
+    "lon": 7.0890966
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.6638408,
+    "lon": 5.8870408
+  },
+  {
+    "name": "Carrefour",
+    "city": "Soissons",
+    "address": null,
+    "lat": 49.3686041,
+    "lon": 3.3126926
+  },
+  {
+    "name": "Carrefour",
+    "city": "Limoges",
+    "address": "1 Place de Beaubreuil, 87280 Limoges",
+    "lat": 45.8789261,
+    "lon": 1.2922676
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.4211171,
+    "lon": 1.4381645
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.1257232,
+    "lon": 2.2449302
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.5728611,
+    "lon": -3.8528104
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.199827,
+    "lon": 3.2651831
+  },
+  {
+    "name": "Casino",
+    "city": "La Côte-Saint-André",
+    "address": null,
+    "lat": 45.3918647,
+    "lon": 5.2591174
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9471635,
+    "lon": 2.3846831
+  },
+  {
+    "name": "Carrefour",
+    "city": "Villabé",
+    "address": null,
+    "lat": 48.5835867,
+    "lon": 2.4499733
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.386291,
+    "lon": 5.5770162
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.430145,
+    "lon": 2.1596813
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.361647,
+    "lon": 2.0345392
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.7395986,
+    "lon": 2.5458127
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 42.7027487,
+    "lon": 2.9460793
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.7695904,
+    "lon": 4.8837577
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.7722343,
+    "lon": 7.3837436
+  },
+  {
+    "name": "Carrefour",
+    "city": "Forbach",
+    "address": null,
+    "lat": 49.1737212,
+    "lon": 6.8824743
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7495316,
+    "lon": 2.4541366
+  },
+  {
+    "name": "Carrefour",
+    "city": "Chambourcy",
+    "address": null,
+    "lat": 48.9087391,
+    "lon": 2.0342509
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.666205,
+    "lon": -1.452846
+  },
+  {
+    "name": "Carrefour",
+    "city": "Tinqueux",
+    "address": null,
+    "lat": 49.2546394,
+    "lon": 3.9796126
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.1170635,
+    "lon": 7.0934471
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.4585037,
+    "lon": 6.1116544
+  },
+  {
+    "name": "Carrefour Contact",
+    "city": null,
+    "address": null,
+    "lat": 44.0967687,
+    "lon": 5.0252793
+  },
+  {
+    "name": "Carrefour",
+    "city": "Grosbliederstroff",
+    "address": "15 Avenue Marchande, 57520 Grosbliederstroff",
+    "lat": 49.1352189,
+    "lon": 7.045415
+  },
+  {
+    "name": "Carrefour",
+    "city": "Vichy",
+    "address": null,
+    "lat": 46.1445542,
+    "lon": 3.413304
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.2612783,
+    "lon": 4.0655599
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.1788595,
+    "lon": 3.0263436
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.3472735,
+    "lon": -1.1799135
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.142982,
+    "lon": 5.4069897
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.7339011,
+    "lon": 4.7551584
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.1113635,
+    "lon": 6.6936775
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.358729,
+    "lon": 5.494613
+  },
+  {
+    "name": "Carrefour",
+    "city": "Tourville-la-Rivière",
+    "address": null,
+    "lat": 49.330156,
+    "lon": 1.0964545
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.5919716,
+    "lon": 3.0543499
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.4791338,
+    "lon": 6.0632604
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.4206575,
+    "lon": 2.7706645
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.9519361,
+    "lon": 1.8903815
+  },
+  {
+    "name": "Carrefour",
+    "city": "Belley",
+    "address": null,
+    "lat": 45.7596405,
+    "lon": 5.702996
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.0854199,
+    "lon": 6.1104212
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.3455495,
+    "lon": 0.09723
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.2941917,
+    "lon": 6.0790643
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.0769575,
+    "lon": 6.189375
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 51.016383,
+    "lon": 2.379686
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.6531173,
+    "lon": 7.7262997
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.733672,
+    "lon": 4.7739605
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 51.023634,
+    "lon": 2.3366965
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7719125,
+    "lon": -3.038237
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.2114055,
+    "lon": 0.075584
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.7978413,
+    "lon": 4.8484992
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7845355,
+    "lon": 2.3445224
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.2528883,
+    "lon": 4.7926335
+  },
+  {
+    "name": "Carrefour",
+    "city": "Domfront-en-Poiraie",
+    "address": "18 Rue du Mont Margantin, 61700 Domfront-en-Poiraie",
+    "lat": 48.589613,
+    "lon": -0.6444525
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.5325044,
+    "lon": 4.748255
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.5613255,
+    "lon": -3.165939
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.8163925,
+    "lon": 4.6138335
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.8668495,
+    "lon": 3.290666
+  },
+  {
+    "name": "Carrefour",
+    "city": "Valloire",
+    "address": "40 Avenue de la Vallée d'Or, 73450 Valloire",
+    "lat": 45.1637633,
+    "lon": 6.425388
+  },
+  {
+    "name": "Carrefour",
+    "city": "Bayeux",
+    "address": null,
+    "lat": 49.2854789,
+    "lon": -0.7058647
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.136585,
+    "lon": 3.4340275
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.1057148,
+    "lon": 6.2272335
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.6385925,
+    "lon": 2.334802
+  },
+  {
+    "name": "Carrefour",
+    "city": "Fécamp",
+    "address": null,
+    "lat": 49.7532461,
+    "lon": 0.3711698
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 14.6194407,
+    "lon": -61.082425
+  },
+  {
+    "name": "Carrefour",
+    "city": "Nice",
+    "address": null,
+    "lat": 43.7292482,
+    "lon": 7.1882447
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.1967855,
+    "lon": 5.992101
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9897461,
+    "lon": 1.7555194
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7373295,
+    "lon": 2.3277656
+  },
+  {
+    "name": "Carrefour",
+    "city": "Mondeville",
+    "address": null,
+    "lat": 49.165965,
+    "lon": -0.2917288
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9274254,
+    "lon": 2.554213
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.5476753,
+    "lon": 3.6142808
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": -20.8914239,
+    "lon": 55.5004004
+  },
+  {
+    "name": "Carrefour Market",
+    "city": null,
+    "address": null,
+    "lat": 49.5110966,
+    "lon": -1.4790483
+  },
+  {
+    "name": "Carrefour",
+    "city": "Marseille",
+    "address": "112 Avenue de Hambourg, 13008 Marseille",
+    "lat": 43.2484939,
+    "lon": 5.3894705
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.0486995,
+    "lon": 3.9610105
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.1869722,
+    "lon": 5.6011846
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.4319705,
+    "lon": 0.061242
+  },
+  {
+    "name": "Carrefour",
+    "city": "Château-Thierry",
+    "address": null,
+    "lat": 49.0407175,
+    "lon": 3.3864838
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7552882,
+    "lon": 2.3712794
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.8310695,
+    "lon": -0.654883
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.076458,
+    "lon": -0.843634
+  },
+  {
+    "name": "Carrefour",
+    "city": "Ollioules",
+    "address": "55 Chemin de la Bouyère, 83190 Ollioules",
+    "lat": 43.1227675,
+    "lon": 5.876512
+  },
+  {
+    "name": "Carrefour",
+    "city": "Saint-Martin-au-Laërt",
+    "address": "46 Avenue du Maréchal Joffre, 62500 Saint-Martin-au-Laërt",
+    "lat": 50.7537225,
+    "lon": 2.244107
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.0660796,
+    "lon": 5.4539237
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.2821179,
+    "lon": 1.3463399
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.2819847,
+    "lon": 5.9945471
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.3544397,
+    "lon": 0.4996044
+  },
+  {
+    "name": "Carrefour",
+    "city": "Le Robert",
+    "address": null,
+    "lat": 14.675151,
+    "lon": -60.9456535
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.3312484,
+    "lon": 6.5360939
+  },
+  {
+    "name": "Carrefour Ecully",
+    "city": null,
+    "address": null,
+    "lat": 45.7882398,
+    "lon": 4.7748329
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.8032604,
+    "lon": 7.8358961
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.3361185,
+    "lon": 3.517782
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.8073895,
+    "lon": 1.699056
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.8177885,
+    "lon": 4.3427835
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.3256085,
+    "lon": 3.39051
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.3694221,
+    "lon": 3.5024007
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.5220505,
+    "lon": 4.3728905
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.3935375,
+    "lon": 5.1351
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.412386,
+    "lon": 5.001822
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.453418,
+    "lon": 3.590302
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.3105082,
+    "lon": -0.9412238
+  },
+  {
+    "name": "Carrefour Contact",
+    "city": null,
+    "address": null,
+    "lat": 43.300523,
+    "lon": 3.2469445
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.3550151,
+    "lon": 6.1405319
+  },
+  {
+    "name": "Carrefour Market",
+    "city": null,
+    "address": null,
+    "lat": 49.3195601,
+    "lon": -1.101405
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.385087,
+    "lon": -1.0503505
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.3178265,
+    "lon": -0.4825519
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.2154441,
+    "lon": 2.346852
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.927942,
+    "lon": 2.1453748
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.8491008,
+    "lon": 1.7061463
+  },
+  {
+    "name": "Carrefour",
+    "city": "Saint-Maximin",
+    "address": null,
+    "lat": 49.2354874,
+    "lon": 2.4695433
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.4133283,
+    "lon": 3.2433034
+  },
+  {
+    "name": "Carrefour",
+    "city": "Courrières",
+    "address": "120 Rue Raoul Briquet, 62710 Courrières",
+    "lat": 50.4458279,
+    "lon": 2.9463599
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.5201058,
+    "lon": 2.796527
+  },
+  {
+    "name": "Carrefour",
+    "city": "Cherbourg-Octeville",
+    "address": null,
+    "lat": 49.6344775,
+    "lon": -1.6190668
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.5551685,
+    "lon": 6.3975885
+  },
+  {
+    "name": "Carrefour",
+    "city": "Villebarou",
+    "address": null,
+    "lat": 47.6227301,
+    "lon": 1.2975586
+  },
+  {
+    "name": "Nom inconnu",
+    "city": null,
+    "address": null,
+    "lat": 48.7120738,
+    "lon": 2.3733865
+  },
+  {
+    "name": "Carrefour",
+    "city": "Quetigny",
+    "address": null,
+    "lat": 47.3095186,
+    "lon": 5.1044795
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.1991785,
+    "lon": -0.4610975
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.983285,
+    "lon": -4.1073102
+  },
+  {
+    "name": "Express Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.0362872,
+    "lon": 7.9491994
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.8396302,
+    "lon": 2.546142
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.6124933,
+    "lon": 5.2241013
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.9201602,
+    "lon": 2.3019845
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7553003,
+    "lon": 2.3711193
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.867007,
+    "lon": -0.516348
+  },
+  {
+    "name": "Carrefour Ferney-Voltaire Poterie",
+    "city": null,
+    "address": null,
+    "lat": 46.2544664,
+    "lon": 6.1199331
+  },
+  {
+    "name": "Carrefour Market",
+    "city": null,
+    "address": null,
+    "lat": 44.7018545,
+    "lon": -1.0324458
+  },
+  {
+    "name": "Carrefour",
+    "city": "Chartres",
+    "address": null,
+    "lat": 48.449421,
+    "lon": 1.5173615
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.9589657,
+    "lon": 0.9176959
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.5057685,
+    "lon": 5.3960455
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.9023443,
+    "lon": 1.2118569
+  },
+  {
+    "name": "Carrefour",
+    "city": "Ormesson-sur-Marne",
+    "address": "85 Route de Provins, 94490 Ormesson-sur-Marne",
+    "lat": 48.7936719,
+    "lon": 2.5543389
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.1422519,
+    "lon": 6.01445
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.9905623,
+    "lon": 4.4298512
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.8047357,
+    "lon": 2.3268993
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.2589672,
+    "lon": -0.3700556
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.0100417,
+    "lon": 2.3491222
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.3972885,
+    "lon": 3.0471004
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.6249175,
+    "lon": 6.1706065
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.4111581,
+    "lon": 4.3748821
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.2371988,
+    "lon": 2.3684426
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.1453713,
+    "lon": 1.4840789
+  },
+  {
+    "name": "Carrefour",
+    "city": "Montigny-le-Bretonneux",
+    "address": null,
+    "lat": 48.7848388,
+    "lon": 2.044181
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 41.9430165,
+    "lon": 8.7460888
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.6271609,
+    "lon": 1.8273478
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.72146,
+    "lon": 4.2279625
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.4091992,
+    "lon": 2.7821299
+  },
+  {
+    "name": "Carrefour",
+    "city": "Chalon-sur-Saône",
+    "address": null,
+    "lat": 46.774418,
+    "lon": 4.8618812
+  },
+  {
+    "name": "Carrefour",
+    "city": "Rennes",
+    "address": "5 Rue du Bosphore, 35200 Rennes",
+    "lat": 48.083046,
+    "lon": -1.6813415
+  },
+  {
+    "name": "Carrefour",
+    "city": "Labège",
+    "address": null,
+    "lat": 43.5505387,
+    "lon": 1.5086134
+  },
+  {
+    "name": "Carrefour",
+    "city": "Orléans",
+    "address": "2 Rue Nicolas Copernic, 45000 Orléans",
+    "lat": 47.9084228,
+    "lon": 1.9059222
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9875163,
+    "lon": 2.2443187
+  },
+  {
+    "name": "Carrefour",
+    "city": "Lattes",
+    "address": null,
+    "lat": 43.5828733,
+    "lon": 3.9289232
+  },
+  {
+    "name": "Carrefour",
+    "city": "Saint-Jean-de-Védas",
+    "address": null,
+    "lat": 43.5724403,
+    "lon": 3.8471468
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.2707492,
+    "lon": 3.2822231
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.0131813,
+    "lon": 1.1736754
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.2575821,
+    "lon": -1.5146621
+  },
+  {
+    "name": "Carrefour",
+    "city": "Pacé",
+    "address": null,
+    "lat": 48.1382095,
+    "lon": -1.7657546
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.3646002,
+    "lon": 5.3496601
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.9007225,
+    "lon": -0.2215185
+  },
+  {
+    "name": "Carrefour",
+    "city": "Rosny-sous-Bois",
+    "address": null,
+    "lat": 48.8847815,
+    "lon": 2.4762073
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.0035426,
+    "lon": 6.6122137
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9473578,
+    "lon": 2.6636376
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.941764,
+    "lon": 4.3860184
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.8296644,
+    "lon": -0.1895123
+  },
+  {
+    "name": "Carrefour",
+    "city": "Carbonne",
+    "address": null,
+    "lat": 43.3090962,
+    "lon": 1.2198207
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.6495405,
+    "lon": 3.8419207
+  },
+  {
+    "name": "Carrefour",
+    "city": "Le Crès",
+    "address": null,
+    "lat": 43.6429866,
+    "lon": 3.941349
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.6769548,
+    "lon": 2.1721823
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.175599,
+    "lon": 3.3266937
+  },
+  {
+    "name": "Carrefour",
+    "city": "Sallanches",
+    "address": null,
+    "lat": 45.951893,
+    "lon": 6.6269376
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.0925654,
+    "lon": 2.4192426
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.3065336,
+    "lon": 4.0241725
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9950582,
+    "lon": 2.1981104
+  },
+  {
+    "name": "Carrefour",
+    "city": "Paris",
+    "address": null,
+    "lat": 48.864935,
+    "lon": 2.3543635
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.3234959,
+    "lon": 6.5376627
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.7091367,
+    "lon": -1.0421084
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.3728205,
+    "lon": -4.5866328
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.6549215,
+    "lon": -1.3480109
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.2000098,
+    "lon": 5.2432434
+  },
+  {
+    "name": "Carrefour",
+    "city": "Saint-Jean-de-Luz",
+    "address": null,
+    "lat": 43.405255,
+    "lon": -1.6268155
+  },
+  {
+    "name": "Carrefour",
+    "city": "Saint-Amand-Montrond",
+    "address": "93 Avenue du Général de Gaulle, 18200 Saint-Amand-Montrond",
+    "lat": 46.7310309,
+    "lon": 2.4930155
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.1937319,
+    "lon": -0.7499736
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.6137871,
+    "lon": 2.5486758
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": -17.5468921,
+    "lon": -149.5867942
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.879351,
+    "lon": -4.1044034
+  },
+  {
+    "name": "Carrefour",
+    "city": "Saint-Jean-de-Védas",
+    "address": null,
+    "lat": 43.5731529,
+    "lon": 3.8473502
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.1126374,
+    "lon": -1.5918139
+  },
+  {
+    "name": "Carrefour Carré Sénart",
+    "city": null,
+    "address": null,
+    "lat": 48.6137872,
+    "lon": 2.5486755
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9458855,
+    "lon": 2.1969644
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.0656957,
+    "lon": 4.0602181
+  },
+  {
+    "name": "Carrefour Market Ur",
+    "city": "Ur",
+    "address": null,
+    "lat": 42.4485622,
+    "lon": 1.9465074
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7046742,
+    "lon": 2.3185999
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.4353423,
+    "lon": 3.9666811
+  },
+  {
+    "name": "Carrefour",
+    "city": "Boisseuil",
+    "address": null,
+    "lat": 45.7776368,
+    "lon": 1.3090287
+  },
+  {
+    "name": "Carrefour",
+    "city": "Draguignan",
+    "address": null,
+    "lat": 43.5283224,
+    "lon": 6.45029
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.5781536,
+    "lon": 6.5219252
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.7957309,
+    "lon": -0.5309563
+  },
+  {
+    "name": "Carrefour",
+    "city": "Dreux",
+    "address": null,
+    "lat": 48.7493794,
+    "lon": 1.3446496
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.0265955,
+    "lon": -3.7055485
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 43.4331885,
+    "lon": 5.2581265
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.8458418,
+    "lon": 2.2556708
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 16.2535627,
+    "lon": -61.5895521
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.1579101,
+    "lon": 5.7245833
+  },
+  {
+    "name": "Carrefour",
+    "city": "Gennevilliers",
+    "address": "21-23 Rue Louis Calmel, 92230 Gennevilliers",
+    "lat": 48.9255702,
+    "lon": 2.2925302
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.8765803,
+    "lon": 3.1197244
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.8769863,
+    "lon": 3.118464
+  },
+  {
+    "name": "Carrefour",
+    "city": "Objat",
+    "address": null,
+    "lat": 45.2539293,
+    "lon": 1.4107432
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.9575908,
+    "lon": 2.871391
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9251749,
+    "lon": 2.3275274
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.3420121,
+    "lon": 4.8071266
+  },
+  {
+    "name": "Carrefour",
+    "city": "Orange",
+    "address": null,
+    "lat": 44.1212754,
+    "lon": 4.8388327
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.2981997,
+    "lon": 6.5801851
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.8285946,
+    "lon": -0.6561253
+  },
+  {
+    "name": "Carrefour",
+    "city": "Cluses",
+    "address": "913 Avenue Georges Clemenceau, 74300 Cluses",
+    "lat": 46.0682488,
+    "lon": 6.5680497
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.5337334,
+    "lon": 1.4043844
+  },
+  {
+    "name": "Carrefour Contact",
+    "city": null,
+    "address": null,
+    "lat": 44.5618986,
+    "lon": -0.4194779
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9644486,
+    "lon": 2.2549651
+  },
+  {
+    "name": "Carrefour",
+    "city": "Ermont",
+    "address": null,
+    "lat": 48.9883955,
+    "lon": 2.245012
+  },
+  {
+    "name": "Carrefour",
+    "city": "Saint-Denis",
+    "address": null,
+    "lat": 48.9373262,
+    "lon": 2.3599093
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.8064943,
+    "lon": 1.6995248
+  },
+  {
+    "name": "Carrefour",
+    "city": "Cambrai",
+    "address": null,
+    "lat": 50.1475907,
+    "lon": 3.2230933
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": -22.2223108,
+    "lon": 166.4735617
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.4685307,
+    "lon": 6.8338316
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.640508,
+    "lon": 6.1857966
+  },
+  {
+    "name": "Carrefour Grand Maine",
+    "city": "Angers",
+    "address": null,
+    "lat": 47.4687153,
+    "lon": -0.5957178
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 14.555523,
+    "lon": -60.9745061
+  },
+  {
+    "name": "Carrefour",
+    "city": "Avignon",
+    "address": "162 Avenue Pierre Semard, 84000 Avignon",
+    "lat": 43.928859,
+    "lon": 4.834215
+  },
+  {
+    "name": "Carrefour",
+    "city": "Villefranche-sur-Saône",
+    "address": "1110 Boulevard Burdeau, 69400 Villefranche-sur-Saône",
+    "lat": 45.9954501,
+    "lon": 4.7328443
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.8645374,
+    "lon": 7.6804027
+  },
+  {
+    "name": "Carrefour",
+    "city": "Lille",
+    "address": null,
+    "lat": 50.6371494,
+    "lon": 3.075833
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.2067398,
+    "lon": -0.3284635
+  },
+  {
+    "name": "Carrefour",
+    "city": "Marseille",
+    "address": "26 Plage de l'Estaque, 13016 Marseille",
+    "lat": 43.360028,
+    "lon": 5.3157484
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.7061322,
+    "lon": 7.2862268
+  },
+  {
+    "name": "Carrefour",
+    "city": "Saint-Alban-Leysse",
+    "address": null,
+    "lat": 45.5744407,
+    "lon": 5.9435015
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.5914911,
+    "lon": 5.9013676
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.2617063,
+    "lon": 6.0642975
+  },
+  {
+    "name": "Carrefour",
+    "city": "Brest",
+    "address": "126 Boulevard de Plymouth, 29200 Brest",
+    "lat": 48.3883089,
+    "lon": -4.5246761
+  },
+  {
+    "name": "Carrefour",
+    "city": "Vernon",
+    "address": null,
+    "lat": 49.090492,
+    "lon": 1.4708288
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.0281737,
+    "lon": -0.3265137
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.4944803,
+    "lon": -2.7269565
+  },
+  {
+    "name": "Carrefour Drive Moulins Sud",
+    "city": null,
+    "address": null,
+    "lat": 46.5389251,
+    "lon": 3.3439108
+  },
+  {
+    "name": "Carrefour",
+    "city": "Bruay-la-Buissière",
+    "address": "1115 Avenue de la Libération, 62700 Bruay-la-Buissière",
+    "lat": 50.4952312,
+    "lon": 2.5682297
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.4893338,
+    "lon": 0.1796815
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.0247978,
+    "lon": 3.8805939
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.6821324,
+    "lon": 2.5338501
+  },
+  {
+    "name": "Carrefour",
+    "city": "Mulhouse",
+    "address": "258 Rue de Belfort, 68200 Mulhouse",
+    "lat": 47.7406789,
+    "lon": 7.2918657
+  },
+  {
+    "name": "Carrefour",
+    "city": "Flins-sur-Seine",
+    "address": null,
+    "lat": 48.9655602,
+    "lon": 1.8618677
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.8098607,
+    "lon": 7.3148833
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.5846719,
+    "lon": 4.7537525
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.5824203,
+    "lon": -1.0888308
+  },
+  {
+    "name": "Carrefour Market",
+    "city": null,
+    "address": null,
+    "lat": 43.8216694,
+    "lon": 4.3630202
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.8999127,
+    "lon": -0.2209846
+  },
+  {
+    "name": "Carrefour",
+    "city": "Collégien",
+    "address": "2 Rue du Général de Gaulle, 77090 Collégien",
+    "lat": 48.8372484,
+    "lon": 2.6610341
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.8389226,
+    "lon": 3.508377
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.48953,
+    "lon": -0.5422011
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.2422489,
+    "lon": 2.0994394
+  },
+  {
+    "name": "Carrefour",
+    "city": "Évry",
+    "address": null,
+    "lat": 48.6282393,
+    "lon": 2.425495
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 48.6972738,
+    "lon": 2.3348738
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 46.3183826,
+    "lon": -0.4835726
+  },
+  {
+    "name": "Carrefour",
+    "city": "Montluçon",
+    "address": "211 Quai Ledru-Rollin, 03100 Montluçon",
+    "lat": 46.3464856,
+    "lon": 2.6015412
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.8775893,
+    "lon": 2.6122936
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 49.0376265,
+    "lon": 1.59406
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 46.7734505,
+    "lon": 4.8622174
+  },
+  {
+    "name": "Carrefour",
+    "city": "Varennes-sur-Allier",
+    "address": "98 Avenue de Chazeuil, 03150 Varennes-sur-Allier",
+    "lat": 46.3169348,
+    "lon": 3.397558
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 42.7760386,
+    "lon": 2.912723
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.4118947,
+    "lon": 2.1088258
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.397418,
+    "lon": 2.9534827
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.1579699,
+    "lon": 5.7267529
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.9725842,
+    "lon": 0.2180604
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9197115,
+    "lon": 2.4219641
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9031108,
+    "lon": 2.3752478
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.0269274,
+    "lon": 6.6377167
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.8259246,
+    "lon": 2.3941419
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.4993002,
+    "lon": 2.5838384
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.4132741,
+    "lon": 5.0023597
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.7897233,
+    "lon": 2.4694751
+  },
+  {
+    "name": "Carrefour",
+    "city": "Berck",
+    "address": "940 Avenue de Verdun, 62600 Berck",
+    "lat": 50.4050132,
+    "lon": 1.6000089
+  },
+  {
+    "name": "Carrefour",
+    "city": "Saint-Pierre-des-Corps",
+    "address": null,
+    "lat": 47.3804869,
+    "lon": 0.7145582
+  },
+  {
+    "name": "Carrefour Montagne Loudenvielle",
+    "city": "Loudenvielle",
+    "address": null,
+    "lat": 42.7960301,
+    "lon": 0.4092239
+  },
+  {
+    "name": "Carrefour Contact",
+    "city": null,
+    "address": null,
+    "lat": 43.5610576,
+    "lon": 1.6558228
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.6350941,
+    "lon": 2.4116123
+  },
+  {
+    "name": "Carrefour",
+    "city": "Mont-Saint-Aignan",
+    "address": null,
+    "lat": 49.4702313,
+    "lon": 1.094026
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.740588,
+    "lon": 4.8176878
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 49.0559238,
+    "lon": 2.0191586
+  },
+  {
+    "name": "Carrefour Grenoble Meylan",
+    "city": null,
+    "address": null,
+    "lat": 45.2031704,
+    "lon": 5.7643757
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 43.9009538,
+    "lon": -0.4797261
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.1926197,
+    "lon": 1.4511726
+  },
+  {
+    "name": "Carrefour",
+    "city": "Toulon",
+    "address": "Centre Mayol Rue du Murier, 83000 Toulon",
+    "lat": 43.1201561,
+    "lon": 5.9352904
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.6270155,
+    "lon": 6.8500246
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.357308,
+    "lon": 5.0525954
+  },
+  {
+    "name": "Carrefour",
+    "city": "Toulouse",
+    "address": "36 Route de Bayonne, 31300 Toulouse",
+    "lat": 43.6102511,
+    "lon": 1.3936863
+  },
+  {
+    "name": "Carrefour",
+    "city": "Tarnos",
+    "address": "56 Boulevard Jacques Duclos, 40220 Tarnos",
+    "lat": 43.5256448,
+    "lon": -1.462719
+  },
+  {
+    "name": "Carrefour Express",
+    "city": "Villeneuve-Tolosane",
+    "address": "4 Avenue de Cugnaux, 31270 Villeneuve-Tolosane",
+    "lat": 43.5261741,
+    "lon": 1.3410829
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.2052729,
+    "lon": -1.5335287
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.0802357,
+    "lon": -0.8007536
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.9964741,
+    "lon": 3.1067992
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 16.265834,
+    "lon": -61.5122301
+  },
+  {
+    "name": "Carrefour",
+    "city": "Monéteau",
+    "address": null,
+    "lat": 47.8444797,
+    "lon": 3.5536222
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.6766034,
+    "lon": 2.1744763
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.0262238,
+    "lon": 4.0298887
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.1964318,
+    "lon": 6.4773287
+  },
+  {
+    "name": "Carrefour Épinal-Jeuxey",
+    "city": null,
+    "address": null,
+    "lat": 48.1967702,
+    "lon": 6.4791005
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 48.3070581,
+    "lon": 4.0251182
+  },
+  {
+    "name": "Carrefour",
+    "city": "Caen",
+    "address": "1 Boulevard Maréchal Juin, 14000 Caen",
+    "lat": 49.2085165,
+    "lon": -0.3645109
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.2580051,
+    "lon": -1.513235
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.8196083,
+    "lon": 2.3949354
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.5722673,
+    "lon": 6.828127
+  },
+  {
+    "name": "Carrefour",
+    "city": "Charleville-Mézières",
+    "address": null,
+    "lat": 49.7395262,
+    "lon": 4.7052175
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.6691116,
+    "lon": 2.2733612
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.8204415,
+    "lon": 4.1790925
+  },
+  {
+    "name": "Carrefour",
+    "city": "Luz-Saint-Sauveur",
+    "address": null,
+    "lat": 42.8727965,
+    "lon": -0.0036331
+  },
+  {
+    "name": "Carrefour Drive piéton",
+    "city": null,
+    "address": null,
+    "lat": 48.8338949,
+    "lon": 2.3076242
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 14.6060275,
+    "lon": -61.0707592
+  },
+  {
+    "name": "Carrefour",
+    "city": "Barentin",
+    "address": null,
+    "lat": 49.5371,
+    "lon": 0.9682992
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.4608189,
+    "lon": 2.8252596
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7765266,
+    "lon": 2.6098687
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.7646609,
+    "lon": 4.9232973
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.7353471,
+    "lon": 4.7541311
+  },
+  {
+    "name": "Carrefour",
+    "city": "Ranville",
+    "address": "1 Rue du Stade, 14860 Ranville",
+    "lat": 49.2322328,
+    "lon": -0.2548281
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.4037234,
+    "lon": 3.0079494
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.927344,
+    "lon": 2.2740567
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 48.6519635,
+    "lon": 7.7270373
+  },
+  {
+    "name": "Carrefour",
+    "city": "Lescar",
+    "address": "8 Rue Jean Jaurès, 64230 Lescar",
+    "lat": 43.3160284,
+    "lon": -0.4286069
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.674806,
+    "lon": 5.5407089
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 50.7398759,
+    "lon": 2.5467618
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.3977368,
+    "lon": 5.033494
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 42.6800564,
+    "lon": 2.9094166
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.9279588,
+    "lon": 4.5252988
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7171194,
+    "lon": 7.801189
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 50.4053262,
+    "lon": 1.5983106
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 47.2806773,
+    "lon": 5.9940899
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": -21.3258728,
+    "lon": 55.4714439
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.033234,
+    "lon": 2.6793761
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.9899649,
+    "lon": 1.3328536
+  },
+  {
+    "name": "Carrefour",
+    "city": "Anglet",
+    "address": null,
+    "lat": 43.4888307,
+    "lon": -1.4988506
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.2860243,
+    "lon": 6.8865582
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": -12.7567094,
+    "lon": 45.2314449
+  },
+  {
+    "name": "Carrefour",
+    "city": "Montreuil",
+    "address": "235 Rue Étienne Marcel, 93100 Montreuil",
+    "lat": 48.8552962,
+    "lon": 2.4163069
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7250641,
+    "lon": 2.2765496
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.2150384,
+    "lon": 4.0536786
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.6364657,
+    "lon": 3.1197327
+  },
+  {
+    "name": "Carrefour",
+    "city": "Moûtiers",
+    "address": null,
+    "lat": 45.4858386,
+    "lon": 6.5262356
+  },
+  {
+    "name": "Carrefour",
+    "city": "Coquelles",
+    "address": null,
+    "lat": 50.9328362,
+    "lon": 1.8089244
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": -17.52808,
+    "lon": -149.5375693
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": -17.7275731,
+    "lon": -149.3194421
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": -17.5808793,
+    "lon": -149.6153814
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.7469273,
+    "lon": 4.929603
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 48.4948442,
+    "lon": -2.725231
+  },
+  {
+    "name": "Carrefour",
+    "city": "Margencel",
+    "address": null,
+    "lat": 46.3451501,
+    "lon": 6.4348823
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7828776,
+    "lon": 2.3687303
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.4781771,
+    "lon": 1.3052453
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.7662291,
+    "lon": -3.3965564
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.6239295,
+    "lon": -1.9935304
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.2549387,
+    "lon": 4.0315747
+  },
+  {
+    "name": "Carrefour",
+    "city": "Angoulins",
+    "address": null,
+    "lat": 46.1107933,
+    "lon": -1.1051257
+  },
+  {
+    "name": "Carrefour",
+    "city": "Trans-en-Provence",
+    "address": "1555 Route du Plan, 83720 Trans-en-Provence",
+    "lat": 43.5099798,
+    "lon": 6.4784325
+  },
+  {
+    "name": "Carrefour Drive Saint-Clément-de-Rivière",
+    "city": null,
+    "address": null,
+    "lat": 43.648904,
+    "lon": 3.8409739
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.4315435,
+    "lon": 5.2596563
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 48.9305993,
+    "lon": 2.1460609
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.0930292,
+    "lon": 6.0690437
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.4435315,
+    "lon": 0.6233427
+  },
+  {
+    "name": "Carrefour",
+    "city": "Champs-sur-Marne",
+    "address": null,
+    "lat": 48.8541829,
+    "lon": 2.58156
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 48.9415255,
+    "lon": 4.3845198
+  },
+  {
+    "name": "Carrefour",
+    "city": "Avignon",
+    "address": "360 Rue Jean Marie Tjibaou, 84000 Avignon",
+    "lat": 43.9282869,
+    "lon": 4.79335
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.8957662,
+    "lon": 2.3980711
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.6518697,
+    "lon": 2.9773963
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 48.9249894,
+    "lon": 2.2905498
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.2265364,
+    "lon": 4.7122937
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.9157075,
+    "lon": 2.0385597
+  },
+  {
+    "name": "Carrefour",
+    "city": "Moulins",
+    "address": "169 Route de Lyon, 03000 Moulins",
+    "lat": 46.5396627,
+    "lon": 3.3431689
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 46.8493252,
+    "lon": 1.7055865
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 47.6583021,
+    "lon": -2.7905876
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.6895707,
+    "lon": 2.8859551
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.7330205,
+    "lon": -3.4286007
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.5497913,
+    "lon": 1.5098185
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.0164172,
+    "lon": 4.8381288
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 50.4422036,
+    "lon": 3.4254039
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 49.639638,
+    "lon": 2.2836731
+  },
+  {
+    "name": "Carrefour",
+    "city": "Trans-en-Provence",
+    "address": "1555 Route du Plan, 83720 Trans-en-Provence",
+    "lat": 43.5103481,
+    "lon": 6.4779173
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 45.6353987,
+    "lon": 5.10888
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.3250762,
+    "lon": 6.6187164
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.4441165,
+    "lon": 6.7044471
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": -20.9565959,
+    "lon": 55.3086578
+  },
+  {
+    "name": "Carrefour",
+    "city": "Bully-les-Mines",
+    "address": "18 Rue Casimir Beugnet, 62160 Bully-les-Mines",
+    "lat": 50.446803,
+    "lon": 2.7210611
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 48.0805648,
+    "lon": -0.8001181
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9441985,
+    "lon": 2.2533271
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 46.1102654,
+    "lon": -1.10434
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 46.7979249,
+    "lon": 4.8492978
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.6607145,
+    "lon": 6.6529643
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 45.816605,
+    "lon": 1.2230447
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.7581316,
+    "lon": 7.4804441
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.613249,
+    "lon": 2.5485989
+  },
+  {
+    "name": "Carrefour",
+    "city": "Saint-Pierre-d'Irube",
+    "address": "4 Avenue du Portou, 64990 Saint-Pierre-d'Irube",
+    "lat": 43.4812392,
+    "lon": -1.4455154
+  },
+  {
+    "name": "Carrefour",
+    "city": "Saran",
+    "address": "2601 Rue Nationale 20, 45770 Saran",
+    "lat": 47.9601688,
+    "lon": 1.8859902
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.5279537,
+    "lon": 7.4954242
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 44.66178,
+    "lon": -1.1693505
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.9485344,
+    "lon": 2.5281705
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.4625777,
+    "lon": 3.6918662
+  },
+  {
+    "name": "Carrefour City",
+    "city": null,
+    "address": null,
+    "lat": 43.4244651,
+    "lon": 1.3559457
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.0204081,
+    "lon": 2.4567385
+  },
+  {
+    "name": "Carrefour",
+    "city": "Alès",
+    "address": null,
+    "lat": 44.1136149,
+    "lon": 4.0969034
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 48.7036502,
+    "lon": 6.2437157
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 49.4289472,
+    "lon": 2.0728624
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.9745803,
+    "lon": 2.7369583
+  },
+  {
+    "name": "Carrefour",
+    "city": "Lattes",
+    "address": null,
+    "lat": 43.5834591,
+    "lon": 3.9298863
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.3299166,
+    "lon": 5.3988087
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 47.3972353,
+    "lon": 5.1324864
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 43.6296581,
+    "lon": 0.5814231
+  },
+  {
+    "name": "Carrefour Drive",
+    "city": null,
+    "address": null,
+    "lat": 43.4049545,
+    "lon": -1.6278526
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": 14.6857777,
+    "lon": -60.9383934
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": -20.9286136,
+    "lon": 55.6332676
+  },
+  {
+    "name": "Carrefour",
+    "city": null,
+    "address": null,
+    "lat": -20.8906639,
+    "lon": 55.5001926
+  }
+]

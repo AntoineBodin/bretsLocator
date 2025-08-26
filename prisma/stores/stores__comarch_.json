@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Intermarché Contact",
+    "city": null,
+    "address": null,
+    "lat": 45.2083143,
+    "lon": 3.5071723
+  },
+  {
+    "name": "Écomarché",
+    "city": "Isle-en-Dodon",
+    "address": null,
+    "lat": 43.38919,
+    "lon": 0.838233
+  },
+  {
+    "name": "Intermarché Contact",
+    "city": null,
+    "address": null,
+    "lat": 43.6564505,
+    "lon": 3.150751
+  },
+  {
+    "name": "Écomarché",
+    "city": null,
+    "address": null,
+    "lat": 48.95358,
+    "lon": 0.9472775
+  },
+  {
+    "name": "Écomarché",
+    "city": null,
+    "address": null,
+    "lat": 50.1264209,
+    "lon": 3.931722
+  },
+  {
+    "name": "Écomarché",
+    "city": null,
+    "address": null,
+    "lat": 43.8558421,
+    "lon": 4.9504298
+  }
+]

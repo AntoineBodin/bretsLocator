@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Fresh",
+    "city": null,
+    "address": null,
+    "lat": 46.9130792,
+    "lon": 6.3237385
+  },
+  {
+    "name": "Fresh",
+    "city": null,
+    "address": null,
+    "lat": 47.8896088,
+    "lon": 7.2276385
+  },
+  {
+    "name": "Nom inconnu",
+    "city": null,
+    "address": null,
+    "lat": 43.5094249,
+    "lon": 5.4975651
+  },
+  {
+    "name": "Fresh",
+    "city": null,
+    "address": null,
+    "lat": 49.2765312,
+    "lon": -0.6859273
+  },
+  {
+    "name": "Fresh",
+    "city": null,
+    "address": null,
+    "lat": 49.1091614,
+    "lon": 6.6980008
+  },
+  {
+    "name": "Leader Price",
+    "city": null,
+    "address": null,
+    "lat": 48.8580427,
+    "lon": 1.4255669
+  },
+  {
+    "name": "Fresh",
+    "city": "Niort",
+    "address": "3 Rue Thomas Portau, 79000 Niort",
+    "lat": 46.3069153,
+    "lon": -0.4842209
+  },
+  {
+    "name": "Fresh",
+    "city": null,
+    "address": null,
+    "lat": 45.6233589,
+    "lon": 6.7766909
+  },
+  {
+    "name": "Fresh",
+    "city": null,
+    "address": null,
+    "lat": 48.8237995,
+    "lon": 2.3254184
+  },
+  {
+    "name": "Fresh",
+    "city": "Marquette-lez-Lille",
+    "address": "3 Rue des Moissons, 59520 Marquette-lez-Lille",
+    "lat": 50.6821126,
+    "lon": 3.0654752
+  },
+  {
+    "name": "Fresh",
+    "city": "Agde",
+    "address": "2 Rue Victor de Moléon, 34300 Agde",
+    "lat": 43.3084033,
+    "lon": 3.4925389
+  },
+  {
+    "name": "Fresh",
+    "city": null,
+    "address": null,
+    "lat": 43.2961432,
+    "lon": 5.3865934
+  },
+  {
+    "name": "Fresh",
+    "city": null,
+    "address": null,
+    "lat": 45.4327201,
+    "lon": 6.0193024
+  },
+  {
+    "name": "Fresh",
+    "city": null,
+    "address": null,
+    "lat": 45.666499,
+    "lon": 5.4717251
+  },
+  {
+    "name": "Fresh",
+    "city": "Itteville",
+    "address": "22 Route de la Ferté-Alais, 91760 Itteville",
+    "lat": 48.4990952,
+    "lon": 2.3498615
+  },
+  {
+    "name": "Fresh",
+    "city": null,
+    "address": null,
+    "lat": 46.6459658,
+    "lon": -1.4368831
+  },
+  {
+    "name": "Fresh",
+    "city": null,
+    "address": null,
+    "lat": 43.536099,
+    "lon": 1.3638747
+  },
+  {
+    "name": "Fresh",
+    "city": null,
+    "address": null,
+    "lat": 48.6718034,
+    "lon": -4.0079724
+  }
+]

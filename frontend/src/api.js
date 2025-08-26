@@ -5,3 +5,9 @@ export async function fetchStores() {
   if (!res.ok) throw new Error("Erreur API");
   return await res.json();
 }
+
+export async function fetchFlavors() {
+    const res = await fetch("https://boutique.brets.fr/ws/wsGetProducts.asp");
+    if (!res.ok) throw new Error("Erreur API");
+    return await res.json();
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Mix Markt",
+    "city": "Villeneuve-Loubet",
+    "address": "2594 Route Nationale 7, 06270 Villeneuve-Loubet",
+    "lat": 43.6264815,
+    "lon": 7.1317018
+  },
+  {
+    "name": "Mix Markt",
+    "city": null,
+    "address": null,
+    "lat": 43.7046624,
+    "lon": 7.2907876
+  }
+]

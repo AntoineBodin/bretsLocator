@@ -1,0 +1,37 @@
+[
+  {
+    "name": "SPAR",
+    "city": null,
+    "address": null,
+    "lat": 47.0445687,
+    "lon": -0.2643754
+  },
+  {
+    "name": "SPAR",
+    "city": null,
+    "address": null,
+    "lat": 44.8030543,
+    "lon": 2.7622446
+  },
+  {
+    "name": "Spar",
+    "city": null,
+    "address": null,
+    "lat": 43.7903195,
+    "lon": 7.2740654
+  },
+  {
+    "name": "SPAR",
+    "city": null,
+    "address": null,
+    "lat": 43.2345851,
+    "lon": 0.0716782
+  },
+  {
+    "name": "SPAR Ville d'Avray",
+    "city": null,
+    "address": null,
+    "lat": 48.8279529,
+    "lon": 2.1843712
+  }
+]

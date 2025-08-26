@@ -11,26 +11,26 @@ datasource db {
 model Store {
   id           Int           @id @default(autoincrement())
   name         String
-  address      String 
+  address      String? 
   lat          Float?
   lon          Float?
   storeFlavors StoreFlavor[]
 }
 
 model Flavor {
-  id           Int           @id @default(autoincrement())
-  name         String
+  name         String        @id
+  image        String?       // URL de l'image
   storeFlavors StoreFlavor[]
 }
 
 model StoreFlavor {
   id          Int    @id @default(autoincrement())
   storeId     Int
-  flavorId    Int
+  flavorName    String
   available   Int @default(0) // disponibilité du parfum dans le magasin
   lastUpdated DateTime @default(now())
   store  Store  @relation(fields: [storeId], references: [id])
-  flavor Flavor @relation(fields: [flavorId], references: [id])
+  flavor Flavor @relation(fields: [flavorName], references: [name])
 
-  @@unique([storeId, flavorId])
+  @@unique([storeId, flavorName])
 }

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Shopi",
+    "city": null,
+    "address": null,
+    "lat": 48.1938924,
+    "lon": 0.898313
+  },
+  {
+    "name": "Carrefour Contact",
+    "city": null,
+    "address": null,
+    "lat": 46.2554571,
+    "lon": -0.5407723
+  },
+  {
+    "name": "Proxi",
+    "city": null,
+    "address": null,
+    "lat": 48.715078,
+    "lon": 7.1871005
+  },
+  {
+    "name": "Shopi",
+    "city": null,
+    "address": null,
+    "lat": 44.7552771,
+    "lon": 4.0934931
+  },
+  {
+    "name": "Shopi",
+    "city": null,
+    "address": null,
+    "lat": 48.1709604,
+    "lon": 4.2171331
+  },
+  {
+    "name": "Shopi",
+    "city": null,
+    "address": null,
+    "lat": 49.8084694,
+    "lon": 4.0173469
+  },
+  {
+    "name": "Shopi",
+    "city": null,
+    "address": null,
+    "lat": 43.3871371,
+    "lon": 0.1494029
+  }
+]

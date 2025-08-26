@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Paris Store Wolfisheim",
+    "city": "Wolfisheim",
+    "address": "2 Rue Charles Adolphe Wurtz, 67202 Wolfisheim",
+    "lat": 48.5913439,
+    "lon": 7.6699646
+  },
+  {
+    "name": "Paris Store",
+    "city": null,
+    "address": null,
+    "lat": 43.5655433,
+    "lon": 1.4065652
+  },
+  {
+    "name": "Paris Store",
+    "city": null,
+    "address": null,
+    "lat": 48.8234104,
+    "lon": 2.3660411
+  },
+  {
+    "name": "Paris Store",
+    "city": "Paris",
+    "address": "3 Boulevard de la Villette, 75010 Paris",
+    "lat": 48.8722964,
+    "lon": 2.376306
+  },
+  {
+    "name": "Paris Store",
+    "city": "Paris",
+    "address": "8-10 Rue de l'Évangile, 75018 Paris",
+    "lat": 48.8917389,
+    "lon": 2.3616331
+  },
+  {
+    "name": "Paris Store",
+    "city": null,
+    "address": null,
+    "lat": 48.8732757,
+    "lon": 2.3761267
+  },
+  {
+    "name": "Paris Store",
+    "city": "Noisiel",
+    "address": "1 Passage Louis Logre, 77186 Noisiel",
+    "lat": 48.8450149,
+    "lon": 2.6241151
+  },
+  {
+    "name": "Paris Store",
+    "city": "Lognes",
+    "address": "59 Boulevard du Segrais, 77185 Lognes",
+    "lat": 48.8364014,
+    "lon": 2.6488834
+  }
+]
