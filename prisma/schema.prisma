@@ -4,17 +4,19 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
 model Store {
   id           Int           @id @default(autoincrement())
   name         String
-  address      String? 
+  address      String?
   lat          Float?
   lon          Float?
   storeFlavors StoreFlavor[]
+
+  @@index([lat, lon]) // Index simple pour les coordonnées
 }
 
 model Flavor {
@@ -26,9 +28,10 @@ model Flavor {
 model StoreFlavor {
   id          Int    @id @default(autoincrement())
   storeId     Int
-  flavorName    String
-  available   Int @default(0) // disponibilité du parfum dans le magasin
+  flavorName  String
+  available   Int @default(0) // 0=non dispo, 1=dispo, 2=plus dispo
   lastUpdated DateTime @default(now())
+
   store  Store  @relation(fields: [storeId], references: [id])
   flavor Flavor @relation(fields: [flavorName], references: [name])
 
