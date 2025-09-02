@@ -1,16 +1,4 @@
 [
-  {
-    "name": "Nosso",
-    "city": null,
-    "address": null,
-    "lat": 45.1633753,
-    "lon": 5.7511342
-  },
-  {
-    "name": "Nosso",
-    "city": null,
-    "address": null,
-    "lat": 47.3971678,
-    "lon": 0.7441948
-  }
+{"name":"Nosso","brand":"Nosso","city":null,"address":null,"lat":45.1633753,"lon":5.7511342},
+{"name":"Nosso","brand":"Nosso","city":null,"address":null,"lat":47.3971678,"lon":0.7441948}
 ]

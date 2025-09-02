@@ -1,37 +1,7 @@
 [
-  {
-    "name": "City Market",
-    "city": null,
-    "address": null,
-    "lat": 47.655415,
-    "lon": -2.0712725
-  },
-  {
-    "name": "City Market",
-    "city": null,
-    "address": null,
-    "lat": 47.7056401,
-    "lon": -3.3831779
-  },
-  {
-    "name": "City Market",
-    "city": "Noisiel",
-    "address": "29 Place Émile Menier, 77186 Noisiel",
-    "lat": 48.8544825,
-    "lon": 2.6280398
-  },
-  {
-    "name": "City Market",
-    "city": "Torcy",
-    "address": "14 Rue Pablo Neruda, 77200 Torcy",
-    "lat": 48.8435845,
-    "lon": 2.6459023
-  },
-  {
-    "name": "City Market",
-    "city": null,
-    "address": null,
-    "lat": 49.0137265,
-    "lon": 1.3797046
-  }
+{"name":"City Market","brand":"City Market","city":null,"address":null,"lat":47.655415,"lon":-2.0712725},
+{"name":"City Market","brand":"City Market","city":null,"address":"7 Place Notre Dame","lat":47.7056401,"lon":-3.3831779},
+{"name":"City Market","brand":"City Market","city":"Noisiel","address":"29 Place Émile Menier, 77186 Noisiel","lat":48.8544825,"lon":2.6280398},
+{"name":"City Market","brand":"City Market","city":"Torcy","address":"14 Rue Pablo Neruda, 77200 Torcy","lat":48.8435845,"lon":2.6459023},
+{"name":"City Market","brand":"City Market","city":null,"address":"42 Rue Édouard Isambard","lat":49.0137265,"lon":1.3797046}
 ]

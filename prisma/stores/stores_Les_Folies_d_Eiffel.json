@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Les Folies d'Eiffel",
-    "city": "Condé-Folie",
-    "address": "5 Rue du 22e RMVE, 80890 Condé-Folie",
-    "lat": 50.0101175,
-    "lon": 2.0135534
-  }
+{"name":"Les Folies d'Eiffel","brand":"Les Folies d'Eiffel","city":"Condé-Folie","address":"5 Rue du 22e RMVE, 80890 Condé-Folie","lat":50.0101175,"lon":2.0135534}
 ]

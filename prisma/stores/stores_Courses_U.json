@@ -1,16 +1,4 @@
 [
-  {
-    "name": "Courses U",
-    "city": null,
-    "address": null,
-    "lat": 45.0450192,
-    "lon": 5.0304667
-  },
-  {
-    "name": "Courses U",
-    "city": null,
-    "address": null,
-    "lat": 43.4998569,
-    "lon": 3.3193325
-  }
+{"name":"Courses U","brand":"Courses U","city":null,"address":null,"lat":45.0450192,"lon":5.0304667},
+{"name":"Courses U","brand":"Courses U","city":null,"address":null,"lat":43.4998569,"lon":3.3193325}
 ]

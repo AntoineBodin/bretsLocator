@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Snack'in market",
-    "city": null,
-    "address": null,
-    "lat": 45.6947073,
-    "lon": 4.9234454
-  }
+{"name":"Snack'in market","brand":"Distram","city":null,"address":null,"lat":45.6947073,"lon":4.9234454}
 ]

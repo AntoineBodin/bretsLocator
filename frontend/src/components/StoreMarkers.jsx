@@ -1,28 +1,27 @@
 import React from "react";
-import { Marker, Popup } from "react-leaflet";
-import { getMarkerIcon } from "../utils/mapIcons";
+import { Marker, Tooltip } from "react-leaflet";
 
-export default function StoreMarkers({ clusteredStores, onClusterClick, onSingleStore }) {
+// stores: tableau de magasins { id, lat, lon, name, ... }
+export default function StoreMarkers({ stores = [], onStoreSelect }) {
+  if (!Array.isArray(stores) || !stores.length) return null;
+
   return (
     <>
-      {clusteredStores.map(point => {
-        const isCluster = point.store_count > 1;
-        const id = !isCluster && Array.isArray(point.store_ids) ? point.store_ids[0] : null;
+      {stores.map(s => {
+        if (typeof s.lat !== "number" || typeof s.lon !== "number") return null;
         return (
           <Marker
-            key={`${point.lat}-${point.lon}`}
-            position={[point.lat, point.lon]}
-            icon={getMarkerIcon(point.store_count)}
+            key={s.id}
+            position={[s.lat, s.lon]}
             eventHandlers={{
-              click: () => {
-                if (isCluster) onClusterClick(point);
-                else if (id) onSingleStore(Number(id));
-              }
+              click: () => onStoreSelect?.(s.id)
             }}
           >
-            <Popup>
-              {isCluster ? `${point.store_count} magasins` : (point.store_names?.[0] ?? "Magasin")}
-            </Popup>
+            <Tooltip direction="top" offset={[0, -4]} opacity={0.9}>
+              <div style={{ fontSize: 12, fontWeight: 600 }}>
+                {s.name || "Magasin"}
+              </div>
+            </Tooltip>
           </Marker>
         );
       })}

@@ -1,74 +1,164 @@
 import fs from "fs";
+import path from "path";
+import { Transform } from "stream";
+
+import streamChain from "stream-chain";
+import streamJson from "stream-json";
+import pickModule from "stream-json/filters/Pick.js";
+import streamArrayModule from "stream-json/streamers/StreamArray.js";
+
+const { chain } = streamChain;
+const { parser } = streamJson;
+const { pick } = pickModule;
+const { streamArray } = streamArrayModule;
+
+const filePath = "C:/Users/antoi/Downloads/export.geojson";
+
+function rawBrand(raw) {
+  const v = (raw && String(raw).trim()) || "";
+  return v === "" ? null : v;
+}
+function brandKeyOf(raw) {
+  const b = rawBrand(raw);
+  return (b || "SansMarque").toLowerCase();
+}
+function sanitizeForFile(name) {
+  return name.replace(/[^\w\d_-]/g, "_");
+}
+
+// Filtre: ne laisse passer que shop=supermarket
+function supermarketFilter() {
+  return new Transform({
+    objectMode: true,
+    transform(chunk, _enc, cb) {
+      if (chunk?.value?.properties?.shop === "supermarket") {
+        this.push(chunk);
+      }
+      cb();
+    }
+  });
+}
+
+async function firstPass() {
+  return new Promise((resolve, reject) => {
+    // Map brandKey -> { label: "Première forme rencontrée", count }
+    const brandMap = new Map();
+    let totalShops = 0;
+    let totalFeatures = 0;
+    let withProps = 0;
+
+    const pipeline = chain([
+      fs.createReadStream(filePath, { encoding: "utf-8" }),
+      parser(),
+      pick({ filter: "features" }),
+      streamArray()
+    ]);
+
+    pipeline.on("data", ({ value }) => {
+      totalFeatures++;
+      const props = value?.properties;
+      if (props) withProps++;
+
+      if (props?.shop === "supermarket") {
+        totalShops++;
+        const key = brandKeyOf(props.brand);
+        if (!brandMap.has(key)) {
+          // label canonique : première graphie rencontrée ou clé capitalisée simple
+            const label = rawBrand(props.brand) || "SansMarque";
+          brandMap.set(key, { label, count: 1 });
+        } else {
+          brandMap.get(key).count++;
+        }
+      }
+    });
+
+    pipeline.on("end", () => {
+      console.log(`DEBUG features=${totalFeatures}, withProperties=${withProps}, supermarkets=${totalShops}, brands=${brandMap.size}`);
+      resolve({ brandMap, totalShops });
+    });
+    pipeline.on("error", reject);
+  });
+}
+
+async function writeBrandFile(brandKey, label) {
+  return new Promise((resolve, reject) => {
+    const safe = sanitizeForFile(brandKey);
+    const outPath = path.join("stores", `stores_${safe}.json`);
+    const out = fs.createWriteStream(outPath, { encoding: "utf-8" });
+    let first = true;
+
+    out.write("[");
+
+    const pipeline = chain([
+      fs.createReadStream(filePath, { encoding: "utf-8" }),
+      parser(),
+      pick({ filter: "features" }),
+      streamArray(),
+      supermarketFilter()
+    ]);
+
+    pipeline.on("data", ({ value }) => {
+      const props = value.properties;
+      const currentKey = brandKeyOf(props.brand);
+      if (currentKey !== brandKey) return;
+
+      const name = props.name || "Nom inconnu";
+
+      // Adresses: gérer variantes addr:*
+      const city = props.addrcity || props["addr:city"] || null;
+      const postcode = props.postcode || props["addr:postcode"] || null;
+      const street = props.street || props["addr:street"] || null;
+      const housenumber = props.housenumber || props["addr:housenumber"] || null;
+
+      let address = null;
+      if (street || housenumber || postcode || city) {
+        const part1 = [housenumber, street].filter(Boolean).join(" ").trim();
+        const part2 = [postcode, city].filter(Boolean).join(" ").trim();
+        address = [part1, part2].filter(Boolean).join(", ") || null;
+      }
+
+      const [lon, lat] = value.geometry?.coordinates || [null, null];
+      const shopObj = { name, brand: label, city, address, lat, lon };
+
+      if (!first) out.write(",\n"); else out.write("\n");
+      first = false;
+      out.write(JSON.stringify(shopObj));
+    });
+
+    pipeline.on("end", () => {
+      out.end(first ? "]" : "\n]");
+      console.log(`Fichier généré: ${outPath}`);
+      resolve();
+    });
+    pipeline.on("error", err => {
+      out.destroy();
+      reject(err);
+    });
+  });
+}
 
 async function main() {
-// Récupère le chemin du fichier en argument
-const filePath = "C:/Users/antoi/Downloads/export.geojson"
-
-if (!filePath) {
-  console.error("Usage: node listSupermarkets.js <chemin_vers_geojson>");
-  process.exit(1);
-}
-
-// Lire le fichier
-let rawData;
-try {
-  rawData = fs.readFileSync(filePath, "utf-8");
-} catch (err) {
-  console.error("Erreur lors de la lecture du fichier :", err.message);
-  process.exit(1);
-}
-
-// Parser le JSON
-let geojson;
-try {
-  geojson = JSON.parse(rawData);
-} catch (err) {
-  console.error("Erreur lors du parsing JSON :", err.message);
-  process.exit(1);
-}
-
-// Filtrer uniquement les supermarkets
-const supermarkets = geojson.features;
-
-// Dictionnaire des shops par brand
-const shopsByBrand = {};
-
-// Afficher chaque supermarché
-supermarkets.forEach(f => {
-  const name = f.properties.name || "Nom inconnu";
-  const brand = f.properties.brand || "SansMarque";
-  const cityName = f.properties.addrcity;
-  const postcode = f.properties.postcode;
-  const street = f.properties.street;
-  const housenumber = f.properties.housenumber;
-  let address = null;
-  if (street && housenumber && postcode && cityName) {
-    address = `${housenumber} ${street}, ${postcode} ${cityName}`.trim();
+  if (!fs.existsSync(filePath)) {
+    console.error("Fichier introuvable:", filePath);
+    process.exit(1);
   }
-  let city = null
-  if (cityName)
-   city = cityName.trim();
+  fs.mkdirSync("stores", { recursive: true });
 
-  const lon = f.geometry.coordinates[0];
-  const lat = f.geometry.coordinates[1];
-
-  const shop = { name, city, address, lat, lon };
-
-  if (!shopsByBrand[brand]) {
-    shopsByBrand[brand] = [];
+  console.log("Passage 1 (analyse)...");
+  const { brandMap, totalShops } = await firstPass();
+  console.log(`Total supermarkets: ${totalShops}`);
+  for (const [k, v] of brandMap.entries()) {
+    console.log(`  - ${v.label} (key=${k}) : ${v.count}`);
   }
-  shopsByBrand[brand].push(shop);
+
+  console.log("\nPassage 2 (écriture fichiers)...");
+  for (const [k, v] of brandMap.entries()) {
+    await writeBrandFile(k, v.label);
+  }
+  console.log("\nTerminé.");
+}
+
+main().catch(err => {
+  console.error("Erreur:", err);
+  process.exit(1);
 });
-
-  // Générer un fichier par brand
-  Object.entries(shopsByBrand).forEach(([brand, shops]) => {
-    const safeBrand = brand.replace(/[^\w\d_-]/g, "_");
-    fs.writeFileSync(`stores_${safeBrand}.json`, JSON.stringify(shops, null, 2), "utf-8");
-    console.log(`Fichier généré : stores_${safeBrand}.json (${shops.length} magasins)`);
-  });
-
-  console.log(`\nTotal de brands trouvés : ${Object.keys(shopsByBrand).length}`);
-}
-
-main()
-  .catch(console.error)

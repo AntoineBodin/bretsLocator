@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Odobio",
-    "city": "Carcassonne",
-    "address": null,
-    "lat": 43.2360185,
-    "lon": 2.3668464
-  }
+{"name":"Odobio","brand":"ODOBIO","city":"Carcassonne","address":"Z.I. du Pont Rouge, 11000 Carcassonne","lat":43.2360185,"lon":2.3668464}
 ]

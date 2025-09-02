@@ -1,37 +1,7 @@
 [
-  {
-    "name": "E. Leclerc Relais",
-    "city": null,
-    "address": null,
-    "lat": 48.8504014,
-    "lon": 2.2929658
-  },
-  {
-    "name": "E. Leclerc Drive",
-    "city": null,
-    "address": null,
-    "lat": 47.2114401,
-    "lon": -1.5606795
-  },
-  {
-    "name": "E. Leclerc Relais",
-    "city": null,
-    "address": null,
-    "lat": 47.1808644,
-    "lon": -2.148365
-  },
-  {
-    "name": "E. Leclerc Depôt",
-    "city": "Vaucelles",
-    "address": null,
-    "lat": 49.2818922,
-    "lon": -0.7234727
-  },
-  {
-    "name": "Nom inconnu",
-    "city": null,
-    "address": null,
-    "lat": 45.8098799,
-    "lon": 4.8788766
-  }
+{"name":"E. Leclerc Relais","brand":"E. Leclerc Drive","city":null,"address":null,"lat":48.8504014,"lon":2.2929658},
+{"name":"E. Leclerc Drive","brand":"E. Leclerc Drive","city":null,"address":null,"lat":47.2114401,"lon":-1.5606795},
+{"name":"E. Leclerc Relais","brand":"E. Leclerc Drive","city":null,"address":null,"lat":47.1808644,"lon":-2.148365},
+{"name":"E. Leclerc Depôt","brand":"E. Leclerc Drive","city":"Vaucelles","address":"Rue François Coulet, 14400 Vaucelles","lat":49.2818922,"lon":-0.7234727},
+{"name":"Nom inconnu","brand":"E. Leclerc Drive","city":null,"address":null,"lat":45.8098799,"lon":4.8788766}
 ]

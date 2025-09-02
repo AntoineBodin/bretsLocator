@@ -1,9 +1,3 @@
 [
-  {
-    "name": "7j/7",
-    "city": "Beaucaire",
-    "address": "1 Quai de la Liberté, 30300 Beaucaire",
-    "lat": 43.8046744,
-    "lon": 4.6462699
-  }
+{"name":"7j/7","brand":"7j/7","city":"Beaucaire","address":"1 Quai de la Liberté, 30300 Beaucaire","lat":43.8046744,"lon":4.6462699}
 ]

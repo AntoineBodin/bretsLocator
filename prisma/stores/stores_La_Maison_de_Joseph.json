@@ -1,9 +1,3 @@
 [
-  {
-    "name": "La Maison de Joseph",
-    "city": "Montmelard",
-    "address": null,
-    "lat": 46.3313714,
-    "lon": 4.4100812
-  }
+{"name":"La Maison de Joseph","brand":"La Maison de Joseph","city":"Montmelard","address":"Le Bourg, 71520 Montmelard","lat":46.3313714,"lon":4.4100812}
 ]

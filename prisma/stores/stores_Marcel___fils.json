@@ -1,9 +1,5 @@
 [
-  {
-    "name": "Marcel&fils",
-    "city": null,
-    "address": null,
-    "lat": 43.6282037,
-    "lon": 5.1231384
-  }
+{"name":"Marcel & fils","brand":"Marcel & fils","city":null,"address":null,"lat":43.444783,"lon":5.5526982},
+{"name":"Marcel&fils","brand":"Marcel & fils","city":null,"address":null,"lat":43.6282037,"lon":5.1231384},
+{"name":"Marcel & fils bio Saint-Maximin","brand":"Marcel & fils","city":null,"address":null,"lat":43.4440569,"lon":5.8679766}
 ]

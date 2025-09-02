@@ -1,16 +1,4 @@
 [
-  {
-    "name": "Maxi",
-    "city": null,
-    "address": null,
-    "lat": 47.3890016,
-    "lon": 4.3071298
-  },
-  {
-    "name": "Maxi marché",
-    "city": null,
-    "address": null,
-    "lat": 46.8135398,
-    "lon": 5.0642498
-  }
+{"name":"Maxi","brand":"Maxi","city":null,"address":null,"lat":47.3890016,"lon":4.3071298},
+{"name":"Maxi marché","brand":"Maxi","city":null,"address":null,"lat":46.8135398,"lon":5.0642498}
 ]

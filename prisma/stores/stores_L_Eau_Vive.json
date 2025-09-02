@@ -1,219 +1,33 @@
 [
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 46.9077971,
-    "lon": 6.336139
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 45.1240494,
-    "lon": 5.780737
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": "Aubière",
-    "address": "23 Avenue de Cournon, 63170 Aubière",
-    "lat": 45.7539385,
-    "lon": 3.1362841
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 48.766604,
-    "lon": 2.4868157
-  },
-  {
-    "name": "L'eau Vive",
-    "city": "Béziers",
-    "address": null,
-    "lat": 43.3481285,
-    "lon": 3.2559545
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": "Meylan",
-    "address": "3 Allée des Centaurées, 38240 Meylan",
-    "lat": 45.2032361,
-    "lon": 5.7656002
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": "Chasseneuil-du-Poitou",
-    "address": "1 Avenue des Grands Philambins, 86360 Chasseneuil-du-Poitou",
-    "lat": 46.6498595,
-    "lon": 0.3574256
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": "Bizanos",
-    "address": "47 Route de Tarbes, 64320 Bizanos",
-    "lat": 43.3028692,
-    "lon": -0.3184009
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 48.9506195,
-    "lon": 2.6674138
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 45.2392062,
-    "lon": 5.6696282
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 45.7700976,
-    "lon": 4.8804855
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": "Vannes",
-    "address": "1 Rue Aristide Boucicaut, 56000 Vannes",
-    "lat": 47.6687133,
-    "lon": -2.795822
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 45.7806551,
-    "lon": 3.0810153
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 45.1809976,
-    "lon": 5.7134659
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 48.9026739,
-    "lon": 2.2736631
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 45.7789256,
-    "lon": 4.8323576
-  },
-  {
-    "name": "L'eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 45.7691119,
-    "lon": 4.8498692
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 45.9888988,
-    "lon": 4.7427732
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 45.5943874,
-    "lon": 5.8966524
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 45.753205,
-    "lon": 4.8566897
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": "Gap",
-    "address": "16 Avenue Émile Didier, 05000 Gap",
-    "lat": 44.563874,
-    "lon": 6.0893412
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 44.612563,
-    "lon": -1.116204
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": "Mérignac",
-    "address": "12 Avenue Jean Perrin, 33700 Mérignac",
-    "lat": 44.8381681,
-    "lon": -0.6701558
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": "Bidart",
-    "address": null,
-    "lat": 43.4478635,
-    "lon": -1.5720595
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 44.9039577,
-    "lon": -0.4910885
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 45.9418418,
-    "lon": 6.0682879
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 16.240157,
-    "lon": -61.5904441
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": "Quetigny",
-    "address": "18 Rue du Commerce, 21800 Quetigny",
-    "lat": 47.3089911,
-    "lon": 5.0975339
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": "Nanteuil-lès-Meaux",
-    "address": "11 Avenue de la Foulée, 77100 Nanteuil-lès-Meaux",
-    "lat": 48.9387359,
-    "lon": 2.8805563
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 47.2169682,
-    "lon": 5.9437584
-  },
-  {
-    "name": "L'Eau Vive",
-    "city": null,
-    "address": null,
-    "lat": 48.652803,
-    "lon": 6.180376
-  }
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":"2 Place de l'Europe","lat":46.9077971,"lon":6.336139},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":45.1240494,"lon":5.780737},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":"Aubière","address":"23 Avenue de Cournon, 63170 Aubière","lat":45.7539385,"lon":3.1362841},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":48.766604,"lon":2.4868157},
+{"name":"L'eau Vive","brand":"L'Eau Vive","city":"Béziers","address":"Rue Zénobe Gramme, 34500 Béziers","lat":43.3481285,"lon":3.2559545},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":"Meylan","address":"3 Allée des Centaurées, 38240 Meylan","lat":45.2032361,"lon":5.7656002},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":"Chasseneuil-du-Poitou","address":"1 Avenue des Grands Philambins, 86360 Chasseneuil-du-Poitou","lat":46.6498595,"lon":0.3574256},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":"Bizanos","address":"47 Route de Tarbes, 64320 Bizanos","lat":43.3028692,"lon":-0.3184009},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":48.9506195,"lon":2.6674138},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":45.2392062,"lon":5.6696282},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":45.7700976,"lon":4.8804855},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":"Vannes","address":"1 Rue Aristide Boucicaut, 56000 Vannes","lat":47.6687133,"lon":-2.795822},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":45.7806551,"lon":3.0810153},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":45.1809976,"lon":5.7134659},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":48.9026739,"lon":2.2736631},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":45.7789256,"lon":4.8323576},
+{"name":"L'eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":45.7691119,"lon":4.8498692},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":45.9888988,"lon":4.7427732},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":45.5943874,"lon":5.8966524},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":45.753205,"lon":4.8566897},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":"Gap","address":"16 Avenue Émile Didier, 05000 Gap","lat":44.563874,"lon":6.0893412},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":44.612563,"lon":-1.116204},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":"Mérignac","address":"12 Avenue Jean Perrin, 33700 Mérignac","lat":44.8381681,"lon":-0.6701558},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":"Bidart","address":"Avenue de Bayonne, 64210 Bidart","lat":43.4478635,"lon":-1.5720595},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":44.9039577,"lon":-0.4910885},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":45.9418418,"lon":6.0682879},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":16.240157,"lon":-61.5904441},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":"Quetigny","address":"18 Rue du Commerce, 21800 Quetigny","lat":47.3089911,"lon":5.0975339},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":"Nanteuil-lès-Meaux","address":"11 Avenue de la Foulée, 77100 Nanteuil-lès-Meaux","lat":48.9387359,"lon":2.8805563},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":47.2169682,"lon":5.9437584},
+{"name":"L'Eau Vive","brand":"L'Eau Vive","city":null,"address":null,"lat":48.652803,"lon":6.180376}
 ]

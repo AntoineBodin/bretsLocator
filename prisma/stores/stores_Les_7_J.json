@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Les 7/J",
-    "city": null,
-    "address": null,
-    "lat": 49.0005226,
-    "lon": 2.0902577
-  }
+{"name":"Les 7/J","brand":"Les 7/J","city":null,"address":null,"lat":49.0005226,"lon":2.0902577}
 ]

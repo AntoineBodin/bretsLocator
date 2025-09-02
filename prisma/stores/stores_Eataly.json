@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Eataly",
-    "city": "Paris",
-    "address": "37 Rue Sainte-Croix de la Bretonnerie, 75004 Paris",
-    "lat": 48.8585575,
-    "lon": 2.354468
-  }
+{"name":"Eataly","brand":"Eataly","city":"Paris","address":"37 Rue Sainte-Croix de la Bretonnerie, 75004 Paris","lat":48.8585575,"lon":2.354468}
 ]

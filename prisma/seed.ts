@@ -6,14 +6,6 @@ const prisma = new PrismaClient()
 
 const storesDir = path.join(process.cwd(), "stores");
 
-const flavors = [
-  { name: "Poulet rôti" },
-  { name: "Moutarde à l'ancienne" },
-  { name: "Nature" },
-  { name: "Paprika fumé" },
-  { name: "Ciboulette" }
-]
-
 const statuses = ["in_stock", "out_of_stock", "unavailable"]
 
 async function main() {
@@ -28,6 +20,18 @@ async function main() {
   
   const flavorRecords = await prisma.flavor.findMany(); 
   await createStores(flavorRecords);
+
+  await prisma.$executeRawUnsafe(`
+    UPDATE "Store"
+    SET location = ST_SetSRID(ST_MakePoint(lon, lat), 4326)
+    WHERE lat IS NOT NULL AND lon IS NOT NULL;
+  `);
+  console.log("Stores: location updated");
+
+  await prisma.$executeRawUnsafe(`
+    REINDEX INDEX idx_store_location;
+  `);
+  console.log("Stores: reindexed");
 
   console.log("Seed terminé !")
 }

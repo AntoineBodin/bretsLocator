@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Jardiland",
-    "city": null,
-    "address": null,
-    "lat": 47.7047359,
-    "lon": -0.0500884
-  }
+{"name":"Jardiland","brand":"Jardiland","city":null,"address":null,"lat":47.7047359,"lon":-0.0500884}
 ]

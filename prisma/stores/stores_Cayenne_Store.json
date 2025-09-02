@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Cayenne Store",
-    "city": null,
-    "address": null,
-    "lat": 4.9369647,
-    "lon": -52.3336443
-  }
+{"name":"Cayenne Store","brand":"Cayenne Store","city":null,"address":"Avenue du Président Monnerville","lat":4.9369647,"lon":-52.3336443}
 ]

@@ -1,16 +1,10 @@
 [
-  {
-    "name": "Monop'",
-    "city": "Paris",
-    "address": null,
-    "lat": 48.8443836,
-    "lon": 2.2914736
-  },
-  {
-    "name": "Monop'",
-    "city": null,
-    "address": null,
-    "lat": 48.8436291,
-    "lon": 2.3288346
-  }
+{"name":"monop'","brand":"monop'","city":null,"address":null,"lat":48.9172735,"lon":2.3521903},
+{"name":"monop'","brand":"monop'","city":null,"address":null,"lat":48.8935528,"lon":2.3274406},
+{"name":"monop'","brand":"monop'","city":null,"address":null,"lat":48.8412759,"lon":2.2656972},
+{"name":"Monop'","brand":"monop'","city":"Paris","address":"Paris","lat":48.8443836,"lon":2.2914736},
+{"name":"monop'","brand":"monop'","city":null,"address":null,"lat":48.848074,"lon":2.3053881},
+{"name":"monop'","brand":"monop'","city":null,"address":null,"lat":48.8704407,"lon":2.2967585},
+{"name":"monop'","brand":"monop'","city":null,"address":null,"lat":48.8708619,"lon":2.280364},
+{"name":"Monop'","brand":"monop'","city":null,"address":null,"lat":48.8436291,"lon":2.3288346}
 ]

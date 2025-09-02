@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Marks & Spencer",
-    "city": null,
-    "address": null,
-    "lat": 49.0051195,
-    "lon": 2.5771499
-  }
+{"name":"Marks & Spencer","brand":"Marks and Spencer","city":null,"address":null,"lat":49.0051195,"lon":2.5771499}
 ]

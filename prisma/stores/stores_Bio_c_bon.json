@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Bio c' Bon Wasquehal",
-    "city": "Wasquehal",
-    "address": null,
-    "lat": 50.6803814,
-    "lon": 3.1238211
-  }
+{"name":"Bio c' Bon Wasquehal","brand":"Bio c'bon","city":"Wasquehal","address":"Avenue du Grand Cottignies, 59290 Wasquehal","lat":50.6803814,"lon":3.1238211}
 ]

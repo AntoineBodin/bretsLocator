@@ -1,688 +1,100 @@
 [
-  {
-    "name": "Colruyt",
-    "city": "Pontarlier",
-    "address": "1 Rue de la Paix, 25300 Pontarlier",
-    "lat": 46.9086016,
-    "lon": 6.3513987
-  },
-  {
-    "name": "Colruyt",
-    "city": "Herrlisheim",
-    "address": "2 a Rue du Collège, 67850 Herrlisheim",
-    "lat": 48.7312287,
-    "lon": 7.9023402
-  },
-  {
-    "name": "Supermarché Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.2042931,
-    "lon": 3.2794411
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.304009,
-    "lon": 4.0759039
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 46.8488906,
-    "lon": 5.6958437
-  },
-  {
-    "name": "Colruyt",
-    "city": "Valenton",
-    "address": "23 Rue Gabriel Péri, 94460 Valenton",
-    "lat": 48.7492161,
-    "lon": 2.4712344
-  },
-  {
-    "name": "Colruyt",
-    "city": "Avanne-Aveney",
-    "address": "15 Rue de Champ du Noyer, 25720 Avanne-Aveney",
-    "lat": 47.2106731,
-    "lon": 5.9624138
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 49.1123492,
-    "lon": 6.9307342
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 49.058976,
-    "lon": 6.920554
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.1379259,
-    "lon": 4.9577118
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 46.5311124,
-    "lon": 5.3897468
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 46.380481,
-    "lon": 5.8566855
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 46.5588437,
-    "lon": 4.9966838
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 46.9774168,
-    "lon": 5.8074316
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.6873075,
-    "lon": 6.8363235
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 45.627064,
-    "lon": 6.3204737
-  },
-  {
-    "name": "Colruyt",
-    "city": "Saint-Léonard",
-    "address": "456 Rue de Lorraine, 88650 Saint-Léonard",
-    "lat": 48.2204405,
-    "lon": 6.9455485
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.6064662,
-    "lon": 7.0039465
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.754175,
-    "lon": 6.574699
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.537074,
-    "lon": 6.9800725
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 46.436167,
-    "lon": 5.7241025
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 49.2870971,
-    "lon": 6.5301874
-  },
-  {
-    "name": "Colruyt",
-    "city": "Bavans",
-    "address": null,
-    "lat": 47.479552,
-    "lon": 6.738598
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.3047885,
-    "lon": 6.3891395
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 46.7766795,
-    "lon": 4.7383619
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.1525765,
-    "lon": 5.7598434
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.440523,
-    "lon": 6.7794774
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.2367061,
-    "lon": 5.1107629
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 49.1678679,
-    "lon": 6.7175733
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.8822634,
-    "lon": 6.7614063
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.8311965,
-    "lon": 6.0678
-  },
-  {
-    "name": "Colruyt",
-    "city": "Saint-Pourçain-sur-Sioule",
-    "address": null,
-    "lat": 46.299022,
-    "lon": 3.297288
-  },
-  {
-    "name": "Colruyt",
-    "city": "Cessy",
-    "address": "1 Route de la Plaine, 01170 Cessy",
-    "lat": 46.3093356,
-    "lon": 6.0675641
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.97704,
-    "lon": 5.701288
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.3044323,
-    "lon": 5.1140291
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 46.3126235,
-    "lon": 4.9415619
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.4473053,
-    "lon": 6.7426905
-  },
-  {
-    "name": "Colruyt",
-    "city": "Chaussin",
-    "address": null,
-    "lat": 46.9672183,
-    "lon": 5.4167427
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.0455252,
-    "lon": 6.3974313
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.6613245,
-    "lon": 6.2230257
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 49.2268206,
-    "lon": 6.1654967
-  },
-  {
-    "name": "Colruyt",
-    "city": "Saint-Just-de-Claix",
-    "address": "67 Chemin de la Motte, 38680 Saint-Just-de-Claix",
-    "lat": 45.0633208,
-    "lon": 5.2696238
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.1902491,
-    "lon": 3.2859059
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 45.3022583,
-    "lon": 4.1146532
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 49.0568969,
-    "lon": 6.6039791
-  },
-  {
-    "name": "Colruyt",
-    "city": "Drusenheim",
-    "address": "1 Rue du Collège, 67410 Drusenheim",
-    "lat": 48.7605605,
-    "lon": 7.9538624
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.8899022,
-    "lon": 6.3845707
-  },
-  {
-    "name": "Colruyt",
-    "city": "Serémange-Erzange",
-    "address": "56 Rue Charles de Gaulle, 57290 Serémange-Erzange",
-    "lat": 49.3200025,
-    "lon": 6.0978987
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.7751211,
-    "lon": 6.9923132
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.277795,
-    "lon": 4.0439111
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.661952,
-    "lon": 5.877447
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 49.0690911,
-    "lon": 2.7873288
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.5203949,
-    "lon": 5.1213708
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 45.6152912,
-    "lon": 5.0824893
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.1938282,
-    "lon": 6.3686515
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 49.3896776,
-    "lon": 5.9198264
-  },
-  {
-    "name": "Colruyt",
-    "city": "Hagenthal-le-Bas",
-    "address": "13 C Rue de Hégenheim, 68220 Hagenthal-le-Bas",
-    "lat": 47.5305712,
-    "lon": 7.481439
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.8068938,
-    "lon": 5.4451253
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.9502518,
-    "lon": 7.3748076
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.2790203,
-    "lon": 5.9780328
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.236075,
-    "lon": 5.2254764
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.7873415,
-    "lon": 3.5980161
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.6437363,
-    "lon": 7.5980391
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 46.989295,
-    "lon": 4.5239925
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.3188551,
-    "lon": 4.9104849
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.3338416,
-    "lon": 2.8552216
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.2425622,
-    "lon": 5.2195637
-  },
-  {
-    "name": "Colruyt",
-    "city": "Saint-Amé",
-    "address": "7 Grande Rue, 88120 Saint-Amé",
-    "lat": 48.0248221,
-    "lon": 6.6750906
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.6873008,
-    "lon": 6.0509014
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.0977671,
-    "lon": 5.5021658
-  },
-  {
-    "name": "Colruyt",
-    "city": "Saulxures-sur-Moselotte",
-    "address": null,
-    "lat": 47.9512174,
-    "lon": 6.7798635
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.3911721,
-    "lon": 6.9731663
-  },
-  {
-    "name": "Colruyt",
-    "city": "Saint-Pierre-d'Allevard",
-    "address": null,
-    "lat": 45.3744857,
-    "lon": 6.0539471
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.9676237,
-    "lon": 6.8327579
-  },
-  {
-    "name": "Colruyt",
-    "city": "Champagnole",
-    "address": null,
-    "lat": 46.7482713,
-    "lon": 5.903485
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 45.6302052,
-    "lon": 5.5498398
-  },
-  {
-    "name": "Colruyt Ryoz",
-    "city": null,
-    "address": null,
-    "lat": 47.4185055,
-    "lon": 6.0728806
-  },
-  {
-    "name": "Colruyt",
-    "city": "Saint-Hippolyte",
-    "address": null,
-    "lat": 47.3204476,
-    "lon": 6.8148988
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.0248119,
-    "lon": 5.3381694
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.2855272,
-    "lon": 4.081359
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 45.1531466,
-    "lon": 5.3169788
-  },
-  {
-    "name": "Colruyt",
-    "city": "Sainte-Foy-l'Argentière",
-    "address": "11 Rue du Stade, 69610 Sainte-Foy-l'Argentière",
-    "lat": 45.711535,
-    "lon": 4.4726325
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.5081575,
-    "lon": 7.006317
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.5561969,
-    "lon": 5.6774724
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.8813903,
-    "lon": 6.3969802
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.0975055,
-    "lon": 5.2636858
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.518696,
-    "lon": 6.6536001
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.5831692,
-    "lon": 6.4825022
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.4879521,
-    "lon": 6.8240511
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 45.565262,
-    "lon": 5.3037786
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.7825947,
-    "lon": 5.6087337
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.659733,
-    "lon": 6.8667683
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 46.1126652,
-    "lon": 4.7342061
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 46.7771308,
-    "lon": 4.7385684
-  },
-  {
-    "name": "Colruyt",
-    "city": "Champagney",
-    "address": "9 Avenue de la Gare, 70290 Champagney",
-    "lat": 47.7048234,
-    "lon": 6.6896617
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 48.0735533,
-    "lon": 7.4065814
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 45.4175478,
-    "lon": 4.4009415
-  },
-  {
-    "name": "Colruyt",
-    "city": null,
-    "address": null,
-    "lat": 47.0450112,
-    "lon": 5.4224128
-  }
+{"name":"Colruyt","brand":"Colruyt","city":"Pontarlier","address":"1 Rue de la Paix, 25300 Pontarlier","lat":46.9086016,"lon":6.3513987},
+{"name":"Colruyt","brand":"Colruyt","city":"Herrlisheim","address":"2 a Rue du Collège, 67850 Herrlisheim","lat":48.7312287,"lon":7.9023402},
+{"name":"Supermarché Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.2042931,"lon":3.2794411},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.304009,"lon":4.0759039},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":46.8488906,"lon":5.6958437},
+{"name":"Colruyt","brand":"Colruyt","city":"Valenton","address":"23 Rue Gabriel Péri, 94460 Valenton","lat":48.7492161,"lon":2.4712344},
+{"name":"Colruyt","brand":"Colruyt","city":"Avanne-Aveney","address":"15 Rue de Champ du Noyer, 25720 Avanne-Aveney","lat":47.2106731,"lon":5.9624138},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":49.1123492,"lon":6.9307342},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":49.058976,"lon":6.920554},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.1379259,"lon":4.9577118},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":46.5311124,"lon":5.3897468},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":46.380481,"lon":5.8566855},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":46.5588437,"lon":4.9966838},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":46.9774168,"lon":5.8074316},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.6873075,"lon":6.8363235},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":45.627064,"lon":6.3204737},
+{"name":"Colruyt","brand":"Colruyt","city":"Saint-Léonard","address":"456 Rue de Lorraine, 88650 Saint-Léonard","lat":48.2204405,"lon":6.9455485},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":"2 Rue du Maréchal Leclerc","lat":47.6064662,"lon":7.0039465},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.754175,"lon":6.574699},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.537074,"lon":6.9800725},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":46.436167,"lon":5.7241025},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":49.2870971,"lon":6.5301874},
+{"name":"Colruyt","brand":"Colruyt","city":"Bavans","address":"Grande Rue, 25550 Bavans","lat":47.479552,"lon":6.738598},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.3047885,"lon":6.3891395},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":46.7766795,"lon":4.7383619},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.1525765,"lon":5.7598434},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.440523,"lon":6.7794774},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.2367061,"lon":5.1107629},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":49.1678679,"lon":6.7175733},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.8822634,"lon":6.7614063},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.8311965,"lon":6.0678},
+{"name":"Colruyt","brand":"Colruyt","city":"Saint-Pourçain-sur-Sioule","address":"ZA La Carmone, 03500 Saint-Pourçain-sur-Sioule","lat":46.299022,"lon":3.297288},
+{"name":"Colruyt","brand":"Colruyt","city":"Cessy","address":"1 Route de la Plaine, 01170 Cessy","lat":46.3093356,"lon":6.0675641},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.97704,"lon":5.701288},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.3044323,"lon":5.1140291},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":"1 Route du Bourg","lat":46.3126235,"lon":4.9415619},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.4473053,"lon":6.7426905},
+{"name":"Colruyt","brand":"Colruyt","city":"Chaussin","address":"Route de Deschaux, 39120 Chaussin","lat":46.9672183,"lon":5.4167427},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.0455252,"lon":6.3974313},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":"1 Impasse de l'Ermitage","lat":48.6613245,"lon":6.2230257},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":"1 Avenue François Mitterrand, 57280","lat":49.2268206,"lon":6.1654967},
+{"name":"Colruyt","brand":"Colruyt","city":"Saint-Just-de-Claix","address":"67 Chemin de la Motte, 38680 Saint-Just-de-Claix","lat":45.0633208,"lon":5.2696238},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.1902491,"lon":3.2859059},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":45.3022583,"lon":4.1146532},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":49.0568969,"lon":6.6039791},
+{"name":"Colruyt","brand":"Colruyt","city":"Drusenheim","address":"1 Rue du Collège, 67410 Drusenheim","lat":48.7605605,"lon":7.9538624},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.8899022,"lon":6.3845707},
+{"name":"Colruyt","brand":"Colruyt","city":"Serémange-Erzange","address":"56 Rue Charles de Gaulle, 57290 Serémange-Erzange","lat":49.3200025,"lon":6.0978987},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":"36 Fossé des Veaux","lat":47.7751211,"lon":6.9923132},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.277795,"lon":4.0439111},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.661952,"lon":5.877447},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":49.0690911,"lon":2.7873288},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.5203949,"lon":5.1213708},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":45.6152912,"lon":5.0824893},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.1938282,"lon":6.3686515},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":49.3896776,"lon":5.9198264},
+{"name":"Colruyt","brand":"Colruyt","city":"Hagenthal-le-Bas","address":"13 C Rue de Hégenheim, 68220 Hagenthal-le-Bas","lat":47.5305712,"lon":7.481439},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.8068938,"lon":5.4451253},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.9502518,"lon":7.3748076},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.2790203,"lon":5.9780328},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.236075,"lon":5.2254764},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.7873415,"lon":3.5980161},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.6437363,"lon":7.5980391},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":46.989295,"lon":4.5239925},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.3188551,"lon":4.9104849},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":"1 Route de Menetreol","lat":47.3338416,"lon":2.8552216},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.2425622,"lon":5.2195637},
+{"name":"Colruyt","brand":"Colruyt","city":"Saint-Amé","address":"7 Grande Rue, 88120 Saint-Amé","lat":48.0248221,"lon":6.6750906},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.6873008,"lon":6.0509014},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.0977671,"lon":5.5021658},
+{"name":"Colruyt","brand":"Colruyt","city":"Saulxures-sur-Moselotte","address":"88290 Saulxures-sur-Moselotte","lat":47.9512174,"lon":6.7798635},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":"1","lat":48.3911721,"lon":6.9731663},
+{"name":"Colruyt","brand":"Colruyt","city":"Saint-Pierre-d'Allevard","address":"38830 Saint-Pierre-d'Allevard","lat":45.3744857,"lon":6.0539471},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.9676237,"lon":6.8327579},
+{"name":"Colruyt","brand":"Colruyt","city":"Champagnole","address":"Avenue Edouard Herriot, 39300 Champagnole","lat":46.7482713,"lon":5.903485},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":45.6302052,"lon":5.5498398},
+{"name":"Colruyt Ryoz","brand":"Colruyt","city":null,"address":null,"lat":47.4185055,"lon":6.0728806},
+{"name":"Colruyt","brand":"Colruyt","city":"Saint-Hippolyte","address":"Rue de la Gare, 25190 Saint-Hippolyte","lat":47.3204476,"lon":6.8148988},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.0248119,"lon":5.3381694},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.2855272,"lon":4.081359},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":45.1531466,"lon":5.3169788},
+{"name":"Colruyt","brand":"Colruyt","city":"Sainte-Foy-l'Argentière","address":"11 Rue du Stade, 69610 Sainte-Foy-l'Argentière","lat":45.711535,"lon":4.4726325},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.5081575,"lon":7.006317},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.5561969,"lon":5.6774724},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.8813903,"lon":6.3969802},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.0975055,"lon":5.2636858},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.518696,"lon":6.6536001},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.5831692,"lon":6.4825022},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.4879521,"lon":6.8240511},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":45.565262,"lon":5.3037786},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.7825947,"lon":5.6087337},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.659733,"lon":6.8667683},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":46.1126652,"lon":4.7342061},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":46.7771308,"lon":4.7385684},
+{"name":"Colruyt","brand":"Colruyt","city":"Champagney","address":"9 Avenue de la Gare, 70290 Champagney","lat":47.7048234,"lon":6.6896617},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":48.0735533,"lon":7.4065814},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":45.4175478,"lon":4.4009415},
+{"name":"Colruyt","brand":"Colruyt","city":null,"address":null,"lat":47.0450112,"lon":5.4224128}
 ]

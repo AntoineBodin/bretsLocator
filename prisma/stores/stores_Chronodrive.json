@@ -1,128 +1,20 @@
 [
-  {
-    "name": "Chronodrive",
-    "city": null,
-    "address": null,
-    "lat": 50.6647801,
-    "lon": 3.1483647
-  },
-  {
-    "name": "Chronodrive",
-    "city": null,
-    "address": null,
-    "lat": 45.8042367,
-    "lon": 1.2775328
-  },
-  {
-    "name": "Chronodrive",
-    "city": null,
-    "address": null,
-    "lat": 44.8589565,
-    "lon": -0.6768645
-  },
-  {
-    "name": "Chronodrive",
-    "city": "Avrainville",
-    "address": "5 Route d'Arpajon, 91630 Avrainville",
-    "lat": 48.5739003,
-    "lon": 2.2372381
-  },
-  {
-    "name": "Chronodrive",
-    "city": "Ramonville-Saint-Agne",
-    "address": "2 Avenue des Crêtes, 31520 Ramonville-Saint-Agne",
-    "lat": 43.5363245,
-    "lon": 1.4817576
-  },
-  {
-    "name": "Chronodrive Basso Cambo",
-    "city": null,
-    "address": null,
-    "lat": 43.5801055,
-    "lon": 1.3672653
-  },
-  {
-    "name": "Chronodrive",
-    "city": "Marcq-en-Barœul",
-    "address": "400 Rue de Menin, 59700 Marcq-en-Barœul",
-    "lat": 50.6825475,
-    "lon": 3.0848807
-  },
-  {
-    "name": "Chronodrive",
-    "city": null,
-    "address": null,
-    "lat": 48.5709418,
-    "lon": 2.4659336
-  },
-  {
-    "name": "Chrono drive",
-    "city": null,
-    "address": null,
-    "lat": 45.8842977,
-    "lon": 1.2808192
-  },
-  {
-    "name": "Chronodrive",
-    "city": null,
-    "address": null,
-    "lat": 49.388479,
-    "lon": 2.785248
-  },
-  {
-    "name": "Chronodrive Mions Saint-Priest",
-    "city": null,
-    "address": null,
-    "lat": 45.6810313,
-    "lon": 4.9568745
-  },
-  {
-    "name": "Chronodrive",
-    "city": null,
-    "address": null,
-    "lat": 48.9594622,
-    "lon": 2.2043656
-  },
-  {
-    "name": "Chronodrive",
-    "city": null,
-    "address": null,
-    "lat": 43.2870811,
-    "lon": 5.5084245
-  },
-  {
-    "name": "Chronodrive",
-    "city": null,
-    "address": null,
-    "lat": 43.6518066,
-    "lon": 1.4251623
-  },
-  {
-    "name": "Chronodrive",
-    "city": "Labège",
-    "address": "16 Place du Lauragais, 31670 Labège",
-    "lat": 43.5482273,
-    "lon": 1.5130506
-  },
-  {
-    "name": "Chronodrive",
-    "city": "Clermont-Ferrand",
-    "address": "21 Rue Élisée Reclus, 63100 Clermont-Ferrand",
-    "lat": 45.7892978,
-    "lon": 3.1394077
-  },
-  {
-    "name": "Chronodrive",
-    "city": null,
-    "address": null,
-    "lat": 50.6787694,
-    "lon": 3.136713
-  },
-  {
-    "name": "Chronodrive",
-    "city": null,
-    "address": null,
-    "lat": 50.6519084,
-    "lon": 3.1259852
-  }
+{"name":"Chronodrive","brand":"Chronodrive","city":null,"address":null,"lat":50.6647801,"lon":3.1483647},
+{"name":"Chronodrive","brand":"Chronodrive","city":null,"address":null,"lat":45.8042367,"lon":1.2775328},
+{"name":"Chronodrive","brand":"Chronodrive","city":null,"address":null,"lat":44.8589565,"lon":-0.6768645},
+{"name":"Chronodrive","brand":"Chronodrive","city":"Avrainville","address":"5 Route d'Arpajon, 91630 Avrainville","lat":48.5739003,"lon":2.2372381},
+{"name":"Chronodrive","brand":"Chronodrive","city":"Ramonville-Saint-Agne","address":"2 Avenue des Crêtes, 31520 Ramonville-Saint-Agne","lat":43.5363245,"lon":1.4817576},
+{"name":"Chronodrive Basso Cambo","brand":"Chronodrive","city":null,"address":null,"lat":43.5801055,"lon":1.3672653},
+{"name":"Chronodrive","brand":"Chronodrive","city":"Marcq-en-Barœul","address":"400 Rue de Menin, 59700 Marcq-en-Barœul","lat":50.6825475,"lon":3.0848807},
+{"name":"Chronodrive","brand":"Chronodrive","city":null,"address":null,"lat":48.5709418,"lon":2.4659336},
+{"name":"Chrono drive","brand":"Chronodrive","city":null,"address":null,"lat":45.8842977,"lon":1.2808192},
+{"name":"Chronodrive","brand":"Chronodrive","city":null,"address":"4 Rue Ferdinand de Lesseps","lat":49.388479,"lon":2.785248},
+{"name":"Chronodrive Mions Saint-Priest","brand":"Chronodrive","city":null,"address":null,"lat":45.6810313,"lon":4.9568745},
+{"name":"Chronodrive","brand":"Chronodrive","city":null,"address":null,"lat":48.9594622,"lon":2.2043656},
+{"name":"Chronodrive","brand":"Chronodrive","city":null,"address":null,"lat":43.2870811,"lon":5.5084245},
+{"name":"Chronodrive","brand":"Chronodrive","city":null,"address":null,"lat":43.6518066,"lon":1.4251623},
+{"name":"Chronodrive","brand":"Chronodrive","city":"Labège","address":"16 Place du Lauragais, 31670 Labège","lat":43.5482273,"lon":1.5130506},
+{"name":"Chronodrive","brand":"Chronodrive","city":"Clermont-Ferrand","address":"21 Rue Élisée Reclus, 63100 Clermont-Ferrand","lat":45.7892978,"lon":3.1394077},
+{"name":"Chronodrive","brand":"Chronodrive","city":null,"address":null,"lat":50.6787694,"lon":3.136713},
+{"name":"Chronodrive","brand":"Chronodrive","city":null,"address":null,"lat":50.6519084,"lon":3.1259852}
 ]

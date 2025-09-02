@@ -1,70 +1,78 @@
 import { API_URL } from "./config";
 
-export async function fetchStores(bbox, flavor = null) {
-  const url = new URL(`${API_URL}/stores`);
-  if (bbox) url.searchParams.set("bbox", bbox.join(","));
-  if (flavor) url.searchParams.set("flavor", flavor);
-  
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
-  return await res.json();
+function addFlavorParams(search, flavors) {
+  if (!flavors) return;
+  if (Array.isArray(flavors)) {
+    const clean = flavors.filter(Boolean);
+    if (clean.length === 1) search.set("flavor", clean[0]);
+    else if (clean.length > 1) search.set("flavors", clean.join(","));
+  } else {
+    search.set("flavor", flavors);
+  }
 }
 
+// GET /api/flavors
 export async function fetchFlavors() {
-    const res = await fetch(`${API_URL}/flavors-simple`);
-    if (!res.ok) throw new Error("Erreur API");
-    return await res.json();
+  const res = await fetch(`${API_URL}/flavors`);
+  if (!res.ok) throw new Error(`Erreur API flavors: ${res.status}`);
+  const data = await res.json();
+  return Array.isArray(data) ? data : [];
 }
 
-export async function fetchStoresInBounds(bounds, flavor = null) {
-  const params = new URLSearchParams({
-    swLat: bounds.swLat, // south
-    swLon: bounds.swLon, // west
-    neLat: bounds.neLat, // north
-    neLon: bounds.neLon, // east
-  });
-
-  console.log("fetch with params:", params.toString());
-  if (flavor) params.set("flavor", flavor);
-
-  const res = await fetch(`${API_URL}/stores-in-bounds?${params.toString()}`);
-  if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
-  return await res.json();
+// GET /api/stores (option bbox + flavor|flavors)
+export async function fetchStores({ flavors = null } = {}) {
+  const url = new URL(`${API_URL}/stores`);
+  addFlavorParams(url.searchParams, flavors);
+  const r = await fetch(url);
+  if (!r.ok) throw new Error("stores failed");
+  return r.json();
 }
 
-export async function fetchClusteredStores(bounds, zoom, flavor = null) {
-  const gridSize = getGridSizeFromZoom(zoom);
-  const params = new URLSearchParams({
-    swLat: bounds.getSouth(),
-    swLon: bounds.getWest(),
-    neLat: bounds.getNorth(),
-    neLon: bounds.getEast(),
-    cellSize: gridSize
-  });
-
-  if (flavor) params.set("flavor", flavor);
-
-  const res = await fetch(`${API_URL}/stores-in-bounds?${params.toString()}`);
-  if (!res.ok) throw new Error(`Erreur API: ${res.status}`);
-  return await res.json();
+// GET /api/stores/in-bounds?swLat=&swLon=&neLat=&neLon=&cellSize=... (+ flavor(s))
+// bounds: Leaflet bounds ou objet {swLat,swLon,neLat,neLon}
+export async function fetchStoresInBounds(bounds, flavors = null) {
+  const url = new URL(`${API_URL}/stores/in-bounds`);
+  if (bounds.getSouth) {
+    url.searchParams.set("swLat", bounds.getSouth());
+    url.searchParams.set("swLon", bounds.getWest());
+    url.searchParams.set("neLat", bounds.getNorth());
+    url.searchParams.set("neLon", bounds.getEast());
+  } else {
+    url.searchParams.set("swLat", bounds.swLat);
+    url.searchParams.set("swLon", bounds.swLon);
+    url.searchParams.set("neLat", bounds.neLat);
+    url.searchParams.set("neLon", bounds.neLon);
+  }
+  addFlavorParams(url.searchParams, flavors);
+  const r = await fetch(url);
+  if (!r.ok) throw new Error("in-bounds failed");
+  return r.json();
 }
 
+// Clustering (si backend identique à in-bounds avec cellSize dynamique)
+export async function fetchClusters(bounds, zoom, flavors = null) {
+  const url = new URL(`${API_URL}/clusters`);
+  url.searchParams.set("zoom", zoom);
+  if (bounds.getSouth) {
+    url.searchParams.set("swLat", bounds.getSouth());
+    url.searchParams.set("swLon", bounds.getWest());
+    url.searchParams.set("neLat", bounds.getNorth());
+    url.searchParams.set("neLon", bounds.getEast());
+  } else {
+    url.searchParams.set("swLat", bounds.swLat);
+    url.searchParams.set("swLon", bounds.swLon);
+    url.searchParams.set("neLat", bounds.neLat);
+    url.searchParams.set("neLon", bounds.neLon);
+  }
+  addFlavorParams(url.searchParams, flavors);
+  const r = await fetch(url);
+  if (!r.ok) throw new Error("clusters failed");
+  return r.json();
+}
+
+// GET /api/stores/:id
 export async function fetchStoreById(id) {
-  const res = await fetch(`${API_URL}/store/${id}`);
-  if (!res.ok) throw new Error(`Fetch store failed: ${res.status}`);
-  return await res.json();
-}
-
-// Exemple de fonction de conversion zoom → gridSize
-function getGridSizeFromZoom(zoom) {
-  if (zoom >= 16) return 0.0001;
-  if (zoom >= 12) return 0.01;
-  if (zoom === 11) return 0.02;
-  if (zoom === 10) return 0.15;
-  if (zoom === 9) return 0.25;
-  if (zoom === 8) return 0.25;
-  if (zoom === 7) return 0.5;
-  if (zoom === 6) return 1;
-  if (zoom <= 5) return 5;
-  return 0.5;
+  const r = await fetch(`${API_URL}/stores/${id}`);
+  if (!r.ok) throw new Error("store failed");
+  return r.json();
 }

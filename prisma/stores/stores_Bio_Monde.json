@@ -1,16 +1,4 @@
 [
-  {
-    "name": "Bio monde",
-    "city": "Boëge",
-    "address": "152 Rue du Collège, 74420 Boëge",
-    "lat": 46.2064747,
-    "lon": 6.4034157
-  },
-  {
-    "name": "Gaïa",
-    "city": "Saint-Girons",
-    "address": "8 Boulevard Noël Peyrevidal, 09200 Saint-Girons",
-    "lat": 42.9825721,
-    "lon": 1.1469705
-  }
+{"name":"Bio monde","brand":"Bio Monde","city":"Boëge","address":"152 Rue du Collège, 74420 Boëge","lat":46.2064747,"lon":6.4034157},
+{"name":"Gaïa","brand":"Bio Monde","city":"Saint-Girons","address":"8 Boulevard Noël Peyrevidal, 09200 Saint-Girons","lat":42.9825721,"lon":1.1469705}
 ]

@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Les Eleveurs de la Charentonne",
-    "city": "GIEN",
-    "address": null,
-    "lat": 47.7076536,
-    "lon": 2.6395914
-  }
+{"name":"Les Eleveurs de la Charentonne","brand":"Les Éleveurs de la Charentonne","city":"GIEN","address":"Zone Commerciale Val de Sologne, Rue de la Bosserie, 45500 GIEN","lat":47.7076536,"lon":2.6395914}
 ]

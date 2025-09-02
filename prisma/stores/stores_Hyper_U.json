@@ -1,562 +1,82 @@
 [
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 47.4715077,
-    "lon": -1.7464289
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 48.0621301,
-    "lon": 7.3403508
-  },
-  {
-    "name": "Hyper U",
-    "city": "Parthenay",
-    "address": "1 Boulevard François Mitterrand, 79200 Parthenay",
-    "lat": 46.6443849,
-    "lon": -0.2539002
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 41.5978609,
-    "lon": 9.2768857
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 44.5160858,
-    "lon": 3.481438
-  },
-  {
-    "name": "U Express",
-    "city": "Guebwiller",
-    "address": "12 Rue des Malgré Nous, 68500 Guebwiller",
-    "lat": 47.9159393,
-    "lon": 7.2057934
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 47.0460805,
-    "lon": -1.6431649
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 46.8346772,
-    "lon": -1.8726689
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 48.4132115,
-    "lon": -1.7462296
-  },
-  {
-    "name": "Centre commercial Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 43.4003507,
-    "lon": 1.7052733
-  },
-  {
-    "name": "Hyper U",
-    "city": "Vallet",
-    "address": null,
-    "lat": 47.1681905,
-    "lon": -1.2688161
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 46.7023795,
-    "lon": -1.4317925
-  },
-  {
-    "name": "Hyper U",
-    "city": "Saint-Hilaire-de-Riez",
-    "address": null,
-    "lat": 46.7125495,
-    "lon": -1.9624315
-  },
-  {
-    "name": "Hyper U",
-    "city": "Vitré",
-    "address": "21 Rue de Redon, 35500 Vitré",
-    "lat": 48.1113459,
-    "lon": -1.2111629
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 48.5912534,
-    "lon": -1.8441403
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 43.621622,
-    "lon": 3.437649
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 43.622397,
-    "lon": 3.436703
-  },
-  {
-    "name": "Hyper U Plancoët Val d'Arguenon",
-    "city": null,
-    "address": null,
-    "lat": 48.526047,
-    "lon": -2.239785
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 48.7040766,
-    "lon": 2.6008676
-  },
-  {
-    "name": "Hyper U",
-    "city": "Saint-Romain-de-Colbosc",
-    "address": null,
-    "lat": 49.528311,
-    "lon": 0.345306
-  },
-  {
-    "name": "Hyper U",
-    "city": "Nieppe",
-    "address": null,
-    "lat": 50.6865411,
-    "lon": 2.8415204
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 47.836209,
-    "lon": 0.2605608
-  },
-  {
-    "name": "Hyper U",
-    "city": "Mayenne",
-    "address": "550 Boulevard Jean Monnet, 53100 Mayenne",
-    "lat": 48.2880475,
-    "lon": -0.622771
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 47.1774678,
-    "lon": -1.6776129
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 43.4555234,
-    "lon": 5.8521338
-  },
-  {
-    "name": "Hyper U",
-    "city": "Manosque",
-    "address": "117 Allée Nicéphore Niepce, 04100 Manosque",
-    "lat": 43.818327,
-    "lon": 5.798567
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 46.7333253,
-    "lon": -1.5962725
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 47.6832268,
-    "lon": -2.7636687
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 48.0411091,
-    "lon": -1.5173949
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 44.6170303,
-    "lon": -1.0758882
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 49.301346,
-    "lon": -0.3807279
-  },
-  {
-    "name": "Hyper U",
-    "city": "Evron",
-    "address": null,
-    "lat": 48.1460186,
-    "lon": -0.4139012
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 50.2155106,
-    "lon": 3.0634966
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 45.753624,
-    "lon": -0.6510429
-  },
-  {
-    "name": "Hyper U",
-    "city": "Châteaubriant",
-    "address": null,
-    "lat": 47.7178191,
-    "lon": -1.3899016
-  },
-  {
-    "name": "Hyper U",
-    "city": "Baule",
-    "address": null,
-    "lat": 47.8196045,
-    "lon": 1.6794945
-  },
-  {
-    "name": "Hyper U",
-    "city": "Geispitzen",
-    "address": null,
-    "lat": 47.6664255,
-    "lon": 7.440177
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 48.5946102,
-    "lon": 1.6754329
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 47.3859635,
-    "lon": 2.9202439
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 45.1847602,
-    "lon": 0.7728625
-  },
-  {
-    "name": "Hyper U",
-    "city": "Saint-Jean-de-Monts",
-    "address": null,
-    "lat": 46.7947629,
-    "lon": -2.0425959
-  },
-  {
-    "name": "Hyper U",
-    "city": "Guichen",
-    "address": "11 Rue Louis Ampère, 35580 Guichen",
-    "lat": 47.9720611,
-    "lon": -1.7937587
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 47.3721746,
-    "lon": -1.9364903
-  },
-  {
-    "name": "Hyper U",
-    "city": "Alès",
-    "address": null,
-    "lat": 44.1073908,
-    "lon": 4.0909665
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 44.6171905,
-    "lon": -1.076115
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": -17.5383157,
-    "lon": -149.5517234
-  },
-  {
-    "name": "Hyper U",
-    "city": "Pertuis",
-    "address": null,
-    "lat": 43.6950535,
-    "lon": 5.4915731
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 45.8406332,
-    "lon": 1.2323806
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 48.8659749,
-    "lon": 2.5618401
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 46.9223754,
-    "lon": 6.3412146
-  },
-  {
-    "name": "Hyper U",
-    "city": "Agde",
-    "address": null,
-    "lat": 43.2987683,
-    "lon": 3.474668
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 46.2290294,
-    "lon": 5.9946545
-  },
-  {
-    "name": "Hyper U",
-    "city": "Puilboreau",
-    "address": null,
-    "lat": 46.174939,
-    "lon": -1.1185096
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 47.4982555,
-    "lon": 3.9060067
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 47.4969885,
-    "lon": 6.8369331
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 46.4516919,
-    "lon": -0.8039759
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 47.3986918,
-    "lon": -0.5293587
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 46.6817349,
-    "lon": -1.0466071
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 45.0448052,
-    "lon": 5.0297333
-  },
-  {
-    "name": "Hyper U",
-    "city": "Le Pont-de-Beauvoisin",
-    "address": null,
-    "lat": 45.5294173,
-    "lon": 5.6909024
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 50.0990301,
-    "lon": 1.8595095
-  },
-  {
-    "name": "Hyper U",
-    "city": "Sainte-Geneviève",
-    "address": null,
-    "lat": 49.290527,
-    "lon": 2.2019437
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 45.8550246,
-    "lon": 5.9470866
-  },
-  {
-    "name": "Hyper U",
-    "city": "Les Arcs",
-    "address": "HYPER U LES ARCS Voie Jacques PREVERT, 83460 Les Arcs",
-    "lat": 43.4513338,
-    "lon": 6.4896481
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 48.4815632,
-    "lon": -2.6763524
-  },
-  {
-    "name": "Courses U",
-    "city": null,
-    "address": null,
-    "lat": 47.0465268,
-    "lon": -1.6431465
-  },
-  {
-    "name": "Hyper U",
-    "city": "La Chapelle-sur-Erdre",
-    "address": null,
-    "lat": 47.2845589,
-    "lon": -1.5533203
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 46.607746,
-    "lon": -1.66214
-  },
-  {
-    "name": "Hyper U",
-    "city": "Nice",
-    "address": "1 Rue Contesso, 06100 Nice",
-    "lat": 43.7182419,
-    "lon": 7.2522907
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 50.3316494,
-    "lon": 3.0011345
-  },
-  {
-    "name": "Hyper U",
-    "city": "Le Grand-Quevilly",
-    "address": null,
-    "lat": 49.4177293,
-    "lon": 1.0424171
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 49.2423227,
-    "lon": 4.0841017
-  },
-  {
-    "name": "Hyper U Drive",
-    "city": null,
-    "address": null,
-    "lat": 44.1069178,
-    "lon": 4.0904452
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 43.4004814,
-    "lon": 1.7053401
-  },
-  {
-    "name": "Hyper U",
-    "city": "Vernouillet",
-    "address": "154 Rue de Bruxelles, 28500 Vernouillet",
-    "lat": 48.7162638,
-    "lon": 1.3696869
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 47.2726438,
-    "lon": 0.1679259
-  },
-  {
-    "name": "Hyper U",
-    "city": null,
-    "address": null,
-    "lat": 46.6689535,
-    "lon": 5.5247432
-  },
-  {
-    "name": "Hyper U Drive",
-    "city": "Saint-Romain-de-Colbosc",
-    "address": null,
-    "lat": 49.5284514,
-    "lon": 0.3466523
-  },
-  {
-    "name": "Hyper U",
-    "city": "Les Herbiers",
-    "address": "4 Avenue de la Maine, 85500 Les Herbiers",
-    "lat": 46.8747366,
-    "lon": -1.0277419
-  },
-  {
-    "name": "Hyper U",
-    "city": "Saint-Junien",
-    "address": null,
-    "lat": 45.8983085,
-    "lon": 0.9209258
-  }
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":47.4715077,"lon":-1.7464289},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":48.0621301,"lon":7.3403508},
+{"name":"Hyper U","brand":"Hyper U","city":"Parthenay","address":"1 Boulevard François Mitterrand, 79200 Parthenay","lat":46.6443849,"lon":-0.2539002},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":"20137","lat":41.5978609,"lon":9.2768857},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":44.5160858,"lon":3.481438},
+{"name":"U Express","brand":"Hyper U","city":"Guebwiller","address":"12 Rue des Malgré Nous, 68500 Guebwiller","lat":47.9159393,"lon":7.2057934},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":"4 La Chaussée","lat":47.0460805,"lon":-1.6431649},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":46.8346772,"lon":-1.8726689},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":"7 Avenue des Érables, 35270","lat":48.4132115,"lon":-1.7462296},
+{"name":"Centre commercial Hyper U","brand":"Hyper U","city":null,"address":null,"lat":43.4003507,"lon":1.7052733},
+{"name":"Hyper U","brand":"Hyper U","city":"Vallet","address":"Vallet","lat":47.1681905,"lon":-1.2688161},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":46.7023795,"lon":-1.4317925},
+{"name":"Hyper U","brand":"Hyper U","city":"Saint-Hilaire-de-Riez","address":"Saint-Hilaire-de-Riez","lat":46.7125495,"lon":-1.9624315},
+{"name":"Hyper U","brand":"Hyper U","city":"Vitré","address":"21 Rue de Redon, 35500 Vitré","lat":48.1113459,"lon":-1.2111629},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":48.5912534,"lon":-1.8441403},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":43.621622,"lon":3.437649},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":43.622397,"lon":3.436703},
+{"name":"Hyper U Plancoët Val d'Arguenon","brand":"Hyper U","city":null,"address":null,"lat":48.526047,"lon":-2.239785},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":48.7040766,"lon":2.6008676},
+{"name":"Hyper U","brand":"Hyper U","city":"Saint-Romain-de-Colbosc","address":"76430 Saint-Romain-de-Colbosc","lat":49.528311,"lon":0.345306},
+{"name":"Hyper U","brand":"Hyper U","city":"Nieppe","address":"Ruelle du Bailly, 59850 Nieppe","lat":50.6865411,"lon":2.8415204},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":"Route du Mans","lat":47.836209,"lon":0.2605608},
+{"name":"Hyper U","brand":"Hyper U","city":"Mayenne","address":"550 Boulevard Jean Monnet, 53100 Mayenne","lat":48.2880475,"lon":-0.622771},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":"8 Avenue de la Libération","lat":47.1774678,"lon":-1.6776129},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":43.4555234,"lon":5.8521338},
+{"name":"Hyper U","brand":"Hyper U","city":"Manosque","address":"117 Allée Nicéphore Niepce, 04100 Manosque","lat":43.818327,"lon":5.798567},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":46.7333253,"lon":-1.5962725},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":"Route de Pontivy","lat":47.6832268,"lon":-2.7636687},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":48.0411091,"lon":-1.5173949},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":44.6170303,"lon":-1.0758882},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":49.301346,"lon":-0.3807279},
+{"name":"Hyper U","brand":"Hyper U","city":"Evron","address":"Route de Laval, 53600 Evron","lat":48.1460186,"lon":-0.4139012},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":50.2155106,"lon":3.0634966},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":45.753624,"lon":-0.6510429},
+{"name":"Hyper U","brand":"Hyper U","city":"Châteaubriant","address":"Avenue Jean Moulin, 44110 Châteaubriant","lat":47.7178191,"lon":-1.3899016},
+{"name":"Hyper U","brand":"Hyper U","city":"Baule","address":"Les Coutures, 45130 Baule","lat":47.8196045,"lon":1.6794945},
+{"name":"Hyper U","brand":"Hyper U","city":"Geispitzen","address":"68510 Geispitzen","lat":47.6664255,"lon":7.440177},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":48.5946102,"lon":1.6754329},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":47.3859635,"lon":2.9202439},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":45.1847602,"lon":0.7728625},
+{"name":"Hyper U","brand":"Hyper U","city":"Saint-Jean-de-Monts","address":"Route de Challans, 85160 Saint-Jean-de-Monts","lat":46.7947629,"lon":-2.0425959},
+{"name":"Hyper U","brand":"Hyper U","city":"Guichen","address":"11 Rue Louis Ampère, 35580 Guichen","lat":47.9720611,"lon":-1.7937587},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":47.3721746,"lon":-1.9364903},
+{"name":"Hyper U","brand":"Hyper U","city":"Alès","address":"Avenue Olivier de Serres, 30100 Alès","lat":44.1073908,"lon":4.0909665},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":44.6171905,"lon":-1.076115},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":-17.5383157,"lon":-149.5517234},
+{"name":"Hyper U","brand":"Hyper U","city":"Pertuis","address":"Boulevard Jean Guigues, 84120 Pertuis","lat":43.6950535,"lon":5.4915731},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":45.8406332,"lon":1.2323806},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":48.8659749,"lon":2.5618401},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":"1 Rue de Besançon","lat":46.9223754,"lon":6.3412146},
+{"name":"Hyper U","brand":"Hyper U","city":"Agde","address":"Boulevard Maurice Pacull, 34300 Agde","lat":43.2987683,"lon":3.474668},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":46.2290294,"lon":5.9946545},
+{"name":"Hyper U","brand":"Hyper U","city":"Puilboreau","address":"Route de Nantes, 17138 Puilboreau","lat":46.174939,"lon":-1.1185096},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":47.4982555,"lon":3.9060067},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":47.4969885,"lon":6.8369331},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":46.4516919,"lon":-0.8039759},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":47.3986918,"lon":-0.5293587},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":46.6817349,"lon":-1.0466071},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":"Avenue Louis Saillant","lat":45.0448052,"lon":5.0297333},
+{"name":"Hyper U","brand":"Hyper U","city":"Le Pont-de-Beauvoisin","address":"Lieu-dit l'Écurée, 73330 Le Pont-de-Beauvoisin","lat":45.5294173,"lon":5.6909024},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":50.0990301,"lon":1.8595095},
+{"name":"Hyper U","brand":"Hyper U","city":"Sainte-Geneviève","address":"Route Nationale 1, Sainte-Geneviève","lat":49.290527,"lon":2.2019437},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":45.8550246,"lon":5.9470866},
+{"name":"Hyper U","brand":"Hyper U","city":"Les Arcs","address":"HYPER U LES ARCS Voie Jacques PREVERT, 83460 Les Arcs","lat":43.4513338,"lon":6.4896481},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":48.4815632,"lon":-2.6763524},
+{"name":"Courses U","brand":"Hyper U","city":null,"address":null,"lat":47.0465268,"lon":-1.6431465},
+{"name":"Hyper U","brand":"Hyper U","city":"La Chapelle-sur-Erdre","address":"ZAC de la Bérangerais, 44240 La Chapelle-sur-Erdre","lat":47.2845589,"lon":-1.5533203},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":46.607746,"lon":-1.66214},
+{"name":"Hyper U","brand":"Hyper U","city":"Nice","address":"1 Rue Contesso, 06100 Nice","lat":43.7182419,"lon":7.2522907},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":"Route de Brebières","lat":50.3316494,"lon":3.0011345},
+{"name":"Hyper U","brand":"Hyper U","city":"Le Grand-Quevilly","address":"Rue Antoine Lavoisier, 76120 Le Grand-Quevilly","lat":49.4177293,"lon":1.0424171},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":"5","lat":49.2423227,"lon":4.0841017},
+{"name":"Hyper U Drive","brand":"Hyper U","city":null,"address":"Avenue Olivier de Serres","lat":44.1069178,"lon":4.0904452},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":43.4004814,"lon":1.7053401},
+{"name":"Hyper U","brand":"Hyper U","city":"Vernouillet","address":"154 Rue de Bruxelles, 28500 Vernouillet","lat":48.7162638,"lon":1.3696869},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":47.2726438,"lon":0.1679259},
+{"name":"Hyper U","brand":"Hyper U","city":null,"address":null,"lat":46.6689535,"lon":5.5247432},
+{"name":"Hyper U Drive","brand":"Hyper U","city":"Saint-Romain-de-Colbosc","address":"Avenue Maréchal de Lattre de Tassigny, 76430 Saint-Romain-de-Colbosc","lat":49.5284514,"lon":0.3466523},
+{"name":"Hyper U","brand":"Hyper U","city":"Les Herbiers","address":"4 Avenue de la Maine, 85500 Les Herbiers","lat":46.8747366,"lon":-1.0277419},
+{"name":"Hyper U","brand":"Hyper U","city":"Saint-Junien","address":"Avenue Nelson Mandela, 87200 Saint-Junien","lat":45.8983085,"lon":0.9209258}
 ]

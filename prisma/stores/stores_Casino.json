@@ -1,1283 +1,185 @@
 [
-  {
-    "name": "Casino",
-    "city": "Béziers",
-    "address": "5 Allées Paul Riquet, 34500 Béziers",
-    "lat": 43.344334,
-    "lon": 3.2165025
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.2485698,
-    "lon": -4.0842191
-  },
-  {
-    "name": "Nom inconnu",
-    "city": null,
-    "address": null,
-    "lat": 45.2135171,
-    "lon": 5.8582341
-  },
-  {
-    "name": "Intermarché",
-    "city": "Le Palais",
-    "address": null,
-    "lat": 47.3387994,
-    "lon": -3.1591418
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.5442956,
-    "lon": 5.3636988
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.5812715,
-    "lon": -2.1403793
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.4231135,
-    "lon": 6.751103
-  },
-  {
-    "name": "Auchan",
-    "city": null,
-    "address": null,
-    "lat": 43.4314907,
-    "lon": 6.7547881
-  },
-  {
-    "name": "Casino",
-    "city": "Marvejols",
-    "address": null,
-    "lat": 44.5591912,
-    "lon": 3.2899169
-  },
-  {
-    "name": "Auchan",
-    "city": null,
-    "address": null,
-    "lat": 41.6173618,
-    "lon": 8.9735892
-  },
-  {
-    "name": "Intermarché",
-    "city": "Carry-le-Rouet",
-    "address": "76 Avenue Draio de la Mar, 13620 Carry-le-Rouet",
-    "lat": 43.3305688,
-    "lon": 5.136987
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.3120491,
-    "lon": 3.4702944
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 42.1138124,
-    "lon": 8.7006137
-  },
-  {
-    "name": "Auchan",
-    "city": null,
-    "address": null,
-    "lat": 43.6490141,
-    "lon": 3.83161
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.6947962,
-    "lon": -3.7869458
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.534278,
-    "lon": -3.789257
-  },
-  {
-    "name": "U express",
-    "city": null,
-    "address": null,
-    "lat": 48.5705181,
-    "lon": -3.7064232
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.7639674,
-    "lon": 4.8897516
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.568165,
-    "lon": 7.0732745
-  },
-  {
-    "name": "Casino",
-    "city": "Morteau",
-    "address": "4 Rue du Clos Jeune, 25500 Morteau",
-    "lat": 47.057868,
-    "lon": 6.61023
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 47.4628635,
-    "lon": 6.836146
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.301657,
-    "lon": 5.5697695
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.2000402,
-    "lon": 6.6692208
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.1511965,
-    "lon": 4.615901
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.9853255,
-    "lon": 2.449467
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.7831375,
-    "lon": 2.2441156
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.5597805,
-    "lon": 2.5958438
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.8698125,
-    "lon": -0.328018
-  },
-  {
-    "name": "Supermarché Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.283465,
-    "lon": 2.738686
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 44.389182,
-    "lon": 0.307355
-  },
-  {
-    "name": "Carrefour city",
-    "city": null,
-    "address": null,
-    "lat": 45.1613585,
-    "lon": 1.5321316
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.746322,
-    "lon": 0.382923
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 44.396073,
-    "lon": 0.5893605
-  },
-  {
-    "name": "Le Petit Casino Terreville",
-    "city": null,
-    "address": null,
-    "lat": 14.6271873,
-    "lon": -61.1035256
-  },
-  {
-    "name": "Intermarché",
-    "city": null,
-    "address": null,
-    "lat": 43.0928131,
-    "lon": 5.8450578
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.9375855,
-    "lon": 2.5291248
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.7965485,
-    "lon": 2.4853178
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.267629,
-    "lon": 5.389942
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.3401265,
-    "lon": 4.313349
-  },
-  {
-    "name": "Casino Express",
-    "city": null,
-    "address": null,
-    "lat": 43.5119636,
-    "lon": 5.4862032
-  },
-  {
-    "name": "Intermarché",
-    "city": null,
-    "address": null,
-    "lat": 45.0918292,
-    "lon": 1.9305367
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 47.808889,
-    "lon": -2.392522
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.9248129,
-    "lon": 4.2575218
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.1209765,
-    "lon": 5.8054895
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 46.3485699,
-    "lon": 2.2173875
-  },
-  {
-    "name": "Supermarché Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.1088515,
-    "lon": 6.0311581
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.1175401,
-    "lon": -0.86374
-  },
-  {
-    "name": "Auchan",
-    "city": null,
-    "address": null,
-    "lat": 43.8254693,
-    "lon": 4.4971444
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.4005538,
-    "lon": -3.4294461
-  },
-  {
-    "name": "Super U",
-    "city": null,
-    "address": null,
-    "lat": 44.6862081,
-    "lon": 2.8527229
-  },
-  {
-    "name": "Casino",
-    "city": "Lorgues",
-    "address": "29 Avenue de Toulon, 83510 Lorgues",
-    "lat": 43.4909195,
-    "lon": 6.355539
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.8679321,
-    "lon": 2.6760118
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.3367872,
-    "lon": 1.2454743
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.1002561,
-    "lon": 5.8826675
-  },
-  {
-    "name": "Intermarché",
-    "city": null,
-    "address": null,
-    "lat": 46.635225,
-    "lon": -0.2438721
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.7488219,
-    "lon": -3.4595875
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.5589964,
-    "lon": 6.2527552
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 47.9105555,
-    "lon": -3.338633
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.86625,
-    "lon": 2.3794293
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.2627377,
-    "lon": 3.325441
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.8150056,
-    "lon": 2.419777
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": -22.2909818,
-    "lon": 166.4391083
-  },
-  {
-    "name": "Casino du Mont-Dore",
-    "city": null,
-    "address": null,
-    "lat": -22.238397,
-    "lon": 166.5861207
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.620025,
-    "lon": 6.9712061
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.665179,
-    "lon": 7.1534485
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": -21.2130575,
-    "lon": 55.3035485
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.2534426,
-    "lon": 5.4233587
-  },
-  {
-    "name": "Casino",
-    "city": "Thonon-les-Bains",
-    "address": "27 Avenue du Général de Gaulle, 74200 Thonon-les-Bains",
-    "lat": 46.3700157,
-    "lon": 6.4775468
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.8417832,
-    "lon": 2.3170834
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.2967653,
-    "lon": 4.5590415
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 47.6211201,
-    "lon": 4.3355115
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.2960185,
-    "lon": 5.3862692
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.1143073,
-    "lon": 5.9501784
-  },
-  {
-    "name": "Casino",
-    "city": "Meylan",
-    "address": "2 Place des Tuileaux, 38240 Meylan",
-    "lat": 45.2115225,
-    "lon": 5.786255
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.2906032,
-    "lon": 5.3994627
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.5464542,
-    "lon": 7.0343699
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.1375783,
-    "lon": 6.2316612
-  },
-  {
-    "name": "Casino",
-    "city": "Quetigny",
-    "address": "10 Place Centrale Roger Remond, 21800 Quetigny",
-    "lat": 47.3133863,
-    "lon": 5.1115798
-  },
-  {
-    "name": "Casino Shop",
-    "city": null,
-    "address": null,
-    "lat": 47.3231988,
-    "lon": 5.0391981
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.6056788,
-    "lon": 0.0459579
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 44.4431569,
-    "lon": 0.6222325
-  },
-  {
-    "name": "Supermarché Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.8759704,
-    "lon": 4.8433932
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.7629714,
-    "lon": 4.8778269
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.3352833,
-    "lon": 3.2267602
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.3601887,
-    "lon": 5.3153009
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 47.1909562,
-    "lon": 5.3907385
-  },
-  {
-    "name": "Supermarché Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.2588647,
-    "lon": 5.4173133
-  },
-  {
-    "name": "Aldi",
-    "city": "Marseille",
-    "address": null,
-    "lat": 43.3058263,
-    "lon": 5.3720096
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.9207296,
-    "lon": 2.4100678
-  },
-  {
-    "name": "Supermarché Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.3234642,
-    "lon": 5.3880315
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.6772,
-    "lon": 2.2935944
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 44.5861033,
-    "lon": 5.135759
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.3489211,
-    "lon": 5.3764495
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 42.6984433,
-    "lon": 2.8871177
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 44.7358847,
-    "lon": 1.3819677
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 44.0944013,
-    "lon": 6.931937
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.7730521,
-    "lon": 7.1915082
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.6993592,
-    "lon": 4.8827221
-  },
-  {
-    "name": "Casino",
-    "city": "Pierrefitte-Nestalas",
-    "address": null,
-    "lat": 42.9589144,
-    "lon": -0.0744118
-  },
-  {
-    "name": "Casino Shop",
-    "city": "Nice",
-    "address": null,
-    "lat": 43.7055164,
-    "lon": 7.3004278
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.7548848,
-    "lon": 4.8427227
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 42.6379637,
-    "lon": 2.9226075
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 50.6737023,
-    "lon": 3.1741369
-  },
-  {
-    "name": "Lidl (en chantier, ouverture à venir)",
-    "city": null,
-    "address": null,
-    "lat": 45.488157,
-    "lon": 6.528687
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.4999125,
-    "lon": 4.2419349
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.5723243,
-    "lon": 2.811353
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.4109192,
-    "lon": 3.6784961
-  },
-  {
-    "name": "Casino",
-    "city": "Ispagnac",
-    "address": null,
-    "lat": 44.3711788,
-    "lon": 3.5345743
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 16.240116,
-    "lon": -61.5896992
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.7661429,
-    "lon": 4.9000768
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.5697803,
-    "lon": 5.9202346
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.086908,
-    "lon": 7.2777902
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.9023843,
-    "lon": 2.3070161
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.016936,
-    "lon": 6.5920609
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 44.2445199,
-    "lon": 4.8858684
-  },
-  {
-    "name": "Épicerie Du Buëch",
-    "city": null,
-    "address": null,
-    "lat": 44.4879311,
-    "lon": 5.7296025
-  },
-  {
-    "name": "Casino",
-    "city": "Albi",
-    "address": "39 Lices Georges Pompidou, 81000 Albi",
-    "lat": 43.9282137,
-    "lon": 2.1481069
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.68908,
-    "lon": 7.3341819
-  },
-  {
-    "name": "Casino Shop",
-    "city": null,
-    "address": null,
-    "lat": 43.7457958,
-    "lon": 7.4004283
-  },
-  {
-    "name": "Casino Shop",
-    "city": null,
-    "address": null,
-    "lat": 43.3310543,
-    "lon": 5.1103578
-  },
-  {
-    "name": "Casino",
-    "city": "Boulogne-Billancourt",
-    "address": "143 Rue de Silly, 92100 Boulogne-Billancourt",
-    "lat": 48.8330164,
-    "lon": 2.2337321
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 16.2592932,
-    "lon": -61.2911281
-  },
-  {
-    "name": "Petit casino de Buc",
-    "city": "Buc",
-    "address": "1500 Rue Louis Blériot, 78530 Buc",
-    "lat": 48.7861832,
-    "lon": 2.1329568
-  },
-  {
-    "name": "Casino",
-    "city": "Nice",
-    "address": null,
-    "lat": 43.7168264,
-    "lon": 7.2533521
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.3390389,
-    "lon": 5.0543704
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.7597036,
-    "lon": 4.8346813
-  },
-  {
-    "name": "Nom inconnu",
-    "city": "Vence",
-    "address": "44 Avenue Foch, 06140 Vence",
-    "lat": 43.7235073,
-    "lon": 7.1062202
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.897272,
-    "lon": 2.3228929
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.879332,
-    "lon": 2.4139351
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 44.7855185,
-    "lon": -0.639892
-  },
-  {
-    "name": "Casino",
-    "city": "Boulogne-sur-Mer",
-    "address": null,
-    "lat": 50.7218683,
-    "lon": 1.6082528
-  },
-  {
-    "name": "SPAR",
-    "city": null,
-    "address": null,
-    "lat": 45.3427704,
-    "lon": 5.8145682
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.7738985,
-    "lon": 7.4955207
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 49.0044546,
-    "lon": 2.5154268
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 16.2604086,
-    "lon": -61.6234718
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.5725404,
-    "lon": 7.016836
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.3983407,
-    "lon": -4.4725294
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 49.4184781,
-    "lon": 0.236919
-  },
-  {
-    "name": "Casino Supermarché",
-    "city": null,
-    "address": null,
-    "lat": 45.5546214,
-    "lon": 6.6438239
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.2388174,
-    "lon": 6.2700444
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.7277595,
-    "lon": 7.4119933
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 49.9056592,
-    "lon": 2.2714677
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 42.7898047,
-    "lon": 0.5915561
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 45.7634514,
-    "lon": 4.8435682
-  },
-  {
-    "name": "Casino Shop",
-    "city": null,
-    "address": null,
-    "lat": 43.5442657,
-    "lon": 7.0378158
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.2472371,
-    "lon": 3.2940188
-  },
-  {
-    "name": "Casino",
-    "city": "Brioude",
-    "address": "35 Rue Sébastopol, 43100 Brioude",
-    "lat": 45.2930166,
-    "lon": 3.3859702
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.3023352,
-    "lon": 5.3968466
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.530412,
-    "lon": 5.4476018
-  },
-  {
-    "name": "Casino",
-    "city": "Jouy-en-Josas",
-    "address": "3 Parc de Diane, 78350 Jouy-en-Josas",
-    "lat": 48.7543473,
-    "lon": 2.1870294
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 47.4663505,
-    "lon": -0.5533994
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.2903095,
-    "lon": 5.3575813
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 46.7016742,
-    "lon": 0.3716429
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 48.9759699,
-    "lon": 2.4113577
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.3359147,
-    "lon": 5.4815643
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 46.6700065,
-    "lon": -1.4303976
-  },
-  {
-    "name": "Auchan",
-    "city": null,
-    "address": null,
-    "lat": 41.5860253,
-    "lon": 9.28161
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.2211765,
-    "lon": 0.0614158
-  },
-  {
-    "name": "Nom inconnu",
-    "city": null,
-    "address": null,
-    "lat": 41.8977627,
-    "lon": 8.8097903
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.4831571,
-    "lon": 5.4176235
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.2851132,
-    "lon": 5.3878939
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.6587114,
-    "lon": 7.1628436
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 46.3617172,
-    "lon": 2.5351566
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.3054463,
-    "lon": 5.392487
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.302833,
-    "lon": -0.3093874
-  },
-  {
-    "name": "Casino express",
-    "city": "Hastingues",
-    "address": null,
-    "lat": 43.5293626,
-    "lon": -1.1510914
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.5262793,
-    "lon": 5.4527386
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.4414422,
-    "lon": 5.3951302
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": -22.2489847,
-    "lon": 166.4708585
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": -22.2908673,
-    "lon": 166.4391037
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 46.0299097,
-    "lon": 4.065317
-  },
-  {
-    "name": "Vival",
-    "city": null,
-    "address": null,
-    "lat": 43.2412855,
-    "lon": 5.3767048
-  },
-  {
-    "name": "Auchan supermarché",
-    "city": "Nice",
-    "address": null,
-    "lat": 43.6751115,
-    "lon": 7.2066517
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.7652268,
-    "lon": 7.4864155
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.8388474,
-    "lon": 4.3615454
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.9281815,
-    "lon": 2.1494766
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 44.8958623,
-    "lon": 1.4785732
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 43.6577456,
-    "lon": 7.1233643
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 16.2865309,
-    "lon": -61.5118105
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 46.1431052,
-    "lon": 3.2657614
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 49.1267642,
-    "lon": 3.5369207
-  },
-  {
-    "name": "Casino",
-    "city": "Eckartswiller",
-    "address": "A4 Aire de Saverne - Eckartswiller, 67700 Eckartswiller",
-    "lat": 48.762195,
-    "lon": 7.365221
-  },
-  {
-    "name": "Casino",
-    "city": null,
-    "address": null,
-    "lat": 44.0232457,
-    "lon": 4.8898006
-  }
+{"name":"Casino","brand":"Casino","city":"Béziers","address":"5 Allées Paul Riquet, 34500 Béziers","lat":43.344334,"lon":3.2165025},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.2485698,"lon":-4.0842191},
+{"name":"Nom inconnu","brand":"Casino","city":null,"address":null,"lat":45.2135171,"lon":5.8582341},
+{"name":"Intermarché","brand":"Casino","city":"Le Palais","address":"Route de Bangor, 56360 Le Palais","lat":47.3387994,"lon":-3.1591418},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.5442956,"lon":5.3636988},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.5812715,"lon":-2.1403793},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.4231135,"lon":6.751103},
+{"name":"Auchan","brand":"Casino","city":null,"address":null,"lat":43.4314907,"lon":6.7547881},
+{"name":"Casino","brand":"Casino","city":"Marvejols","address":"Boulevard Théophile Roussel, 48100 Marvejols","lat":44.5591912,"lon":3.2899169},
+{"name":"Auchan","brand":"Casino","city":null,"address":null,"lat":41.6173618,"lon":8.9735892},
+{"name":"Intermarché","brand":"Casino","city":"Carry-le-Rouet","address":"76 Avenue Draio de la Mar, 13620 Carry-le-Rouet","lat":43.3305688,"lon":5.136987},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.3120491,"lon":3.4702944},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":42.1138124,"lon":8.7006137},
+{"name":"Auchan","brand":"Casino","city":null,"address":"34790","lat":43.6490141,"lon":3.83161},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.6947962,"lon":-3.7869458},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.534278,"lon":-3.789257},
+{"name":"U express","brand":"Casino","city":null,"address":null,"lat":48.5705181,"lon":-3.7064232},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.7639674,"lon":4.8897516},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.568165,"lon":7.0732745},
+{"name":"Casino","brand":"Casino","city":"Morteau","address":"4 Rue du Clos Jeune, 25500 Morteau","lat":47.057868,"lon":6.61023},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":47.4628635,"lon":6.836146},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.301657,"lon":5.5697695},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.2000402,"lon":6.6692208},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.1511965,"lon":4.615901},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.9853255,"lon":2.449467},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.7831375,"lon":2.2441156},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.5597805,"lon":2.5958438},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.8698125,"lon":-0.328018},
+{"name":"Supermarché Casino","brand":"Casino","city":null,"address":null,"lat":43.283465,"lon":2.738686},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":44.389182,"lon":0.307355},
+{"name":"Carrefour city","brand":"Casino","city":null,"address":null,"lat":45.1613585,"lon":1.5321316},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.746322,"lon":0.382923},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":44.396073,"lon":0.5893605},
+{"name":"Le Petit Casino Terreville","brand":"Casino","city":null,"address":null,"lat":14.6271873,"lon":-61.1035256},
+{"name":"Intermarché","brand":"Casino","city":null,"address":null,"lat":43.0928131,"lon":5.8450578},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.9375855,"lon":2.5291248},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.7965485,"lon":2.4853178},
+{"name":"Casino","brand":"Casino","city":null,"address":"39","lat":43.267629,"lon":5.389942},
+{"name":"Casino","brand":"Casino","city":null,"address":"Rue du Centre","lat":45.3401265,"lon":4.313349},
+{"name":"Casino Express","brand":"Casino","city":null,"address":null,"lat":43.5119636,"lon":5.4862032},
+{"name":"Intermarché","brand":"Casino","city":null,"address":"6 Rue Douvisis, 19400","lat":45.0918292,"lon":1.9305367},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":47.808889,"lon":-2.392522},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.9248129,"lon":4.2575218},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.1209765,"lon":5.8054895},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":46.3485699,"lon":2.2173875},
+{"name":"Supermarché Casino","brand":"Casino","city":null,"address":null,"lat":43.1088515,"lon":6.0311581},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.1175401,"lon":-0.86374},
+{"name":"Auchan","brand":"Casino","city":null,"address":null,"lat":43.8254693,"lon":4.4971444},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.4005538,"lon":-3.4294461},
+{"name":"Super U","brand":"Casino","city":null,"address":null,"lat":44.6862081,"lon":2.8527229},
+{"name":"Casino","brand":"Casino","city":"Lorgues","address":"29 Avenue de Toulon, 83510 Lorgues","lat":43.4909195,"lon":6.355539},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.8679321,"lon":2.6760118},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.3367872,"lon":1.2454743},
+{"name":"Casino","brand":"Casino","city":null,"address":"Quai Gabriel Péri, 83500","lat":43.1002561,"lon":5.8826675},
+{"name":"Intermarché","brand":"Casino","city":null,"address":"46 Route de Saint-Maixent, 79200","lat":46.635225,"lon":-0.2438721},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.7488219,"lon":-3.4595875},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.5589964,"lon":6.2527552},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":47.9105555,"lon":-3.338633},
+{"name":"Casino","brand":"Casino","city":null,"address":"Rue Oberkampf, 75011","lat":48.86625,"lon":2.3794293},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.2627377,"lon":3.325441},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.8150056,"lon":2.419777},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":-22.2909818,"lon":166.4391083},
+{"name":"Casino du Mont-Dore","brand":"Casino","city":null,"address":null,"lat":-22.238397,"lon":166.5861207},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.620025,"lon":6.9712061},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.665179,"lon":7.1534485},
+{"name":"Casino","brand":"Casino","city":null,"address":"149 CD11, 97424","lat":-21.2130575,"lon":55.3035485},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.2534426,"lon":5.4233587},
+{"name":"Casino","brand":"Casino","city":"Thonon-les-Bains","address":"27 Avenue du Général de Gaulle, 74200 Thonon-les-Bains","lat":46.3700157,"lon":6.4775468},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.8417832,"lon":2.3170834},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.2967653,"lon":4.5590415},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":47.6211201,"lon":4.3355115},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.2960185,"lon":5.3862692},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.1143073,"lon":5.9501784},
+{"name":"Casino","brand":"Casino","city":"Meylan","address":"2 Place des Tuileaux, 38240 Meylan","lat":45.2115225,"lon":5.786255},
+{"name":"Casino","brand":"Casino","city":null,"address":"Boulevard Jean Moulin","lat":43.2906032,"lon":5.3994627},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.5464542,"lon":7.0343699},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.1375783,"lon":6.2316612},
+{"name":"Casino","brand":"Casino","city":"Quetigny","address":"10 Place Centrale Roger Remond, 21800 Quetigny","lat":47.3133863,"lon":5.1115798},
+{"name":"Casino Shop","brand":"Casino","city":null,"address":null,"lat":47.3231988,"lon":5.0391981},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.6056788,"lon":0.0459579},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":44.4431569,"lon":0.6222325},
+{"name":"Supermarché Casino","brand":"Casino","city":null,"address":null,"lat":45.8759704,"lon":4.8433932},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.7629714,"lon":4.8778269},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.3352833,"lon":3.2267602},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.3601887,"lon":5.3153009},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":47.1909562,"lon":5.3907385},
+{"name":"Supermarché Casino","brand":"Casino","city":null,"address":null,"lat":43.2588647,"lon":5.4173133},
+{"name":"Aldi","brand":"Casino","city":"Marseille","address":"11, Marseille","lat":43.3058263,"lon":5.3720096},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.9207296,"lon":2.4100678},
+{"name":"Supermarché Casino","brand":"Casino","city":null,"address":null,"lat":43.3234642,"lon":5.3880315},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.6772,"lon":2.2935944},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":44.5861033,"lon":5.135759},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.3489211,"lon":5.3764495},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":42.6984433,"lon":2.8871177},
+{"name":"Casino","brand":"Casino","city":null,"address":"Allée de la République","lat":44.7358847,"lon":1.3819677},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":44.0944013,"lon":6.931937},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.7730521,"lon":7.1915082},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.6993592,"lon":4.8827221},
+{"name":"Casino","brand":"Casino","city":"Pierrefitte-Nestalas","address":"Avenue Jean Moulin, 65260 Pierrefitte-Nestalas","lat":42.9589144,"lon":-0.0744118},
+{"name":"Casino Shop","brand":"Casino","city":"Nice","address":"115 Corniche André de Joly, Nice","lat":43.7055164,"lon":7.3004278},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.7548848,"lon":4.8427227},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":42.6379637,"lon":2.9226075},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":50.6737023,"lon":3.1741369},
+{"name":"Lidl (en chantier, ouverture à venir)","brand":"Casino","city":null,"address":null,"lat":45.488157,"lon":6.528687},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.4999125,"lon":4.2419349},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.5723243,"lon":2.811353},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.4109192,"lon":3.6784961},
+{"name":"Casino","brand":"Casino","city":"Ispagnac","address":"Route Neuve, 48320 Ispagnac","lat":44.3711788,"lon":3.5345743},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":16.240116,"lon":-61.5896992},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.7661429,"lon":4.9000768},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.5697803,"lon":5.9202346},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.086908,"lon":7.2777902},
+{"name":"Casino","brand":"Casino","city":null,"address":"78","lat":48.9023843,"lon":2.3070161},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.016936,"lon":6.5920609},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":44.2445199,"lon":4.8858684},
+{"name":"Épicerie Du Buëch","brand":"Casino","city":null,"address":null,"lat":44.4879311,"lon":5.7296025},
+{"name":"Casino","brand":"Casino","city":"Albi","address":"39 Lices Georges Pompidou, 81000 Albi","lat":43.9282137,"lon":2.1481069},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.68908,"lon":7.3341819},
+{"name":"Casino Shop","brand":"Casino","city":null,"address":null,"lat":43.7457958,"lon":7.4004283},
+{"name":"Casino Shop","brand":"Casino","city":null,"address":null,"lat":43.3310543,"lon":5.1103578},
+{"name":"Casino","brand":"Casino","city":"Boulogne-Billancourt","address":"143 Rue de Silly, 92100 Boulogne-Billancourt","lat":48.8330164,"lon":2.2337321},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":16.2592932,"lon":-61.2911281},
+{"name":"Petit casino de Buc","brand":"Casino","city":"Buc","address":"1500 Rue Louis Blériot, 78530 Buc","lat":48.7861832,"lon":2.1329568},
+{"name":"Casino","brand":"Casino","city":"Nice","address":"78-80 Boulevard de Cessole, Nice","lat":43.7168264,"lon":7.2533521},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.3390389,"lon":5.0543704},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.7597036,"lon":4.8346813},
+{"name":"Nom inconnu","brand":"Casino","city":"Vence","address":"44 Avenue Foch, 06140 Vence","lat":43.7235073,"lon":7.1062202},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.897272,"lon":2.3228929},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.879332,"lon":2.4139351},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":44.7855185,"lon":-0.639892},
+{"name":"Casino","brand":"Casino","city":"Boulogne-sur-Mer","address":"Place Louis Lumière, 62200 Boulogne-sur-Mer","lat":50.7218683,"lon":1.6082528},
+{"name":"SPAR","brand":"Casino","city":null,"address":"72 Rue Léon Auscher, 38380","lat":45.3427704,"lon":5.8145682},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.7738985,"lon":7.4955207},
+{"name":"Casino","brand":"Casino","city":null,"address":"Rue Houdart","lat":49.0044546,"lon":2.5154268},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":16.2604086,"lon":-61.6234718},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.5725404,"lon":7.016836},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.3983407,"lon":-4.4725294},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":49.4184781,"lon":0.236919},
+{"name":"Casino Supermarché","brand":"Casino","city":null,"address":null,"lat":45.5546214,"lon":6.6438239},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.2388174,"lon":6.2700444},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.7277595,"lon":7.4119933},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":49.9056592,"lon":2.2714677},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":42.7898047,"lon":0.5915561},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":45.7634514,"lon":4.8435682},
+{"name":"Casino Shop","brand":"Casino","city":null,"address":null,"lat":43.5442657,"lon":7.0378158},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.2472371,"lon":3.2940188},
+{"name":"Casino","brand":"Casino","city":"Brioude","address":"35 Rue Sébastopol, 43100 Brioude","lat":45.2930166,"lon":3.3859702},
+{"name":"Casino","brand":"Casino","city":null,"address":"4","lat":43.3023352,"lon":5.3968466},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.530412,"lon":5.4476018},
+{"name":"Casino","brand":"Casino","city":"Jouy-en-Josas","address":"3 Parc de Diane, 78350 Jouy-en-Josas","lat":48.7543473,"lon":2.1870294},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":47.4663505,"lon":-0.5533994},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.2903095,"lon":5.3575813},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":46.7016742,"lon":0.3716429},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":48.9759699,"lon":2.4113577},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.3359147,"lon":5.4815643},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":46.6700065,"lon":-1.4303976},
+{"name":"Auchan","brand":"Casino","city":null,"address":"20137","lat":41.5860253,"lon":9.28161},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.2211765,"lon":0.0614158},
+{"name":"Nom inconnu","brand":"Casino","city":null,"address":null,"lat":41.8977627,"lon":8.8097903},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.4831571,"lon":5.4176235},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.2851132,"lon":5.3878939},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.6587114,"lon":7.1628436},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":46.3617172,"lon":2.5351566},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.3054463,"lon":5.392487},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.302833,"lon":-0.3093874},
+{"name":"Casino express","brand":"Casino","city":"Hastingues","address":"Aire d'Hastingues, 40300 Hastingues","lat":43.5293626,"lon":-1.1510914},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.5262793,"lon":5.4527386},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.4414422,"lon":5.3951302},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":-22.2489847,"lon":166.4708585},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":-22.2908673,"lon":166.4391037},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":46.0299097,"lon":4.065317},
+{"name":"Vival","brand":"Casino","city":null,"address":"Traverse Tiboulen, 13008","lat":43.2412855,"lon":5.3767048},
+{"name":"Auchan supermarché","brand":"Casino","city":"Nice","address":"5 Avenue Martin Luther King, Nice","lat":43.6751115,"lon":7.2066517},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.7652268,"lon":7.4864155},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.8388474,"lon":4.3615454},
+{"name":"Casino","brand":"Casino","city":null,"address":"56 Rue de la Croix Verte","lat":43.9281815,"lon":2.1494766},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":44.8958623,"lon":1.4785732},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":43.6577456,"lon":7.1233643},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":16.2865309,"lon":-61.5118105},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":46.1431052,"lon":3.2657614},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":49.1267642,"lon":3.5369207},
+{"name":"Casino","brand":"Casino","city":"Eckartswiller","address":"A4 Aire de Saverne - Eckartswiller, 67700 Eckartswiller","lat":48.762195,"lon":7.365221},
+{"name":"Casino","brand":"Casino","city":null,"address":null,"lat":44.0232457,"lon":4.8898006}
 ]

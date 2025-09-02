@@ -1,37 +1,7 @@
 [
-  {
-    "name": "Cora Drive",
-    "city": null,
-    "address": null,
-    "lat": 48.1262687,
-    "lon": 7.3667723
-  },
-  {
-    "name": "Cora Drive Amphion",
-    "city": "Publier",
-    "address": "1005 Rue de Cartheray, 74500 Publier",
-    "lat": 46.3911884,
-    "lon": 6.523656
-  },
-  {
-    "name": "Cora Drive",
-    "city": null,
-    "address": null,
-    "lat": 49.143444,
-    "lon": 5.4084519
-  },
-  {
-    "name": "Cora Drive",
-    "city": null,
-    "address": null,
-    "lat": 48.5773685,
-    "lon": 6.5222711
-  },
-  {
-    "name": "Cora Drive",
-    "city": null,
-    "address": null,
-    "lat": 48.1369711,
-    "lon": -1.7661759
-  }
+{"name":"Cora Drive","brand":"Cora Drive","city":null,"address":null,"lat":48.1262687,"lon":7.3667723},
+{"name":"Cora Drive Amphion","brand":"Cora Drive","city":"Publier","address":"1005 Rue de Cartheray, 74500 Publier","lat":46.3911884,"lon":6.523656},
+{"name":"Cora Drive","brand":"Cora Drive","city":null,"address":null,"lat":49.143444,"lon":5.4084519},
+{"name":"Cora Drive","brand":"Cora Drive","city":null,"address":null,"lat":48.5773685,"lon":6.5222711},
+{"name":"Cora Drive","brand":"Cora Drive","city":null,"address":null,"lat":48.1369711,"lon":-1.7661759}
 ]

@@ -1,9 +1,4 @@
 [
-  {
-    "name": "Coop Saint-Michel",
-    "city": null,
-    "address": null,
-    "lat": 45.6380941,
-    "lon": 0.111206
-  }
+{"name":"La Coop","brand":"Coop","city":"Saintes","address":"9 Rue Urbain Loyer, 17100 Saintes","lat":45.7467195,"lon":-0.632788},
+{"name":"Coop Saint-Michel","brand":"Coop","city":null,"address":"31 Avenue de la République","lat":45.6380941,"lon":0.111206}
 ]

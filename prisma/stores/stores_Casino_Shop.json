@@ -1,16 +1,4 @@
 [
-  {
-    "name": "Casino Shop",
-    "city": null,
-    "address": null,
-    "lat": 43.3012001,
-    "lon": -0.3751906
-  },
-  {
-    "name": "Casino Shop",
-    "city": null,
-    "address": null,
-    "lat": 45.7276458,
-    "lon": 4.8865804
-  }
+{"name":"Casino Shop","brand":"Casino Shop","city":null,"address":null,"lat":43.3012001,"lon":-0.3751906},
+{"name":"Casino Shop","brand":"Casino Shop","city":null,"address":null,"lat":45.7276458,"lon":4.8865804}
 ]

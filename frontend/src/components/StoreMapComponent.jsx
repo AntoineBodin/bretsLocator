@@ -1,71 +1,86 @@
-import React, { useRef, useState, useEffect } from "react";
-import L from "leaflet";
-import { fetchClusteredStores, fetchStoreById } from "../utils/api";
+import React, { useRef, useState, useEffect, useCallback } from "react";
+import { fetchStoreById } from "../utils/api";
+import { MapUpdater } from "./MapHelpers";
 import ControlsPanel from "./ControlsPanel";
 import MapSection from "./MapSection";
 import DetailsSection from "./DetailsSection";
+import FlavorDrawer from "./FlavorDrawer";
 import { fontStack, colors } from "./styleTokens";
 
-export default function StoreMapComponent({ selectedFlavor, flavors = [], onStoreSelect = () => {} }) {
+export default function StoreMapComponent({ flavors = [], onStoreSelect = () => {} }) {
   const mapRef = useRef(null);
-  const [clusteredStores, setClusteredStores] = useState([]);
+
+  // Séparer clusters et points
+  const [clusters, setClusters] = useState([]);
+  const [visibleStores, setVisibleStores] = useState([]);
+
   const [selectedStoreId, setSelectedStoreId] = useState(null);
   const [selectedStore, setSelectedStore] = useState(null);
+  const [detailsExpanded, setDetailsExpanded] = useState(false);
 
-  // charge détails magasin
+  const [selectedFlavors, setSelectedFlavors] = useState([]);
+  const primarySelectedFlavor = selectedFlavors[0] || null;
+  const [flavorDrawerOpen, setFlavorDrawerOpen] = useState(false);
+
+  const toggleFlavor = useCallback((flavorId) => {
+    setSelectedFlavors(prev =>
+      prev.includes(flavorId)
+        ? prev.filter(id => id !== flavorId)
+        : [...prev, flavorId]
+    );
+  }, []);
+  const resetFlavors = useCallback(() => setSelectedFlavors([]), []);
+
+  const onClusterClick = useCallback((cluster) => {
+    if (!cluster || !mapRef.current) return;
+    const map = mapRef.current;
+    const currentZoom = map.getZoom();
+    const targetZoom = Math.min(
+      (typeof currentZoom === "number" ? currentZoom : 0) + 2,
+      map.getMaxZoom ? map.getMaxZoom() : 19
+    );
+    // Recentrer + zoom (flyTo pour animation douce)
+    map.flyTo([cluster.lat, cluster.lon], targetZoom, {
+      duration: 0.6
+    });
+  }, []);
+
+  // Détails store
   useEffect(() => {
-    let mounted = true;
-    if (!selectedStoreId) {
-      setSelectedStore(null);
-      return;
-    }
+    let abort = false;
+    if (!selectedStoreId) { setSelectedStore(null); return; }
     (async () => {
       try {
-        const store = await fetchStoreById(selectedStoreId);
-        if (mounted) setSelectedStore(store);
-      } catch (e) {
-        console.error("fetchStoreById failed", e);
-        if (mounted) setSelectedStore(null);
+        const d = await fetchStoreById(selectedStoreId);
+        if (!abort) setSelectedStore(d);
+      } catch {
+        if (!abort) setSelectedStore(null);
       }
     })();
-    return () => { mounted = false; };
+    return () => { abort = true; };
   }, [selectedStoreId]);
 
-  const onClusterClick = (point) => {
-    if (!mapRef.current) return;
-    const map = mapRef.current;
-    map.setView(L.latLng(point.lat, point.lon), Math.min(map.getZoom() + 2, map.getMaxZoom?.() || 22), { animate: true });
-    clearSelection();
-  };
-
-  const toggleAvailability = (flavorName) => {
-    setSelectedStore(prev => {
-      if (!prev) return prev;
-      return {
-        ...prev,
-        storeFlavors: (prev.storeFlavors || []).map(sf =>
-          sf.flavorName === flavorName
-            ? { ...sf, available: sf.available === 1 ? 2 : sf.available === 2 ? 0 : 1 }
-            : sf
-        )
-      };
-    });
-  };
-
-  const sortedFlavorsForRender = (list = []) => {
-    const rank = v => (v === 1 ? 0 : v === 0 ? 1 : 2);
-    return [...list].sort(
-      (a, b) =>
-        rank(a.available) - rank(b.available) ||
-        (a.flavor?.name || a.flavorName).localeCompare(b.flavor?.name || b.flavorName)
-    );
-  };
-
-  const clearSelection = () => {
+  const clearSelection = useCallback(() => {
     setSelectedStoreId(null);
     setSelectedStore(null);
+    setDetailsExpanded(false);
+    setTimeout(() => mapRef.current?.invalidateSize(), 350);
     onStoreSelect(null);
-  };
+  }, [onStoreSelect]);
+
+  const toggleAvailability = useCallback((flavorName) => {
+    if (!selectedStore) return;
+    setSelectedStore(prev => {
+      if (!prev) return prev;
+      const copy = { ...prev, storeFlavors: [...(prev.storeFlavors||[])] };
+      const idx = copy.storeFlavors.findIndex(f => (f.flavorName || f.flavor?.name) === flavorName);
+      if (idx >= 0) {
+        const cur = copy.storeFlavors[idx].available;
+        copy.storeFlavors[idx] = { ...copy.storeFlavors[idx], available: (cur + 1) % 3 };
+      }
+      return copy;
+    });
+  }, [selectedStore]);
 
   return (
     <div style={{
@@ -76,32 +91,69 @@ export default function StoreMapComponent({ selectedFlavor, flavors = [], onStor
       padding: 12,
       fontFamily: fontStack,
       background: `linear-gradient(180deg, ${colors.bgApp} 0%, #edf1f5 100%)`,
-      boxSizing: "border-box"
+      boxSizing: "border-box",
+      position: "relative"
     }}>
-      <div style={{ flex: "0 0 auto" }}>
-        <ControlsPanel selectedFlavor={selectedFlavor} flavors={flavors} />
-      </div>
-
-      <MapSection
-        selectedFlavor={selectedFlavor}
-        clusteredStores={clusteredStores}
-        setClusteredStores={setClusteredStores}
-        mapRef={mapRef}
-        onClusterClick={onClusterClick}
-        onStoreSelect={(id) => {
-          setSelectedStoreId(id);
-          onStoreSelect(id);
+      <button
+        type="button"
+        onClick={() => setFlavorDrawerOpen(true)}
+        style={{
+          position: "absolute",
+            top: 12,
+          left: 12,
+          zIndex: 1400,
+          padding: "10px 16px",
+          borderRadius: 14,
+          border: `1px solid ${colors.border}`,
+          background: "#fff",
+          fontWeight: 600,
+          cursor: "pointer"
         }}
-        expanded={!selectedStore} // NEW: plein écran tant qu'aucune sélection
-      />
+      >
+        Saveurs {selectedFlavors.length ? `(${selectedFlavors.length})` : ""}
+      </button>
+
+      {/* MapSection doit rendre un <MapContainer> et accepter children (sinon injecte MapUpdater dedans) */}
+      <MapSection
+        mapRef={mapRef}
+        clusters={clusters}
+        stores={visibleStores}
+        onClusterClick={onClusterClick}
+        onStoreSelect={(id) => { setSelectedStoreId(id); onStoreSelect(id); }}
+      >
+        <MapUpdater
+          selectedFlavor={primarySelectedFlavor}
+          selectedFlavors={selectedFlavors}
+          onClustersFetched={setClusters}
+          onStoresFetched={setVisibleStores}
+        />
+      </MapSection>
 
       <DetailsSection
         selectedStore={selectedStore}
         clearSelection={clearSelection}
         toggleAvailability={toggleAvailability}
-        sortedFlavorsForRender={sortedFlavorsForRender}
-        visible={!!selectedStore} // NEW: animation apparition
+        visible={!!selectedStore}
+        expanded={detailsExpanded}
+        setExpanded={setDetailsExpanded}
+        onClose={clearSelection}
       />
+
+      <FlavorDrawer
+        open={flavorDrawerOpen}
+        onClose={() => setFlavorDrawerOpen(false)}
+        flavors={flavors}
+        selectedFlavors={selectedFlavors}
+        setSelectedFlavors={setSelectedFlavors}
+      />
+
+      {/* <ControlsPanel
+        selectedFlavor={primarySelectedFlavor}
+        selectedFlavors={selectedFlavors}
+        onToggleFlavor={toggleFlavor}
+        onResetFlavors={resetFlavors}
+        flavors={flavors}
+      /> */}
     </div>
   );
 }

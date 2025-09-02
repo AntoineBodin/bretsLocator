@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Le Grand Panier Bio",
-    "city": null,
-    "address": null,
-    "lat": 48.5711314,
-    "lon": -4.5097406
-  }
+{"name":"Le Grand Panier Bio","brand":"Le Grand Panier","city":null,"address":"13 Rue du Vercors","lat":48.5711314,"lon":-4.5097406}
 ]

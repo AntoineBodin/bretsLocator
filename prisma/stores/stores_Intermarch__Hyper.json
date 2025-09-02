@@ -1,380 +1,56 @@
 [
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 43.259765,
-    "lon": 5.3951202
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 50.6351685,
-    "lon": 2.7217735
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 43.5505924,
-    "lon": 6.9714335
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 45.2556039,
-    "lon": 4.6860799
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Limoges",
-    "address": null,
-    "lat": 45.8139302,
-    "lon": 1.2677879
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Montpellier",
-    "address": "504 Avenue du Mas Argelliers, 34000 Montpellier",
-    "lat": 43.5871852,
-    "lon": 3.8879808
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 50.4460089,
-    "lon": 2.8012822
-  },
-  {
-    "name": "Centre commercial Intermarché Hyper",
-    "city": "Aix-les-Bains",
-    "address": "33 Rue Clément Ader, 73100 Aix-les-Bains",
-    "lat": 45.6754521,
-    "lon": 5.9053489
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Cavaillon",
-    "address": "130 Allée Roch Pape, 84300 Cavaillon",
-    "lat": 43.8279726,
-    "lon": 5.0365177
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 50.2591089,
-    "lon": 3.6306754
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 49.38308,
-    "lon": 2.4002465
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Charleville-Mézières",
-    "address": "197,199 Avenue Carnot, 08000 Charleville-Mézières",
-    "lat": 49.7461675,
-    "lon": 4.729515
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 49.4422105,
-    "lon": 2.095508
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 50.3477992,
-    "lon": 3.2847849
-  },
-  {
-    "name": "Intermarché Hyper Goincourt",
-    "city": "Goincourt",
-    "address": "42 Rue Juliette Névouet, 60000 Goincourt",
-    "lat": 49.4330355,
-    "lon": 2.047508
-  },
-  {
-    "name": "Intermarché Hyper Dolus d'Oléron",
-    "city": null,
-    "address": null,
-    "lat": 45.9040565,
-    "lon": -1.259037
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 49.2323131,
-    "lon": 2.8898788
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 49.823162,
-    "lon": 3.2778705
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 43.41524,
-    "lon": 5.3627269
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Senlis",
-    "address": null,
-    "lat": 49.2212735,
-    "lon": 2.5913196
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 44.6161016,
-    "lon": 4.4078787
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 48.5645365,
-    "lon": 2.4503785
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Péronne",
-    "address": null,
-    "lat": 49.939257,
-    "lon": 2.923276
-  },
-  {
-    "name": "Intermarché",
-    "city": "Chalon-sur-Saône",
-    "address": null,
-    "lat": 46.7959877,
-    "lon": 4.8338914
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 49.705369,
-    "lon": 2.7754385
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Saint-Martin-d'Hères",
-    "address": "76 Avenue Gabriel Péri, 38400 Saint-Martin-d'Hères",
-    "lat": 45.1847685,
-    "lon": 5.7584542
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 44.1774906,
-    "lon": 0.6334258
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Pont-l'Évêque",
-    "address": null,
-    "lat": 49.2863535,
-    "lon": 0.2054881
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 49.9945489,
-    "lon": 2.6607913
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 45.7838591,
-    "lon": 3.1211727
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 44.1821482,
-    "lon": 0.6201825
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Lunel",
-    "address": null,
-    "lat": 43.6838254,
-    "lon": 4.1542154
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Poitiers",
-    "address": "2 Avenue de Lafayette, 86000 Poitiers",
-    "lat": 46.5741654,
-    "lon": 0.3727618
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Chauny",
-    "address": null,
-    "lat": 49.6252872,
-    "lon": 3.2164215
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 42.6923928,
-    "lon": 2.9190528
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Besançon",
-    "address": null,
-    "lat": 47.2151062,
-    "lon": 5.9481726
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 48.7628586,
-    "lon": 0.6180478
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Lorient",
-    "address": "60 Rue de Monistrol, 56100 Lorient",
-    "lat": 47.7339427,
-    "lon": -3.3832495
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 45.5756486,
-    "lon": 4.8090703
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 43.3755444,
-    "lon": 3.4230674
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 48.0128847,
-    "lon": 2.7211599
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 44.5688236,
-    "lon": 6.1052889
-  },
-  {
-    "name": "Intermarché",
-    "city": null,
-    "address": null,
-    "lat": 49.1018104,
-    "lon": 1.4545833
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 50.1168391,
-    "lon": 1.8259351
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 47.356405,
-    "lon": 5.0307992
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Glisy",
-    "address": null,
-    "lat": 49.8656523,
-    "lon": 2.3755046
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 48.8215623,
-    "lon": 2.3662137
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Annemasse",
-    "address": "14 Rue de la Résistance, 74100 Annemasse",
-    "lat": 46.195684,
-    "lon": 6.2538485
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 48.9546017,
-    "lon": 0.9502443
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Serres-Castet",
-    "address": null,
-    "lat": 43.361411,
-    "lon": -0.3877791
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Flers",
-    "address": null,
-    "lat": 48.7447705,
-    "lon": -0.5638464
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 44.8480058,
-    "lon": -0.4986507
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": null,
-    "address": null,
-    "lat": 42.5581057,
-    "lon": 3.0096759
-  },
-  {
-    "name": "Intermarché Hyper",
-    "city": "Albertville",
-    "address": null,
-    "lat": 45.6564488,
-    "lon": 6.3672106
-  }
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"365","lat":43.259765,"lon":5.3951202},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"Avenue des Aulnes","lat":50.6351685,"lon":2.7217735},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":43.5505924,"lon":6.9714335},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":45.2556039,"lon":4.6860799},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Limoges","address":"Rue Bernart de Ventadour, 87000 Limoges","lat":45.8139302,"lon":1.2677879},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Montpellier","address":"504 Avenue du Mas Argelliers, 34000 Montpellier","lat":43.5871852,"lon":3.8879808},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"Rue du Grand Mont","lat":50.4460089,"lon":2.8012822},
+{"name":"Centre commercial Intermarché Hyper","brand":"Intermarché Hyper","city":"Aix-les-Bains","address":"33 Rue Clément Ader, 73100 Aix-les-Bains","lat":45.6754521,"lon":5.9053489},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Cavaillon","address":"130 Allée Roch Pape, 84300 Cavaillon","lat":43.8279726,"lon":5.0365177},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":50.2591089,"lon":3.6306754},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"Rue Gérard de Nerval","lat":49.38308,"lon":2.4002465},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Charleville-Mézières","address":"197,199 Avenue Carnot, 08000 Charleville-Mézières","lat":49.7461675,"lon":4.729515},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"40 Avenue du 8 Mai 1945","lat":49.4422105,"lon":2.095508},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"Boulevard Louise Michel","lat":50.3477992,"lon":3.2847849},
+{"name":"Intermarché Hyper Goincourt","brand":"Intermarché Hyper","city":"Goincourt","address":"42 Rue Juliette Névouet, 60000 Goincourt","lat":49.4330355,"lon":2.047508},
+{"name":"Intermarché Hyper Dolus d'Oléron","brand":"Intermarché Hyper","city":null,"address":null,"lat":45.9040565,"lon":-1.259037},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"Boulevard Victor Hugo, 60800","lat":49.2323131,"lon":2.8898788},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"Rue Auguste Delaune","lat":49.823162,"lon":3.2778705},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":43.41524,"lon":5.3627269},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Senlis","address":"Rue de Villevert, 60300 Senlis","lat":49.2212735,"lon":2.5913196},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":44.6161016,"lon":4.4078787},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"Rue Jean Cocteau","lat":48.5645365,"lon":2.4503785},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Péronne","address":"Avenue de l'Europe, 80200 Péronne","lat":49.939257,"lon":2.923276},
+{"name":"Intermarché","brand":"Intermarché Hyper","city":"Chalon-sur-Saône","address":"Avenue de l'Europe, 71100 Chalon-sur-Saône","lat":46.7959877,"lon":4.8338914},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"Impasse du Moulin","lat":49.705369,"lon":2.7754385},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Saint-Martin-d'Hères","address":"76 Avenue Gabriel Péri, 38400 Saint-Martin-d'Hères","lat":45.1847685,"lon":5.7584542},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":44.1774906,"lon":0.6334258},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Pont-l'Évêque","address":"Route de Lisieux, 14130 Pont-l'Évêque","lat":49.2863535,"lon":0.2054881},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"Rue Lucie Aubrac","lat":49.9945489,"lon":2.6607913},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":45.7838591,"lon":3.1211727},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":44.1821482,"lon":0.6201825},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Lunel","address":"Avenue les Portes de la Mer, 34400 Lunel","lat":43.6838254,"lon":4.1542154},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Poitiers","address":"2 Avenue de Lafayette, 86000 Poitiers","lat":46.5741654,"lon":0.3727618},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Chauny","address":"Boulevard de l'Europe, Chauny","lat":49.6252872,"lon":3.2164215},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"4 Rue Louis Joseph Gay-Lussac","lat":42.6923928,"lon":2.9190528},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Besançon","address":"25000 Besançon","lat":47.2151062,"lon":5.9481726},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":48.7628586,"lon":0.6180478},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Lorient","address":"60 Rue de Monistrol, 56100 Lorient","lat":47.7339427,"lon":-3.3832495},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":45.5756486,"lon":4.8090703},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":43.3755444,"lon":3.4230674},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":48.0128847,"lon":2.7211599},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":44.5688236,"lon":6.1052889},
+{"name":"Intermarché","brand":"Intermarché Hyper","city":null,"address":null,"lat":49.1018104,"lon":1.4545833},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":"Rue de Menchecourt","lat":50.1168391,"lon":1.8259351},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":47.356405,"lon":5.0307992},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Glisy","address":"Centre commercial, 80440 Glisy","lat":49.8656523,"lon":2.3755046},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":48.8215623,"lon":2.3662137},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Annemasse","address":"14 Rue de la Résistance, 74100 Annemasse","lat":46.195684,"lon":6.2538485},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":48.9546017,"lon":0.9502443},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Serres-Castet","address":"Rue de Fabrèges, 64121 Serres-Castet","lat":43.361411,"lon":-0.3877791},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Flers","address":"108, 61100 Flers","lat":48.7447705,"lon":-0.5638464},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":44.8480058,"lon":-0.4986507},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":null,"address":null,"lat":42.5581057,"lon":3.0096759},
+{"name":"Intermarché Hyper","brand":"Intermarché Hyper","city":"Albertville","address":"Chemin de la Cassine, 73200 Albertville","lat":45.6564488,"lon":6.3672106}
 ]

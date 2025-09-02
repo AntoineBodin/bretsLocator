@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Thiriet",
-    "city": null,
-    "address": null,
-    "lat": 48.510317,
-    "lon": 3.7251178
-  }
+{"name":"Thiriet","brand":"Thiriet","city":null,"address":null,"lat":48.510317,"lon":3.7251178}
 ]

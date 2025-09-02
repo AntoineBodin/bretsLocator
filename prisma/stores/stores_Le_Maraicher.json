@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Le Maraicher",
-    "city": "Franconville",
-    "address": "41 Rue de Paris, 95130 Franconville",
-    "lat": 48.9817993,
-    "lon": 2.2319106
-  }
+{"name":"Le Maraicher","brand":"Le Maraicher","city":"Franconville","address":"41 Rue de Paris, 95130 Franconville","lat":48.9817993,"lon":2.2319106}
 ]

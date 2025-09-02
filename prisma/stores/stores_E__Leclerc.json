@@ -1,1549 +1,223 @@
 [
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 42.0183413,
-    "lon": 9.4051231
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.0229034,
-    "lon": 0.2257131
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.7907902,
-    "lon": -3.422048
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Martin-Église",
-    "address": null,
-    "lat": 49.9086022,
-    "lon": 1.1069531
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.6786558,
-    "lon": -3.9963514
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Le Pont-de-Beauvoisin",
-    "address": "200 Chemin de Clermont, 38480 Le Pont-de-Beauvoisin",
-    "lat": 45.5374561,
-    "lon": 5.6470978
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.1879159,
-    "lon": -2.7585848
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.0867235,
-    "lon": 7.3164261
-  },
-  {
-    "name": "E. Leclerc - Barbezieux",
-    "city": null,
-    "address": null,
-    "lat": 45.4690155,
-    "lon": -0.1612615
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 42.6283095,
-    "lon": 8.9233036
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.280636,
-    "lon": -0.3598915
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Allonnes",
-    "address": null,
-    "lat": 47.9742287,
-    "lon": 0.1556912
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.1779949,
-    "lon": 1.5906894
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.7704941,
-    "lon": 1.6761791
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.7202753,
-    "lon": 1.398264
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.082285,
-    "lon": 2.3874815
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Vern-sur-Seiche",
-    "address": "3 Rue de l'Orson, 35770 Vern-sur-Seiche",
-    "lat": 48.0629437,
-    "lon": -1.6235932
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Auch",
-    "address": "3 Rue François Mauriac, 32000 Auch",
-    "lat": 43.6639512,
-    "lon": 0.5913959
-  },
-  {
-    "name": "E.Leclerc",
-    "city": "Saint-Dizier",
-    "address": null,
-    "lat": 48.6284014,
-    "lon": 4.9709359
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.2270597,
-    "lon": 2.3283053
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.1874933,
-    "lon": 2.2467713
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.7420697,
-    "lon": -0.5628318
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Lanester",
-    "address": "1 Avenue Guy Moquet, 56600 Lanester",
-    "lat": 47.7658011,
-    "lon": -3.3484368
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.0741649,
-    "lon": -0.6571972
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 44.320942,
-    "lon": 4.7450662
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.1915683,
-    "lon": 0.7626879
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 46.9773663,
-    "lon": -1.3041042
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.8018971,
-    "lon": 1.0428158
-  },
-  {
-    "name": "E. Leclerc Clichy 2",
-    "city": "Clichy-sous-Bois",
-    "address": "12 Allée de la Fosse Maussoin, 93390 Clichy-sous-Bois",
-    "lat": 48.9047828,
-    "lon": 2.5322794
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": "Montluçon",
-    "address": null,
-    "lat": 46.3174035,
-    "lon": 2.5794471
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.9322272,
-    "lon": 2.2684298
-  },
-  {
-    "name": "Intermarché Super",
-    "city": "Gournay-en-Bray",
-    "address": "20 Avenue des Aulnaies, 76220 Gournay-en-Bray",
-    "lat": 49.4819025,
-    "lon": 1.7134715
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 44.0806417,
-    "lon": 3.0402965
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Castres",
-    "address": null,
-    "lat": 43.5917587,
-    "lon": 2.2691041
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.831067,
-    "lon": -0.6874155
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Châtellerault",
-    "address": null,
-    "lat": 46.8237184,
-    "lon": 0.5622492
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.2373285,
-    "lon": -0.7231727
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.6531381,
-    "lon": 6.1770714
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Valdahon",
-    "address": null,
-    "lat": 47.1464772,
-    "lon": 6.334815
-  },
-  {
-    "name": "CC Quai 29 - E. Leclerc Pleuven-Fouesnant",
-    "city": "Pleuven",
-    "address": null,
-    "lat": 47.9002782,
-    "lon": -4.0294939
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.2319467,
-    "lon": 2.0878779
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Morières-lès-Avignon",
-    "address": null,
-    "lat": 43.9525297,
-    "lon": 4.9003921
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.1860935,
-    "lon": 2.9815445
-  },
-  {
-    "name": "E. Leclerc Express",
-    "city": "Quimper",
-    "address": "11 Rue de Stang Bihan, 29000 Quimper",
-    "lat": 48.0091785,
-    "lon": -4.105689
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Ploufragan",
-    "address": null,
-    "lat": 48.498299,
-    "lon": -2.778824
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.490373,
-    "lon": -2.7920988
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Chinon",
-    "address": null,
-    "lat": 47.1833858,
-    "lon": 0.2654786
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.283232,
-    "lon": 3.999136
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.065653,
-    "lon": 2.0887375
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.4250468,
-    "lon": 5.2710796
-  },
-  {
-    "name": "E. Leclerc Express",
-    "city": null,
-    "address": null,
-    "lat": -21.0348207,
-    "lon": 55.7031106
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 46.2443746,
-    "lon": 6.096628
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.2364757,
-    "lon": 1.1817213
-  },
-  {
-    "name": "E. Leclerc - Pont Saint-Michel",
-    "city": "Nice",
-    "address": null,
-    "lat": 43.7236049,
-    "lon": 7.2907181
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.8648161,
-    "lon": 0.1068784
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.3508985,
-    "lon": -1.2278045
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Ozoir-la-Ferrière",
-    "address": "84 Rue François de Tessan, 77330 Ozoir-la-Ferrière",
-    "lat": 48.7583635,
-    "lon": 2.6997685
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.5989817,
-    "lon": 6.4957305
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.7670565,
-    "lon": 4.9881655
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.5547535,
-    "lon": -3.151788
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.542764,
-    "lon": 4.8495275
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.88846,
-    "lon": -3.9165755
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": -21.2862738,
-    "lon": 55.4191575
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 42.1158822,
-    "lon": 9.5119853
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.9587212,
-    "lon": 4.3173851
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": "La Rochelle",
-    "address": "124 Boulevard André Sautel, 17128 La Rochelle",
-    "lat": 46.168864,
-    "lon": -1.126238
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Noyal-sur-Vilaine",
-    "address": "1 Avenue du Chene Joli, 35530 Noyal-sur-Vilaine",
-    "lat": 48.1215045,
-    "lon": -1.529481
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.4067295,
-    "lon": 6.0481725
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.2670586,
-    "lon": 0.1077548
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 46.8121121,
-    "lon": 4.8576013
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.2006245,
-    "lon": -4.0864497
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.6230702,
-    "lon": 2.2142985
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Paimpol",
-    "address": null,
-    "lat": 48.7792555,
-    "lon": -3.0573285
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.1992332,
-    "lon": 6.7262269
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.612312,
-    "lon": 2.4277635
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.672913,
-    "lon": 7.1224705
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.4312697,
-    "lon": 6.8070338
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Coulanges-lès-Nevers",
-    "address": null,
-    "lat": 47.009967,
-    "lon": 3.1779045
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": "Bellerive-sur-Allier",
-    "address": null,
-    "lat": 46.1120205,
-    "lon": 3.4162994
-  },
-  {
-    "name": "E. Leclerc Express",
-    "city": null,
-    "address": null,
-    "lat": 48.8222116,
-    "lon": 8.030191
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.7276755,
-    "lon": -3.319736
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.7087029,
-    "lon": 7.1898565
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.982981,
-    "lon": 4.700224
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.746263,
-    "lon": 5.179998
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.4749305,
-    "lon": 3.519836
-  },
-  {
-    "name": "E. Leclerc - Onet Le Château",
-    "city": "Onet-le-Château",
-    "address": null,
-    "lat": 44.392146,
-    "lon": 2.602404
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.2418145,
-    "lon": -3.295644
-  },
-  {
-    "name": "Hypermarché E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.4336372,
-    "lon": -2.0821056
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Saint-Martin-des-Champs",
-    "address": null,
-    "lat": 48.677878,
-    "lon": -1.342904
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.6062655,
-    "lon": 6.761399
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.8595847,
-    "lon": 1.5059004
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.5866149,
-    "lon": 7.2593187
-  },
-  {
-    "name": "E. Leclerc - Altkirch",
-    "city": null,
-    "address": null,
-    "lat": 47.6277495,
-    "lon": 7.2588541
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Le Luc",
-    "address": null,
-    "lat": 43.3814335,
-    "lon": 6.302655
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.2912735,
-    "lon": 1.040669
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.773975,
-    "lon": 7.001378
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 42.2629385,
-    "lon": 9.5467001
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Saint-Martin-d'Hères",
-    "address": null,
-    "lat": 45.1687278,
-    "lon": 5.7526663
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 44.4856285,
-    "lon": 0.9790285
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.6619975,
-    "lon": -3.0070565
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.4010424,
-    "lon": -2.896828
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.567825,
-    "lon": 6.9663898
-  },
-  {
-    "name": "E. Leclerc - Coutras",
-    "city": null,
-    "address": null,
-    "lat": 45.0463055,
-    "lon": -0.1224045
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.3032297,
-    "lon": -0.9346674
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.3327895,
-    "lon": -1.0165605
-  },
-  {
-    "name": "E. Leclerc Relais",
-    "city": "Caen",
-    "address": null,
-    "lat": 49.1783256,
-    "lon": -0.3489332
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 44.204668,
-    "lon": -1.2199658
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 44.8991765,
-    "lon": 1.462154
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Blois",
-    "address": null,
-    "lat": 47.6156113,
-    "lon": 1.3247069
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 46.4893464,
-    "lon": 3.9925742
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Saint Malo",
-    "address": "55 Boulevard des Déportés, 35400 Saint Malo",
-    "lat": 48.6582435,
-    "lon": -1.9729372
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.0192502,
-    "lon": -3.7194576
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.3405662,
-    "lon": -0.4304416
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": "Gourin",
-    "address": null,
-    "lat": 48.1429145,
-    "lon": -3.619404
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.4281353,
-    "lon": -4.5711805
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.707453,
-    "lon": -1.3880747
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": "Vire",
-    "address": null,
-    "lat": 48.8380669,
-    "lon": -0.8699521
-  },
-  {
-    "name": "E. Leclerc Express",
-    "city": "Phalsbourg",
-    "address": "2 Rue des Glacis, 57370 Phalsbourg",
-    "lat": 48.7642418,
-    "lon": 7.2542848
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.2656604,
-    "lon": 4.061832
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 42.6639174,
-    "lon": 9.3147879
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.317425,
-    "lon": 1.9994696
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.7340627,
-    "lon": 1.4322653
-  },
-  {
-    "name": "E. Leclerc Sainte Rose",
-    "city": "Sainte-Rose",
-    "address": null,
-    "lat": 16.3538011,
-    "lon": -61.7334014
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.076127,
-    "lon": 3.643018
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Domerat",
-    "address": "4 Rue de la Chevêche, 03410 Domerat",
-    "lat": 46.3646898,
-    "lon": 2.56294
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.8831929,
-    "lon": 2.2046015
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.6688258,
-    "lon": 2.1203704
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.1442416,
-    "lon": 0.5242579
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.2617685,
-    "lon": 4.2489505
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.650579,
-    "lon": 4.928775
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": -21.2823615,
-    "lon": 55.4751648
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.1392628,
-    "lon": -1.6836842
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Pleumeleuc",
-    "address": "6 Rue de l'Épinette, 35137 Pleumeleuc",
-    "lat": 48.1760152,
-    "lon": -1.9164066
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Ville-la-Grand",
-    "address": "3 Rue Albert Hénon, 74100 Ville-la-Grand",
-    "lat": 46.2038905,
-    "lon": 6.2391643
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.0658436,
-    "lon": 1.3036335
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.5235438,
-    "lon": -2.2500351
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.6617711,
-    "lon": -1.6909363
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.2909732,
-    "lon": 2.3999156
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.59225,
-    "lon": 7.057372
-  },
-  {
-    "name": "Centre commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 44.0054142,
-    "lon": 1.354675
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": "Marennes",
-    "address": null,
-    "lat": 45.8226935,
-    "lon": -1.1034045
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.2840937,
-    "lon": 3.8270625
-  },
-  {
-    "name": "E.Leclerc ANGOULEME",
-    "city": null,
-    "address": null,
-    "lat": 45.6559157,
-    "lon": 0.1838233
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 50.0325674,
-    "lon": 1.3976252
-  },
-  {
-    "name": "Centre Commercial E. Leclerc Mios",
-    "city": null,
-    "address": null,
-    "lat": 44.6185689,
-    "lon": -0.9200633
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Pradines",
-    "address": null,
-    "lat": 44.4645715,
-    "lon": 1.4219156
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.761229,
-    "lon": 1.964075
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.3255482,
-    "lon": 0.6641763
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.060992,
-    "lon": 1.1729338
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.2339347,
-    "lon": -1.2960912
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.8699828,
-    "lon": -3.5659878
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 46.9844073,
-    "lon": 3.2165807
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 44.4098682,
-    "lon": -1.1691176
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": -21.3796912,
-    "lon": 55.616281
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.6663901,
-    "lon": 1.5145875
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.5739657,
-    "lon": -1.082044
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 46.4181607,
-    "lon": 0.8508501
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Paris",
-    "address": "72 Rue Crozatier, 75012 Paris",
-    "lat": 48.8500685,
-    "lon": 2.3793176
-  },
-  {
-    "name": "Leclerc Express",
-    "city": null,
-    "address": null,
-    "lat": 45.7520049,
-    "lon": 5.1435474
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.4822048,
-    "lon": -0.5745275
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.1923089,
-    "lon": 6.4217246
-  },
-  {
-    "name": "E.Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.94147,
-    "lon": 2.4428888
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 44.2137818,
-    "lon": -1.2914183
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": -21.2206476,
-    "lon": 55.5532769
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.2583774,
-    "lon": 6.1286487
-  },
-  {
-    "name": "Espace culturel et jouet E. Leclerc",
-    "city": "Autun",
-    "address": "36 Rue de la Croix Blanche, 71400 Autun",
-    "lat": 46.9566945,
-    "lon": 4.3037636
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Rueil-Malmaison",
-    "address": "58 Avenue de Fouilleuse, 92500 Rueil-Malmaison",
-    "lat": 48.8616555,
-    "lon": 2.1941708
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.9121277,
-    "lon": 2.4368861
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 46.409322,
-    "lon": -0.2240061
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 46.7630284,
-    "lon": -1.4957376
-  },
-  {
-    "name": "Espace Culturel E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.3033476,
-    "lon": -0.9348913
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.1989226,
-    "lon": 6.7277623
-  },
-  {
-    "name": "Leclerc Espace Loisirs",
-    "city": null,
-    "address": null,
-    "lat": 48.1988834,
-    "lon": 6.7266975
-  },
-  {
-    "name": "Espace Culturel E. Leclerc",
-    "city": "Coulanges-lès-Nevers",
-    "address": null,
-    "lat": 47.0100454,
-    "lon": 3.176293
-  },
-  {
-    "name": "E. Leclerc - Autun",
-    "city": null,
-    "address": null,
-    "lat": 46.9561462,
-    "lon": 4.3054416
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": -21.2904469,
-    "lon": 55.5133508
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Saint-Léonard",
-    "address": "2010 Route du Havre, 76400 Saint-Léonard",
-    "lat": 49.7261541,
-    "lon": 0.3656881
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Houilles",
-    "address": "89 Boulevard Jean Jaurès, 78800 Houilles",
-    "lat": 48.9214658,
-    "lon": 2.1981195
-  },
-  {
-    "name": "E. Leclerc Express",
-    "city": null,
-    "address": null,
-    "lat": 48.9958049,
-    "lon": 2.2212204
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Vannes",
-    "address": "15 Rue Aristide Boucicaut, 56000 Vannes",
-    "lat": 47.6682705,
-    "lon": -2.7931894
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 14.6189823,
-    "lon": -61.0202312
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": -20.9321032,
-    "lon": 55.2946221
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 14.6038931,
-    "lon": -61.0885371
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 14.613751,
-    "lon": -60.9929606
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.2487679,
-    "lon": -4.4148414
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.4873777,
-    "lon": 4.8033696
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Chaumont",
-    "address": null,
-    "lat": 48.1244796,
-    "lon": 5.151057
-  },
-  {
-    "name": "Centre Commercial E. Leclerc",
-    "city": "Hombourg-Haut",
-    "address": null,
-    "lat": 49.1237619,
-    "lon": 6.7775521
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Saint-Berthevin",
-    "address": "62 Boulevard Louis Armand, 53940 Saint-Berthevin",
-    "lat": 48.0634145,
-    "lon": -0.8095052
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.3734419,
-    "lon": 1.715951
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Bain-de-Bretagne",
-    "address": null,
-    "lat": 47.8595577,
-    "lon": -1.688643
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Aime-la-Plagne",
-    "address": null,
-    "lat": 45.5529201,
-    "lon": 6.6473776
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Saint-Étienne-du-Rouvray",
-    "address": null,
-    "lat": 49.3867618,
-    "lon": 1.075147
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.7979174,
-    "lon": 3.5805854
-  },
-  {
-    "name": "Supermarché E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.120181,
-    "lon": 2.3668075
-  },
-  {
-    "name": "E. Leclerc Cergy",
-    "city": null,
-    "address": null,
-    "lat": 49.0532722,
-    "lon": 2.0565296
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.7902125,
-    "lon": 6.391173
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.1036225,
-    "lon": 0.6075414
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 47.2794315,
-    "lon": 5.0208589
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.6321482,
-    "lon": -0.9923066
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.1422584,
-    "lon": -0.338927
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.0549694,
-    "lon": 3.9941622
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.4610639,
-    "lon": 4.4922535
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.1118521,
-    "lon": 6.1151148
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 43.1978634,
-    "lon": -0.6195298
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.2818578,
-    "lon": 7.5551552
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.6950145,
-    "lon": 6.1958604
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 49.468016,
-    "lon": 1.0402009
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Le Cannet",
-    "address": null,
-    "lat": 43.5679794,
-    "lon": 7.015542
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 46.9988523,
-    "lon": 4.8552436
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Issenheim",
-    "address": null,
-    "lat": 47.9032664,
-    "lon": 7.2403483
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Le Mans",
-    "address": "34 Avenue François Mitterrand, 72000 Le Mans",
-    "lat": 48.0046608,
-    "lon": 0.1996532
-  },
-  {
-    "name": "E. Leclerc Culturel - Jouet",
-    "city": null,
-    "address": null,
-    "lat": 48.4297139,
-    "lon": 7.6637409
-  },
-  {
-    "name": "E. Leclerc Relais - Oberkampf",
-    "city": null,
-    "address": null,
-    "lat": 48.8642044,
-    "lon": 2.3663983
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 45.8928514,
-    "lon": 6.0920531
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Achères",
-    "address": "3 Avenue Wolfgang Amadeus Mozart, 78260 Achères",
-    "lat": 48.9614037,
-    "lon": 2.0562503
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Sarreguemines",
-    "address": "14 Rue Sainte-Croix, 57200 Sarreguemines",
-    "lat": 49.1117505,
-    "lon": 7.068842
-  },
-  {
-    "name": "E. Leclerc Express",
-    "city": null,
-    "address": null,
-    "lat": 48.8991358,
-    "lon": 4.0091742
-  },
-  {
-    "name": "E. Leclerc Relais",
-    "city": "Rouen",
-    "address": "52 Rue Armand Carrel, 76000 Rouen",
-    "lat": 49.4409285,
-    "lon": 1.1027131
-  },
-  {
-    "name": "E. Leclerc",
-    "city": null,
-    "address": null,
-    "lat": 48.0810027,
-    "lon": -4.3254979
-  },
-  {
-    "name": "E. Leclerc",
-    "city": "Épernay",
-    "address": "48 Rue Saint-Thibault, 51200 Épernay",
-    "lat": 49.0415394,
-    "lon": 3.9534259
-  }
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":"N 198","lat":42.0183413,"lon":9.4051231},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.0229034,"lon":0.2257131},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.7907902,"lon":-3.422048},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Martin-Église","address":"Rue de l'Ancien Port, 76370 Martin-Église","lat":49.9086022,"lon":1.1069531},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.6786558,"lon":-3.9963514},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Le Pont-de-Beauvoisin","address":"200 Chemin de Clermont, 38480 Le Pont-de-Beauvoisin","lat":45.5374561,"lon":5.6470978},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":"73 Boulevard de Penthièvre","lat":48.1879159,"lon":-2.7585848},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.0867235,"lon":7.3164261},
+{"name":"E. Leclerc - Barbezieux","brand":"E. Leclerc","city":null,"address":null,"lat":45.4690155,"lon":-0.1612615},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":42.6283095,"lon":8.9233036},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":"Avenue du Général de Gaulle","lat":43.280636,"lon":-0.3598915},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Allonnes","address":"72700 Allonnes","lat":47.9742287,"lon":0.1556912},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.1779949,"lon":1.5906894},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.7704941,"lon":1.6761791},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.7202753,"lon":1.398264},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.082285,"lon":2.3874815},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Vern-sur-Seiche","address":"3 Rue de l'Orson, 35770 Vern-sur-Seiche","lat":48.0629437,"lon":-1.6235932},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Auch","address":"3 Rue François Mauriac, 32000 Auch","lat":43.6639512,"lon":0.5913959},
+{"name":"E.Leclerc","brand":"E. Leclerc","city":"Saint-Dizier","address":"Rue des Loyes, 52100 Saint-Dizier","lat":48.6284014,"lon":4.9709359},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.2270597,"lon":2.3283053},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.1874933,"lon":2.2467713},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":"61100","lat":48.7420697,"lon":-0.5628318},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Lanester","address":"1 Avenue Guy Moquet, 56600 Lanester","lat":47.7658011,"lon":-3.3484368},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.0741649,"lon":-0.6571972},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":44.320942,"lon":4.7450662},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.1915683,"lon":0.7626879},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":46.9773663,"lon":-1.3041042},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.8018971,"lon":1.0428158},
+{"name":"E. Leclerc Clichy 2","brand":"E. Leclerc","city":"Clichy-sous-Bois","address":"12 Allée de la Fosse Maussoin, 93390 Clichy-sous-Bois","lat":48.9047828,"lon":2.5322794},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":"Montluçon","address":"Avenue du Président Auriol, Montluçon","lat":46.3174035,"lon":2.5794471},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.9322272,"lon":2.2684298},
+{"name":"Intermarché Super","brand":"E. Leclerc","city":"Gournay-en-Bray","address":"20 Avenue des Aulnaies, 76220 Gournay-en-Bray","lat":49.4819025,"lon":1.7134715},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":44.0806417,"lon":3.0402965},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Castres","address":"Route de Mazamet, 81100 Castres","lat":43.5917587,"lon":2.2691041},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.831067,"lon":-0.6874155},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Châtellerault","address":"86100 Châtellerault","lat":46.8237184,"lon":0.5622492},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.2373285,"lon":-0.7231727},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.6531381,"lon":6.1770714},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Valdahon","address":"Grande Rue, 25800 Valdahon","lat":47.1464772,"lon":6.334815},
+{"name":"CC Quai 29 - E. Leclerc Pleuven-Fouesnant","brand":"E. Leclerc","city":"Pleuven","address":"Penanhoat Salaun, 29170 Pleuven","lat":47.9002782,"lon":-4.0294939},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":"Rue du Mouton, 18100","lat":47.2319467,"lon":2.0878779},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Morières-lès-Avignon","address":"84310 Morières-lès-Avignon","lat":43.9525297,"lon":4.9003921},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":"Voie Des Elysiques Saint Jean Saint Pierre","lat":43.1860935,"lon":2.9815445},
+{"name":"E. Leclerc Express","brand":"E. Leclerc","city":"Quimper","address":"11 Rue de Stang Bihan, 29000 Quimper","lat":48.0091785,"lon":-4.105689},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Ploufragan","address":"22440 Ploufragan","lat":48.498299,"lon":-2.778824},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.490373,"lon":-2.7920988},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Chinon","address":"Rue Georges Guynemer, 37500 Chinon","lat":47.1833858,"lon":0.2654786},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.283232,"lon":3.999136},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.065653,"lon":2.0887375},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.4250468,"lon":5.2710796},
+{"name":"E. Leclerc Express","brand":"E. Leclerc","city":null,"address":null,"lat":-21.0348207,"lon":55.7031106},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":46.2443746,"lon":6.096628},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.2364757,"lon":1.1817213},
+{"name":"E. Leclerc - Pont Saint-Michel","brand":"E. Leclerc","city":"Nice","address":"170-174 Route de Turin, Nice","lat":43.7236049,"lon":7.2907181},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":"37 Avenue Ernest et Aimée Touyarou","lat":43.8648161,"lon":0.1068784},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.3508985,"lon":-1.2278045},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Ozoir-la-Ferrière","address":"84 Rue François de Tessan, 77330 Ozoir-la-Ferrière","lat":48.7583635,"lon":2.6997685},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.5989817,"lon":6.4957305},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.7670565,"lon":4.9881655},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":"route de Corlay","lat":48.5547535,"lon":-3.151788},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.542764,"lon":4.8495275},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.88846,"lon":-3.9165755},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":-21.2862738,"lon":55.4191575},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":"N 198, 20270","lat":42.1158822,"lon":9.5119853},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.9587212,"lon":4.3173851},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":"La Rochelle","address":"124 Boulevard André Sautel, 17128 La Rochelle","lat":46.168864,"lon":-1.126238},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Noyal-sur-Vilaine","address":"1 Avenue du Chene Joli, 35530 Noyal-sur-Vilaine","lat":48.1215045,"lon":-1.529481},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.4067295,"lon":6.0481725},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.2670586,"lon":0.1077548},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":46.8121121,"lon":4.8576013},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.2006245,"lon":-4.0864497},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.6230702,"lon":2.2142985},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Paimpol","address":"Rue Becot, 22500 Paimpol","lat":48.7792555,"lon":-3.0573285},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.1992332,"lon":6.7262269},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.612312,"lon":2.4277635},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":"344 Chemin des Moulières, 06480","lat":43.672913,"lon":7.1224705},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.4312697,"lon":6.8070338},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Coulanges-lès-Nevers","address":"Boulevard de Beauregard, 58660 Coulanges-lès-Nevers","lat":47.009967,"lon":3.1779045},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":"Bellerive-sur-Allier","address":"Avenue du Général de Gaulle, 03700 Bellerive-sur-Allier","lat":46.1120205,"lon":3.4162994},
+{"name":"E. Leclerc Express","brand":"E. Leclerc","city":null,"address":null,"lat":48.8222116,"lon":8.030191},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.7276755,"lon":-3.319736},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":"456 Boulevard du Mercantour","lat":43.7087029,"lon":7.1898565},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.982981,"lon":4.700224},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.746263,"lon":5.179998},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.4749305,"lon":3.519836},
+{"name":"E. Leclerc - Onet Le Château","brand":"E. Leclerc","city":"Onet-le-Château","address":"12850 Onet-le-Château","lat":44.392146,"lon":2.602404},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.2418145,"lon":-3.295644},
+{"name":"Hypermarché E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.4336372,"lon":-2.0821056},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Saint-Martin-des-Champs","address":"Route d'Isigny Le Buat, 50300 Saint-Martin-des-Champs","lat":48.677878,"lon":-1.342904},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.6062655,"lon":6.761399},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.8595847,"lon":1.5059004},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.5866149,"lon":7.2593187},
+{"name":"E. Leclerc - Altkirch","brand":"E. Leclerc","city":null,"address":null,"lat":47.6277495,"lon":7.2588541},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Le Luc","address":"Route de Toulon, 83340 Le Luc","lat":43.3814335,"lon":6.302655},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.2912735,"lon":1.040669},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.773975,"lon":7.001378},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":42.2629385,"lon":9.5467001},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Saint-Martin-d'Hères","address":"Rue du Pré Ruffier, 38400 Saint-Martin-d'Hères","lat":45.1687278,"lon":5.7526663},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":44.4856285,"lon":0.9790285},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":"5","lat":47.6619975,"lon":-3.0070565},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.4010424,"lon":-2.896828},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.567825,"lon":6.9663898},
+{"name":"E. Leclerc - Coutras","brand":"E. Leclerc","city":null,"address":null,"lat":45.0463055,"lon":-0.1224045},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.3032297,"lon":-0.9346674},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.3327895,"lon":-1.0165605},
+{"name":"E. Leclerc Relais","brand":"E. Leclerc","city":"Caen","address":"Les Rives de l'Orne, 14000 Caen","lat":49.1783256,"lon":-0.3489332},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":44.204668,"lon":-1.2199658},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":44.8991765,"lon":1.462154},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Blois","address":"15, 41000 Blois","lat":47.6156113,"lon":1.3247069},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":"Esplanade Commercial des Donjons","lat":46.4893464,"lon":3.9925742},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Saint Malo","address":"55 Boulevard des Déportés, 35400 Saint Malo","lat":48.6582435,"lon":-1.9729372},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.0192502,"lon":-3.7194576},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.3405662,"lon":-0.4304416},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":"Gourin","address":"Rue de Cornouaille, 56110 Gourin","lat":48.1429145,"lon":-3.619404},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.4281353,"lon":-4.5711805},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.707453,"lon":-1.3880747},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":"Vire","address":"Route de Condé Sur Noireau, 14500 Vire","lat":48.8380669,"lon":-0.8699521},
+{"name":"E. Leclerc Express","brand":"E. Leclerc","city":"Phalsbourg","address":"2 Rue des Glacis, 57370 Phalsbourg","lat":48.7642418,"lon":7.2542848},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.2656604,"lon":4.061832},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":42.6639174,"lon":9.3147879},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.317425,"lon":1.9994696},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.7340627,"lon":1.4322653},
+{"name":"E. Leclerc Sainte Rose","brand":"E. Leclerc","city":"Sainte-Rose","address":"Plessis Nogent, Sainte-Rose","lat":16.3538011,"lon":-61.7334014},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.076127,"lon":3.643018},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Domerat","address":"4 Rue de la Chevêche, 03410 Domerat","lat":46.3646898,"lon":2.56294},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":"Rue Paul Vaillant-Couturier","lat":48.8831929,"lon":2.2046015},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.6688258,"lon":2.1203704},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.1442416,"lon":0.5242579},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.2617685,"lon":4.2489505},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.650579,"lon":4.928775},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":-21.2823615,"lon":55.4751648},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.1392628,"lon":-1.6836842},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Pleumeleuc","address":"6 Rue de l'Épinette, 35137 Pleumeleuc","lat":48.1760152,"lon":-1.9164066},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Ville-la-Grand","address":"3 Rue Albert Hénon, 74100 Ville-la-Grand","lat":46.2038905,"lon":6.2391643},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.0658436,"lon":1.3036335},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.5235438,"lon":-2.2500351},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":"5, 50460","lat":49.6617711,"lon":-1.6909363},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.2909732,"lon":2.3999156},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":"1890 Chemin de Saint-Bernard, 06220","lat":43.59225,"lon":7.057372},
+{"name":"Centre commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":44.0054142,"lon":1.354675},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":"Marennes","address":"Rue De La Republique, 17320 Marennes","lat":45.8226935,"lon":-1.1034045},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.2840937,"lon":3.8270625},
+{"name":"E.Leclerc ANGOULEME","brand":"E. Leclerc","city":null,"address":null,"lat":45.6559157,"lon":0.1838233},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":50.0325674,"lon":1.3976252},
+{"name":"Centre Commercial E. Leclerc Mios","brand":"E. Leclerc","city":null,"address":"1 Rue Jean Marie Pelt","lat":44.6185689,"lon":-0.9200633},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Pradines","address":"46090 Pradines","lat":44.4645715,"lon":1.4219156},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.761229,"lon":1.964075},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.3255482,"lon":0.6641763},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.060992,"lon":1.1729338},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.2339347,"lon":-1.2960912},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":"29300","lat":47.8699828,"lon":-3.5659878},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":46.9844073,"lon":3.2165807},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":"Avenue de Laouadie","lat":44.4098682,"lon":-1.1691176},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":-21.3796912,"lon":55.616281},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.6663901,"lon":1.5145875},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.5739657,"lon":-1.082044},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":46.4181607,"lon":0.8508501},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Paris","address":"72 Rue Crozatier, 75012 Paris","lat":48.8500685,"lon":2.3793176},
+{"name":"Leclerc Express","brand":"E. Leclerc","city":null,"address":null,"lat":45.7520049,"lon":5.1435474},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.4822048,"lon":-0.5745275},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.1923089,"lon":6.4217246},
+{"name":"E.Leclerc","brand":"E. Leclerc","city":null,"address":"93150","lat":48.94147,"lon":2.4428888},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":44.2137818,"lon":-1.2914183},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":-21.2206476,"lon":55.5532769},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.2583774,"lon":6.1286487},
+{"name":"Espace culturel et jouet E. Leclerc","brand":"E. Leclerc","city":"Autun","address":"36 Rue de la Croix Blanche, 71400 Autun","lat":46.9566945,"lon":4.3037636},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Rueil-Malmaison","address":"58 Avenue de Fouilleuse, 92500 Rueil-Malmaison","lat":48.8616555,"lon":2.1941708},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.9121277,"lon":2.4368861},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":46.409322,"lon":-0.2240061},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":46.7630284,"lon":-1.4957376},
+{"name":"Espace Culturel E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.3033476,"lon":-0.9348913},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":null,"address":"11","lat":48.1989226,"lon":6.7277623},
+{"name":"Leclerc Espace Loisirs","brand":"E. Leclerc","city":null,"address":"10","lat":48.1988834,"lon":6.7266975},
+{"name":"Espace Culturel E. Leclerc","brand":"E. Leclerc","city":"Coulanges-lès-Nevers","address":"Boulevard de Beauregard, 58660 Coulanges-lès-Nevers","lat":47.0100454,"lon":3.176293},
+{"name":"E. Leclerc - Autun","brand":"E. Leclerc","city":null,"address":null,"lat":46.9561462,"lon":4.3054416},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":-21.2904469,"lon":55.5133508},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Saint-Léonard","address":"2010 Route du Havre, 76400 Saint-Léonard","lat":49.7261541,"lon":0.3656881},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Houilles","address":"89 Boulevard Jean Jaurès, 78800 Houilles","lat":48.9214658,"lon":2.1981195},
+{"name":"E. Leclerc Express","brand":"E. Leclerc","city":null,"address":null,"lat":48.9958049,"lon":2.2212204},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Vannes","address":"15 Rue Aristide Boucicaut, 56000 Vannes","lat":47.6682705,"lon":-2.7931894},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":14.6189823,"lon":-61.0202312},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":-20.9321032,"lon":55.2946221},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":14.6038931,"lon":-61.0885371},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":14.613751,"lon":-60.9929606},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.2487679,"lon":-4.4148414},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.4873777,"lon":4.8033696},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Chaumont","address":"52000 Chaumont","lat":48.1244796,"lon":5.151057},
+{"name":"Centre Commercial E. Leclerc","brand":"E. Leclerc","city":"Hombourg-Haut","address":"Rue Nationale, Hombourg-Haut","lat":49.1237619,"lon":6.7775521},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Saint-Berthevin","address":"62 Boulevard Louis Armand, 53940 Saint-Berthevin","lat":48.0634145,"lon":-0.8095052},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.3734419,"lon":1.715951},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Bain-de-Bretagne","address":"Rue des Estuaires, 35470 Bain-de-Bretagne","lat":47.8595577,"lon":-1.688643},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Aime-la-Plagne","address":"Route des Îles, 73210 Aime-la-Plagne","lat":45.5529201,"lon":6.6473776},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Saint-Étienne-du-Rouvray","address":"Avenue de la Mare aux Daims, 76800 Saint-Étienne-du-Rouvray","lat":49.3867618,"lon":1.075147},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.7979174,"lon":3.5805854},
+{"name":"Supermarché E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.120181,"lon":2.3668075},
+{"name":"E. Leclerc Cergy","brand":"E. Leclerc","city":null,"address":null,"lat":49.0532722,"lon":2.0565296},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.7902125,"lon":6.391173},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.1036225,"lon":0.6075414},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":47.2794315,"lon":5.0208589},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.6321482,"lon":-0.9923066},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.1422584,"lon":-0.338927},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.0549694,"lon":3.9941622},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.4610639,"lon":4.4922535},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.1118521,"lon":6.1151148},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":43.1978634,"lon":-0.6195298},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.2818578,"lon":7.5551552},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.6950145,"lon":6.1958604},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":49.468016,"lon":1.0402009},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Le Cannet","address":"06110 Le Cannet","lat":43.5679794,"lon":7.015542},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":46.9988523,"lon":4.8552436},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Issenheim","address":"Rue de Guebwiller, 68500 Issenheim","lat":47.9032664,"lon":7.2403483},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Le Mans","address":"34 Avenue François Mitterrand, 72000 Le Mans","lat":48.0046608,"lon":0.1996532},
+{"name":"E. Leclerc Culturel - Jouet","brand":"E. Leclerc","city":null,"address":null,"lat":48.4297139,"lon":7.6637409},
+{"name":"E. Leclerc Relais - Oberkampf","brand":"E. Leclerc","city":null,"address":null,"lat":48.8642044,"lon":2.3663983},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":45.8928514,"lon":6.0920531},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Achères","address":"3 Avenue Wolfgang Amadeus Mozart, 78260 Achères","lat":48.9614037,"lon":2.0562503},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Sarreguemines","address":"14 Rue Sainte-Croix, 57200 Sarreguemines","lat":49.1117505,"lon":7.068842},
+{"name":"E. Leclerc Express","brand":"E. Leclerc","city":null,"address":null,"lat":48.8991358,"lon":4.0091742},
+{"name":"E. Leclerc Relais","brand":"E. Leclerc","city":"Rouen","address":"52 Rue Armand Carrel, 76000 Rouen","lat":49.4409285,"lon":1.1027131},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":null,"address":null,"lat":48.0810027,"lon":-4.3254979},
+{"name":"E. Leclerc","brand":"E. Leclerc","city":"Épernay","address":"48 Rue Saint-Thibault, 51200 Épernay","lat":49.0415394,"lon":3.9534259}
 ]

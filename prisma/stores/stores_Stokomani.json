@@ -1,16 +1,4 @@
 [
-  {
-    "name": "Stokomani",
-    "city": null,
-    "address": null,
-    "lat": 48.9537531,
-    "lon": 2.1939993
-  },
-  {
-    "name": "Stokomani",
-    "city": null,
-    "address": null,
-    "lat": 48.7065665,
-    "lon": 2.5844591
-  }
+{"name":"Stokomani","brand":"Stokomani","city":null,"address":null,"lat":48.9537531,"lon":2.1939993},
+{"name":"Stokomani","brand":"Stokomani","city":null,"address":null,"lat":48.7065665,"lon":2.5844591}
 ]

@@ -1,23 +1,27 @@
 [
-  {
-    "name": "Les Comptoirs de la Bio",
-    "city": null,
-    "address": null,
-    "lat": 43.6673082,
-    "lon": 6.9856194
-  },
-  {
-    "name": "Les Comptoirs de la Bio",
-    "city": null,
-    "address": null,
-    "lat": 48.1189242,
-    "lon": -1.688913
-  },
-  {
-    "name": "Les Comptoirs de la Bio",
-    "city": null,
-    "address": null,
-    "lat": 43.667437,
-    "lon": 7.0474184
-  }
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":"2 Impasse Robinson","lat":43.5316753,"lon":-1.4605248},
+{"name":"Les comptoirs de la bio","brand":"Les Comptoirs De La Bio","city":"Marly-le-Roi","address":"Avenue de l'Amiral Lemonnier, 78160 Marly-le-Roi","lat":48.8803864,"lon":2.1009244},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":43.7095196,"lon":7.2608541},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":45.646801,"lon":-1.0461017},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":"Olivet","address":"115 Rue d'Artois, 45160 Olivet","lat":47.8441785,"lon":1.9166195},
+{"name":"Les Comptoirs de la Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":43.6673082,"lon":6.9856194},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":43.6445,"lon":6.9495484},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":"163 Avenue Jean Mermoz","lat":43.3202606,"lon":-0.3796613},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":"34 Rue Arnaud Détroyat","lat":43.4918832,"lon":-1.4948476},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":43.2200824,"lon":0.0879025},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":45.6052112,"lon":-0.9721077},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":47.0571477,"lon":6.614255},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":43.2017285,"lon":0.0374007},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":45.0685809,"lon":4.8668634},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":46.3484796,"lon":5.1242748},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":43.7003597,"lon":7.281221},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":"La-Colle-sur-Loup","address":"1330 Boulevard Pierre Sauvaigo, 06480 La-Colle-sur-Loup","lat":43.6760813,"lon":7.1215485},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":50.1347154,"lon":4.8493463},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":43.7303892,"lon":5.1672039},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":45.1696186,"lon":0.6891085},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":43.3595155,"lon":-1.5782511},
+{"name":"Les Comptoirs de la Bio","brand":"Les Comptoirs De La Bio","city":null,"address":"53 Boulevard de Verdun, 35000","lat":48.1189242,"lon":-1.688913},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":43.5227829,"lon":1.5139989},
+{"name":"Les Comptoirs De La Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":42.6431309,"lon":2.8775199},
+{"name":"Les Comptoirs de la Bio","brand":"Les Comptoirs De La Bio","city":null,"address":null,"lat":43.667437,"lon":7.0474184}
 ]

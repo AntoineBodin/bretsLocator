@@ -1,58 +1,10 @@
 [
-  {
-    "name": "Nom inconnu",
-    "city": null,
-    "address": null,
-    "lat": 4.9209942,
-    "lon": -52.3213729
-  },
-  {
-    "name": "Nom inconnu",
-    "city": null,
-    "address": null,
-    "lat": 4.8950745,
-    "lon": -52.3316554
-  },
-  {
-    "name": "Nom inconnu",
-    "city": null,
-    "address": null,
-    "lat": 4.9299073,
-    "lon": -52.3059329
-  },
-  {
-    "name": "Nom inconnu",
-    "city": null,
-    "address": null,
-    "lat": 5.4885636,
-    "lon": -54.0338255
-  },
-  {
-    "name": "Nom inconnu",
-    "city": null,
-    "address": null,
-    "lat": 4.8483589,
-    "lon": -52.3259483
-  },
-  {
-    "name": "Nom inconnu",
-    "city": null,
-    "address": null,
-    "lat": 5.486962,
-    "lon": -54.0345296
-  },
-  {
-    "name": "Nom inconnu",
-    "city": null,
-    "address": null,
-    "lat": 5.00991,
-    "lon": -52.4694009
-  },
-  {
-    "name": "Nom inconnu",
-    "city": null,
-    "address": null,
-    "lat": 4.9445171,
-    "lon": -52.3109494
-  }
+{"name":"Nom inconnu","brand":"Écomax","city":null,"address":null,"lat":4.9209942,"lon":-52.3213729},
+{"name":"Nom inconnu","brand":"Écomax","city":null,"address":null,"lat":4.8950745,"lon":-52.3316554},
+{"name":"Nom inconnu","brand":"Écomax","city":null,"address":null,"lat":4.9299073,"lon":-52.3059329},
+{"name":"Nom inconnu","brand":"Écomax","city":null,"address":null,"lat":5.4885636,"lon":-54.0338255},
+{"name":"Nom inconnu","brand":"Écomax","city":null,"address":"Rue du Fort Trio","lat":4.8483589,"lon":-52.3259483},
+{"name":"Nom inconnu","brand":"Écomax","city":null,"address":null,"lat":5.486962,"lon":-54.0345296},
+{"name":"Nom inconnu","brand":"Écomax","city":null,"address":null,"lat":5.00991,"lon":-52.4694009},
+{"name":"Nom inconnu","brand":"Écomax","city":null,"address":"Route de Montabo","lat":4.9445171,"lon":-52.3109494}
 ]

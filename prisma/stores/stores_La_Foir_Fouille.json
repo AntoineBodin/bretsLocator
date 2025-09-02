@@ -1,9 +1,3 @@
 [
-  {
-    "name": "La Foire Fouille",
-    "city": null,
-    "address": null,
-    "lat": 50.786659,
-    "lon": 3.1392996
-  }
+{"name":"La Foire Fouille","brand":"La Foir'Fouille","city":null,"address":null,"lat":50.786659,"lon":3.1392996}
 ]

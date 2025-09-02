@@ -1,9 +1,3 @@
 [
-  {
-    "name": "Un autre chemin",
-    "city": "Outreau",
-    "address": "6 Rue Camille Desmoulins, 62230 Outreau",
-    "lat": 50.6994767,
-    "lon": 1.606793
-  }
+{"name":"Un autre chemin","brand":"Bio bon gourmand","city":"Outreau","address":"6 Rue Camille Desmoulins, 62230 Outreau","lat":50.6994767,"lon":1.606793}
 ]
