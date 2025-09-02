@@ -22,6 +22,16 @@ async function main() {
   await createStores(flavorRecords);
 
   await prisma.$executeRawUnsafe(`
+    ALTER TABLE "Store" 
+    DROP COLUMN IF EXISTS location;
+  `);
+
+  await prisma.$executeRawUnsafe(`
+    ALTER TABLE "Store" 
+    ADD COLUMN location geography(POINT, 4326);
+  `);
+
+  await prisma.$executeRawUnsafe(`
     UPDATE "Store"
     SET location = ST_SetSRID(ST_MakePoint(lon, lat), 4326)
     WHERE lat IS NOT NULL AND lon IS NOT NULL;
