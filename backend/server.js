@@ -30,7 +30,8 @@ function gridFromZoom(z) {
   if (z >= 10) return 0.035;
   if (z >= 8)  return 0.12;
   if (z >= 6)  return 0.25;
-  if (z >= 4)  return 0.5;
+  if (z >= 5)  return 0.5;
+  if (z >= 4)  return 1;
   return 0.5;
 }
 
