@@ -39,6 +39,11 @@ async function main() {
   console.log("Stores: location updated");
 
   await prisma.$executeRawUnsafe(`
+    CREATE INDEX IF NOT EXISTS idx_store_location 
+    ON "Store" USING GIST(location);
+  `);
+
+  await prisma.$executeRawUnsafe(`
     REINDEX INDEX idx_store_location;
   `);
   console.log("Stores: reindexed");
