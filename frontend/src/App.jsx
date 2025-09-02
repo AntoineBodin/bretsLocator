@@ -4,6 +4,7 @@ import FlavorDrawer from "./components/FlavorDrawer";
 import HamburgerButton from "./components/HamburgerButton";
 import { useFlavors } from "./hooks/useFlavors";
 import { fontStack, colors } from "./components/styleTokens";
+import "./utils/leafletSetup";
 
 export default function App() {
   const { flavors, loading } = useFlavors();
@@ -20,10 +21,6 @@ export default function App() {
         background: `linear-gradient(180deg, ${colors.bgApp} 0%, #eef2f6 100%)`
       }}
     >
-      {/* <HamburgerButton
-        open={drawerOpen}
-        onClick={() => setDrawerOpen(o => !o)}
-      /> */}
 
       <FlavorDrawer
         open={drawerOpen}

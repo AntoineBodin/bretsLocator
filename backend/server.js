@@ -34,7 +34,7 @@ function gridFromZoom(z) {
 }
 
 /* Route clusters (intersection stricte de toutes les saveurs demandées) */
-app.get("/api/clusters", async (req, res) => {
+app.get("/clusters", async (req, res) => {
   try {
     const { swLat, swLon, neLat, neLon, cellSize, zoom } = req.query;
     if (!swLat || !swLon || !neLat || !neLon)
@@ -93,7 +93,7 @@ app.get("/api/clusters", async (req, res) => {
 });
 
 /* Stores dans bounds (points individuels) - intersection stricte */
-app.get("/api/stores/in-bounds", async (req, res) => {
+app.get("/stores/in-bounds", async (req, res) => {
   try {
     const { swLat, swLon, neLat, neLon } = req.query;
     if (!swLat || !swLon || !neLat || !neLon)
@@ -138,7 +138,7 @@ app.get("/api/stores/in-bounds", async (req, res) => {
 // Création store / flavor / storeFlavor (ajout du préfixe /api pour cohérence)
 // =====================
 
-app.post("/api/stores", async (req, res) => {
+app.post("/stores", async (req, res) => {
   const { name, address, lat, lon } = req.body;
   try {
     const store = await prisma.store.create({
@@ -151,7 +151,7 @@ app.post("/api/stores", async (req, res) => {
   }
 });
 
-app.post("/api/flavors", async (req, res) => {
+app.post("/flavors", async (req, res) => {
   const { name, image } = req.body;
   try {
     const flavor = await prisma.flavor.create({
@@ -164,7 +164,7 @@ app.post("/api/flavors", async (req, res) => {
   }
 });
 
-app.post("/api/store/:storeId/add-flavor/:flavorName", async (req, res) => {
+app.post("/store/:storeId/add-flavor/:flavorName", async (req, res) => {
   const { storeId, flavorName } = req.params;
   try {
     const storeFlavor = await prisma.storeFlavor.create({
@@ -185,10 +185,10 @@ app.post("/api/store/:storeId/add-flavor/:flavorName", async (req, res) => {
 // =====================
 
 // Alias REST plus cohérent /stores/:id (garde l'ancien pour compat)
-app.get("/api/stores/:id", async (req, res) => {
+app.get("/stores/:id", async (req, res) => {
   return handleGetStore(req, res);
 });
-app.get("/api/store/:id", async (req, res) => {
+app.get("/store/:id", async (req, res) => {
   return handleGetStore(req, res);
 });
 
@@ -221,8 +221,8 @@ app.listen(PORT, () => {
   console.log(`Serveur lancé sur http://localhost:${PORT}`);
 });
 
-// GET /api/flavors (manquait => 404)
-app.get("/api/flavors", async (req, res) => {
+// GET /flavors (manquait => 404)
+app.get("/flavors", async (req, res) => {
   try {
     const flavors = await prisma.flavor.findMany();
     res.json(flavors);
@@ -232,8 +232,8 @@ app.get("/api/flavors", async (req, res) => {
   }
 });
 
-// GET /api/stores (liste simple) - intersection stricte
-app.get("/api/stores", async (req, res) => {
+// GET /stores (liste simple) - intersection stricte
+app.get("/stores", async (req, res) => {
   try {
     const flavorList = parseFlavorQuery(req);
     let where = {};
