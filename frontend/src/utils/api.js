@@ -138,6 +138,7 @@ export async function cycleStoreFlavorAvailability({ storeId, flavorName, curren
     throw new Error(`cycleStoreFlavorAvailability failed: ${res.status}`);
   }
   logUpdate(storeId, flavorName, nextAvailability);
+  
   return res.json();
 
 }

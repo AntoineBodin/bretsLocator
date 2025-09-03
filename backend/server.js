@@ -276,7 +276,7 @@ app.patch("/stores/:storeId/flavors/:flavorName", async (req, res) => {
     const storeId = parseInt(req.params.storeId);
     const flavorName = String(req.params.flavorName);
     const { availability } = req.body ?? {};
-
+    console.log(`PATCH storeId=${storeId} flavor=${flavorName} availability=${availability}`);
     if (Number.isNaN(storeId)) {
       return res.status(400).json({ error: "storeId invalide" });
     }
@@ -316,7 +316,7 @@ app.patch("/stores/:storeId/flavors/:flavorName", async (req, res) => {
       },
       include: { flavor: true }
     });
-
+    console.log("Updated storeFlavor:", storeFlavor);
     res.json(storeFlavor);
   } catch (e) {
     // Si le champ composite diffère, fallback update/create manuel
