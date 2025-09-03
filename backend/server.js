@@ -263,3 +263,67 @@ app.get("/stores", async (req, res) => {
     res.status(500).json({ error: "Erreur stores" });
   }
 });
+
+/**
+ * PATCH /stores/:storeId/flavors/:flavorName
+ * Body: { availability: 0|1|2 }
+ * Règle du front: 0/2 -> 1, 1 -> 2 (le front calcule déjà le prochain état)
+ *
+ * Retourne l'objet StoreFlavor (avec la Flavor incluse) après mise à jour.
+ */
+app.patch("/stores/:storeId/flavors/:flavorName", async (req, res) => {
+  try {
+    const storeId = parseInt(req.params.storeId);
+    const flavorName = String(req.params.flavorName);
+    const { availability } = req.body ?? {};
+
+    if (Number.isNaN(storeId)) {
+      return res.status(400).json({ error: "storeId invalide" });
+    }
+    if (!flavorName) {
+      return res.status(400).json({ error: "flavorName requis" });
+    }
+    if (![0, 1, 2].includes(availability)) {
+      return res.status(400).json({ error: "availability doit être 0, 1 ou 2" });
+    }
+
+    // Vérif existence store (évite création orpheline)
+    const store = await prisma.store.findUnique({ where: { id: storeId } });
+    if (!store) {
+      return res.status(404).json({ error: "Store introuvable" });
+    }
+
+    // Vérif existence flavor (optionnel mais utile)
+    const flavor = await prisma.flavor.findUnique({ where: { name: flavorName } });
+    if (!flavor) {
+      return res.status(404).json({ error: "Flavor introuvable" });
+    }
+
+    // Upsert sur la relation storeFlavor
+    // Adapte 'storeId_flavorName' si ton schema diffère (composite unique attendu)
+    const storeFlavor = await prisma.storeFlavor.upsert({
+      where: {
+        storeId_flavorName: {
+          storeId,
+          flavorName
+        }
+      },
+      update: { available: availability },
+      create: {
+        storeId,
+        flavorName,
+        available: availability
+      },
+      include: { flavor: true }
+    });
+
+    res.json(storeFlavor);
+  } catch (e) {
+    // Si le champ composite diffère, fallback update/create manuel
+    if (e.code === "P2025") {
+      return res.status(404).json({ error: "StoreFlavor introuvable" });
+    }
+    console.error("PATCH /stores/:storeId/flavors/:flavorName error", e);
+    res.status(500).json({ error: "Erreur mise à jour disponibilité" });
+  }
+});

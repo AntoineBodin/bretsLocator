@@ -1,10 +1,10 @@
 import React, { useRef, useState, useEffect, useCallback } from "react";
 import { fetchStoreById } from "../utils/api";
 import { MapUpdater } from "./MapHelpers";
-import ControlsPanel from "./ControlsPanel";
 import MapSection from "./MapSection";
 import DetailsSection from "./DetailsSection";
-import FlavorDrawer from "./FlavorDrawer";
+import FlavorDrawer, { FlavorDrawerButton } from "./FlavorDrawer";
+import AboutPanel from "./AboutPanel";
 import { fontStack, colors } from "./styleTokens";
 
 export default function StoreMapComponent({ flavors = [], onStoreSelect = () => {} }) {
@@ -21,6 +21,7 @@ export default function StoreMapComponent({ flavors = [], onStoreSelect = () => 
   const [selectedFlavors, setSelectedFlavors] = useState([]);
   const primarySelectedFlavor = selectedFlavors[0] || null;
   const [flavorDrawerOpen, setFlavorDrawerOpen] = useState(false);
+  const [showAbout, setShowAbout] = useState(false); // AJOUT
 
   const toggleFlavor = useCallback((flavorId) => {
     setSelectedFlavors(prev =>
@@ -94,26 +95,44 @@ export default function StoreMapComponent({ flavors = [], onStoreSelect = () => 
       boxSizing: "border-box",
       position: "relative"
     }}>
-      <button
-        type="button"
-        onClick={() => setFlavorDrawerOpen(true)}
-        style={{
-          position: "absolute",
-            top: 12,
-          left: 12,
-          zIndex: 1400,
-          padding: "10px 16px",
-          borderRadius: 14,
-          border: `1px solid ${colors.border}`,
-          background: "#fff",
-          fontWeight: 600,
-          cursor: "pointer"
-        }}
-      >
-        Saveurs {selectedFlavors.length ? `(${selectedFlavors.length})` : ""}
-      </button>
 
-      {/* MapSection doit rendre un <MapContainer> et accepter children (sinon injecte MapUpdater dedans) */}
+      {/* Barre haute (boutons alignés) */}
+      <div className="map-top-toolbar">
+        <FlavorDrawerButton
+          open={flavorDrawerOpen}
+          onClick={()=>setFlavorDrawerOpen(o=>!o)}
+          multi
+          count={selectedFlavors.length}
+        />
+        <button
+          type="button"
+          className={`about-toggle-btn ${showAbout ? "is-active" : ""}`}
+          aria-pressed={showAbout}
+          aria-label={showAbout ? "Fermer À propos" : "Ouvrir À propos"}
+          title="À propos"
+          onClick={() => setShowAbout(o => !o)}
+        >
+          <span className="about-toggle-btn__bg" aria-hidden="true" />
+          <span className="about-toggle-btn__icon" aria-hidden="true">
+            <svg
+              className="about-toggle-btn__svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 10v7" />
+              <path d="M12 7.25v.01" />
+            </svg>
+          </span>
+          <span className="about-toggle-btn__label">À propos</span>
+        </button>
+      </div>
+
       <MapSection
         mapRef={mapRef}
         clusters={clusters}
@@ -147,13 +166,10 @@ export default function StoreMapComponent({ flavors = [], onStoreSelect = () => 
         setSelectedFlavors={setSelectedFlavors}
       />
 
-      {/* <ControlsPanel
-        selectedFlavor={primarySelectedFlavor}
-        selectedFlavors={selectedFlavors}
-        onToggleFlavor={toggleFlavor}
-        onResetFlavors={resetFlavors}
-        flavors={flavors}
-      /> */}
+      <AboutPanel
+        open={showAbout}
+        onClose={() => setShowAbout(false)}
+      />
     </div>
   );
 }

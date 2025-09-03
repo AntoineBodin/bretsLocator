@@ -6,59 +6,83 @@ const prisma = new PrismaClient()
 
 const storesDir = path.join(process.cwd(), "stores");
 
-const statuses = ["in_stock", "out_of_stock", "unavailable"]
+const statuses = ["in_stock", "out_of_stock", "unavailable"];
 
-async function main() {
+// Ajout: mode passé en argument (random | blank)
+const seedMode = (process.argv[2] === "blank") ? "blank" : "random";
+
+async function main(mode: "random" | "blank" = "random") {
+  console.log(`Seed mode: ${mode}`);
+
   // Supprimer les données existantes
-  await prisma.storeFlavor.deleteMany()
-  await prisma.store.deleteMany()
-  await prisma.flavor.deleteMany()
+  await prisma.storeFlavor.deleteMany();
+  await prisma.store.deleteMany();
+  await prisma.flavor.deleteMany();
   console.log("Base nettoyée.");
 
-  // Créer les saveurs
+  // Créer / mettre à jour les saveurs
   await updateFlavors();
-  
-  const flavorRecords = await prisma.flavor.findMany(); 
-  await createStores(flavorRecords);
+  const flavorRecords = await prisma.flavor.findMany();
 
+  // Créer les stores (sans lier de saveurs ici)
+  await createStores();
+
+  // Récupérer tous les stores
+  const allStores = await prisma.store.findMany();
+
+  // Peupler la table de relation selon le mode
+  if (mode === "blank") {
+    await populateStoreFlavorsUnknown(allStores, flavorRecords);
+  } else {
+    await populateStoreFlavorsRandom(allStores, flavorRecords);
+  }
+
+  // Mise à jour colonne géographique
   await prisma.$executeRawUnsafe(`
     ALTER TABLE "Store" 
     DROP COLUMN IF EXISTS location;
   `);
-
   await prisma.$executeRawUnsafe(`
     ALTER TABLE "Store" 
     ADD COLUMN location geography(POINT, 4326);
   `);
-
   await prisma.$executeRawUnsafe(`
     UPDATE "Store"
     SET location = ST_SetSRID(ST_MakePoint(lon, lat), 4326)
     WHERE lat IS NOT NULL AND lon IS NOT NULL;
   `);
   console.log("Stores: location updated");
-
   await prisma.$executeRawUnsafe(`
     CREATE INDEX IF NOT EXISTS idx_store_location 
     ON "Store" USING GIST(location);
   `);
-
-  await prisma.$executeRawUnsafe(`
-    REINDEX INDEX idx_store_location;
-  `);
+  await prisma.$executeRawUnsafe(`REINDEX INDEX idx_store_location;`);
   console.log("Stores: reindexed");
 
-  console.log("Seed terminé !")
+  console.log("Seed terminé !");
 }
 
 function cleanProductName(rawName: string): string {
   return rawName
+    // Retire préfixe générique chips Bret's (variantes)
     .replace(/^(?:chips\s*bret'?s\s*(?:ondulées?)?)/i, "")
+    // Retire mentions de poids (ex: 125g, 150 gr)
     .replace(/\b\d+\s?gr?\b/gi, "")
-    .replace(/sachet\s*/i, "")
-    .replace(/format\s*familial/i, "")
-    .replace(/[-–]/g, "")
+    // Retire mots génériques ou marketing
+    .replace(/\bformat\s*familial\b/gi, "")
+    .replace(/\bsachet[s]?\b/gi, "")
+    // Retire les mots demandés: saveur(s), Aro, Brets/Bret's (si encore présents ailleurs)
+    .replace(/\bsaveurs?\b/gi, "")
+    .replace(/\baro\b/gi, "")
+    .replace(/\bbrets?\b/gi, "")
+    .replace(/bret'?s/gi, "") // fallback apostrophes résiduelles
+    .replace(/'s/gi, "") // fallback apostrophes résiduelles
+    // Tirets / tirets longs
+    .replace(/[-–]/g, " ")
+    // Collapser multiples espaces
     .replace(/\s{2,}/g, " ")
+    // Nettoyage espaces autour apostrophes
+    .replace(/\s+'\s*/g, "'")
     .trim();
 }
 
@@ -81,17 +105,16 @@ async function updateFlavors() {
   return data.products;
 }
 
-async function createStores(flavorRecords: { name: string; image: string | null; }[]) {
-  const files = fs.readdirSync(storesDir).filter(f => f.endsWith('.json'));
+async function createStores() {
+  const files = fs.readdirSync(storesDir).filter(f => f.endsWith(".json"));
   for (const file of files) {
     const filePath = path.join(storesDir, file);
-    console.log(`Début du traitement du fichier : ${file}`);
+    console.log(`Traitement stores fichier: ${file}`);
     const start = Date.now();
 
-    let rawData = fs.readFileSync(filePath, "utf-8");
-    let jsonData = JSON.parse(rawData);
+    const rawData = fs.readFileSync(filePath, "utf-8");
+    const jsonData = JSON.parse(rawData);
 
-    // 1. Bulk insert des stores
     const storesToCreate = jsonData.map((s: any) => ({
       name: s.name,
       address: s.address,
@@ -99,50 +122,69 @@ async function createStores(flavorRecords: { name: string; image: string | null;
       lon: s.lon
     }));
 
-    // Prisma createMany ne retourne pas les IDs créés, donc on doit les récupérer ensuite
     await prisma.store.createMany({ data: storesToCreate });
 
-    // 2. Récupérer tous les stores insérés (par nom et coordonnées)
-    const insertedStores = await prisma.store.findMany({
-      where: {
-        OR: storesToCreate.map((s: { name: any; lat: any; lon: any; }) => ({
-          name: s.name,
-          lat: s.lat,
-          lon: s.lon
-        }))
-      }
-    });
-
-    // 3. Préparer les liaisons storeFlavor en bulk
-    const storeFlavorsToCreate: { storeId: number; flavorName: string; available: number }[] = [];
-    for (const store of insertedStores) {
-      for (const flavor of flavorRecords) {
-        const status = Math.floor(Math.random() * statuses.length);
-        storeFlavorsToCreate.push({
-          storeId: store.id,
-          flavorName: flavor.name,
-          available: status
-        });
-      }
-    }
-
-    // 4. Bulk insert des storeFlavor
-    // Prisma limite à 10 000 records par createMany, donc on peut chunker si besoin
-    const chunkSize = 1000;
-    for (let i = 0; i < storeFlavorsToCreate.length; i += chunkSize) {
-      await prisma.storeFlavor.createMany({
-        data: storeFlavorsToCreate.slice(i, i + chunkSize)
-      });
-    }
-
     const duration = ((Date.now() - start) / 1000).toFixed(2);
-    console.log(`Fichier traité : ${file} (${duration}s)`);
+    console.log(`Stores insérés depuis ${file} (${duration}s)`);
   }
 }
 
-main()
+// Nouvelle méthode: tout en "inconnu" (0)
+async function populateStoreFlavorsUnknown(
+  stores: { id: number }[],
+  flavorRecords: { name: string }[]
+) {
+  console.log("Remplissage StoreFlavor en mode 'blank' (availability = 0)...");
+  const bulk: { storeId: number; flavorName: string; available: number }[] = [];
+  for (const store of stores) {
+    for (const flavor of flavorRecords) {
+      bulk.push({
+        storeId: store.id,
+        flavorName: flavor.name,
+        available: 0 // inconnu
+      });
+    }
+  }
+  await chunkedCreateStoreFlavors(bulk);
+  console.log("Populate blank terminé.");
+}
+
+// Nouvelle méthode: aléatoire (comportement historique)
+async function populateStoreFlavorsRandom(
+  stores: { id: number }[],
+  flavorRecords: { name: string }[]
+) {
+  console.log("Remplissage StoreFlavor en mode 'random'...");
+  const bulk: { storeId: number; flavorName: string; available: number }[] = [];
+  for (const store of stores) {
+    for (const flavor of flavorRecords) {
+      const status = Math.floor(Math.random() * statuses.length); // 0,1,2
+      bulk.push({
+        storeId: store.id,
+        flavorName: flavor.name,
+        available: status
+      });
+    }
+  }
+  await chunkedCreateStoreFlavors(bulk);
+  console.log("Populate random terminé.");
+}
+
+// Factorisation d'insertion chunkée
+async function chunkedCreateStoreFlavors(
+  data: { storeId: number; flavorName: string; available: number }[],
+  chunkSize = 1000
+) {
+  for (let i = 0; i < data.length; i += chunkSize) {
+    await prisma.storeFlavor.createMany({
+      data: data.slice(i, i + chunkSize)
+    });
+  }
+}
+
+main(seedMode as "random" | "blank")
   .then(() => prisma.$disconnect())
   .catch(e => {
-    console.error(e)
-    prisma.$disconnect()
-  })
+    console.error(e);
+    prisma.$disconnect();
+  });

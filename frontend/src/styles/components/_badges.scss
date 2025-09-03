@@ -1,0 +1,10 @@
+.badge {
+  display:inline-flex; align-items:center;
+  font-size:var(--badge-font); font-weight:600;
+  padding:2px 8px 3px; border-radius:999px;
+  letter-spacing:.4px; line-height:1;
+  background:#e2e8f0; color:#334155;
+  &--available{background:#dcfce7;color:#166534;}
+  &--unavailable{background:#fee2e2;color:#b91c1c;}
+  &--unknown{background:#f1f5f9;color:#475569;}
+}

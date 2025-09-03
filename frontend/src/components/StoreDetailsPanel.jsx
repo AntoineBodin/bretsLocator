@@ -1,5 +1,6 @@
 import React from "react";
 import { fontStack, softTextStyle, colors, radii, badgeStyles } from "./styleTokens";
+import "../styles/main.scss";
 
 function AvailabilityBadge({ value }) {
   let variant = badgeStyles.neutral;

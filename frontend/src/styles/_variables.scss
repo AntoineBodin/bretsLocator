@@ -1,0 +1,61 @@
+:root {
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+
+  /* Colors */
+  --color-bg: #ffffff;
+  --color-bg-soft: #f8fafc;
+  --color-border: rgba(16,24,40,0.08);
+  --color-border-strong: rgba(0,0,0,0.12);
+  --color-text: #0f172a;
+  --color-text-soft: #64748b;
+  --panel-bg: #ffffff;
+  --panel-border: rgba(16,24,40,0.08);
+  --divider: rgba(0,0,0,0.08);
+
+  /* Accents */
+  --color-accent: #2563eb;
+  --color-accent-hover: #1d4ed8;
+  --gradient-available: linear-gradient(135deg,#16a34a,#22c55e);
+  --gradient-available-hover: linear-gradient(135deg,#15803d,#16a34a);
+  --gradient-unavailable: linear-gradient(135deg,#dc2626,#f87171);
+  --gradient-unavailable-hover: linear-gradient(135deg,#b91c1c,#dc2626);
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.12);
+  --panel-shadow: 0 10px 30px rgba(10,10,20,0.08);
+  --shadow-lg: 0 10px 38px -6px rgba(15,23,42,0.4), 0 2px 8px -2px rgba(15,23,42,0.25);
+
+  /* Typography / misc */
+  --badge-font: 11px;
+  --focus-ring: 0 0 0 2px rgba(59,130,246,0.55);
+
+  /* Glass */
+  --glass-bg: rgba(255,255,255,0.35);
+  --glass-border: 1px solid rgba(255,255,255,0.4);
+  --glass-blur: 6px;
+
+  /* Toast */
+  --toast-bg: rgba(30,41,59,0.9);
+  --toast-progress: linear-gradient(90deg,#fbbf24,#f87171);
+
+  /* Transitions */
+  --transition-fast: 150ms;
+  --transition-base: 220ms;
+  --transition-med: 320ms;
+  --transition-slow: 360ms;
+
+  /* Z-index */
+  --z-header: 1200;
+  --z-drawer: 1400;
+  --z-panel: 1500;
+  --z-toast: 1600;
+  --z-about: 3000; /* Panel À propos tout en haut */
+  --z-details: 1400;          /* (si pas déjà défini) panel détails */
+  --z-flavor: 2600;           /* Drawer saveurs (au-dessus du details panel, sous --z-about=3000) */
+}

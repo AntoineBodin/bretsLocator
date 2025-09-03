@@ -76,3 +76,45 @@ export async function fetchStoreById(id) {
   if (!r.ok) throw new Error("store failed");
   return r.json();
 }
+
+/**
+ * Calcule le prochain état d'une saveur selon la règle:
+ * 0 (INCONNU) -> 1 (DISPONIBLE)
+ * 2 (PLUS DISP.) -> 1 (DISPONIBLE)
+ * 1 (DISPONIBLE) -> 2 (PLUS DISP.)
+ */
+export function computeNextAvailability(current) {
+  if (current === 1) return 2;
+  return 1;
+}
+
+/**
+ * Met à jour (cycle) l'état d'une saveur pour un magasin.
+ * @param {Object} params
+ * @param {number|string} params.storeId - ID du magasin
+ * @param {string} params.flavorName - Nom (clé) de la saveur
+ * @param {number} params.currentAvailability - Statut actuel (0 inconnu, 1 dispo, 2 indispo)
+ * @returns {Promise<any>} payload JSON retourné par le backend (ex: nouvel objet storeFlavor)
+ *
+ * Endpoint attendu (adapter si besoin):
+ *   PATCH /api/stores/:storeId/flavors/:flavorName
+ * Body JSON: { availability: <number> }
+ */
+export async function cycleStoreFlavorAvailability({ storeId, flavorName, currentAvailability }) {
+  if (storeId == null) throw new Error("storeId requis");
+  if (!flavorName) throw new Error("flavorName requis");
+  const nextAvailability = computeNextAvailability(currentAvailability);
+
+  const url = `${API_URL}/stores/${storeId}/flavors/${encodeURIComponent(flavorName)}`;
+  const res = await fetch(url, {
+    method: "PATCH",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ availability: nextAvailability })
+  });
+  if (!res.ok) {
+    throw new Error(`cycleStoreFlavorAvailability failed: ${res.status}`);
+  }
+  return res.json();
+}

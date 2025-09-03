@@ -13,3 +13,9 @@ export const SOFT_TEXT = {
   color: "#666",
   fontWeight: 400
 };
+
+export const TOAST_DURATION = 3000;
+export const PANEL_MARGIN = 12; // marge extérieure px
+export const SHEET_HEIGHT_COLLAPSED_RATIO = 0.32; // fraction de vh
+export const PANEL_TRANSITION_MS = 340;
+export const PANEL_FADE_MS = 220;

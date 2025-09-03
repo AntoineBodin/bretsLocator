@@ -3,6 +3,8 @@ import React, { useEffect, useMemo, useState, useRef, useEffect as useReactEffec
 import { MapContainer, TileLayer, useMapEvents, Marker } from "react-leaflet";
 import { MapController, MapZoom } from "./MapHelpers";
 import StoreMarkers from "./StoreMarkers";
+import AboutPanel from "./AboutPanel";
+import "../styles/main.scss";
 
 function InteractionListener({ onUserMapInteraction }) {
   useMapEvents({
@@ -131,8 +133,10 @@ export default function MapSection({
   };
   // ==== END user location handling ====
 
+  const [showAbout, setShowAbout] = React.useState(false);
+
   return (
-    <div
+    <div className="map-section"
       style={{
         position: "fixed",
         inset: 0,
@@ -142,6 +146,7 @@ export default function MapSection({
         overflow: "hidden"
       }}
     >
+
       <MapContainer
         center={userCenter}               // use dynamic center (only initial mount)
         zoom={12}

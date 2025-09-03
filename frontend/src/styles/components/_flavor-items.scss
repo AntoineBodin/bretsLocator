@@ -1,0 +1,11 @@
+.flavor-item {
+  display:flex; align-items:center; gap:14px;
+  padding:10px 8px; border-radius:12px;
+  background:var(--glass-bg); border:var(--glass-border);
+  backdrop-filter:blur(var(--glass-blur)); -webkit-backdrop-filter:blur(var(--glass-blur));
+  margin-bottom:6px; transition:opacity var(--transition-fast);
+  &.is-pending{opacity:0.85;}
+  &__image{width:44px;height:44px;object-fit:cover;border-radius:8px;background:#f1f5f9;flex-shrink:0;}
+  &__info{flex:1;min-width:0;}
+  &__name{font-size:14px;font-weight:500;color:var(--color-text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+}

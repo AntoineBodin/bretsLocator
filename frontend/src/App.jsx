@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import StoreMapComponent from "./components/StoreMapComponent";
 import FlavorDrawer from "./components/FlavorDrawer";
-import HamburgerButton from "./components/HamburgerButton";
 import { useFlavors } from "./hooks/useFlavors";
 import { fontStack, colors } from "./components/styleTokens";
 import "./utils/leafletSetup";
