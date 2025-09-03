@@ -1,5 +1,26 @@
 import { API_URL } from "./config";
 
+function logConnection() {
+  fetch(`${API_URL}/connections`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    }
+  });
+}
+
+function logUpdate(storeId, flavorName, availability) {
+  let sessionId = sessionStorage.getItem("sessionId");
+
+  fetch(`${API_URL}/updates`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ storeId, flavorName, availability, sessionId })
+  });
+}
+
 function addFlavorParams(search, flavors) {
   if (!flavors) return;
   if (Array.isArray(flavors)) {
@@ -116,5 +137,7 @@ export async function cycleStoreFlavorAvailability({ storeId, flavorName, curren
   if (!res.ok) {
     throw new Error(`cycleStoreFlavorAvailability failed: ${res.status}`);
   }
+  logUpdate(storeId, flavorName, nextAvailability);
   return res.json();
+
 }

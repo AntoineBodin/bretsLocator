@@ -4,12 +4,17 @@ import FlavorDrawer from "./components/FlavorDrawer";
 import { useFlavors } from "./hooks/useFlavors";
 import { fontStack, colors } from "./components/styleTokens";
 import "./utils/leafletSetup";
+import { v4 as uuidv4 } from "uuid";
 
 export default function App() {
   const { flavors, loading } = useFlavors();
   const [selectedFlavor, setSelectedFlavor] = useState(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
 
+  if (!sessionStorage.getItem("sessionId")) {
+    sessionStorage.setItem("sessionId", uuidv4());
+  }
+  
   return (
     <div
       style={{

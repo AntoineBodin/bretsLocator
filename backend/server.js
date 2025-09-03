@@ -327,3 +327,44 @@ app.patch("/stores/:storeId/flavors/:flavorName", async (req, res) => {
     res.status(500).json({ error: "Erreur mise à jour disponibilité" });
   }
 });
+
+/**
+ * POST /updates
+ * Body: { storeId:number, flavorName:string, availability:0|1|2, sessionId?:string }
+ * Stocke un log de mise à jour (ne modifie pas l'état, c'est déjà fait ailleurs).
+ */
+app.post("/updates", async (req, res) => {
+  try {
+    const { storeId, flavorName, availability, sessionId } = req.body || {};
+
+    if (storeId == null || Number.isNaN(Number(storeId))) {
+      return res.status(400).json({ error: "storeId invalide" });
+    }
+    if (!flavorName || typeof flavorName !== "string") {
+      return res.status(400).json({ error: "flavorName requis" });
+    }
+    if (![0,1,2].includes(availability)) {
+      return res.status(400).json({ error: "availability doit être 0,1 ou 2" });
+    }
+
+    const store = await prisma.store.findUnique({ where: { id: Number(storeId) } });
+    if (!store) return res.status(404).json({ error: "Store introuvable" });
+
+    const flavor = await prisma.flavor.findUnique({ where: { name: flavorName } });
+    if (!flavor) return res.status(404).json({ error: "Flavor introuvable" });
+
+    const log = await prisma.updateLog.create({
+      data: {
+        storeId: Number(storeId),
+        flavorName,
+        availability,
+        sessionId: sessionId || null
+      }
+    });
+
+    res.status(201).json(log);
+  } catch (e) {
+    console.error("POST /updates error", e);
+    res.status(500).json({ error: "Erreur création log" });
+  }
+});
