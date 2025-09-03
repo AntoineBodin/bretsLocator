@@ -273,6 +273,7 @@ app.get("/stores", async (req, res) => {
  */
 app.patch("/stores/:storeId/flavors/:flavorName", async (req, res) => {
   try {
+    console.log("Received PATCH /stores/:storeId/flavors/:flavorName", req.params, req.body);
     const storeId = parseInt(req.params.storeId);
     const flavorName = String(req.params.flavorName);
     const { availability } = req.body ?? {};
