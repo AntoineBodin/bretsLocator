@@ -1,4 +1,4 @@
-CREATE EXTENSION postgis;
+CREATE EXTENSION IF NOT EXISTS postgis;
 
 -- AlterTable
 ALTER TABLE "public"."Store" ADD COLUMN     "location" geography;
