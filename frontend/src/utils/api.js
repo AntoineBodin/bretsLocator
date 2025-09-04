@@ -1,7 +1,7 @@
 import { API_URL } from "./config";
 
-function logConnection() {
-  fetch(`${API_URL}/connections`, {
+export function logConnection() {
+  fetch(`${API_URL}/connection`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json"

@@ -35,10 +35,22 @@ function gridFromZoom(z) {
   return 0.5;
 }
 
+app.post("/connection", async (req, res) => {
+  const { name, address, lat, lon } = req.body;
+  try {
+    const connection = await prisma.connection.create({
+      data: { name, address, lat, lon }
+    });
+    res.json(connection);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Erreur création connection" });
+  }
+});
+
 /* Route clusters (intersection stricte de toutes les saveurs demandées) */
 app.get("/clusters", async (req, res) => {
   try {
-    console.log("Received /clusters with query:", req.query);
     const { swLat, swLon, neLat, neLon, cellSize, zoom } = req.query;
     if (!swLat || !swLon || !neLat || !neLon)
       return res.status(400).json({ error: "swLat, swLon, neLat, neLon requis" });
@@ -274,11 +286,9 @@ app.get("/stores", async (req, res) => {
  */
 app.patch("/stores/:storeId/flavors/:flavorName", async (req, res) => {
   try {
-    console.log("Received PATCH /stores/:storeId/flavors/:flavorName", req.params, req.body);
     const storeId = parseInt(req.params.storeId);
     const flavorName = String(req.params.flavorName);
     const { availability } = req.body ?? {};
-    console.log(`PATCH storeId=${storeId} flavor=${flavorName} availability=${availability}`);
     if (Number.isNaN(storeId)) {
       return res.status(400).json({ error: "storeId invalide" });
     }
@@ -318,7 +328,6 @@ app.patch("/stores/:storeId/flavors/:flavorName", async (req, res) => {
       },
       include: { flavor: true }
     });
-    console.log("Updated storeFlavor:", storeFlavor);
     res.json(storeFlavor);
   } catch (e) {
     // Si le champ composite diffère, fallback update/create manuel

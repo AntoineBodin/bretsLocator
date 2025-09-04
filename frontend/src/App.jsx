@@ -1,20 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import StoreMapComponent from "./components/StoreMapComponent";
 import FlavorDrawer from "./components/FlavorDrawer";
 import { useFlavors } from "./hooks/useFlavors";
 import { fontStack, colors } from "./components/styleTokens";
 import "./utils/leafletSetup";
 import { v4 as uuidv4 } from "uuid";
+import { logConnection } from "./utils/api";
 
 export default function App() {
   const { flavors, loading } = useFlavors();
   const [selectedFlavor, setSelectedFlavor] = useState(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  if (!sessionStorage.getItem("sessionId")) {
-    sessionStorage.setItem("sessionId", uuidv4());
-  }
-  
+  useEffect(() => {
+    if (!sessionStorage.getItem("sessionId")) {
+      sessionStorage.setItem("sessionId", uuidv4());
+      logConnection();
+    }
+  }, []);
+
   return (
     <div
       style={{

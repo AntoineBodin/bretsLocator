@@ -41,6 +41,11 @@ model StoreFlavor {
   @@unique([storeId, flavorName])
 }
 
+model Connection {
+  id        Int      @id @default(autoincrement())
+  createdAt DateTime @default(now())
+}
+
 model UpdateLog {
   id           Int       @id @default(autoincrement())
   storeId      Int
