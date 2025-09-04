@@ -35,14 +35,18 @@ function parseFlavorQuery(req) {
 
 // Derive clustering grid size from zoom (fallback heuristic)
 function gridFromZoom(z) {
-  if (z >= 16) return 0.0005;
-  if (z >= 14) return 0.001;
-  if (z >= 12) return 0.01;
-  if (z >= 10) return 0.035;
-  if (z >= 8)  return 0.12;
-  if (z >= 6)  return 0.25;
-  if (z >= 5)  return 0.5;
-  if (z >= 4)  return 1;
+  if (z >= 15) return 0.0005;
+  if (z == 14) return 0.001;
+  if (z == 13) return 0.005;
+  if (z == 12) return 0.015;
+  if (z == 11) return 0.05;
+  if (z == 10) return 0.1;
+  if (z == 9)  return 0.12;
+  if (z == 8)  return 0.25;
+  if (z == 7)  return 0.5;
+  if (z == 6)  return 1;
+  if (z == 5)  return 2;
+  if (z <= 4)  return 4;
   return 0.5;
 }
 
