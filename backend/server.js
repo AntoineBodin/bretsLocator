@@ -38,6 +38,7 @@ function gridFromZoom(z) {
 /* Route clusters (intersection stricte de toutes les saveurs demandées) */
 app.get("/clusters", async (req, res) => {
   try {
+    console.log("Received /clusters with query:", req.query);
     const { swLat, swLon, neLat, neLon, cellSize, zoom } = req.query;
     if (!swLat || !swLon || !neLat || !neLon)
       return res.status(400).json({ error: "swLat, swLon, neLat, neLon requis" });
