@@ -3,15 +3,7 @@ import { useMap } from "react-leaflet";
 import { fetchClusters, fetchStoresInBounds } from "../utils/api";
 import { CLUSTER_ZOOM_THRESHOLD } from "../utils/config";
 
-/*
-Objectif: réduire le spam des fetchClusters / fetchStoresInBounds
-Stratégie:
-- Un seul enregistrement d'événements (moveend / zoomend) via map.on dans un useEffect.
-- Debounce + throttle (min interval entre deux fetch).
-- Dédoublonnage: ne refetch que si (zoom change) OU (flavors change) OU (mouvement significatif du viewport).
-- Mouvement significatif = centre déplacé de > MOVE_THRESHOLD_RATIO * largeur/hauteur OU bounds change de taille.
-- Skip si bounds + zoom + clé flavors identiques ET intervalle min pas atteint.
-*/
+// Throttled + debounced map data updater (clusters vs points)
 
 const MIN_FETCH_INTERVAL = 450;          // ms entre deux fetchs (throttle)
 const MOVE_THRESHOLD_RATIO = 0.12;       // 12% de la dimension du viewport

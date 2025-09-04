@@ -7,7 +7,18 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-/* Util: parse query flavors (flavor=single OR flavors=csv) */
+// Simple admin password (header x-admin-password or query ?password=)
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "change-me"; // set in backend/.env
+
+function requireAdmin(req, res, next) {
+  const provided = req.header("x-admin-password") || req.query.password;
+  if (!provided || provided !== ADMIN_PASSWORD) {
+    return res.status(401).json({ error: "Unauthorized" });
+  }
+  next();
+}
+
+// Parse flavor query params (flavor=single OR flavors=csv)
 function parseFlavorQuery(req) {
   const { flavor, flavors } = req.query;
   let list = [];
@@ -22,7 +33,7 @@ function parseFlavorQuery(req) {
   return list;
 }
 
-/* Helper: calc grid size selon zoom envoyé par le front (optionnel) */
+// Derive clustering grid size from zoom (fallback heuristic)
 function gridFromZoom(z) {
   if (z >= 16) return 0.0005;
   if (z >= 14) return 0.001;
@@ -35,12 +46,10 @@ function gridFromZoom(z) {
   return 0.5;
 }
 
-app.post("/connection", async (req, res) => {
-  const { name, address, lat, lon } = req.body;
+// Log a basic connection (id + createdAt)
+app.post("/connection", async (_req, res) => {
   try {
-    const connection = await prisma.connection.create({
-      data: { name, address, lat, lon }
-    });
+    const connection = await prisma.connection.create({ data: {} });
     res.json(connection);
   } catch (err) {
     console.error(err);
@@ -48,14 +57,105 @@ app.post("/connection", async (req, res) => {
   }
 });
 
-/* Route clusters (intersection stricte de toutes les saveurs demandées) */
+// Admin routes (protected)
+// GET /admin/update-logs?limit=50 => latest update logs with store & flavor info
+app.get("/admin/update-logs", requireAdmin, async (req, res) => {
+  try {
+    const limit = Math.min(parseInt(req.query.limit) || 50, 500);
+    const logs = await prisma.updateLog.findMany({
+      orderBy: { createdAt: "desc" },
+      take: limit,
+      include: {
+        store: { select: { id: true, name: true, address: true } },
+        flavor: { select: { name: true } }
+      }
+    });
+    res.json(logs);
+  } catch (e) {
+    console.error(e);
+    res.status(500).json({ error: "Erreur récupération update logs" });
+  }
+});
+
+// GET /admin/connections?limit=100 => recent connections list
+app.get("/admin/connections", requireAdmin, async (req, res) => {
+  try {
+    const limit = Math.min(parseInt(req.query.limit) || 100, 1000);
+    const connections = await prisma.connection.findMany({
+      orderBy: { createdAt: "desc" },
+      take: limit
+    });
+    // Ajoute un total global pour affichage rapide
+    const total = await prisma.connection.count();
+    res.json({ total, recent: connections });
+  } catch (e) {
+    console.error(e);
+    res.status(500).json({ error: "Erreur récupération connections" });
+  }
+});
+
+// GET /admin/connections/stats?interval=5m|1h|1d -> time buckets { bucketStart, count }
+// Windows: 5m -> 24h, 1h -> 7d, 1d -> 30d
+app.get("/admin/connections/stats", requireAdmin, async (req, res) => {
+  try {
+    const interval = req.query.interval || '5m';
+  let step;
+  let windowStartExpr;
+  let bucketSql; // kept for potential future refactor
+  let seriesStep;
+  let windowLength;
+
+    if (interval === '1d') {
+      step = '1 day';
+      seriesStep = '1 day';
+      windowLength = '30 days';
+  windowStartExpr = "date_trunc('day', now() - interval '29 days')"; // 30 day window
+    } else if (interval === '1h') {
+      step = '1 hour';
+      seriesStep = '1 hour';
+      windowLength = '7 days';
+      windowStartExpr = "date_trunc('hour', now() - interval '7 days')";
+  } else { // default 5m
+      step = '5 minutes';
+      seriesStep = '5 minutes';
+      windowLength = '24 hours';
+      windowStartExpr = "date_trunc('minute', now() - interval '24 hours')";
+    }
+
+  // Safe, controlled query (constants above)
+    const query = `
+      WITH series AS (
+        SELECT generate_series(
+          ${windowStartExpr},
+          date_trunc('minute', now()),
+          interval '${seriesStep}'
+        ) AS bucket_start
+      )
+      SELECT bucket_start, COUNT(c.*)::int AS count
+      FROM series
+      LEFT JOIN "Connection" c
+        ON c."createdAt" >= series.bucket_start
+       AND c."createdAt" < series.bucket_start + interval '${step}'
+      GROUP BY bucket_start
+      ORDER BY bucket_start ASC;
+    `;
+
+    const rows = await prisma.$queryRawUnsafe(query);
+    res.json(rows.map(r => ({ bucketStart: r.bucket_start, count: Number(r.count) })));
+  } catch (e) {
+    console.error(e);
+  res.status(500).json({ error: 'stats error' });
+  }
+});
+
+// GET /clusters - spatial clustering (store must contain ALL requested flavors if filtered)
 app.get("/clusters", async (req, res) => {
   try {
     const { swLat, swLon, neLat, neLon, cellSize, zoom } = req.query;
     if (!swLat || !swLon || !neLat || !neLon)
-      return res.status(400).json({ error: "swLat, swLon, neLat, neLon requis" });
+      return res.status(400).json({ error: "missing bounds params" });
 
-    const flavorList = parseFlavorQuery(req); // [] si pas de filtre
+  const flavorList = parseFlavorQuery(req); // [] if no filter
     const swLatNum = parseFloat(swLat);
     const swLonNum = parseFloat(swLon);
     const neLatNum = parseFloat(neLat);
@@ -75,7 +175,7 @@ app.get("/clusters", async (req, res) => {
         GROUP BY ST_SnapToGrid(location::geometry, ${grid}, ${grid})
       `;
     } else {
-      // Intersection: le magasin doit posséder TOUTES les saveurs demandées (available=1)
+  // Intersection filter: store must have ALL requested flavors (available=1)
       rows = await prisma.$queryRaw`
         SELECT 
           ST_X(ST_Centroid(ST_Collect(s.location::geometry))) AS lon,
@@ -103,16 +203,16 @@ app.get("/clusters", async (req, res) => {
     })));
   } catch (e) {
     console.error(e);
-    res.status(500).json({ error: "Erreur clustering" });
+  res.status(500).json({ error: "clustering error" });
   }
 });
 
-/* Stores dans bounds (points individuels) - intersection stricte */
+// GET stores in bounds (individual points) with intersection flavor filter
 app.get("/stores/in-bounds", async (req, res) => {
   try {
     const { swLat, swLon, neLat, neLon } = req.query;
     if (!swLat || !swLon || !neLat || !neLon)
-      return res.status(400).json({ error: "swLat, swLon, neLat, neLon requis" });
+      return res.status(400).json({ error: "missing bounds params" });
 
     const flavorList = parseFlavorQuery(req);
     const whereBase = {
@@ -149,9 +249,7 @@ app.get("/stores/in-bounds", async (req, res) => {
   }
 });
 
-// =====================
-// Création store / flavor / storeFlavor (ajout du préfixe /api pour cohérence)
-// =====================
+// Create store / flavor / storeFlavor
 
 app.post("/stores", async (req, res) => {
   const { name, address, lat, lon } = req.body;
@@ -162,7 +260,7 @@ app.post("/stores", async (req, res) => {
     res.json(store);
   } catch (err) {
     console.error(err);
-    res.status(500).json({ error: "Erreur création store" });
+  res.status(500).json({ error: "store create error" });
   }
 });
 
@@ -175,7 +273,7 @@ app.post("/flavors", async (req, res) => {
     res.json(flavor);
   } catch (err) {
     console.error(err);
-    res.status(500).json({ error: "Erreur création flavor" });
+  res.status(500).json({ error: "flavor create error" });
   }
 });
 
@@ -191,15 +289,13 @@ app.post("/store/:storeId/add-flavor/:flavorName", async (req, res) => {
     res.json(storeFlavor);
   } catch (err) {
     console.error(err);
-    res.status(500).json({ error: "Erreur ajout flavor au store" });
+  res.status(500).json({ error: "add flavor error" });
   }
 });
 
-// =====================
-// Infos magasin
-// =====================
+// Store info
 
-// Alias REST plus cohérent /stores/:id (garde l'ancien pour compat)
+// Alias legacy /store/:id maintained for compatibility
 app.get("/stores/:id", async (req, res) => {
   return handleGetStore(req, res);
 });
@@ -210,7 +306,7 @@ app.get("/store/:id", async (req, res) => {
 async function handleGetStore(req, res) {
   try {
     const id = parseInt(req.params.id);
-    if (Number.isNaN(id)) return res.status(400).json({ error: "id invalide" });
+  if (Number.isNaN(id)) return res.status(400).json({ error: "invalid id" });
     const store = await prisma.store.findUnique({
       where: { id },
       include: {
@@ -223,31 +319,29 @@ async function handleGetStore(req, res) {
     res.json(store);
   } catch (err) {
     console.error(err);
-    res.status(500).json({ error: "Erreur serveur" });
+  res.status(500).json({ error: "server error" });
   }
 }
 
-// =====================
-// Lancement serveur
-// =====================
+// Server start
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Serveur lancé sur http://localhost:${PORT}`);
+  console.log(`Server running at http://localhost:${PORT}`);
 });
 
-// GET /flavors (manquait => 404)
+// GET /flavors
 app.get("/flavors", async (req, res) => {
   try {
     const flavors = await prisma.flavor.findMany();
     res.json(flavors);
   } catch (e) {
     console.error(e);
-    res.status(500).json({ error: "Erreur flavors" });
+  res.status(500).json({ error: "flavors error" });
   }
 });
 
-// GET /stores (liste simple) - intersection stricte
+// GET /stores with intersection flavor filter
 app.get("/stores", async (req, res) => {
   try {
     const flavorList = parseFlavorQuery(req);
@@ -273,46 +367,41 @@ app.get("/stores", async (req, res) => {
     res.json(stores);
   } catch (e) {
     console.error(e);
-    res.status(500).json({ error: "Erreur stores" });
+  res.status(500).json({ error: "stores error" });
   }
 });
 
-/**
- * PATCH /stores/:storeId/flavors/:flavorName
- * Body: { availability: 0|1|2 }
- * Règle du front: 0/2 -> 1, 1 -> 2 (le front calcule déjà le prochain état)
- *
- * Retourne l'objet StoreFlavor (avec la Flavor incluse) après mise à jour.
- */
+// PATCH /stores/:storeId/flavors/:flavorName
+// Body: { availability: 0|1|2 }
+// Returns updated StoreFlavor with Flavor relation
 app.patch("/stores/:storeId/flavors/:flavorName", async (req, res) => {
   try {
     const storeId = parseInt(req.params.storeId);
     const flavorName = String(req.params.flavorName);
     const { availability } = req.body ?? {};
     if (Number.isNaN(storeId)) {
-      return res.status(400).json({ error: "storeId invalide" });
+  return res.status(400).json({ error: "invalid storeId" });
     }
     if (!flavorName) {
-      return res.status(400).json({ error: "flavorName requis" });
+  return res.status(400).json({ error: "flavorName required" });
     }
     if (![0, 1, 2].includes(availability)) {
-      return res.status(400).json({ error: "availability doit être 0, 1 ou 2" });
+  return res.status(400).json({ error: "availability must be 0,1 or 2" });
     }
 
-    // Vérif existence store (évite création orpheline)
+  // Ensure store exists (avoid orphan)
     const store = await prisma.store.findUnique({ where: { id: storeId } });
     if (!store) {
-      return res.status(404).json({ error: "Store introuvable" });
+  return res.status(404).json({ error: "Store not found" });
     }
 
-    // Vérif existence flavor (optionnel mais utile)
+  // Ensure flavor exists
     const flavor = await prisma.flavor.findUnique({ where: { name: flavorName } });
     if (!flavor) {
-      return res.status(404).json({ error: "Flavor introuvable" });
+  return res.status(404).json({ error: "Flavor not found" });
     }
 
-    // Upsert sur la relation storeFlavor
-    // Adapte 'storeId_flavorName' si ton schema diffère (composite unique attendu)
+  // Upsert on composite unique (storeId, flavorName)
     const storeFlavor = await prisma.storeFlavor.upsert({
       where: {
         storeId_flavorName: {
@@ -330,39 +419,35 @@ app.patch("/stores/:storeId/flavors/:flavorName", async (req, res) => {
     });
     res.json(storeFlavor);
   } catch (e) {
-    // Si le champ composite diffère, fallback update/create manuel
+  // Composite mismatch fallback
     if (e.code === "P2025") {
-      return res.status(404).json({ error: "StoreFlavor introuvable" });
+  return res.status(404).json({ error: "StoreFlavor not found" });
     }
     console.error("PATCH /stores/:storeId/flavors/:flavorName error", e);
-    res.status(500).json({ error: "Erreur mise à jour disponibilité" });
+  res.status(500).json({ error: "update error" });
   }
 });
 
-/**
- * POST /updates
- * Body: { storeId:number, flavorName:string, availability:0|1|2, sessionId?:string }
- * Stocke un log de mise à jour (ne modifie pas l'état, c'est déjà fait ailleurs).
- */
+// POST /updates - write an availability update log
 app.post("/updates", async (req, res) => {
   try {
     const { storeId, flavorName, availability, sessionId } = req.body || {};
 
     if (storeId == null || Number.isNaN(Number(storeId))) {
-      return res.status(400).json({ error: "storeId invalide" });
+  return res.status(400).json({ error: "invalid storeId" });
     }
     if (!flavorName || typeof flavorName !== "string") {
-      return res.status(400).json({ error: "flavorName requis" });
+  return res.status(400).json({ error: "flavorName required" });
     }
     if (![0,1,2].includes(availability)) {
-      return res.status(400).json({ error: "availability doit être 0,1 ou 2" });
+  return res.status(400).json({ error: "availability must be 0,1 or 2" });
     }
 
     const store = await prisma.store.findUnique({ where: { id: Number(storeId) } });
-    if (!store) return res.status(404).json({ error: "Store introuvable" });
+  if (!store) return res.status(404).json({ error: "Store not found" });
 
     const flavor = await prisma.flavor.findUnique({ where: { name: flavorName } });
-    if (!flavor) return res.status(404).json({ error: "Flavor introuvable" });
+  if (!flavor) return res.status(404).json({ error: "Flavor not found" });
 
     const log = await prisma.updateLog.create({
       data: {
@@ -376,6 +461,6 @@ app.post("/updates", async (req, res) => {
     res.status(201).json(log);
   } catch (e) {
     console.error("POST /updates error", e);
-    res.status(500).json({ error: "Erreur création log" });
+  res.status(500).json({ error: "log create error" });
   }
 });

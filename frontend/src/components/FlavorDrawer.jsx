@@ -1,9 +1,5 @@
 import React from "react";
 import "../styles/main.scss";
-
-const Z_INDEX_DRAWER = 1700; // (peut rester, remplacé visuellement par --z-flavor)
-
-/* Nouveau bouton d’ouverture plus joli */
 export function FlavorDrawerButton({
   open,
   count = 0,
@@ -19,7 +15,7 @@ export function FlavorDrawerButton({
     >
       <span className="flavor-drawer-toggle__bg" aria-hidden="true" />
       <span className="flavor-drawer-toggle__icon" aria-hidden="true">
-        {/* Nouvelle icône (liste avec puces) */}
+  {/* Icon */}
         <svg
           className="flavor-drawer-toggle__svg"
           viewBox="0 0 24 24"
@@ -39,7 +35,7 @@ export function FlavorDrawerButton({
         </svg>
       </span>
       <span className="flavor-drawer-toggle__label">
-        {open ? "Fermer" : "Trouver une saveur"}
+  {open ? "Fermer" : "Trouver une saveur"}
       </span>
       {multi && !!count && (
         <span className="flavor-drawer-toggle__badge">{count}</span>
@@ -113,12 +109,12 @@ export default function FlavorDrawer({
       <aside
         role="dialog"
         aria-hidden={!open}
-        aria-label="Sélecteur de saveurs"
+  aria-label="Sélecteur de saveurs"
         className={drawerClass}
         onClick={e => e.stopPropagation()}
       >
         <div className="flavor-drawer__header">
-          <strong className="flavor-drawer__title">Saveurs</strong>
+          <strong className="flavor-drawer__title">Saveurs {hasActiveReset ? `(${filtered.length})` : ''}</strong>
           {multi && (
             <span className={`flavor-drawer__count ${currentMulti.length ? "has-selection" : ""}`}>
               {currentMulti.length}
@@ -206,17 +202,10 @@ export default function FlavorDrawer({
 
         <div className="flavor-drawer__footer">
           <button
-            onClick={resetSelection}
-            disabled={!currentMulti.length}
-            className={`flavor-drawer__footer-btn flavor-drawer__footer-btn--reset ${currentMulti.length ? "is-active" : ""}`}
-          >
-            Réinitialiser
-          </button>
-          <button
             onClick={onClose}
             className="flavor-drawer__footer-btn"
           >
-            Fermer
+            Valider
           </button>
         </div>
       </aside>
@@ -224,21 +213,4 @@ export default function FlavorDrawer({
   );
 }
 
-/*
-Autres variantes possibles (remplacer le contenu du <svg>):
-
-1) Icône “chips” stylisée (simplifiée):
-<svg ...>
-  <path d="M8 4c2.5-1.2 5.5-1.2 8 0 2.2 1 3 3.5 3 6s-.8 5-3 6c-2.5 1.2-5.5 1.2-8 0C5.8 15 5 12.5 5 10s.8-5 3-6Z" />
-  <path d="M9 9.5c1 .6 2 .6 3 0s2-.6 3 0" />
-  <path d="M9 13c1 .6 2 .6 3 0s2-.6 3 0" />
-</svg>
-
-2) Icône “grille”:
-<svg ...>
-  <rect x="4" y="4" width="6" height="6" rx="1" />
-  <rect x="14" y="4" width="6" height="6" rx="1" />
-  <rect x="4" y="14" width="6" height="6" rx="1" />
-  <rect x="14" y="14" width="6" height="6" rx="1" />
-</svg>
-*/
+// End

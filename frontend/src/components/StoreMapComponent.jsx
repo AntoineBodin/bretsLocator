@@ -10,7 +10,6 @@ import { fontStack, colors } from "./styleTokens";
 export default function StoreMapComponent({ flavors = [], onStoreSelect = () => {} }) {
   const mapRef = useRef(null);
 
-  // Séparer clusters et points
   const [clusters, setClusters] = useState([]);
   const [visibleStores, setVisibleStores] = useState([]);
 
@@ -21,7 +20,7 @@ export default function StoreMapComponent({ flavors = [], onStoreSelect = () => 
   const [selectedFlavors, setSelectedFlavors] = useState([]);
   const primarySelectedFlavor = selectedFlavors[0] || null;
   const [flavorDrawerOpen, setFlavorDrawerOpen] = useState(false);
-  const [showAbout, setShowAbout] = useState(false); // AJOUT
+  const [showAbout, setShowAbout] = useState(() => !sessionStorage.getItem("sessionId"));
 
   const toggleFlavor = useCallback((flavorId) => {
     setSelectedFlavors(prev =>
@@ -40,13 +39,11 @@ export default function StoreMapComponent({ flavors = [], onStoreSelect = () => 
       (typeof currentZoom === "number" ? currentZoom : 0) + 2,
       map.getMaxZoom ? map.getMaxZoom() : 19
     );
-    // Recentrer + zoom (flyTo pour animation douce)
     map.flyTo([cluster.lat, cluster.lon], targetZoom, {
       duration: 0.6
     });
   }, []);
 
-  // Détails store
   useEffect(() => {
     let abort = false;
     if (!selectedStoreId) { setSelectedStore(null); return; }
@@ -96,7 +93,6 @@ export default function StoreMapComponent({ flavors = [], onStoreSelect = () => 
       position: "relative"
     }}>
 
-      {/* Barre haute (boutons alignés) */}
       <div className="map-top-toolbar">
         <FlavorDrawerButton
           open={flavorDrawerOpen}
@@ -168,7 +164,7 @@ export default function StoreMapComponent({ flavors = [], onStoreSelect = () => 
 
       <AboutPanel
         open={showAbout}
-        onClose={() => setShowAbout(false)}
+  onClose={() => setShowAbout(false)}
       />
     </div>
   );

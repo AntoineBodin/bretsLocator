@@ -1,31 +1,18 @@
 import React from "react";
-import { fontStack } from "./styleTokens"; // conserve si utile ailleurs
 import { cycleStoreFlavorAvailability } from "../utils/api";
-import {
-  TOAST_DURATION,
-  PANEL_MARGIN,              // peut rester si utilisé ailleurs
-  SHEET_HEIGHT_COLLAPSED_RATIO,
-  PANEL_TRANSITION_MS,
-  PANEL_FADE_MS
-} from "../utils/constants";
+import { TOAST_DURATION } from "../utils/constants";
 import "../styles/main.scss";
 import SearchInput from "./SearchInput";
 
-/* Badge */
 function AvailabilityBadge({ value }) {
   let cls = "badge badge--unknown";
   let label = "INCONNU";
-  if (value === 1) {
-    cls = "badge badge--available";
-    label = "DISPONIBLE";
-  } else if (value === 2) {
-    cls = "badge badge--unavailable";
-    label = "PLUS DISP.";
-  }
+  if (value === 1) { cls = "badge badge--available"; label = "DISPONIBLE"; }
+  else if (value === 2) { cls = "badge badge--unavailable"; label = "PLUS DISP."; }
   return <span className={cls}>{label}</span>;
 }
 
-export default function StoreDetailsPanel(props) {
+export default function DetailsSection(props) {
   // HOOKS
   const [availableFirst, setAvailableFirst] = React.useState(true);
   const listRef = React.useRef(null);
@@ -44,11 +31,10 @@ export default function StoreDetailsPanel(props) {
 
   // Wrapper fermeture (remplace closeSelection manquant)
   const closeSelection = React.useCallback(() => {
-    if (props.onClose) props.onClose();
-    if (props.clearSelection) props.clearSelection();
+    props.onClose?.();
+    props.clearSelection?.();
   }, [props.onClose, props.clearSelection]);
 
-  // Sync local flavors quand on change de store
   React.useEffect(() => {
     setLocalFlavors(props.selectedStore?.storeFlavors || []);
     setPending([]);
@@ -62,7 +48,6 @@ export default function StoreDetailsPanel(props) {
     const originalAvailability = sf.available;
     const targetAvailability = computeNext(originalAvailability);
 
-    // optimistic UI
     setLocalFlavors(list =>
       list.map(f =>
         f.flavorName === sf.flavorName
@@ -79,8 +64,7 @@ export default function StoreDetailsPanel(props) {
             currentAvailability: originalAvailability
         });
       } catch (e) {
-        console.error("Erreur maj disponibilité", e);
-        // revert if backend error
+  console.error("availability update error", e);
         setLocalFlavors(list =>
           list.map(f =>
             f.flavorName === sf.flavorName
@@ -123,7 +107,6 @@ export default function StoreDetailsPanel(props) {
     });
   }, []);
 
-  // Cleanup timeouts unmount
   React.useEffect(() => {
     return () => {
       pending.forEach(p => clearTimeout(p.timeoutId));
@@ -151,36 +134,32 @@ export default function StoreDetailsPanel(props) {
     });
   }, [localFlavors, availableFirst, searchQuery]);
 
-  // Animation fermeture
   const closeWithAnimation = React.useCallback(() => {
     if (isExiting || !props.selectedStore) return;
     setIsExiting(true);
     setTimeout(() => {
-      closeSelection();      // enlève le store sélectionné
-      setIsExiting(false);   // reset pour permettre ré-ouverture
+  closeSelection();
+  setIsExiting(false);
     }, 320);
   }, [isExiting, props.selectedStore, closeSelection]);
 
-  // Remplacer l'ancienne ligne:
-  // if (!selectedStore && !isExiting) return null;
   if (!props.selectedStore) return null;
 
   // Helpers
   const expand = () => {
     if (!props.expanded) {
       props.setExpanded(true);
-      closeArmRef.current = false; // reset
+  closeArmRef.current = false; // reset
     }
   };
   const collapse = () => {
     if (props.expanded) {
-      props.setExpanded(false);
-      // on vient de passer en mode réduit: il faudra armer avant de fermer
-      closeArmRef.current = false;
+  props.setExpanded(false);
+  // mode réduit : double geste avant fermeture
+  closeArmRef.current = false;
     }
   };
 
-  // Wheel: ajout hide quand collapsed + scroll up
   const onWheel = (e) => {
     const el = listRef.current;
     if (!el) return;
@@ -207,7 +186,6 @@ export default function StoreDetailsPanel(props) {
     }
   };
 
-  // Touch
   const onTouchStart = (e) => {
     touchStartRef.current = e.touches[0].clientY;
     lastTouchYRef.current = touchStartRef.current;
@@ -277,12 +255,7 @@ export default function StoreDetailsPanel(props) {
                 {props.selectedStore?.address ?? ""}
               </div>
             </div>
-            <button
-              onClick={closeWithAnimation}
-              className="store-details__close-btn"
-            >
-              FERMER
-            </button>
+            <button onClick={closeWithAnimation} className="store-details__close-btn">FERMER</button>
           </div>
 
           <div className="store-details__toolbar">

@@ -3,7 +3,6 @@ import React, { useEffect, useMemo, useState, useRef, useEffect as useReactEffec
 import { MapContainer, TileLayer, useMapEvents, Marker } from "react-leaflet";
 import { MapController, MapZoom } from "./MapHelpers";
 import StoreMarkers from "./StoreMarkers";
-import AboutPanel from "./AboutPanel";
 import "../styles/main.scss";
 
 function InteractionListener({ onUserMapInteraction }) {

@@ -3,20 +3,15 @@ import { API_URL } from "./config";
 export function logConnection() {
   fetch(`${API_URL}/connection`, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    }
+    headers: { "Content-Type": "application/json" }
   });
 }
 
 function logUpdate(storeId, flavorName, availability) {
-  let sessionId = sessionStorage.getItem("sessionId");
-
+  const sessionId = sessionStorage.getItem("sessionId");
   fetch(`${API_URL}/updates`, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ storeId, flavorName, availability, sessionId })
   });
 }
@@ -32,15 +27,15 @@ function addFlavorParams(search, flavors) {
   }
 }
 
-// GET /api/flavors
+// Flavors list
 export async function fetchFlavors() {
   const res = await fetch(`${API_URL}/flavors`);
-  if (!res.ok) throw new Error(`Erreur API flavors: ${res.status}`);
+  if (!res.ok) throw new Error(`flavors error: ${res.status}`);
   const data = await res.json();
   return Array.isArray(data) ? data : [];
 }
 
-// GET /api/stores (option bbox + flavor|flavors)
+// All stores (optional flavor filters)
 export async function fetchStores({ flavors = null } = {}) {
   const url = new URL(`${API_URL}/stores`);
   addFlavorParams(url.searchParams, flavors);
@@ -49,8 +44,7 @@ export async function fetchStores({ flavors = null } = {}) {
   return r.json();
 }
 
-// GET /api/stores/in-bounds?swLat=&swLon=&neLat=&neLon=&cellSize=... (+ flavor(s))
-// bounds: Leaflet bounds ou objet {swLat,swLon,neLat,neLon}
+// Stores inside bounds
 export async function fetchStoresInBounds(bounds, flavors = null) {
   const url = new URL(`${API_URL}/stores/in-bounds`);
   if (bounds.getSouth) {
@@ -70,7 +64,7 @@ export async function fetchStoresInBounds(bounds, flavors = null) {
   return r.json();
 }
 
-// Clustering (si backend identique à in-bounds avec cellSize dynamique)
+// Clusters
 export async function fetchClusters(bounds, zoom, flavors = null) {
   const url = new URL(`${API_URL}/clusters`);
   url.searchParams.set("zoom", zoom);
@@ -91,54 +85,58 @@ export async function fetchClusters(bounds, zoom, flavors = null) {
   return r.json();
 }
 
-// GET /api/stores/:id
+// Store by id
 export async function fetchStoreById(id) {
   const r = await fetch(`${API_URL}/stores/${id}`);
   if (!r.ok) throw new Error("store failed");
   return r.json();
 }
 
-/**
- * Calcule le prochain état d'une saveur selon la règle:
- * 0 (INCONNU) -> 1 (DISPONIBLE)
- * 2 (PLUS DISP.) -> 1 (DISPONIBLE)
- * 1 (DISPONIBLE) -> 2 (PLUS DISP.)
- */
+// Next availability state (cycle: 0/2 -> 1, 1 -> 2)
 export function computeNextAvailability(current) {
-  if (current === 1) return 2;
-  return 1;
+  return current === 1 ? 2 : 1;
 }
 
-/**
- * Met à jour (cycle) l'état d'une saveur pour un magasin.
- * @param {Object} params
- * @param {number|string} params.storeId - ID du magasin
- * @param {string} params.flavorName - Nom (clé) de la saveur
- * @param {number} params.currentAvailability - Statut actuel (0 inconnu, 1 dispo, 2 indispo)
- * @returns {Promise<any>} payload JSON retourné par le backend (ex: nouvel objet storeFlavor)
- *
- * Endpoint attendu (adapter si besoin):
- *   PATCH /api/stores/:storeId/flavors/:flavorName
- * Body JSON: { availability: <number> }
- */
+// Cycle store flavor availability and log update
 export async function cycleStoreFlavorAvailability({ storeId, flavorName, currentAvailability }) {
-  if (storeId == null) throw new Error("storeId requis");
-  if (!flavorName) throw new Error("flavorName requis");
+  if (storeId == null) throw new Error("storeId required");
+  if (!flavorName) throw new Error("flavorName required");
   const nextAvailability = computeNextAvailability(currentAvailability);
-
   const url = `${API_URL}/stores/${storeId}/flavors/${encodeURIComponent(flavorName)}`;
   const res = await fetch(url, {
     method: "PATCH",
-    headers: {
-      "Content-Type": "application/json"
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ availability: nextAvailability })
   });
-  if (!res.ok) {
-    throw new Error(`cycleStoreFlavorAvailability failed: ${res.status}`);
-  }
+  if (!res.ok) throw new Error(`cycleStoreFlavorAvailability failed: ${res.status}`);
   logUpdate(storeId, flavorName, nextAvailability);
-  
   return res.json();
+}
 
+// Admin endpoints
+export async function fetchAdminUpdateLogs(password, limit = 50) {
+  const url = new URL(`${API_URL}/admin/update-logs`);
+  url.searchParams.set('limit', limit);
+  const res = await fetch(url, { headers: { 'x-admin-password': password } });
+  if (res.status === 401) throw new Error('Invalid password');
+  if (!res.ok) throw new Error('update logs error');
+  return res.json();
+}
+
+export async function fetchAdminConnections(password, limit = 100) {
+  const url = new URL(`${API_URL}/admin/connections`);
+  url.searchParams.set('limit', limit);
+  const res = await fetch(url, { headers: { 'x-admin-password': password } });
+  if (res.status === 401) throw new Error('Invalid password');
+  if (!res.ok) throw new Error('connections error');
+  return res.json();
+}
+
+export async function fetchAdminConnectionStats(password, interval = '5m') {
+  const url = new URL(`${API_URL}/admin/connections/stats`);
+  url.searchParams.set('interval', interval);
+  const res = await fetch(url, { headers: { 'x-admin-password': password } });
+  if (res.status === 401) throw new Error('Invalid password');
+  if (!res.ok) throw new Error('stats error');
+  return res.json();
 }
